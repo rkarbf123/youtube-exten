@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-01T06:20:55.644Z",
+  "mode": "abc",
+  "browser": "156.0.8078.4",
+  "package": "framegen@1.4.0",
+  "productIntegrationComplete": false,
+  "triplet": {
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "lovelace"
+    },
+    "width": 1280,
+    "height": 720,
+    "decodedPts": {
+      "A": 0.5,
+      "B": 0.517,
+      "C": 0.533,
+      "t": 0.5151515151515151
+    },
+    "modelInputs": [
+      "A",
+      "C"
+    ],
+    "truthExcludedFromGpu": true,
+    "sourceKind": "independently generated VP8 video, actually decoded; not natural footage",
+    "guard": {
+      "difference": 0.0000038147554741741054,
+      "originalOnly": false
+    },
+    "completionMs": 14.799999997019768,
+    "optical": {
+      "mae": 0.1989239728009259,
+      "rmse": 5.221956939091594,
+      "psnr": 33.77413788357487,
+      "ssim": 0.9937148620550149,
+      "boundaryResidual": 0.024213836477987423,
+      "ghostError": 3.2108373219878272,
+      "positionError": 1.0591125467541598
+    },
+    "framegen": {
+      "mae": 0.1297609230324074,
+      "rmse": 2.5354656681789027,
+      "psnr": 40.04964892268654,
+      "ssim": 0.9965704073498499,
+      "boundaryResidual": 0.050163056137898905,
+      "ghostError": 7.2961058913904155,
+      "positionError": 0.23066219515796416
+    },
+    "sourceA": "decoded-sourceA.png",
+    "truthB": "decoded-truthB.png",
+    "sourceC": "decoded-sourceC.png",
+    "opticalImage": "decoded-opticalImage.png",
+    "framegenImage": "decoded-framegenImage.png"
+  },
+  "logs": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

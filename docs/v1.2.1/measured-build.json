@@ -1,0 +1,106 @@
+{
+  "version": "1.2.1",
+  "recorded": "2026-10-31T18:18:27.499Z",
+  "files": [
+    {
+      "file": "assets/harness-CrblUNpm.js",
+      "bytes": 165154,
+      "sha256": "56727a13501a5e21e10315c9009de7d795e53c1954a4318fac21eaeb95783392"
+    },
+    {
+      "file": "assets/harness-Dr1agpG8.css",
+      "bytes": 1923,
+      "sha256": "7f12484c38a2ac913adff9bda28954cc104db6b4255a8bdb4e93583bcc8eaee2"
+    },
+    {
+      "file": "assets/popup-BKoj3eyW.css",
+      "bytes": 4992,
+      "sha256": "a7acddb49804d70d027c814097ba29cf95a1d04092ddb1a89a68dff6c1f57512"
+    },
+    {
+      "file": "assets/popup-Dt0ABjYV.js",
+      "bytes": 7413,
+      "sha256": "e21019eae49459266e5c3e0e923fb1dc9741d0c0289a376131443b66160dc185"
+    },
+    {
+      "file": "assets/types-BmV7dO3q.js",
+      "bytes": 2815,
+      "sha256": "797d2ce15f736591d38db1044e497b98f335329f3684fe94279e2cf7dd4f9f1f"
+    },
+    {
+      "file": "background.js",
+      "bytes": 114,
+      "sha256": "43349d52a0f2aaf788bb6045336c46580168aac9f4eb06be718526bf1273027b"
+    },
+    {
+      "file": "content.js",
+      "bytes": 97182,
+      "sha256": "d82bb512c4bb7102cdd21521bf31a438cf73f19e86d3053d7670bc27f4546c51"
+    },
+    {
+      "file": "diagnostic.webm",
+      "bytes": 95998,
+      "sha256": "99c8e45e00a8a3f0c7b9eeb311289c6dbb857c845326d13e6245e9a7d67a2068"
+    },
+    {
+      "file": "harness/index.html",
+      "bytes": 3982,
+      "sha256": "60f0a2c858dbcd138b1d9903ba45a237028362a1860a4291db43a5186ef7edb7"
+    },
+    {
+      "file": "icons/icon128.png",
+      "bytes": 18836,
+      "sha256": "95d2a83f75830113128ac753321ba9795603768078a45ddbe252acd4ac0d70d7"
+    },
+    {
+      "file": "icons/icon16.png",
+      "bytes": 719,
+      "sha256": "a7a66a55130dbd8e167fc82a0729865e60614d01617bfb2eba2b4cc3dd8820c4"
+    },
+    {
+      "file": "icons/icon32.png",
+      "bytes": 1848,
+      "sha256": "814be7fca41e2a02700a25fcf9e972187896bf8fed66f0e44430c30ae6456fb8"
+    },
+    {
+      "file": "icons/icon48.png",
+      "bytes": 2995,
+      "sha256": "ac2e86b34864349cee68d532e62ee48b09b613fccc9d20917045a39ecaf8e5b2"
+    },
+    {
+      "file": "INSTALL.txt",
+      "bytes": 1799,
+      "sha256": "4e35f1770925fc888c1de317e7bccd52baac3f5cddb1796dc343080838161c6a"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 1077,
+      "sha256": "6d03f0cd1163155a9626a61f5da9cb44ddd0fcf5eff55ce426bcb57ead926ded"
+    },
+    {
+      "file": "licenses/FSR-LICENSE.txt",
+      "bytes": 1094,
+      "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+    },
+    {
+      "file": "licenses/Vite-LICENSE.md",
+      "bytes": 101176,
+      "sha256": "a77a1c089806b39ad339535bdf3677f636c91d96693e8ad7b11fe733f650ea64"
+    },
+    {
+      "file": "manifest.json",
+      "bytes": 1035,
+      "sha256": "eee5aa8903a9ad74316c36827f4e58f72bd3ed81ce5dfd50aafdf0bd9434d4e3"
+    },
+    {
+      "file": "src/popup/index.html",
+      "bytes": 5320,
+      "sha256": "ca8a2deffe39e83ef4895c0cd3f6562a6d2047673191a02260c4b09ce2a57c33"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2189,
+      "sha256": "2216e6ca248464ee99add6104d36a32d949a9f737e31379ea5b296f624f37091"
+    }
+  ]
+}

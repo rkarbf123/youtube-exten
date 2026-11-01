@@ -1,0 +1,1774 @@
+{
+  "sha": "964180848e072163c2098b618a74ae037d5a82d2",
+  "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/964180848e072163c2098b618a74ae037d5a82d2",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f38e88fa17bac65aeaedb8a48d4d0d963432677c",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/f38e88fa17bac65aeaedb8a48d4d0d963432677c"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8537fa72a1420dd51110b7b3e5ee448cf9b84b8",
+      "size": 139,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b8537fa72a1420dd51110b7b3e5ee448cf9b84b8"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d11f8b0d3135e94003ed3b956d14cb4fb23fb1f8",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/d11f8b0d3135e94003ed3b956d14cb4fb23fb1f8"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce6c2960a0fed2226121eb84b13c89c97c3744a5",
+      "size": 1398,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ce6c2960a0fed2226121eb84b13c89c97c3744a5"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acefd0853b96985a2d698d005ef42cc923aa13ac",
+      "size": 512,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/acefd0853b96985a2d698d005ef42cc923aa13ac"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd8fd3c8016c82ff0548fc0aca125e930b7abb3e",
+      "size": 4464,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/fd8fd3c8016c82ff0548fc0aca125e930b7abb3e"
+    },
+    {
+      "path": "Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9face6ee44754c3fb619b43a2986cad3a485d1a5",
+      "size": 73604,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/9face6ee44754c3fb619b43a2986cad3a485d1a5"
+    },
+    {
+      "path": "Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26903f5baaaf029b639baee3f9e3f37699ccde7",
+      "size": 197,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d26903f5baaaf029b639baee3f9e3f37699ccde7"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee0f138eb796da2469f55ed4665e6af1f808bb6",
+      "size": 1069,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3ee0f138eb796da2469f55ed4665e6af1f808bb6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6047564cc187cb13444bb91eef65c090a38f47d3",
+      "size": 10085,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6047564cc187cb13444bb91eef65c090a38f47d3"
+    },
+    {
+      "path": "WEIGHTS_LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb0fa9023d91a7515eee8cb38a66af34cb743f2e",
+      "size": 1211,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/eb0fa9023d91a7515eee8cb38a66af34cb743f2e"
+    },
+    {
+      "path": "benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81198b701dd7a56ad29f7f50089f6aca46bbf6b2",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/81198b701dd7a56ad29f7f50089f6aca46bbf6b2"
+    },
+    {
+      "path": "benchmarks/vfi-shootout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0a9b5ecb6d217bdaf02538f09843466adc7efd3",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/b0a9b5ecb6d217bdaf02538f09843466adc7efd3"
+    },
+    {
+      "path": "benchmarks/vfi-shootout/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a8721361ed87c027b147d769f23438c7a6ef2f4",
+      "size": 4382,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3a8721361ed87c027b147d769f23438c7a6ef2f4"
+    },
+    {
+      "path": "benchmarks/vfi-shootout/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34760087d7e4e896ee5f1de9d4aeeee871ee3174",
+      "size": 1095,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/34760087d7e4e896ee5f1de9d4aeeee871ee3174"
+    },
+    {
+      "path": "benchmarks/vfi-shootout/scenes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1bc972336d597dde2cefd43308288789115f85",
+      "size": 2212,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/8b1bc972336d597dde2cefd43308288789115f85"
+    },
+    {
+      "path": "crates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6a0c9ae39b97c2cb8683819ff86aaede6c3e666",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/c6a0c9ae39b97c2cb8683819ff86aaede6c3e666"
+    },
+    {
+      "path": "crates/framegen-native",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18374775d5f403e434e809a0e9a4a89c5452c017",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/18374775d5f403e434e809a0e9a4a89c5452c017"
+    },
+    {
+      "path": "crates/framegen-native/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6badd84b61fb5f145ffce2d98dda1fdcd6ae276",
+      "size": 1266,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f6badd84b61fb5f145ffce2d98dda1fdcd6ae276"
+    },
+    {
+      "path": "crates/framegen-native/build.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2bf4c257034444f3e0036f132320dd9c88c6ad9",
+      "size": 1097,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d2bf4c257034444f3e0036f132320dd9c88c6ad9"
+    },
+    {
+      "path": "crates/framegen-native/csrc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3cab6d17e743d75a490248f97e07512451eb4732",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/3cab6d17e743d75a490248f97e07512451eb4732"
+    },
+    {
+      "path": "crates/framegen-native/csrc/test_main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce5f45a7f49ca5171c3e652f5ddf326bfa33a26e",
+      "size": 1034,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ce5f45a7f49ca5171c3e652f5ddf326bfa33a26e"
+    },
+    {
+      "path": "crates/framegen-native/csrc/trt_shim.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6176a844151118c84065e7a2137e2300b5cbe5b1",
+      "size": 5861,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6176a844151118c84065e7a2137e2300b5cbe5b1"
+    },
+    {
+      "path": "crates/framegen-native/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a69eb92eff9c543a9fcf3e5f8017255f3edc5354",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a69eb92eff9c543a9fcf3e5f8017255f3edc5354"
+    },
+    {
+      "path": "crates/framegen-native/src/bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59d8d3d73203a00a24ca26eae021beba4fec1664",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/59d8d3d73203a00a24ca26eae021beba4fec1664"
+    },
+    {
+      "path": "crates/framegen-native/src/bin/interpolate.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1d77bc0b8aea89f8d305ec13f7365ab98d76ebe",
+      "size": 3350,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f1d77bc0b8aea89f8d305ec13f7365ab98d76ebe"
+    },
+    {
+      "path": "crates/framegen-native/src/bin/profile.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ec9eb8f45209acb1891da23443892660e64abd5",
+      "size": 3256,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7ec9eb8f45209acb1891da23443892660e64abd5"
+    },
+    {
+      "path": "crates/framegen-native/src/bin/smoke.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "944b51ac1d8ba4fee6ff07358ea581807765b3cc",
+      "size": 1997,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/944b51ac1d8ba4fee6ff07358ea581807765b3cc"
+    },
+    {
+      "path": "crates/framegen-native/src/bin/trt_bench.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7941f61db0e7b7db510f6812b9176abfb29b2fc8",
+      "size": 1376,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7941f61db0e7b7db510f6812b9176abfb29b2fc8"
+    },
+    {
+      "path": "crates/framegen-native/src/bin/trt_video.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b0125cbebfb3a24ca2b0314759cf792d520b58",
+      "size": 1117,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/01b0125cbebfb3a24ca2b0314759cf792d520b58"
+    },
+    {
+      "path": "crates/framegen-native/src/imgutil.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "416f2d2ef1bf695be0f031b290dd625a7f268105",
+      "size": 2189,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/416f2d2ef1bf695be0f031b290dd625a7f268105"
+    },
+    {
+      "path": "crates/framegen-native/src/io",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff07ac31b6da1e1380ad07ed0fd95ca8f6097e9a",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/ff07ac31b6da1e1380ad07ed0fd95ca8f6097e9a"
+    },
+    {
+      "path": "crates/framegen-native/src/io/ffmpeg.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee4f4430aabab4e8a0e759ad43808dafd95815b6",
+      "size": 2063,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ee4f4430aabab4e8a0e759ad43808dafd95815b6"
+    },
+    {
+      "path": "crates/framegen-native/src/io/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b46969c5bac80f4d6967b8cff8f3e4583f0d37c9",
+      "size": 75,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b46969c5bac80f4d6967b8cff8f3e4583f0d37c9"
+    },
+    {
+      "path": "crates/framegen-native/src/io/video.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "293c4ca4d190e41244b0bd4efac532c388a3f0f0",
+      "size": 6093,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/293c4ca4d190e41244b0bd4efac532c388a3f0f0"
+    },
+    {
+      "path": "crates/framegen-native/src/io/video_trt.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2a2ec5aaaf2dd879d8d2c4a49569ce4e4292e5",
+      "size": 8064,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/df2a2ec5aaaf2dd879d8d2c4a49569ce4e4292e5"
+    },
+    {
+      "path": "crates/framegen-native/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1605b81ae7921afe5dfa71a53c41ab97203f9b",
+      "size": 5231,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7d1605b81ae7921afe5dfa71a53c41ab97203f9b"
+    },
+    {
+      "path": "crates/framegen-native/src/model.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d3df276167ef9d08beea4c8ba0163424843810f",
+      "size": 11292,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/8d3df276167ef9d08beea4c8ba0163424843810f"
+    },
+    {
+      "path": "crates/framegen-native/src/trt.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b11d46f33f8e3bea4e64d7d1f90e23411da2eea9",
+      "size": 6859,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b11d46f33f8e3bea4e64d7d1f90e23411da2eea9"
+    },
+    {
+      "path": "crates/framegen-native/src/warp.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3991c690319d51c6b14606623d40d995f41c8461",
+      "size": 8147,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3991c690319d51c6b14606623d40d995f41c8461"
+    },
+    {
+      "path": "crates/framegen-native/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a81c99b12b89f6fa21a8b65c77d05b1e182ce05",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/3a81c99b12b89f6fa21a8b65c77d05b1e182ce05"
+    },
+    {
+      "path": "crates/framegen-native/tests/parity.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8fbd2ca1fd53a6e385d62218820415161e7be5",
+      "size": 2835,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6d8fbd2ca1fd53a6e385d62218820415161e7be5"
+    },
+    {
+      "path": "crates/rife-core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a39cace6afb916f15514b08948c89ea5568cede2",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a39cace6afb916f15514b08948c89ea5568cede2"
+    },
+    {
+      "path": "crates/rife-core/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a181115fdc0cef23aa7701d31614f8f6b123fef",
+      "size": 198,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/1a181115fdc0cef23aa7701d31614f8f6b123fef"
+    },
+    {
+      "path": "crates/rife-core/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48c27d1cc799cf572618c3e2199791e1fbee7696",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/48c27d1cc799cf572618c3e2199791e1fbee7696"
+    },
+    {
+      "path": "crates/rife-core/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ad737861316b0d06b3de7791a4e8feb061fad8",
+      "size": 640,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/29ad737861316b0d06b3de7791a4e8feb061fad8"
+    },
+    {
+      "path": "crates/rife-core/src/prepost.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6214c76d4e84720d44005273f9b22687d171a641",
+      "size": 4478,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6214c76d4e84720d44005273f9b22687d171a641"
+    },
+    {
+      "path": "crates/rife-wgpu",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cc5de3d95516d8b9f36ef97d27d3dc4427487de",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/7cc5de3d95516d8b9f36ef97d27d3dc4427487de"
+    },
+    {
+      "path": "crates/rife-wgpu/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3783523a32ce55b7438ff539e3b2ae577dc7ce49",
+      "size": 448,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3783523a32ce55b7438ff539e3b2ae577dc7ce49"
+    },
+    {
+      "path": "crates/rife-wgpu/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fee7dbeda878ff401e8f4e22d51b744f697c062",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/7fee7dbeda878ff401e8f4e22d51b744f697c062"
+    },
+    {
+      "path": "crates/rife-wgpu/examples/verify.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e53f189bcc2afdeaaff2ae726a697807f6bcc53",
+      "size": 2239,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/9e53f189bcc2afdeaaff2ae726a697807f6bcc53"
+    },
+    {
+      "path": "crates/rife-wgpu/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40347726867d6b72977c4d73e054c23bdaebae0d",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/40347726867d6b72977c4d73e054c23bdaebae0d"
+    },
+    {
+      "path": "crates/rife-wgpu/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "febe3ff6ecede91e7ad59e311a894c4ccd240660",
+      "size": 25885,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/febe3ff6ecede91e7ad59e311a894c4ccd240660"
+    },
+    {
+      "path": "demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1a1f49fb122b1f5b20e7728996b80b42abdb17f",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/d1a1f49fb122b1f5b20e7728996b80b42abdb17f"
+    },
+    {
+      "path": "demo/I0_0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b5402b2856ed43c5a29c82e0f83f79e4253a5a",
+      "size": 180090,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/18b5402b2856ed43c5a29c82e0f83f79e4253a5a"
+    },
+    {
+      "path": "demo/I0_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f695520d926a9fc17b03e6193f748f7b1cc00b6",
+      "size": 182547,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6f695520d926a9fc17b03e6193f748f7b1cc00b6"
+    },
+    {
+      "path": "demo/mid_pytorch.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f06881c54955677bd496104c8aaa833dd878908f",
+      "size": 180172,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f06881c54955677bd496104c8aaa833dd878908f"
+    },
+    {
+      "path": "demo/mid_pytorch.rgb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb145764740a582a48add8d777e03278a8822e84",
+      "size": 344064,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/cb145764740a582a48add8d777e03278a8822e84"
+    },
+    {
+      "path": "demo/rt_expected_256.rgb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63aabd5084fe688f1e2702943a82eec9a0b0f53d",
+      "size": 344064,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/63aabd5084fe688f1e2702943a82eec9a0b0f53d"
+    },
+    {
+      "path": "demo/rt_expected_256_slim.rgb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d52c7728d61b9b30633b03ef3b14954459da6ebd",
+      "size": 344064,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d52c7728d61b9b30633b03ef3b14954459da6ebd"
+    },
+    {
+      "path": "demo/rt_expected_256_slim60.rgb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a160b319611e5e12eb27e3ccc9b542ec72b705cd",
+      "size": 344064,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/a160b319611e5e12eb27e3ccc9b542ec72b705cd"
+    },
+    {
+      "path": "demo/test_720p.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b172796b252309d0de6147d5c86890d17b75d21",
+      "size": 42325,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7b172796b252309d0de6147d5c86890d17b75d21"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bec164ff12d14af7c05ac8177d927711aecef79e",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/bec164ff12d14af7c05ac8177d927711aecef79e"
+    },
+    {
+      "path": "docs/TECHNICAL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a5e1d6e4ae46d7bb4c5ab755de91ab80eea5741",
+      "size": 6415,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/2a5e1d6e4ae46d7bb4c5ab755de91ab80eea5741"
+    },
+    {
+      "path": "docs/display_hz_check.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aabbeee761352c32f08ff9c3241ebc58d7cc94d5",
+      "size": 1503,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/aabbeee761352c32f08ff9c3241ebc58d7cc94d5"
+    },
+    {
+      "path": "docs/exp-anime-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67270e59310d71ab273f90a43ba11330d58f4cfa",
+      "size": 2110,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/67270e59310d71ab273f90a43ba11330d58f4cfa"
+    },
+    {
+      "path": "docs/exp-dual-mid.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65ab6759946aa74c5f0f4f02e837eef4ec4e168",
+      "size": 1667,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/c65ab6759946aa74c5f0f4f02e837eef4ec4e168"
+    },
+    {
+      "path": "docs/exp-subgroups.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14202d2fa94c1a85b8dc8de18e35d605b0a2a8eb",
+      "size": 1446,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/14202d2fa94c1a85b8dc8de18e35d605b0a2a8eb"
+    },
+    {
+      "path": "docs/logo512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62d19a432827918b2b68c80cbdf041d2f29cb42a",
+      "size": 164266,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/62d19a432827918b2b68c80cbdf041d2f29cb42a"
+    },
+    {
+      "path": "docs/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d712e41656f136ec7a90458fca378433e374484b",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/d712e41656f136ec7a90458fca378433e374484b"
+    },
+    {
+      "path": "docs/media/hero.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be571ba2e37a7ed9d614754d9f4d21e85f566ef",
+      "size": 6809787,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3be571ba2e37a7ed9d614754d9f4d21e85f566ef"
+    },
+    {
+      "path": "docs/media/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b7d336083e65d7c97d80b886ce6df2ee64ef18",
+      "size": 16280,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d0b7d336083e65d7c97d80b886ce6df2ee64ef18"
+    },
+    {
+      "path": "docs/perf-2026-07-16.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b82f85987ff66e22492a9222b9fe849371048b9",
+      "size": 8715,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4b82f85987ff66e22492a9222b9fe849371048b9"
+    },
+    {
+      "path": "docs/phase2_ortweb_ceiling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdcf053db01b7ed926c5cfd11e67b763ce97c648",
+      "size": 9691,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/fdcf053db01b7ed926c5cfd11e67b763ce97c648"
+    },
+    {
+      "path": "docs/phase5_ablation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "011bc6ce9e8011059f4b0fad471766d4d56d903d",
+      "size": 8800,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/011bc6ce9e8011059f4b0fad471766d4d56d903d"
+    },
+    {
+      "path": "docs/product_hfr_gate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9ae0aa4d753514993fe9ebc305b97ae77ffa23",
+      "size": 7007,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4b9ae0aa4d753514993fe9ebc305b97ae77ffa23"
+    },
+    {
+      "path": "docs/product_target_fps_gate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b3e3dcc8a3fc4377e3b9a955b2c1825b552b0c",
+      "size": 4257,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/a9b3e3dcc8a3fc4377e3b9a955b2c1825b552b0c"
+    },
+    {
+      "path": "docs/result.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e0d2b19a76347b5bd81939921dbed4736e0ff5c",
+      "size": 23980,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3e0d2b19a76347b5bd81939921dbed4736e0ff5c"
+    },
+    {
+      "path": "docs/rife_lite_reference.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc8290f0faf1f0bed02483db74dd49b07fe3544c",
+      "size": 5700,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/dc8290f0faf1f0bed02483db74dd49b07fe3544c"
+    },
+    {
+      "path": "docs/static_guard_gate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aed8f139e5a3e3603ea8b6c7f7978400463baf93",
+      "size": 2518,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/aed8f139e5a3e3603ea8b6c7f7978400463baf93"
+    },
+    {
+      "path": "docs/store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39a0ccf0a3fd79b6c470b36c6209680f4ebe6365",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/39a0ccf0a3fd79b6c470b36c6209680f4ebe6365"
+    },
+    {
+      "path": "docs/store/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b9c3703105f1d8398abc1879e7e59da0b56b6c5",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/2b9c3703105f1d8398abc1879e7e59da0b56b6c5"
+    },
+    {
+      "path": "docs/store/assets/marquee.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62e366e731ad7553c8236029175cb174cffc76e",
+      "size": 69753,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d62e366e731ad7553c8236029175cb174cffc76e"
+    },
+    {
+      "path": "docs/store/assets/promo_tile.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be55d48e623294754056593023e66f440871524b",
+      "size": 18932,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/be55d48e623294754056593023e66f440871524b"
+    },
+    {
+      "path": "docs/store/assets/shot1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9cae5f83774bc5ed6f31509ed7b23f0157bbe06",
+      "size": 110090,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e9cae5f83774bc5ed6f31509ed7b23f0157bbe06"
+    },
+    {
+      "path": "docs/store/assets/shot2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad00d9cfe76b0cbe508ccb51649410ee3dc8318d",
+      "size": 1263707,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ad00d9cfe76b0cbe508ccb51649410ee3dc8318d"
+    },
+    {
+      "path": "docs/store/assets/shot3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "854190d4b5c3bf8d55301157f5034259d7650603",
+      "size": 240643,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/854190d4b5c3bf8d55301157f5034259d7650603"
+    },
+    {
+      "path": "docs/store/assets/shot4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b78ad7fcb58d30bb4e420e7a1fcbfe720944a2",
+      "size": 97030,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f5b78ad7fcb58d30bb4e420e7a1fcbfe720944a2"
+    },
+    {
+      "path": "docs/store/assets/shot5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c07b8cdd321fd32f358441bc5c2703bbdd7c2506",
+      "size": 113958,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/c07b8cdd321fd32f358441bc5c2703bbdd7c2506"
+    },
+    {
+      "path": "docs/store/listing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4593a0fc0e18418b70b6ef061291143482b5bb07",
+      "size": 2674,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4593a0fc0e18418b70b6ef061291143482b5bb07"
+    },
+    {
+      "path": "docs/store/privacy-policy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3852fb85ffea4cf2861920f7ddd3d9c31f894e98",
+      "size": 1579,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3852fb85ffea4cf2861920f7ddd3d9c31f894e98"
+    },
+    {
+      "path": "docs/student_ladder_bbb.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4cc5a8430d7137d8cd25753abef9ae128b1e102",
+      "size": 512264,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d4cc5a8430d7137d8cd25753abef9ae128b1e102"
+    },
+    {
+      "path": "experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06fb45bff740127f3b16a732fe8ce597d4adff1d",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/06fb45bff740127f3b16a732fe8ce597d4adff1d"
+    },
+    {
+      "path": "experiments/subgroup-matrix",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c20649aa03da4594bea9ced214c5650334b31d52",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/c20649aa03da4594bea9ced214c5650334b31d52"
+    },
+    {
+      "path": "experiments/subgroup-matrix/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89493bea691534d52e82d99f85c509863836d46f",
+      "size": 3550,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/89493bea691534d52e82d99f85c509863836d46f"
+    },
+    {
+      "path": "experiments/subgroup-matrix/check_f16_feature.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c124e14b338aa5ea89ad1432dbefe69545aa0ba2",
+      "size": 743,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/c124e14b338aa5ea89ad1432dbefe69545aa0ba2"
+    },
+    {
+      "path": "experiments/subgroup-matrix/correctness_int8.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3932ce1e31facc5c52520f0bd62ddd3d2d7de76",
+      "size": 3876,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f3932ce1e31facc5c52520f0bd62ddd3d2d7de76"
+    },
+    {
+      "path": "experiments/subgroup-matrix/gemm_f16.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b4964d1828f9a43c70f4ea82e3017ab0a39d8d",
+      "size": 5777,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/91b4964d1828f9a43c70f4ea82e3017ab0a39d8d"
+    },
+    {
+      "path": "experiments/subgroup-matrix/gemm_int8.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d336e739e6b0309537ba89238a443a078ebd7f60",
+      "size": 3898,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d336e739e6b0309537ba89238a443a078ebd7f60"
+    },
+    {
+      "path": "extension",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abbc6f1fafde85ded066166918188d1a09780015",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/abbc6f1fafde85ded066166918188d1a09780015"
+    },
+    {
+      "path": "extension/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870f50904150de4b2d909800e4386ac561508abd",
+      "size": 1324,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/870f50904150de4b2d909800e4386ac561508abd"
+    },
+    {
+      "path": "extension/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1c51731ac0363a5a4b905ae6ec89d37cfad2535",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a1c51731ac0363a5a4b905ae6ec89d37cfad2535"
+    },
+    {
+      "path": "extension/assets/rt_sr.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7adbca59c6e1ab9a6875c3f0d20aedf7c223c4",
+      "size": 27504,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/af7adbca59c6e1ab9a6875c3f0d20aedf7c223c4"
+    },
+    {
+      "path": "extension/assets/rt_sr.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959c7a05e1e32b9daf4f01348cf0889963dd5024",
+      "size": 524,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/959c7a05e1e32b9daf4f01348cf0889963dd5024"
+    },
+    {
+      "path": "extension/assets/rt_tfact2.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91da580924cc3a8cd4263e99137c5f12af2b6cd",
+      "size": 4556704,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d91da580924cc3a8cd4263e99137c5f12af2b6cd"
+    },
+    {
+      "path": "extension/assets/rt_tfact2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d27ef99d017362687127a008c0a708d9a7e2c042",
+      "size": 3052,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d27ef99d017362687127a008c0a708d9a7e2c042"
+    },
+    {
+      "path": "extension/assets/rt_v7s.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "727489fb8bb9dffbb7a32a2efef07c2bfacc843f",
+      "size": 2945824,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/727489fb8bb9dffbb7a32a2efef07c2bfacc843f"
+    },
+    {
+      "path": "extension/assets/rt_v7s.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8fc44e2fc0183505bdfb269f69197a3f54e1405",
+      "size": 2997,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e8fc44e2fc0183505bdfb269f69197a3f54e1405"
+    },
+    {
+      "path": "extension/background.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e8bf49e4a19f26bcbd122f094a5d6b5f94ff5d",
+      "size": 671,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/19e8bf49e4a19f26bcbd122f094a5d6b5f94ff5d"
+    },
+    {
+      "path": "extension/cadence.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781c3019f186977f02f1e5845012684c62401296",
+      "size": 41939,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/781c3019f186977f02f1e5845012684c62401296"
+    },
+    {
+      "path": "extension/content.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d1e7224fbea199f0dea5a3dc9b6391e8d9ff3bb",
+      "size": 219241,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/1d1e7224fbea199f0dea5a3dc9b6391e8d9ff3bb"
+    },
+    {
+      "path": "extension/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "138bf05be672e29ac7157b586f78ca9f3d671501",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/138bf05be672e29ac7157b586f78ca9f3d671501"
+    },
+    {
+      "path": "extension/icons/icon128.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b481d61fcc5175bb8f1b6a824153a9ba6424898",
+      "size": 19190,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3b481d61fcc5175bb8f1b6a824153a9ba6424898"
+    },
+    {
+      "path": "extension/icons/icon16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cafac6fdffe1ecdaf4abae31829891f121acad9",
+      "size": 715,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/1cafac6fdffe1ecdaf4abae31829891f121acad9"
+    },
+    {
+      "path": "extension/icons/icon32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2650e3d815a2b672f13a47923b44131be152bcd",
+      "size": 2068,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/a2650e3d815a2b672f13a47923b44131be152bcd"
+    },
+    {
+      "path": "extension/icons/icon48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f566ba71d510bf2f20610fcd6ae17e593cca2d39",
+      "size": 3878,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f566ba71d510bf2f20610fcd6ae17e593cca2d39"
+    },
+    {
+      "path": "extension/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5277e0cc1b470dda7105d5364be1d3a5fc0b64fd",
+      "size": 1241,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/5277e0cc1b470dda7105d5364be1d3a5fc0b64fd"
+    },
+    {
+      "path": "extension/options.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70684af80956f6816cd7003dcbbfda6d5884aa30",
+      "size": 10493,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/70684af80956f6816cd7003dcbbfda6d5884aa30"
+    },
+    {
+      "path": "extension/options.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e943b34f8655c16853e8e6f219772204f701f6b4",
+      "size": 14340,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e943b34f8655c16853e8e6f219772204f701f6b4"
+    },
+    {
+      "path": "extension/options.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca29ec8b661b0ba4a38443006ce763a03203f9fb",
+      "size": 18806,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ca29ec8b661b0ba4a38443006ce763a03203f9fb"
+    },
+    {
+      "path": "extension/popup.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f38c829c46270f2e87644ccca65129441cd4b5",
+      "size": 5732,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/97f38c829c46270f2e87644ccca65129441cd4b5"
+    },
+    {
+      "path": "extension/popup.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898a8f5f4384f1f5af4aba671a8ae99ffd3cf599",
+      "size": 2456,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/898a8f5f4384f1f5af4aba671a8ae99ffd3cf599"
+    },
+    {
+      "path": "extension/profile-store.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb30b7361e91e755a05c612ca59c2bd697be7fb",
+      "size": 16041,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/dbb30b7361e91e755a05c612ca59c2bd697be7fb"
+    },
+    {
+      "path": "extension/rt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0ad3db43f3a08a2420eac9a53379b19a8801691",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a0ad3db43f3a08a2420eac9a53379b19a8801691"
+    },
+    {
+      "path": "extension/rt/rt.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23665392bf0e306c426551ffa723626e96d9882",
+      "size": 120748,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e23665392bf0e306c426551ffa723626e96d9882"
+    },
+    {
+      "path": "extension/rt/sr.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1be2fcc07d11df26b81948d25318aa712581bcd",
+      "size": 19482,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d1be2fcc07d11df26b81948d25318aa712581bcd"
+    },
+    {
+      "path": "extension/rules.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236901c8594edec44360e229de1ed629efc838b3",
+      "size": 372,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/236901c8594edec44360e229de1ed629efc838b3"
+    },
+    {
+      "path": "models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d160cbe11b091824c1b97a7d10573ff02fc2897",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/9d160cbe11b091824c1b97a7d10573ff02fc2897"
+    },
+    {
+      "path": "models/rife_lite_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe",
+      "size": 10191,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe"
+    },
+    {
+      "path": "models/rife_lite_student_1blk_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe",
+      "size": 10191,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe"
+    },
+    {
+      "path": "models/rife_lite_student_1blk_slim60_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b6a58228aefb9195bf92b7268577ab835ce61ca",
+      "size": 10151,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4b6a58228aefb9195bf92b7268577ab835ce61ca"
+    },
+    {
+      "path": "models/rife_lite_student_1blk_slim_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eac06bb9cfb6c5beed8383ae57681e6deea8cb0",
+      "size": 10187,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6eac06bb9cfb6c5beed8383ae57681e6deea8cb0"
+    },
+    {
+      "path": "models/rife_lite_student_2blk_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe",
+      "size": 10191,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe"
+    },
+    {
+      "path": "models/rife_lite_student_2blk_s84_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe",
+      "size": 10191,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b51eb376d6e7fe83fcda2f4883b0f9be8fe45dbe"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c6a3043312ee1303a45af5147a785287f421b9b",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/9c6a3043312ee1303a45af5147a785287f421b9b"
+    },
+    {
+      "path": "packages/rt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a09e299bee3ee8cdb6ca1c12c132ab4847db3d29",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a09e299bee3ee8cdb6ca1c12c132ab4847db3d29"
+    },
+    {
+      "path": "packages/rt/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee0f138eb796da2469f55ed4665e6af1f808bb6",
+      "size": 1069,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3ee0f138eb796da2469f55ed4665e6af1f808bb6"
+    },
+    {
+      "path": "packages/rt/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa6471877dc75ad381ee7745b26d14aa3def5f5",
+      "size": 6345,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/caa6471877dc75ad381ee7745b26d14aa3def5f5"
+    },
+    {
+      "path": "packages/rt/index.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeeb3244b3974b5dbc9ba0adc281908074a6a81",
+      "size": 6017,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/beeeb3244b3974b5dbc9ba0adc281908074a6a81"
+    },
+    {
+      "path": "packages/rt/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cf43834eaf9d5bf309850a6e5ccce9965c7585d",
+      "size": 1153,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4cf43834eaf9d5bf309850a6e5ccce9965c7585d"
+    },
+    {
+      "path": "packages/rt/prepack.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8587158982f6342e0d63a314f5d18e16a5707b20",
+      "size": 664,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/8587158982f6342e0d63a314f5d18e16a5707b20"
+    },
+    {
+      "path": "packages/rt/sr.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "322fce2133b99ca350dbabdb8ccfcc912f262048",
+      "size": 1584,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/322fce2133b99ca350dbabdb8ccfcc912f262048"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d241804a998649e1109f5230a722a2655fe175e9",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/d241804a998649e1109f5230a722a2655fe175e9"
+    },
+    {
+      "path": "tools/bench_trt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d7b509a6abb2f9107ff8505e1574333af2e8bb",
+      "size": 2693,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/c8d7b509a6abb2f9107ff8505e1574333af2e8bb"
+    },
+    {
+      "path": "tools/build_extension.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e7ae3bd3acf1d2775363d7f30a34069dfb8bea",
+      "size": 8761,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e8e7ae3bd3acf1d2775363d7f30a34069dfb8bea"
+    },
+    {
+      "path": "tools/build_trt_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b659075cdbb24fe831d36eb4b9d19f019a44a7",
+      "size": 1381,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/f4b659075cdbb24fe831d36eb4b9d19f019a44a7"
+    },
+    {
+      "path": "tools/cadence_scheduler.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2935aa30c6b4d74da00107c2a5e1bff2ea8649f9",
+      "size": 65631,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/2935aa30c6b4d74da00107c2a5e1bff2ea8649f9"
+    },
+    {
+      "path": "tools/clean_logo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3faf5df54384e74ed73a694cac2f813e6adf000",
+      "size": 2411,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d3faf5df54384e74ed73a694cac2f813e6adf000"
+    },
+    {
+      "path": "tools/compare_pytorch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d77229f0e06b5c68bb181c079025fbd0ac88579e",
+      "size": 2328,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d77229f0e06b5c68bb181c079025fbd0ac88579e"
+    },
+    {
+      "path": "tools/convert_weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb9ce02fadc228afe89530a6f5d3e06558b5004",
+      "size": 2781,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4cb9ce02fadc228afe89530a6f5d3e06558b5004"
+    },
+    {
+      "path": "tools/display_hz_check.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29df63f990389120f8399d0d0d882a413265a2f6",
+      "size": 8148,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/29df63f990389120f8399d0d0d882a413265a2f6"
+    },
+    {
+      "path": "tools/eval_tfact_arb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc811a6ce17afdef32d4450034bb0ca317a5b799",
+      "size": 3393,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/dc811a6ce17afdef32d4450034bb0ca317a5b799"
+    },
+    {
+      "path": "tools/export_ablation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3502b56f895433778d24ec10d618fc4d69a1846",
+      "size": 4706,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/c3502b56f895433778d24ec10d618fc4d69a1846"
+    },
+    {
+      "path": "tools/export_onnx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7411ae5b09f23e757fae1f13e2418510965044e0",
+      "size": 2518,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7411ae5b09f23e757fae1f13e2418510965044e0"
+    },
+    {
+      "path": "tools/export_rt_weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "976150dbc5d9d5c432ed9d922753e9efb2136adf",
+      "size": 1224,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/976150dbc5d9d5c432ed9d922753e9efb2136adf"
+    },
+    {
+      "path": "tools/export_sr_weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa07367877c48c68739f647d5449241ab45d767",
+      "size": 1077,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/baa07367877c48c68739f647d5449241ab45d767"
+    },
+    {
+      "path": "tools/export_tfact_weights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eacec1b4776e78181b572da8b84ed5e7c27ea5ff",
+      "size": 2600,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/eacec1b4776e78181b572da8b84ed5e7c27ea5ff"
+    },
+    {
+      "path": "tools/export_u8.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68fb74de7230e97f8c8ef3fecc4dd7dfd6997184",
+      "size": 5014,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/68fb74de7230e97f8c8ef3fecc4dd7dfd6997184"
+    },
+    {
+      "path": "tools/extract_frames.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eb267cebdffc1207526acb15b944ef07fd22c02",
+      "size": 3273,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/1eb267cebdffc1207526acb15b944ef07fd22c02"
+    },
+    {
+      "path": "tools/heavy_scene_gate_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9d2b02752b914b79dd23977069082e3ae5cda8",
+      "size": 3154,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3e9d2b02752b914b79dd23977069082e3ae5cda8"
+    },
+    {
+      "path": "tools/heavy_scene_quality_contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0681fd94cd2a1bc217f6a790176d84508393d388",
+      "size": 5137,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/0681fd94cd2a1bc217f6a790176d84508393d388"
+    },
+    {
+      "path": "tools/make_restorer_pairs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42bdd1f7c0176b0e27c1a33f84c314d084c2c04d",
+      "size": 6020,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/42bdd1f7c0176b0e27c1a33f84c314d084c2c04d"
+    },
+    {
+      "path": "tools/make_teacher_v7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f3cb5cd5dc81b51dc43d5001b1ee889b6fc151a",
+      "size": 3845,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4f3cb5cd5dc81b51dc43d5001b1ee889b6fc151a"
+    },
+    {
+      "path": "tools/make_tfact_ref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa56bbab783b8f70eee24aa103197366e57c3c40",
+      "size": 2821,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/aa56bbab783b8f70eee24aa103197366e57c3c40"
+    },
+    {
+      "path": "tools/npm_package_contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b37ee9fb6c769267ad1c93424631acd244c0ba1",
+      "size": 965,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/8b37ee9fb6c769267ad1c93424631acd244c0ba1"
+    },
+    {
+      "path": "tools/pr8_presentation_pipeline_contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a3fb2fd0fa193b96b2b2a6ffb662ec4599c664",
+      "size": 12600,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/c2a3fb2fd0fa193b96b2b2a6ffb662ec4599c664"
+    },
+    {
+      "path": "tools/pr8_runtime_geometry_contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc9fc0de921cb25eb01de0ad228f971ca5b703d",
+      "size": 5168,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7cc9fc0de921cb25eb01de0ad228f971ca5b703d"
+    },
+    {
+      "path": "tools/pr8_sr_deterministic_kernel_contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46137ab5344f9bf63ec98a67c2cffb87689e4024",
+      "size": 4196,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/46137ab5344f9bf63ec98a67c2cffb87689e4024"
+    },
+    {
+      "path": "tools/product_hfr_acceptance.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab93c3d7cdd85691a80b7bf8326012841a91fa8",
+      "size": 17101,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/8ab93c3d7cdd85691a80b7bf8326012841a91fa8"
+    },
+    {
+      "path": "tools/product_hfr_acceptance.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43adaed1c0d3d39a460432f7811fbbb6ee63ae6b",
+      "size": 12301,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/43adaed1c0d3d39a460432f7811fbbb6ee63ae6b"
+    },
+    {
+      "path": "tools/product_hfr_gate_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "232281402c8cf8e5fc0a1807f6a366dbe7b7c9f4",
+      "size": 1722,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/232281402c8cf8e5fc0a1807f6a366dbe7b7c9f4"
+    },
+    {
+      "path": "tools/product_target_fps_acceptance.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aee50c530ed9a509c67f326d69bde8febe043705",
+      "size": 21344,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/aee50c530ed9a509c67f326d69bde8febe043705"
+    },
+    {
+      "path": "tools/product_target_fps_acceptance.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba34b3ac9097317f18833f1a32b20b8e0e7b3529",
+      "size": 18733,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ba34b3ac9097317f18833f1a32b20b8e0e7b3529"
+    },
+    {
+      "path": "tools/product_target_fps_gate_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed04d1c162d6c43784a8d2aaa74db40402f4764",
+      "size": 3336,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/eed04d1c162d6c43784a8d2aaa74db40402f4764"
+    },
+    {
+      "path": "tools/profile_store.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4264043501c1eda966dade64279a714d709650be",
+      "size": 22683,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4264043501c1eda966dade64279a714d709650be"
+    },
+    {
+      "path": "tools/psnr_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd8f32a312f0f0ea11feb6b7c56b82f906822a0",
+      "size": 1310,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/2bd8f32a312f0f0ea11feb6b7c56b82f906822a0"
+    },
+    {
+      "path": "tools/quality_bench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21659ee7e96e852430d729d29b88851281075a41",
+      "size": 2646,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/21659ee7e96e852430d729d29b88851281075a41"
+    },
+    {
+      "path": "tools/quick_controls_ui_contract.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07cb6bb65e68af5c9b09cff5ddfce63430552d4c",
+      "size": 5867,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/07cb6bb65e68af5c9b09cff5ddfce63430552d4c"
+    },
+    {
+      "path": "tools/report_vfi_shootout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c6e3258e3b640d1763abbbae764bf8709634ee",
+      "size": 29588,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/02c6e3258e3b640d1763abbbae764bf8709634ee"
+    },
+    {
+      "path": "tools/run_display_hz_check.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d6fbc70b99551dcf4d22be84c098c63c5b9d8d",
+      "size": 36578,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/64d6fbc70b99551dcf4d22be84c098c63c5b9d8d"
+    },
+    {
+      "path": "tools/run_product_hfr_gate.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e31960d72203cb6ab55ae14e15167c2f2276ce5f",
+      "size": 19696,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e31960d72203cb6ab55ae14e15167c2f2276ce5f"
+    },
+    {
+      "path": "tools/run_product_target_fps_gate.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ab9dd6043d7baef88a0a4243762b8e9e596bba",
+      "size": 25527,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d9ab9dd6043d7baef88a0a4243762b8e9e596bba"
+    },
+    {
+      "path": "tools/run_static_guard_gate.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "638e73c48d2e5d859dbdcd718d4b98b6e97d5338",
+      "size": 16630,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/638e73c48d2e5d859dbdcd718d4b98b6e97d5338"
+    },
+    {
+      "path": "tools/run_static_guard_gate.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f278ce505309fa8d131278d224c010257a216ba",
+      "size": 5834,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/5f278ce505309fa8d131278d224c010257a216ba"
+    },
+    {
+      "path": "tools/run_vfi_references.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5b9cefa4e7a2b2a4ade1b99d248c73341188f8f",
+      "size": 31616,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/a5b9cefa4e7a2b2a4ade1b99d248c73341188f8f"
+    },
+    {
+      "path": "tools/run_webgpu_bench.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a08abac1c997b52687111d6943941c93ef83500",
+      "size": 31072,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/0a08abac1c997b52687111d6943941c93ef83500"
+    },
+    {
+      "path": "tools/run_webgpu_shootout.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1bc1a20e3fd6b418158cbee421ad7211e203812",
+      "size": 29079,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b1bc1a20e3fd6b418158cbee421ad7211e203812"
+    },
+    {
+      "path": "tools/run_webgpu_shootout.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a475c7ec60e8c99c72b226d69b454854838da566",
+      "size": 4773,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/a475c7ec60e8c99c72b226d69b454854838da566"
+    },
+    {
+      "path": "tools/set_primary_refresh.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38ce06db0deb7c751101408c5fd74490c1d27261",
+      "size": 5785,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/38ce06db0deb7c751101408c5fd74490c1d27261"
+    },
+    {
+      "path": "tools/static_guard_acceptance.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a1767b26383dca7404fbd1fd047d5a4ad779991",
+      "size": 11222,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/7a1767b26383dca7404fbd1fd047d5a4ad779991"
+    },
+    {
+      "path": "tools/static_guard_acceptance.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b23f91123cbdaad49f379845e866fb0cf2b74233",
+      "size": 5380,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b23f91123cbdaad49f379845e866fb0cf2b74233"
+    },
+    {
+      "path": "tools/test_vfi_shootout_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbe231976d26674d1154c66e568e518b26154852",
+      "size": 10874,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/dbe231976d26674d1154c66e568e518b26154852"
+    },
+    {
+      "path": "tools/train_anime_spec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5a4d43db4f49e3fe362ebb93a079346ade62f2",
+      "size": 10352,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/5f5a4d43db4f49e3fe362ebb93a079346ade62f2"
+    },
+    {
+      "path": "tools/train_box_bootstrap.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef45adc25f6b4cf1ab7aaff800d54cced51e37ad",
+      "size": 2279,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/ef45adc25f6b4cf1ab7aaff800d54cced51e37ad"
+    },
+    {
+      "path": "tools/train_restorer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8372317d7b37c7265448da6f21dcbc91b6235e",
+      "size": 8728,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6d8372317d7b37c7265448da6f21dcbc91b6235e"
+    },
+    {
+      "path": "tools/train_sr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e7ded587862b702aa0944686eef3bafd83ba322",
+      "size": 6839,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/9e7ded587862b702aa0944686eef3bafd83ba322"
+    },
+    {
+      "path": "tools/train_sr2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93450c1b6f441c48dc758e32fc54ee7682bf4481",
+      "size": 13933,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/93450c1b6f441c48dc758e32fc54ee7682bf4481"
+    },
+    {
+      "path": "tools/train_student.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc54422fda12c4e445c6625a88d03aa2b5138fc",
+      "size": 15528,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4bc54422fda12c4e445c6625a88d03aa2b5138fc"
+    },
+    {
+      "path": "tools/train_tfact.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c9e60e769ad8884cded7feb7f81870c71bcb46",
+      "size": 9185,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/61c9e60e769ad8884cded7feb7f81870c71bcb46"
+    },
+    {
+      "path": "tools/train_tfact2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ba95ff0d3975817f42ea5efbf7deff71cbb54c5",
+      "size": 9426,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6ba95ff0d3975817f42ea5efbf7deff71cbb54c5"
+    },
+    {
+      "path": "tools/train_v7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25371a09aa0ff9f9c670fc0d87faaca171b8bb84",
+      "size": 11361,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/25371a09aa0ff9f9c670fc0d87faaca171b8bb84"
+    },
+    {
+      "path": "tools/trt_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5df307ed0744f74cc4156516d86a3a6e6f6d0d",
+      "size": 2941,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/9a5df307ed0744f74cc4156516d86a3a6e6f6d0d"
+    },
+    {
+      "path": "tools/webgpu_bench_acceptance.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d8f288b7b39c40c8913681d77bc2bafb0f6545e",
+      "size": 13953,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/9d8f288b7b39c40c8913681d77bc2bafb0f6545e"
+    },
+    {
+      "path": "tools/webgpu_bench_acceptance.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc6793f864dce3c64b0c830ef5a0932fba97c71",
+      "size": 8523,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/9dc6793f864dce3c64b0c830ef5a0932fba97c71"
+    },
+    {
+      "path": "tools/webgpu_bench_manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efcc9ac843df64f3878a82e31ebbda82bb10dcbb",
+      "size": 2081,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/efcc9ac843df64f3878a82e31ebbda82bb10dcbb"
+    },
+    {
+      "path": "web",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b526d1fe85ed58ef95894f70f7ec93aa704fa28d",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/b526d1fe85ed58ef95894f70f7ec93aa704fa28d"
+    },
+    {
+      "path": "web/bench.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d79678e52a99604d4957526c3a98287e0388b17",
+      "size": 21300,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/8d79678e52a99604d4957526c3a98287e0388b17"
+    },
+    {
+      "path": "web/bench_sr.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f10c592d37418fa5ec89cd030b9cd243cf80ed7",
+      "size": 6469,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/4f10c592d37418fa5ec89cd030b9cd243cf80ed7"
+    },
+    {
+      "path": "web/collision_diagnostics.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdf0c955da65964dd06e57bf7ea8250f7ed5dfff",
+      "size": 41430,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/fdf0c955da65964dd06e57bf7ea8250f7ed5dfff"
+    },
+    {
+      "path": "web/display_hz_fixture.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32bd53f0b864c2e66d1d1d99b46ee13495448b0",
+      "size": 9567,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d32bd53f0b864c2e66d1d1d99b46ee13495448b0"
+    },
+    {
+      "path": "web/exact_gt_collision.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eeeeee303e3fe9fc555e7e88bbc8c0fd10517f4",
+      "size": 83550,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/2eeeeee303e3fe9fc555e7e88bbc8c0fd10517f4"
+    },
+    {
+      "path": "web/exttest.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344c6a7768bb48d66ca319d321102a64d1f2944e",
+      "size": 1340,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/344c6a7768bb48d66ca319d321102a64d1f2944e"
+    },
+    {
+      "path": "web/player.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fe817046eea5dbe08b7810aac9ef6a302006591",
+      "size": 11569,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6fe817046eea5dbe08b7810aac9ef6a302006591"
+    },
+    {
+      "path": "web/player_worker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8676c49ae3e30c7ced3dddf15d6fa5248803f12",
+      "size": 24223,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/b8676c49ae3e30c7ced3dddf15d6fa5248803f12"
+    },
+    {
+      "path": "web/product_hfr_fixture.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6689cc5d4b41f2ee749f674ece22c22705de666d",
+      "size": 8547,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/6689cc5d4b41f2ee749f674ece22c22705de666d"
+    },
+    {
+      "path": "web/product_target_fps_fixture.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05a4330c6316311ba84821f8b0422ff8fd6624a9",
+      "size": 9378,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/05a4330c6316311ba84821f8b0422ff8fd6624a9"
+    },
+    {
+      "path": "web/rt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0ad3db43f3a08a2420eac9a53379b19a8801691",
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a0ad3db43f3a08a2420eac9a53379b19a8801691"
+    },
+    {
+      "path": "web/rt/rt.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e23665392bf0e306c426551ffa723626e96d9882",
+      "size": 120748,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/e23665392bf0e306c426551ffa723626e96d9882"
+    },
+    {
+      "path": "web/rt/sr.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1be2fcc07d11df26b81948d25318aa712581bcd",
+      "size": 19482,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/d1be2fcc07d11df26b81948d25318aa712581bcd"
+    },
+    {
+      "path": "web/rt_debug_test.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "038f845bb5072be293108ace41ce38584543ec46",
+      "size": 12473,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/038f845bb5072be293108ace41ce38584543ec46"
+    },
+    {
+      "path": "web/rt_test.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb77f10bfa49d1d9fdd5982ed862796a5a234434",
+      "size": 4233,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/fb77f10bfa49d1d9fdd5982ed862796a5a234434"
+    },
+    {
+      "path": "web/shootout.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3121a94e6f01764f0c4d22cfb0d692c4020b0d95",
+      "size": 4878,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/3121a94e6f01764f0c4d22cfb0d692c4020b0d95"
+    },
+    {
+      "path": "web/sr_quality.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2218e3de4ca2ba2847c1a2d30fd239c11c0c8201",
+      "size": 8316,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/2218e3de4ca2ba2847c1a2d30fd239c11c0c8201"
+    },
+    {
+      "path": "web/static_guard_fixture.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0405b3da959c2216e2d526039edec19da409356a",
+      "size": 10540,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/0405b3da959c2216e2d526039edec19da409356a"
+    },
+    {
+      "path": "web/store_shots.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1262877d8513f29adf9950af4a9d0eade68d728a",
+      "size": 23813,
+      "url": "https://api.github.com/repos/MONZikWasTaken/Framegen/git/blobs/1262877d8513f29adf9950af4a9d0eade68d728a"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,328 @@
+[
+  {
+    "source": 24,
+    "target": 75,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.32,
+        "centroid": 42.55855855855856,
+        "expected": 42.56,
+        "hash": 3933566405,
+        "mae": 0.5104166666666666,
+        "unwarpedBlendMAE": 4.208750000000007
+      },
+      {
+        "alpha": 0.64,
+        "centroid": 45.12162162162162,
+        "expected": 45.12,
+        "hash": 323733445,
+        "mae": 0.140625,
+        "unwarpedBlendMAE": 4.30124999999999
+      },
+      {
+        "alpha": 0.96,
+        "centroid": 47.68018018018018,
+        "expected": 47.68,
+        "hash": 3161593797,
+        "mae": 0.3697916666666667,
+        "unwarpedBlendMAE": 0.3700000000000031
+      }
+    ]
+  },
+  {
+    "source": 24,
+    "target": 100,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.24,
+        "centroid": 41.91891891891892,
+        "expected": 41.92,
+        "hash": 4099544517,
+        "mae": 0.09375,
+        "unwarpedBlendMAE": 3.4224999999999914
+      },
+      {
+        "alpha": 0.48,
+        "centroid": 43.84013796987188,
+        "expected": 43.84,
+        "hash": 3006572229,
+        "mae": 0.18489583333333334,
+        "unwarpedBlendMAE": 4.625000000000001
+      },
+      {
+        "alpha": 0.72,
+        "centroid": 45.76126126126126,
+        "expected": 45.76,
+        "hash": 3595414469,
+        "mae": 0.2760416666666667,
+        "unwarpedBlendMAE": 3.607499999999997
+      },
+      {
+        "alpha": 0.96,
+        "centroid": 47.68018018018018,
+        "expected": 47.68,
+        "hash": 3161593797,
+        "mae": 0.3697916666666667,
+        "unwarpedBlendMAE": 0.3700000000000031
+      }
+    ]
+  },
+  {
+    "source": 24,
+    "target": 120,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.2,
+        "centroid": 41.5990990990991,
+        "expected": 41.6,
+        "hash": 2238768069,
+        "mae": 0.4635416666666667,
+        "unwarpedBlendMAE": 3.237500000000011
+      },
+      {
+        "alpha": 0.4,
+        "centroid": 43.1981981981982,
+        "expected": 43.2,
+        "hash": 3384081861,
+        "mae": 0.22916666666666666,
+        "unwarpedBlendMAE": 4.393750000000002
+      },
+      {
+        "alpha": 0.6,
+        "centroid": 44.8018018018018,
+        "expected": 44.8,
+        "hash": 3513916869,
+        "mae": 0.22916666666666666,
+        "unwarpedBlendMAE": 4.393750000000001
+      },
+      {
+        "alpha": 0.8,
+        "centroid": 46.4009009009009,
+        "expected": 46.4,
+        "hash": 2997720005,
+        "mae": 0.4635416666666667,
+        "unwarpedBlendMAE": 3.23750000000001
+      },
+      {
+        "alpha": 1,
+        "centroid": 48,
+        "expected": 48,
+        "hash": 4085575109,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      }
+    ]
+  },
+  {
+    "source": 30,
+    "target": 75,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.4,
+        "centroid": 43.1981981981982,
+        "expected": 43.2,
+        "hash": 3384081861,
+        "mae": 0.22916666666666666,
+        "unwarpedBlendMAE": 4.393750000000002
+      },
+      {
+        "alpha": 0.8,
+        "centroid": 46.4009009009009,
+        "expected": 46.4,
+        "hash": 2997720005,
+        "mae": 0.4635416666666667,
+        "unwarpedBlendMAE": 3.23750000000001
+      }
+    ]
+  },
+  {
+    "source": 30,
+    "target": 100,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.3,
+        "centroid": 42.4009009009009,
+        "expected": 42.4,
+        "hash": 4185454533,
+        "mae": 0.4635416666666667,
+        "unwarpedBlendMAE": 3.6999999999999864
+      },
+      {
+        "alpha": 0.6,
+        "centroid": 44.8018018018018,
+        "expected": 44.8,
+        "hash": 3513916869,
+        "mae": 0.22916666666666666,
+        "unwarpedBlendMAE": 4.393750000000001
+      },
+      {
+        "alpha": 0.9,
+        "centroid": 47.1981981981982,
+        "expected": 47.2,
+        "hash": 239033797,
+        "mae": 0.22916666666666666,
+        "unwarpedBlendMAE": 1.8500000000000096
+      }
+    ]
+  },
+  {
+    "source": 30,
+    "target": 120,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.25,
+        "centroid": 42,
+        "expected": 42,
+        "hash": 1571737029,
+        "mae": 0,
+        "unwarpedBlendMAE": 3.46875
+      },
+      {
+        "alpha": 0.5,
+        "centroid": 44,
+        "expected": 44,
+        "hash": 655175109,
+        "mae": 0,
+        "unwarpedBlendMAE": 4.625
+      },
+      {
+        "alpha": 0.75,
+        "centroid": 46,
+        "expected": 46,
+        "hash": 1463586245,
+        "mae": 0,
+        "unwarpedBlendMAE": 3.46875
+      },
+      {
+        "alpha": 1,
+        "centroid": 48,
+        "expected": 48,
+        "hash": 4085575109,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      }
+    ]
+  },
+  {
+    "source": 60,
+    "target": 75,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.8,
+        "centroid": 46.4009009009009,
+        "expected": 46.4,
+        "hash": 2997720005,
+        "mae": 0.4635416666666667,
+        "unwarpedBlendMAE": 3.23750000000001
+      }
+    ]
+  },
+  {
+    "source": 60,
+    "target": 100,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.6,
+        "centroid": 44.8018018018018,
+        "expected": 44.8,
+        "hash": 3513916869,
+        "mae": 0.22916666666666666,
+        "unwarpedBlendMAE": 4.393750000000001
+      }
+    ]
+  },
+  {
+    "source": 60,
+    "target": 120,
+    "samples": [
+      {
+        "alpha": 0,
+        "centroid": 40,
+        "expected": 40,
+        "hash": 874724805,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      },
+      {
+        "alpha": 0.5,
+        "centroid": 44,
+        "expected": 44,
+        "hash": 655175109,
+        "mae": 0,
+        "unwarpedBlendMAE": 4.625
+      },
+      {
+        "alpha": 1,
+        "centroid": 48,
+        "expected": 48,
+        "hash": 4085575109,
+        "mae": 0,
+        "unwarpedBlendMAE": 0
+      }
+    ]
+  }
+]

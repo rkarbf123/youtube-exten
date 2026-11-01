@@ -1,0 +1,12 @@
+{
+  "src/harness/framegenValidation.ts": "dbbeabf0d4def45a3a6f2d2d4942f2ff7484a38d25bfc258af19858093e807ba",
+  "src/harness/framegenDiagnostics.ts": "d0d79365b9e4b1c1e1c8e8a476b52b969247579157e540731d0c823505295953",
+  "src/harness/framegenReference.ts": "82ab10739370dcb87fb94837bbc32d4f638e260acb5cd9781fd40cf3a510fb75",
+  "src/ai/FramegenSession.ts": "761d96b193485a94a08ee71302b032cf525130f5964c32c6492f907442507675",
+  "scripts/framegen-fps-matrix.mjs": "56500fc2759bc446daf426f5f6b548cc7c616ba0a83778f9b3937379c88d3b96",
+  "scripts/analyze-fps-reference.py": "324fbc61fb2d07d53cb0c28b2720ce4add80b655ee1549008592b6fe20eff0d5",
+  "scripts/report-framegen-fps.mjs": "8d1b07d2603393f781be3e05fb485cb1ee5519d95da9f18841429030ac2e911f",
+  "tests/browser/rife.spec.ts": "4a337824ebcd0ccb4126c5381334a733d22dc7ff5bdd72cf3aace716413687c0",
+  "public/models/framegen/rt_v7s.bin": "76428e1769f742a2aaad79996f2eb57cc29388a6dc21c242386ca9110c0bb397",
+  "public/models/framegen/rt_v7s.json": "6fa80133638949109d11fec3efb0421fbbc556f9bcff2fe2239b410154d8e7e3"
+}

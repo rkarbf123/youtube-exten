@@ -1,0 +1,185 @@
+{
+  "browser": "156.0.8078.4",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "lovelace",
+    "description": "",
+    "isFallbackAdapter": false
+  },
+  "results": [
+    {
+      "backend": "WebGPU",
+      "maxReferenceError": 1,
+      "cases": [
+        {
+          "name": "line-art",
+          "sharpness": 0,
+          "baseline": {
+            "psnr": 23.65633660284945,
+            "mae": 5.715203430426954
+          },
+          "improved": {
+            "psnr": 24.90720064112958,
+            "mae": 4.530973709169238
+          },
+          "difference": 1.5463214136445473
+        },
+        {
+          "name": "natural-texture",
+          "sharpness": 0,
+          "baseline": {
+            "psnr": 51.50978358390632,
+            "mae": 0.36128793724279834
+          },
+          "improved": {
+            "psnr": 53.74028915223616,
+            "mae": 0.2274144804526749
+          },
+          "difference": 0.24308770576131689
+        },
+        {
+          "name": "compressed-texture",
+          "sharpness": 0,
+          "baseline": {
+            "psnr": 38.73639835881584,
+            "mae": 2.4755477591306585
+          },
+          "improved": {
+            "psnr": 38.80742955355748,
+            "mae": 2.437288009580761
+          },
+          "difference": 0.33721848476080246
+        }
+      ],
+      "benchmark": {
+        "source": "640×360",
+        "output": "1920×1080",
+        "samples": 30,
+        "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+        "baselineMedianMs": 4.200000002980232,
+        "improvedMedianMs": 1.800000000745058,
+        "baselineP95Ms": 7.100000001490116,
+        "improvedP95Ms": 6.899999998509884
+      },
+      "benchmarkRepeats": [
+        {
+          "source": "640×360",
+          "output": "1920×1080",
+          "samples": 30,
+          "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+          "baselineMedianMs": 4.200000002980232,
+          "improvedMedianMs": 1.800000000745058,
+          "baselineP95Ms": 7.100000001490116,
+          "improvedP95Ms": 6.899999998509884
+        },
+        {
+          "source": "640×360",
+          "output": "1920×1080",
+          "samples": 30,
+          "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+          "baselineMedianMs": 4.100000001490116,
+          "improvedMedianMs": 4.099999997764826,
+          "baselineP95Ms": 7.100000001490116,
+          "improvedP95Ms": 6.800000000745058
+        },
+        {
+          "source": "640×360",
+          "output": "1920×1080",
+          "samples": 30,
+          "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+          "baselineMedianMs": 3.800000000745058,
+          "improvedMedianMs": 2.399999998509884,
+          "baselineP95Ms": 7.199999999254942,
+          "improvedP95Ms": 8.399999998509884
+        }
+      ]
+    },
+    {
+      "backend": "WebGL2",
+      "maxReferenceError": 1,
+      "cases": [
+        {
+          "name": "line-art",
+          "sharpness": 0,
+          "baseline": {
+            "psnr": 23.666218934928246,
+            "mae": 5.699931077996399
+          },
+          "improved": {
+            "psnr": 24.907200329564315,
+            "mae": 4.530974713863169
+          },
+          "difference": 1.5326615949717077
+        },
+        {
+          "name": "natural-texture",
+          "sharpness": 0,
+          "baseline": {
+            "psnr": 51.54079702097114,
+            "mae": 0.3606178063914609
+          },
+          "improved": {
+            "psnr": 53.74044792448008,
+            "mae": 0.2274044335133745
+          },
+          "difference": 0.2424858940972222
+        },
+        {
+          "name": "compressed-texture",
+          "sharpness": 0,
+          "baseline": {
+            "psnr": 38.74325041564622,
+            "mae": 2.473360540444959
+          },
+          "improved": {
+            "psnr": 38.807438221779755,
+            "mae": 2.4372849954989713
+          },
+          "difference": 0.3368427292309671
+        }
+      ],
+      "benchmark": {
+        "source": "640×360",
+        "output": "1920×1080",
+        "samples": 30,
+        "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+        "baselineMedianMs": 3.800000000745058,
+        "improvedMedianMs": 3.699999999254942,
+        "baselineP95Ms": 5.100000001490116,
+        "improvedP95Ms": 5.100000001490116
+      },
+      "benchmarkRepeats": [
+        {
+          "source": "640×360",
+          "output": "1920×1080",
+          "samples": 30,
+          "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+          "baselineMedianMs": 3.800000000745058,
+          "improvedMedianMs": 3.699999999254942,
+          "baselineP95Ms": 5.100000001490116,
+          "improvedP95Ms": 5.100000001490116
+        },
+        {
+          "source": "640×360",
+          "output": "1920×1080",
+          "samples": 30,
+          "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+          "baselineMedianMs": 3.7000000029802322,
+          "improvedMedianMs": 3.599999997764826,
+          "baselineP95Ms": 5.799999997019768,
+          "improvedP95Ms": 5.5
+        },
+        {
+          "source": "640×360",
+          "output": "1920×1080",
+          "samples": 30,
+          "includes": "CPU + queue + GPU completion; not pure GPU timestamp",
+          "baselineMedianMs": 3.7000000029802322,
+          "improvedMedianMs": 3.900000002235174,
+          "baselineP95Ms": 5.299999997019768,
+          "improvedP95Ms": 6.599999997764826
+        }
+      ]
+    }
+  ]
+}

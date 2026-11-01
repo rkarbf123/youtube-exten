@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-31T23:13:08.535Z",
+  "rows": [
+    {
+      "path": "adaptive/AdaptiveController.ts",
+      "current": "50f02a8e7e0ae922225187dba48989e5b9222eee745b73562f41dd919c2ba889",
+      "baseline": "50f02a8e7e0ae922225187dba48989e5b9222eee745b73562f41dd919c2ba889",
+      "optimized": "50f02a8e7e0ae922225187dba48989e5b9222eee745b73562f41dd919c2ba889",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "adaptive/PerformanceMonitor.ts",
+      "current": "56ff47e7987730a22103ad055562911a7df62da91c7a7b01b4301a5c01f45cc8",
+      "baseline": "ea88f38d7cb7b7ed5bed772116a98441e4d896b4c018d4ac18955d2b3372fef9",
+      "optimized": "56ff47e7987730a22103ad055562911a7df62da91c7a7b01b4301a5c01f45cc8",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "adaptive/PresentationHistory.ts",
+      "current": "537a1d964bbf3ae1bb6b90d2b8e1ac8bee89ba0de7ab703804103b93d33cfcc2",
+      "baseline": "537a1d964bbf3ae1bb6b90d2b8e1ac8bee89ba0de7ab703804103b93d33cfcc2",
+      "optimized": "537a1d964bbf3ae1bb6b90d2b8e1ac8bee89ba0de7ab703804103b93d33cfcc2",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "adaptive/Resolution.ts",
+      "current": "7b8e85c634c0742e3ac560e1d03b30a8ebf8d0f5d08207e9e135442fbdb7cc6d",
+      "baseline": "fc23fd0b835ee492bc76952794bd09c7321ab3bc5714760228cd3c85d5999a1b",
+      "optimized": "7b8e85c634c0742e3ac560e1d03b30a8ebf8d0f5d08207e9e135442fbdb7cc6d",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "adaptive/TemporalAdaptiveController.ts",
+      "current": "bcaf09cf5740e48512fc31db7fee482c9cc4383436bda061f94e688b530665dc",
+      "baseline": "bcaf09cf5740e48512fc31db7fee482c9cc4383436bda061f94e688b530665dc",
+      "optimized": "bcaf09cf5740e48512fc31db7fee482c9cc4383436bda061f94e688b530665dc",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "background/index.ts",
+      "current": "20b49a7413841b97eae6e75579e35f6a3333f80c4de6e28cd7fa93765e9c291a",
+      "baseline": "20b49a7413841b97eae6e75579e35f6a3333f80c4de6e28cd7fa93765e9c291a",
+      "optimized": "20b49a7413841b97eae6e75579e35f6a3333f80c4de6e28cd7fa93765e9c291a",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "content/FrameScheduler.ts",
+      "current": "d4caae7ee2c595dfe85cda149582a3e7c30a3bebd0890d437d0dbdaaabbf96a7",
+      "baseline": "148cef4287a1a4e54f4a96da2a355de2ccba6c4beff37100eff81b4259b45294",
+      "optimized": "148cef4287a1a4e54f4a96da2a355de2ccba6c4beff37100eff81b4259b45294",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "content/index.ts",
+      "current": "3ab8823f0ff1bab44f996547ac3247aa4e33b1e246d976468c66238f0ede7aed",
+      "baseline": "dcf2eb32053be8738a54f76029818fb240049b82373d08c90352dade90b69c85",
+      "optimized": "3ab8823f0ff1bab44f996547ac3247aa4e33b1e246d976468c66238f0ede7aed",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "content/VideoDetector.ts",
+      "current": "eddff0aa2429f5f014952b2f18ebe26e2a232df7479b718d1a70c0f1bd93c8ec",
+      "baseline": "eddff0aa2429f5f014952b2f18ebe26e2a232df7479b718d1a70c0f1bd93c8ec",
+      "optimized": "eddff0aa2429f5f014952b2f18ebe26e2a232df7479b718d1a70c0f1bd93c8ec",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "content/VideoOverlay.ts",
+      "current": "9157db6ca6677704e45f0781ab925c870dfe09c4903f1cedda48c884c579f86d",
+      "baseline": "9a2bc4d5f61ce3c17562e247c897492598ede6974095c43061905a2712f16813",
+      "optimized": "9a2bc4d5f61ce3c17562e247c897492598ede6974095c43061905a2712f16813",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "content/VideoProcessor.ts",
+      "current": "b72ed0d29d2adda0ea8560997eff228b8a9f7129b4c72cf3e60e2411fc095bc8",
+      "baseline": "55112e35219917466efb1c4f2f1b9fcaa87b2d596c6268adc3ffb2b99f1d48cd",
+      "optimized": "778a2382f1009674afecd3b52bf6929e2e1393d4ee2d41d028826d2b1f8aedc7",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "content/YouTubeObserver.ts",
+      "current": "96780b48d85689d29db49a1cd63aa4136700770b864f7449fb2d49383acf6884",
+      "baseline": "96780b48d85689d29db49a1cd63aa4136700770b864f7449fb2d49383acf6884",
+      "optimized": "96780b48d85689d29db49a1cd63aa4136700770b864f7449fb2d49383acf6884",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "gpu/createEngine.ts",
+      "current": "de7890f65f3795963075f1f07f553f5a17aef9a922c4f992935e86f434b595dc",
+      "baseline": "de7890f65f3795963075f1f07f553f5a17aef9a922c4f992935e86f434b595dc",
+      "optimized": "de7890f65f3795963075f1f07f553f5a17aef9a922c4f992935e86f434b595dc",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "gpu/FrameSignature.ts",
+      "current": "97b64c060fd8c71d55c26df241bb98ab2066c623805a803a756f611283c1ce11",
+      "baseline": "24f316644a6ae0c5689dfb37f5877246064384f130a8feb5ef24b43a5f484d55",
+      "optimized": "97b64c060fd8c71d55c26df241bb98ab2066c623805a803a756f611283c1ce11",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "gpu/GpuTimer.ts",
+      "current": "fa5d0b39ffd13094d45f6e04d2895af46cf9f3646eca509a9eeba3e6f49a2a7a",
+      "baseline": null,
+      "optimized": "fa5d0b39ffd13094d45f6e04d2895af46cf9f3646eca509a9eeba3e6f49a2a7a",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "gpu/MotionEstimator.ts",
+      "current": "831f2c4000577ee01a2768d398a5257fdb43c72a5eac7f2f3f77718cbf534f9e",
+      "baseline": "f9b50f6519ef94aeba3a1e7adf21e28093291761ad99a869b9a6bb49fb376021",
+      "optimized": "f2896ee876a5eabf5f20ff5aecae0404864e90feced79663411b91308a7992d6",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "gpu/ProcessingStage.ts",
+      "current": "7a8b318335d693e8772ac2fb97e70853d91d3369567a290f2cec48f23c9c0ed2",
+      "baseline": "7a8b318335d693e8772ac2fb97e70853d91d3369567a290f2cec48f23c9c0ed2",
+      "optimized": "7a8b318335d693e8772ac2fb97e70853d91d3369567a290f2cec48f23c9c0ed2",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "gpu/WebGLEngine.ts",
+      "current": "a0aa192aff74e8354119fc5ec0021753b4bb40af4904fa85d81c16dce312d401",
+      "baseline": "a0aa192aff74e8354119fc5ec0021753b4bb40af4904fa85d81c16dce312d401",
+      "optimized": "a0aa192aff74e8354119fc5ec0021753b4bb40af4904fa85d81c16dce312d401",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "gpu/WebGPUEngine.ts",
+      "current": "40e0da7c313c27f3c3e21448f405fad983fd96f22277a74c7d71e619d4cf3ad8",
+      "baseline": "c30a4c50ca98824ba0133205338bb7976993d3708bb2ed855737c6f119a22c82",
+      "optimized": "afbfdcc25dd18e9cbbfa4840eb45f9be6209b85c0824fde0d04576bc809cb2fb",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "harness/artifactChecks.ts",
+      "current": "9092188f4a3ab0c21b2124465752fd52d137e348d2322c5ab37aacc957c55c90",
+      "baseline": null,
+      "optimized": null,
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "harness/computeBench.ts",
+      "current": "521bf08d0af413fe070dc052aa1c9a0c4e958d21f82131b3d11f8402437e2c29",
+      "baseline": null,
+      "optimized": "521bf08d0af413fe070dc052aa1c9a0c4e958d21f82131b3d11f8402437e2c29",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "harness/easuReference.ts",
+      "current": "ab4cb7acf53d719a005fbb99c9cc9edfdb73fb1ff0fe7d0d6c0dc451736daa7b",
+      "baseline": "ab4cb7acf53d719a005fbb99c9cc9edfdb73fb1ff0fe7d0d6c0dc451736daa7b",
+      "optimized": "ab4cb7acf53d719a005fbb99c9cc9edfdb73fb1ff0fe7d0d6c0dc451736daa7b",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "harness/main.ts",
+      "current": "dc5dba9d96b4b3abb69e36bded70b8a01868ba501f871b1f8bc0435970fd3865",
+      "baseline": "5584e3e5f4d61715d33a75bb65e6a2b6e14535985a67c326c882eab910309c51",
+      "optimized": "dc5dba9d96b4b3abb69e36bded70b8a01868ba501f871b1f8bc0435970fd3865",
+      "sameAsBaseline": false,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "harness/perf.ts",
+      "current": "b8607b8c7f1d55d438948852222c635aac266c3ce32bdb4b366106fe96736b7a",
+      "baseline": null,
+      "optimized": "b6f995caf20c09bf4feef18c36a3792fe0f0f42847ec9d8110d6c589bb029a7b",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "harness/pixelChecks.ts",
+      "current": "3215b365d00fa3060d28d7054c08be0d5f2617c18ba9249c650a1ea695c418a4",
+      "baseline": "3215b365d00fa3060d28d7054c08be0d5f2617c18ba9249c650a1ea695c418a4",
+      "optimized": "3215b365d00fa3060d28d7054c08be0d5f2617c18ba9249c650a1ea695c418a4",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "harness/qualityReview.ts",
+      "current": "a97d06bb47451946b4d9a096aa78037e84fa739d28c88cd675494d37f97f400b",
+      "baseline": "a97d06bb47451946b4d9a096aa78037e84fa739d28c88cd675494d37f97f400b",
+      "optimized": "a97d06bb47451946b4d9a096aa78037e84fa739d28c88cd675494d37f97f400b",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "harness/styles.css",
+      "current": "772b46d320bdd6e5611832e4f58333a093d8a274842dac134671b77201bcb288",
+      "baseline": "772b46d320bdd6e5611832e4f58333a093d8a274842dac134671b77201bcb288",
+      "optimized": "772b46d320bdd6e5611832e4f58333a093d8a274842dac134671b77201bcb288",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "harness/v12Checks.ts",
+      "current": "a35ab388b04f10a6ffd215ca0661b0e88e3b3c87c2aa4eae30687beac64a89d7",
+      "baseline": "a35ab388b04f10a6ffd215ca0661b0e88e3b3c87c2aa4eae30687beac64a89d7",
+      "optimized": "a35ab388b04f10a6ffd215ca0661b0e88e3b3c87c2aa4eae30687beac64a89d7",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "popup/index.html",
+      "current": "fe037bf8d4824e8fc53c1e178aaba6221d433cf3ff160c5ffd976c664927feca",
+      "baseline": "3560cd302d6a50325ba85dadd66cdd81b79037a8c88fd42d28b76408bfbdfe3b",
+      "optimized": "7d50ad5ec6aa96dfcf2086c32c05c7362e45195078a4d5ce442394665bff8142",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "popup/main.ts",
+      "current": "9022f5cdf0a43ac09beeb45ce38c2b6583b3fad00bf207db437c5e89fbf3a8cd",
+      "baseline": "7a4752f330cde899bade4f4d06aeb6816720aaf85c42032b1fce8704dca1687a",
+      "optimized": "449f508b3f881c2b2a8c0a1f0d4ae8a822cbe4c182baed0d4b1ed983ee24f717",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "popup/styles.css",
+      "current": "afd2e42d0dad26cfec58090a7b220aadaeb5f9ad2d08ad9dd45fa81a6e109213",
+      "baseline": "5edfedb9fce1173299e7005169c799016889bfc89a5b54d291ff2f78ca67053a",
+      "optimized": "5edfedb9fce1173299e7005169c799016889bfc89a5b54d291ff2f78ca67053a",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "settings/SettingsManager.ts",
+      "current": "9bf1a21ab8cd39e415fc3b4d7c490c9b9d3b439c60a0526b0e685b8a136f612f",
+      "baseline": "5ca9195793c649990c4afb260d10792eba5f3a32cc005c092b4a6df263a3b134",
+      "optimized": "5ca9195793c649990c4afb260d10792eba5f3a32cc005c092b4a6df263a3b134",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "shaders/color.glsl",
+      "current": "4500230521c6f05e707ebac769f63e64eecd1739d9a32264be436139362641d8",
+      "baseline": "4500230521c6f05e707ebac769f63e64eecd1739d9a32264be436139362641d8",
+      "optimized": "4500230521c6f05e707ebac769f63e64eecd1739d9a32264be436139362641d8",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/color.wgsl",
+      "current": "697af4821db0518cc2722343402ce98c2234c688bcc8cbc78edbceae4aa92b6e",
+      "baseline": "697af4821db0518cc2722343402ce98c2234c688bcc8cbc78edbceae4aa92b6e",
+      "optimized": "697af4821db0518cc2722343402ce98c2234c688bcc8cbc78edbceae4aa92b6e",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/common.wgsl",
+      "current": "1255b48ff51b58979f1c6394c13b8a2a56b6dc2921958ab821e4c9765047cd68",
+      "baseline": "1255b48ff51b58979f1c6394c13b8a2a56b6dc2921958ab821e4c9765047cd68",
+      "optimized": "1255b48ff51b58979f1c6394c13b8a2a56b6dc2921958ab821e4c9765047cd68",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/composite.wgsl",
+      "current": "9da7bb4c19b2a5ac80cb865d6a2b7a82aabf8dd846c6612de3ea7e8e183beb93",
+      "baseline": "9da7bb4c19b2a5ac80cb865d6a2b7a82aabf8dd846c6612de3ea7e8e183beb93",
+      "optimized": "9da7bb4c19b2a5ac80cb865d6a2b7a82aabf8dd846c6612de3ea7e8e183beb93",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/denoise.wgsl",
+      "current": "fc02d72664d83d8ed3aa0395f22847d121111155504f1c259a2ae9997ab475fe",
+      "baseline": "fc02d72664d83d8ed3aa0395f22847d121111155504f1c259a2ae9997ab475fe",
+      "optimized": "fc02d72664d83d8ed3aa0395f22847d121111155504f1c259a2ae9997ab475fe",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/easu.glsl",
+      "current": "a38fbcebefae2e307b1eee28b944623b1601e27571987bb59f4df88503a35907",
+      "baseline": "a38fbcebefae2e307b1eee28b944623b1601e27571987bb59f4df88503a35907",
+      "optimized": "a38fbcebefae2e307b1eee28b944623b1601e27571987bb59f4df88503a35907",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/motion-common.wgsl",
+      "current": "a072b6a71d375c853ac79c1c17119356943abf96c28d811258200cff2977e7f7",
+      "baseline": "a072b6a71d375c853ac79c1c17119356943abf96c28d811258200cff2977e7f7",
+      "optimized": "a072b6a71d375c853ac79c1c17119356943abf96c28d811258200cff2977e7f7",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/motion-downsample.wgsl",
+      "current": "5b6f66cdd85508507ede1eee0c9aa0a11ef98ac16aae048a6bc8ea27b26d36c8",
+      "baseline": "5b6f66cdd85508507ede1eee0c9aa0a11ef98ac16aae048a6bc8ea27b26d36c8",
+      "optimized": "5b6f66cdd85508507ede1eee0c9aa0a11ef98ac16aae048a6bc8ea27b26d36c8",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/motion-flow.wgsl",
+      "current": "83cc49e7ae87b888f5cfa086fe519d6234ac121ceccc8f5a8c3f157bd3e7e18f",
+      "baseline": "bc3306b2d4da39a7ff88b1834d40a005de4789036c31ddc030f993f83067647d",
+      "optimized": "c4b5d8874c374264d292fb4a057c2564d571c717b548dc9d7c8fa9c683272f21",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "shaders/motion-warp.wgsl",
+      "current": "7775e194ef80694ce58db75d21e191d495a69efe8d15bdf3ff66db759b8de966",
+      "baseline": "0c2c203079974097c8929336ce992bfc0cd5bc4784cf18b800dc916ce68ca2f6",
+      "optimized": "f56bdb67296864e8a76974256f30d502a9d63ce5d96491cc9200b97d1fcaf786",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "shaders/signature.wgsl",
+      "current": "649a9a8cfdb75f82bd922f74afc8d132ed2a40bdee6e3ee68df321cf0beabd0d",
+      "baseline": "649a9a8cfdb75f82bd922f74afc8d132ed2a40bdee6e3ee68df321cf0beabd0d",
+      "optimized": "649a9a8cfdb75f82bd922f74afc8d132ed2a40bdee6e3ee68df321cf0beabd0d",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/upscale.wgsl",
+      "current": "e4892d611a5378fcbfa84d66da720a6aca73d6004a42cca1c573885878de425f",
+      "baseline": "e4892d611a5378fcbfa84d66da720a6aca73d6004a42cca1c573885878de425f",
+      "optimized": "e4892d611a5378fcbfa84d66da720a6aca73d6004a42cca1c573885878de425f",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shaders/webgl.ts",
+      "current": "eb8373360330c9cfca2b32a5897e0d52b35907927c118540be1c984562b93388",
+      "baseline": "eb8373360330c9cfca2b32a5897e0d52b35907927c118540be1c984562b93388",
+      "optimized": "eb8373360330c9cfca2b32a5897e0d52b35907927c118540be1c984562b93388",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shared/localize.ts",
+      "current": "3c416055ab80867f16ac7c3991f2837dec71ebbfbc36418d70f107ae56b53ddb",
+      "baseline": "3c416055ab80867f16ac7c3991f2837dec71ebbfbc36418d70f107ae56b53ddb",
+      "optimized": "3c416055ab80867f16ac7c3991f2837dec71ebbfbc36418d70f107ae56b53ddb",
+      "sameAsBaseline": true,
+      "sameAsOptimized": true
+    },
+    {
+      "path": "shared/types.ts",
+      "current": "292ea5643b7db5ab67162f4a06c2752fa8d4c49872f89c7543c770bbb5145f19",
+      "baseline": "f5600a096732822a89c6a282fedab192a53c4ff78359678087f8037b5c1760e5",
+      "optimized": "82e170b9fecd3101f1808f2ae89ab65fac63180af3639d360ca7e7118b10247f",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "temporal/InterpolationSession.ts",
+      "current": "5d36f4a3f3706b1588cfe0d21b0872f45de0a9fbb93eaf06a014b6a16651d042",
+      "baseline": "bce13abd1d1b781d85531a1a128fb76dccf3fc9f232e49848911b0b9fe27bb3e",
+      "optimized": "7e01aa2b1e28e3d74773c99559f507016a998ce93227c30c9bf6d815dd10918b",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "temporal/PresentationClock.ts",
+      "current": "48e0dc551356585c2dc4ae3c616a0ffc5c1d942e205dce2126a22f2999f711cd",
+      "baseline": null,
+      "optimized": "ac438094caadd7e44321e9e1a3e6950fee58ec45376b7b8dbb59ba89a29138f2",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "temporal/SourcePolicy.ts",
+      "current": "fd48645f26565de24ea24e82ac18b93b823051f59fc3590b15afd5e94062e100",
+      "baseline": null,
+      "optimized": null,
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "temporal/TemporalClock.ts",
+      "current": "4004e993b8f6f02fe4d101c4be338e5fe68f11baa743e4e0f73382ba5c0c47af",
+      "baseline": "4a471fe69ac1495292ae44254e77fdc38affcfe80fbb801c55e107c3477c465b",
+      "optimized": "4a471fe69ac1495292ae44254e77fdc38affcfe80fbb801c55e107c3477c465b",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    },
+    {
+      "path": "temporal/TemporalProfiler.ts",
+      "current": "fd79c320c65eb958a70acba9dfc79aa50967a330df79b87f141690335e434a5f",
+      "baseline": null,
+      "optimized": "ccaadc8708300a8dd962aedab6ae1046158a7bf682f0bb8a350b81d4c6a676b4",
+      "sameAsBaseline": false,
+      "sameAsOptimized": false
+    }
+  ]
+}

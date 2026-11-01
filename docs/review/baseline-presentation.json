@@ -1,0 +1,104 @@
+{
+  "tag": "baseline",
+  "browser": "156.0.8078.4",
+  "sampleMs": 6004.20000000298,
+  "enhancedVisiblePercent": 94.08747210261609,
+  "start": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "balanced",
+    "profile": "balanced",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 180
+      },
+      "processing": {
+        "width": 320,
+        "height": 180
+      },
+      "output": {
+        "width": 855,
+        "height": 480
+      },
+      "display": {
+        "width": 855,
+        "height": 481
+      },
+      "screen": {
+        "width": 1280,
+        "height": 900
+      },
+      "css": {
+        "width": 855.4444444444446,
+        "height": 481.18750000000006
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 26.791511837310416,
+      "processedFPS": 24.319066148124307,
+      "latencyMs": 38.823828137046014,
+      "cpuSubmitMs": 0.4732165366693271,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 3,
+      "skippedFrames": 2,
+      "queueDepth": 0,
+      "failures": 0
+    },
+    "presented": 6,
+    "effectiveSharpness": 40,
+    "effectiveDenoise": 20
+  },
+  "end": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "balanced",
+    "profile": "balanced",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 180
+      },
+      "processing": {
+        "width": 320,
+        "height": 180
+      },
+      "output": {
+        "width": 855,
+        "height": 480
+      },
+      "display": {
+        "width": 855,
+        "height": 481
+      },
+      "screen": {
+        "width": 1280,
+        "height": 900
+      },
+      "css": {
+        "width": 855.4444444444446,
+        "height": 481.18750000000006
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 23.674728090433195,
+      "processedFPS": 24.453863710377146,
+      "latencyMs": 4.485200365180193,
+      "cpuSubmitMs": 0.2648790702791174,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 10,
+      "skippedFrames": 6,
+      "queueDepth": 0,
+      "failures": 0
+    },
+    "presented": 134,
+    "effectiveSharpness": 40,
+    "effectiveDenoise": 20
+  }
+}

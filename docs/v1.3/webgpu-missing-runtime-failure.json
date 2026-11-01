@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-31T23:48:19.356Z",
+  "productIntegrationComplete": false,
+  "browser": "156.0.8078.4",
+  "error": "Error: page.evaluate: Error: no available backend found. ERR: [webgpu] TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:5198/ort/ort-wasm-simd-threaded.asyncify.mjs\n    at Ai (http://127.0.0.1:5198/assets/rife-CJDZfXKp.js:1:2056)\n    at async Fi.create (http://127.0.0.1:5198/assets/rife-CJDZfXKp.js:1:21196)\n    at async Rn.create (http://127.0.0.1:5198/assets/rife-CJDZfXKp.js:6:40207)\n    at async xs (http://127.0.0.1:5198/assets/rife-CJDZfXKp.js:6:42333)\n    at async <anonymous>:396:30",
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,23 @@
+﻿import {chromium} from '@playwright/test';import {resolve} from 'node:path';import {mkdir,writeFile} from 'node:fs/promises';
+const out='docs/v1.2.1';await mkdir(out,{recursive:true});const extension=resolve('dist');const context=await chromium.launchPersistentContext('',{channel:'chromium',headless:true,viewport:{width:1440,height:1000},args:[`--disable-extensions-except=${extension}`,`--load-extension=${extension}`,'--autoplay-policy=no-user-gesture-required']});
+const report={date:new Date().toISOString(),browser:context.browser()?.version(),warmupSeconds:3,observationSeconds:10,cases:[]};
+try{const worker=context.serviceWorkers()[0]??await context.waitForEvent('serviceworker');
+ for(const id of ['YE7VzlLtp-4','M7lc1UVf-VE','aqz-KE-bpKQ']){
+  const row={url:'https://www.youtube.com/watch?v='+id,modes:[],errors:[]};report.cases.push(row);const page=await context.newPage();page.on('pageerror',e=>row.errors.push(e.message));
+  try{await worker.evaluate(()=>chrome.storage.local.set({'clarity.settings.v1':{enabled:true,adaptive:true,profile:'balanced',engine:'auto',targetResolution:'1080p',targetFPS:'144',saturation:100,brightness:100,comparison:false}}));
+   try{await page.goto(row.url,{waitUntil:'domcontentloaded',timeout:30000});}catch(e){row.navigationError=String(e);}
+   const reject=page.getByRole('button',{name:/Reject all|모두 거부/}).first();if(await reject.isVisible())await reject.click();
+   await page.waitForFunction(()=>{const v=document.querySelector('video');return v&&v.readyState>=2&&v.videoWidth>0&&!document.querySelector('.ad-showing,.ad-interrupting');},{},{timeout:30000});await page.locator('video').first().evaluate(async v=>{v.muted=true;await v.play();});row.title=await page.title();
+   const tabs=await worker.evaluate(()=>chrome.tabs.query({active:true,currentWindow:true})),tab=tabs[0].id;
+   const message=data=>worker.evaluate(async({id,data})=>chrome.tabs.sendMessage(id,data),{id:tab,data});
+   for(const diagnostic of [false,true]){await message({type:'clarity:diagnostics',enabled:diagnostic,signatures:false});await page.locator('video').first().evaluate(v=>{if(Number.isFinite(v.duration)&&v.duration>60)v.currentTime=45;});await page.waitForFunction(()=>{const v=document.querySelector('video');return v&&v.readyState>=2&&!v.seeking&&!v.paused&&!document.querySelector('.ad-showing,.ad-interrupting');},{},{timeout:20000});await page.waitForTimeout(3000);const nativeStart=await page.locator('video').first().evaluate(v=>({time:v.currentTime,total:v.getVideoPlaybackQuality().totalVideoFrames,dropped:v.getVideoPlaybackQuality().droppedVideoFrames}));const start=await message({type:'clarity:stats'}),started=Date.now(),samples=[];
+    for(let i=0;i<20;i++){await page.waitForTimeout(500);samples.push(await message({type:'clarity:stats'}));}
+    const end=await message({type:'clarity:stats'}),profile=await message({type:'clarity:profile'}),elapsed=Date.now()-started;
+    const nativeEnd=await page.locator('video').first().evaluate(v=>({time:v.currentTime,total:v.getVideoPlaybackQuality().totalVideoFrames,dropped:v.getVideoPlaybackQuality().droppedVideoFrames}));row.modes.push({diagnostic,elapsedMs:elapsed,nativeStart,nativeEnd,canvasTransitions:{shows:(end.canvasTransitions?.shows??0)-(start.canvasTransitions?.shows??0),hides:(end.canvasTransitions?.hides??0)-(start.canvasTransitions?.hides??0)},submittedFPS:(end.temporal.submitted-start.temporal.submitted)*1000/elapsed,generated:end.temporal.generated-start.temporal.generated,meanVisible:samples.reduce((s,x)=>s+x.metrics.enhancedVisiblePercent,0)/samples.length,meanRawSkew:samples.reduce((s,x)=>s+x.temporal.delayMs,0)/samples.length,meanAdditional:samples.reduce((s,x)=>s+(x.temporal.additionalDelayMs??0),0)/samples.length,profile,end,samples});
+    console.log(JSON.stringify({url:row.url,diagnostic,fps:row.modes.at(-1).submittedFPS,source:end.metrics.sourceFPS,visible:row.modes.at(-1).meanVisible,generated:row.modes.at(-1).generated,reason:end.temporal.reason}));
+   }
+   row.video=await page.locator('video').first().evaluate(v=>({width:v.videoWidth,height:v.videoHeight,paused:v.paused,mediaKeys:!!v.mediaKeys,time:v.currentTime,quality:v.getVideoPlaybackQuality().toJSON?.()??{total:v.getVideoPlaybackQuality().totalVideoFrames,dropped:v.getVideoPlaybackQuality().droppedVideoFrames}}));await page.screenshot({path:out+'/youtube-v121-'+id+'.png'});
+  }catch(e){row.error=String(e);console.log(JSON.stringify({url:row.url,error:row.error}));}finally{await page.close();await writeFile(out+'/youtube-v121.json',JSON.stringify(report,null,2));}
+ }
+}finally{await context.close();}
+

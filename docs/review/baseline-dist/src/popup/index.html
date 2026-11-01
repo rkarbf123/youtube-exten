@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Clarity</title>  <script type="module" crossorigin src="../../assets/popup-IjrbkCCC.js"></script>
+  <link rel="modulepreload" crossorigin href="../../assets/SettingsManager-BeeNFdAU.js">
+  <link rel="stylesheet" crossorigin href="../../assets/popup-lkgdXq-V.css">
+</head>
+<body><main>
+  <header><div class="brand"><span class="mark" aria-hidden="true">C<span>·</span></span><div><h1>Clarity</h1><p>GPU VIDEO UPSCALING</p></div></div><span class="local">LOCAL</span></header>
+  <section class="power"><div><h2>Video enhancement</h2><p>More clarity. Same player.</p></div><label class="switch"><input id="enabled" type="checkbox" aria-label="Enable video enhancement"><span></span></label></section>
+  <div id="status-card" class="status-card"><span id="status-dot" class="dot"></span><div><strong id="status">Connecting</strong><p id="reason" role="status">Looking for the active player…</p></div></div>
+  <section class="controls">
+    <div class="row"><label for="adaptive">Adaptive quality</label><label class="switch small"><input id="adaptive" type="checkbox"><span></span></label></div>
+    <p class="hint">Adjusts the processing profile and output size to protect playback.</p>
+    <div class="select-row"><label for="profile">Quality profile</label><select id="profile"><option value="eco">Eco</option><option value="balanced">Balanced</option><option value="quality">Quality</option><option value="ultra" disabled>Ultra · unavailable</option></select></div>
+    <label class="eyebrow" id="scale-label">OUTPUT SCALE</label><div id="scale" class="segments" role="group" aria-labelledby="scale-label"><button data-scale="auto">Auto</button><button data-scale="1.5">1.5×</button><button data-scale="2">2×</button><button data-scale="3">3×</button><button data-scale="4">4×</button></div>
+    <p class="hint">Capped to the player’s physical size and safe GPU limits.</p>
+    <div class="select-row"><label for="engine">Engine</label><select id="engine"><option value="auto">Automatic</option><option value="fast">Fast · spatial</option><option value="balanced">Balanced · spatial</option><option value="anime4k" disabled>Anime4K · unavailable</option><option value="neural" disabled>Neural · no model</option></select></div>
+    <div class="row strength"><label for="automaticStrength">Automatic enhancement strength</label><input id="automaticStrength" type="checkbox"></div>
+    <div class="slider-label"><label for="sharpness">Sharpness <span id="sharp-auto" class="auto-tag">AUTO LIMIT</span></label><output id="sharpness-value" for="sharpness">—</output></div><input id="sharpness" type="range" min="0" max="100" step="1">
+    <div class="slider-label"><label for="denoise">Denoising <span id="denoise-auto" class="auto-tag">AUTO LIMIT</span></label><output id="denoise-value" for="denoise">—</output></div><input id="denoise" type="range" min="0" max="100" step="1"><p class="hint" id="strength-note">Sliders set strength ceilings when automatic strength is on.</p>
+    <div class="row comparison"><label for="comparison">Compare original / enhanced</label><input type="checkbox" id="comparison"></div><p class="hint">Drag the divider on the video. Left: original. Right: enhanced.</p>
+  </section>
+  <section class="performance"><div class="section-title"><h2>Live performance</h2><span id="backend">—</span></div><dl>
+    <div><dt>Source</dt><dd id="source">—</dd></div><div><dt>Processing</dt><dd id="processing">—</dd></div><div><dt>Output texture</dt><dd id="output">—</dd></div><div><dt>Physical player</dt><dd id="display">—</dd></div><div><dt>Screen estimate</dt><dd id="screen">—</dd></div><div><dt>CSS player</dt><dd id="css">—</dd></div>
+    <div><dt>Source / processed</dt><dd id="fps">—</dd></div><div><dt>Completion latency</dt><dd id="latency">—</dd></div><div><dt>CPU submission</dt><dd id="cpu">—</dd></div><div><dt>GPU timestamp</dt><dd id="gpu">Unavailable</dd></div><div><dt>Profile / engine</dt><dd id="active-engine">—</dd></div><div><dt>Missed / skipped</dt><dd id="missed">—</dd></div><div><dt>Queue / errors</dt><dd id="queue">—</dd></div><div><dt>Presentation lateness</dt><dd id="late">—</dd></div>
+  </dl></section>
+  <footer><button id="reset">Reset settings</button><span>Spatial reconstruction · no cloud</span></footer>
+</main></body></html>

@@ -1,0 +1,95 @@
+{
+  "backend": "webgpu",
+  "results": [
+    {
+      "control": "saturation",
+      "value": 0,
+      "rgb": [
+        124,
+        124,
+        124
+      ]
+    },
+    {
+      "control": "saturation",
+      "value": 50,
+      "rgb": [
+        100,
+        126,
+        163
+      ]
+    },
+    {
+      "control": "saturation",
+      "value": 100,
+      "rgb": [
+        64,
+        128,
+        192
+      ]
+    },
+    {
+      "control": "saturation",
+      "value": 150,
+      "rgb": [
+        0,
+        129,
+        209
+      ]
+    },
+    {
+      "control": "saturation",
+      "value": 200,
+      "rgb": [
+        0,
+        129,
+        209
+      ]
+    },
+    {
+      "control": "brightness",
+      "value": 0,
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "control": "brightness",
+      "value": 50,
+      "rgb": [
+        44,
+        92,
+        140
+      ]
+    },
+    {
+      "control": "brightness",
+      "value": 100,
+      "rgb": [
+        64,
+        128,
+        192
+      ]
+    },
+    {
+      "control": "brightness",
+      "value": 150,
+      "rgb": [
+        75,
+        147,
+        220
+      ]
+    },
+    {
+      "control": "brightness",
+      "value": 200,
+      "rgb": [
+        82,
+        161,
+        241
+      ]
+    }
+  ]
+}

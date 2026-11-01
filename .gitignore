@@ -1,0 +1,10 @@
+node_modules/
+.venv-rife/
+.python/
+.uv-cache/
+dist/
+.npm-cache/
+test-results/
+playwright-report/
+.browser-profile/
+*.log

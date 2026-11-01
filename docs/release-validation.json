@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-31",
+  "unitTestsPassed": 34,
+  "browserTests": {
+    "startTime": "2026-10-31T13:03:12.459Z",
+    "duration": 28824.065000000002,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "build": "passed",
+  "youtubeEnhancedPixelsVerified": true,
+  "localBrowsers": [
+    {
+      "channel": "chrome",
+      "version": "156.0.8078.76",
+      "webgpuPassed": true,
+      "webgl2Passed": true,
+      "videoPresented": true
+    },
+    {
+      "channel": "msedge",
+      "version": "156.0.4314.50",
+      "webgpuPassed": true,
+      "webgl2Passed": true,
+      "videoPresented": true
+    }
+  ]
+}

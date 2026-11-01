@@ -1,0 +1,47 @@
+{
+  "version": "1.1.0",
+  "unitTests": 39,
+  "unitFailures": 0,
+  "browserTests": {
+    "startTime": "2026-10-31T14:21:11.829Z",
+    "duration": 44775.515999999996,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "actualYouTubePixels": true,
+  "actualYouTubeLayoutChecks": [
+    {
+      "name": "standard",
+      "passed": true
+    },
+    {
+      "name": "theater",
+      "passed": true
+    },
+    {
+      "name": "fullscreen",
+      "passed": true
+    },
+    {
+      "name": "seek and playback speed 1.25x",
+      "passed": true
+    },
+    {
+      "name": "window resize",
+      "passed": true
+    }
+  ],
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "lovelace",
+    "description": "",
+    "isFallbackAdapter": false
+  },
+  "hashes": {
+    "content": "4162fcb3b59b862aff354812796459e3a2b363028c98d5c0a564bfcb2be6dc35",
+    "currentWGSL": "f18877ba4ca6df52887adf00833893e60252a072af8f2cbf0b40d98c9ad35b3f",
+    "preservedV1WGSL": "520e9c8aec51a458bcbb10ff22b49dcd7d21d53e7ec664e4c07a7cbc1244675e"
+  }
+}

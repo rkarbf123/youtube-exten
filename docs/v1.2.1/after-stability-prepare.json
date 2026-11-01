@@ -1,0 +1,9 @@
+{
+  "variant": "after",
+  "suite": "prepare",
+  "date": "2026-10-31T21:17:14.463Z",
+  "warmupSeconds": 3,
+  "observationSeconds": 10,
+  "rows": [],
+  "browser": "156.0.8078.4"
+}

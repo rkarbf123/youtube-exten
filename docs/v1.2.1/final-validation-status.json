@@ -1,0 +1,94 @@
+[
+  {
+    "name": "final-matrix",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "matrix"
+    ],
+    "start": "2026-10-31T22:11:57.004Z",
+    "elapsedMs": 149714,
+    "exit": 0
+  },
+  {
+    "name": "final-low-repeat",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "low-repeat"
+    ],
+    "start": "2026-10-31T22:14:26.719Z",
+    "elapsedMs": 54955,
+    "exit": 0
+  },
+  {
+    "name": "final-combinations",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "combinations"
+    ],
+    "start": "2026-10-31T22:15:21.675Z",
+    "elapsedMs": 81998,
+    "exit": 0
+  },
+  {
+    "name": "final-long",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "long"
+    ],
+    "start": "2026-10-31T22:16:43.673Z",
+    "elapsedMs": 128048,
+    "exit": 0
+  },
+  {
+    "name": "final-fast",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "fast"
+    ],
+    "start": "2026-10-31T22:18:51.722Z",
+    "elapsedMs": 14494,
+    "exit": 0
+  },
+  {
+    "name": "artifacts-final",
+    "args": [
+      "scripts/artifacts-v121.mjs"
+    ],
+    "start": "2026-10-31T22:19:06.217Z",
+    "elapsedMs": 2429,
+    "exit": 0
+  },
+  {
+    "name": "stream-capture",
+    "args": [
+      "scripts/capture-v121.mjs"
+    ],
+    "start": "2026-10-31T22:19:08.646Z",
+    "elapsedMs": 1946,
+    "exit": 0
+  },
+  {
+    "name": "final-browsers",
+    "args": [
+      "scripts/verify-browsers.mjs",
+      "docs/v1.2.1"
+    ],
+    "start": "2026-10-31T22:19:10.593Z",
+    "elapsedMs": 4277,
+    "exit": 0
+  },
+  {
+    "name": "youtube-stability-final",
+    "args": [
+      "scripts/verify-stability-youtube.mjs"
+    ],
+    "start": "2026-10-31T22:19:14.871Z",
+    "elapsedMs": 19359,
+    "exit": 0
+  }
+]

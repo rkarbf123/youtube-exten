@@ -1,0 +1,409 @@
+{
+  "tag": "baseline",
+  "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+  "date": "2026-10-31T13:48:27.950Z",
+  "browser": "156.0.8078.4",
+  "verifiedEnhancedPixels": true,
+  "playback": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "fast",
+    "profile": "eco",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 240
+      },
+      "processing": {
+        "width": 320,
+        "height": 240
+      },
+      "output": {
+        "width": 930,
+        "height": 698
+      },
+      "display": {
+        "width": 931,
+        "height": 698
+      },
+      "screen": {
+        "width": 1440,
+        "height": 1000
+      },
+      "css": {
+        "width": 930.6666666666666,
+        "height": 698
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 15.41341468763525,
+      "processedFPS": 5.032459362896305,
+      "latencyMs": 125.45237989083219,
+      "cpuSubmitMs": 0.4593783595085332,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 28,
+      "skippedFrames": 22,
+      "queueDepth": 0,
+      "failures": 0
+    },
+    "presented": 15,
+    "effectiveSharpness": 22.000000000000004,
+    "effectiveDenoise": 0
+  },
+  "coverage": {
+    "sampleMs": 5012.199999999255,
+    "enhancedVisiblePercent": 85.1442480345402
+  },
+  "afterPlayback": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "fast",
+    "profile": "eco",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 240
+      },
+      "processing": {
+        "width": 320,
+        "height": 240
+      },
+      "output": {
+        "width": 930,
+        "height": 698
+      },
+      "display": {
+        "width": 931,
+        "height": 698
+      },
+      "screen": {
+        "width": 1440,
+        "height": 1000
+      },
+      "css": {
+        "width": 930.6666666666666,
+        "height": 698
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 15.00001420309019,
+      "processedFPS": 15.02102944119529,
+      "latencyMs": 9.281661093630044,
+      "cpuSubmitMs": 0.4064305671334935,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 28,
+      "skippedFrames": 22,
+      "queueDepth": 0,
+      "failures": 0
+    },
+    "presented": 91,
+    "effectiveSharpness": 22.000000000000004,
+    "effectiveDenoise": 0
+  },
+  "compositor": {
+    "left": 0.39398697293274876,
+    "right": 0.4406672866461804,
+    "total": 743902
+  },
+  "settingsChanges": [
+    {
+      "name": "no-sharpen",
+      "differenceFromNoSharpen": {
+        "left": 0,
+        "right": 0,
+        "total": 0
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 320,
+            "height": 240
+          },
+          "output": {
+            "width": 930,
+            "height": 698
+          },
+          "display": {
+            "width": 931,
+            "height": 698
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 930.6666666666666,
+            "height": 698
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 15.00001420309019,
+          "processedFPS": 0,
+          "latencyMs": 12.014500140767966,
+          "cpuSubmitMs": 0.4046460853742099,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 28,
+          "skippedFrames": 22,
+          "queueDepth": 0,
+          "failures": 0
+        },
+        "presented": 93,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0
+      }
+    },
+    {
+      "name": "sharpen",
+      "differenceFromNoSharpen": {
+        "left": 0.3032155248930848,
+        "right": 0.35401504124211547,
+        "total": 585756
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 320,
+            "height": 240
+          },
+          "output": {
+            "width": 930,
+            "height": 698
+          },
+          "display": {
+            "width": 931,
+            "height": 698
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 930.6666666666666,
+            "height": 698
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 15.00001420309019,
+          "processedFPS": 0.7939028262954704,
+          "latencyMs": 11.817325119541012,
+          "cpuSubmitMs": 0.49394917256807835,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 28,
+          "skippedFrames": 22,
+          "queueDepth": 0,
+          "failures": 0
+        },
+        "presented": 94,
+        "effectiveSharpness": 70,
+        "effectiveDenoise": 0
+      }
+    },
+    {
+      "name": "denoise",
+      "differenceFromNoSharpen": {
+        "left": 0.40150353694289787,
+        "right": 0.39754726220640824,
+        "total": 712217
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 320,
+            "height": 240
+          },
+          "output": {
+            "width": 930,
+            "height": 698
+          },
+          "display": {
+            "width": 931,
+            "height": 698
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 930.6666666666666,
+            "height": 698
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 15.00001420309019,
+          "processedFPS": 1.050309841403625,
+          "latencyMs": 11.259726351833377,
+          "cpuSubmitMs": 0.47985679645934914,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 28,
+          "skippedFrames": 22,
+          "queueDepth": 0,
+          "failures": 0
+        },
+        "presented": 95,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 80
+      }
+    },
+    {
+      "name": "animation",
+      "differenceFromNoSharpen": {
+        "left": 0.08823529411764706,
+        "right": 0.10972177296170503,
+        "total": 176423
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 320,
+            "height": 240
+          },
+          "output": {
+            "width": 930,
+            "height": 698
+          },
+          "display": {
+            "width": 931,
+            "height": 698
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 930.6666666666666,
+            "height": 698
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 15.00001420309019,
+          "processedFPS": 1.0302905419312434,
+          "latencyMs": 10.305767399393646,
+          "cpuSubmitMs": 0.45287827710220546,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 28,
+          "skippedFrames": 22,
+          "queueDepth": 0,
+          "failures": 0
+        },
+        "presented": 96,
+        "effectiveSharpness": 30,
+        "effectiveDenoise": 20
+      }
+    },
+    {
+      "name": "fast",
+      "differenceFromNoSharpen": {
+        "left": 0.4936960380860163,
+        "right": 0.5711123241145075,
+        "total": 949014
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 320,
+            "height": 240
+          },
+          "output": {
+            "width": 930,
+            "height": 698
+          },
+          "display": {
+            "width": 931,
+            "height": 698
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 930.6666666666666,
+            "height": 698
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 15.00001420309019,
+          "processedFPS": 1.0386373078533038,
+          "latencyMs": 9.8849022894846,
+          "cpuSubmitMs": 0.4449465353133572,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 28,
+          "skippedFrames": 22,
+          "queueDepth": 0,
+          "failures": 0
+        },
+        "presented": 97,
+        "effectiveSharpness": 30,
+        "effectiveDenoise": 0
+      }
+    }
+  ],
+  "errors": [],
+  "video": {
+    "width": 320,
+    "height": 240,
+    "time": 11.530072,
+    "paused": true,
+    "mediaKeys": false
+  }
+}

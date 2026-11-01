@@ -1,0 +1,111 @@
+﻿{
+    "date":  "2026-10-31T23:13:09.4733671Z",
+    "version":  "1.2.1",
+    "manifestVersion":  3,
+    "fileCount":  20,
+    "sha256":  "82a2c383348d70d686a9aeb1362fd52e7723e282068bb033b8e9f7773bd0914b",
+    "genericZipSame":  true,
+    "allFilesMatchMeasuredDist":  true,
+    "files":  [
+                  {
+                      "path":  "assets/harness-D-bAlw5X.js",
+                      "sha256":  "aba7780c4529b92fc1d622509be3b44b3edcbc420c6a13d42dc7f165608877c7",
+                      "bytes":  216274
+                  },
+                  {
+                      "path":  "assets/harness-Dr1agpG8.css",
+                      "sha256":  "7f12484c38a2ac913adff9bda28954cc104db6b4255a8bdb4e93583bcc8eaee2",
+                      "bytes":  1923
+                  },
+                  {
+                      "path":  "assets/popup-CyL7Lkrq.js",
+                      "sha256":  "11438261a325f3fc7afe032adab16581fe10ab28a18bf0eadfe387d69d87e325",
+                      "bytes":  8009
+                  },
+                  {
+                      "path":  "assets/popup-DwvwrIbz.css",
+                      "sha256":  "a746bd96eed9387b25344065771d1b250a3044916d8e0506a8111e372ad45001",
+                      "bytes":  5073
+                  },
+                  {
+                      "path":  "assets/types-D6ydw_jh.js",
+                      "sha256":  "444d0563a312d66808141e79540ff49ddc96426a97da17fe79b4ccdf3b1b58af",
+                      "bytes":  2836
+                  },
+                  {
+                      "path":  "harness/index.html",
+                      "sha256":  "bd7aff308d5252e4796237f1fde2d5ff0788c7e38db4a7597c0b8cba7cd50b44",
+                      "bytes":  4120
+                  },
+                  {
+                      "path":  "icons/icon128.png",
+                      "sha256":  "95d2a83f75830113128ac753321ba9795603768078a45ddbe252acd4ac0d70d7",
+                      "bytes":  18836
+                  },
+                  {
+                      "path":  "icons/icon16.png",
+                      "sha256":  "a7a66a55130dbd8e167fc82a0729865e60614d01617bfb2eba2b4cc3dd8820c4",
+                      "bytes":  719
+                  },
+                  {
+                      "path":  "icons/icon32.png",
+                      "sha256":  "814be7fca41e2a02700a25fcf9e972187896bf8fed66f0e44430c30ae6456fb8",
+                      "bytes":  1848
+                  },
+                  {
+                      "path":  "icons/icon48.png",
+                      "sha256":  "ac2e86b34864349cee68d532e62ee48b09b613fccc9d20917045a39ecaf8e5b2",
+                      "bytes":  2995
+                  },
+                  {
+                      "path":  "licenses/FSR-LICENSE.txt",
+                      "sha256":  "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802",
+                      "bytes":  1094
+                  },
+                  {
+                      "path":  "licenses/Vite-LICENSE.md",
+                      "sha256":  "a77a1c089806b39ad339535bdf3677f636c91d96693e8ad7b11fe733f650ea64",
+                      "bytes":  101176
+                  },
+                  {
+                      "path":  "src/popup/index.html",
+                      "sha256":  "51317988b320ee12f6a6969c020bf4ad1b5e09994c06155af8ff851da5c30169",
+                      "bytes":  5625
+                  },
+                  {
+                      "path":  "background.js",
+                      "sha256":  "43349d52a0f2aaf788bb6045336c46580168aac9f4eb06be718526bf1273027b",
+                      "bytes":  114
+                  },
+                  {
+                      "path":  "content.js",
+                      "sha256":  "d36ff21662bc291f713c928b363825933db71a373cc1ce939eddc81b42f2bf32",
+                      "bytes":  106410
+                  },
+                  {
+                      "path":  "diagnostic.webm",
+                      "sha256":  "99c8e45e00a8a3f0c7b9eeb311289c6dbb857c845326d13e6245e9a7d67a2068",
+                      "bytes":  95998
+                  },
+                  {
+                      "path":  "INSTALL.txt",
+                      "sha256":  "872d4a0ee5565fde0968415d9162680a7a9b85bc9d3ecaa713b086cd4ead1bb9",
+                      "bytes":  2085
+                  },
+                  {
+                      "path":  "LICENSE",
+                      "sha256":  "6d03f0cd1163155a9626a61f5da9cb44ddd0fcf5eff55ce426bcb57ead926ded",
+                      "bytes":  1077
+                  },
+                  {
+                      "path":  "manifest.json",
+                      "sha256":  "eee5aa8903a9ad74316c36827f4e58f72bd3ed81ce5dfd50aafdf0bd9434d4e3",
+                      "bytes":  1035
+                  },
+                  {
+                      "path":  "THIRD_PARTY_NOTICES.md",
+                      "sha256":  "2216e6ca248464ee99add6104d36a32d949a9f737e31379ea5b296f624f37091",
+                      "bytes":  2189
+                  }
+              ]
+}

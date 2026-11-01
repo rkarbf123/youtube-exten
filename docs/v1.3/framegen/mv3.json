@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-01T06:33:50.455Z",
+  "productIntegrationComplete": false,
+  "remoteRequests": [],
+  "cspErrors": [],
+  "package": "framegen@1.4.0",
+  "modelHash": "76428e1769f742a2aaad79996f2eb57cc29388a6dc21c242386ca9110c0bb397",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "lovelace"
+  },
+  "gpuErrors": [],
+  "rows": [
+    {
+      "scene": "horizontal",
+      "t": 0.25,
+      "rmse": 2.6850269225191723,
+      "positionError": 0.24003052551084852,
+      "guard": {
+        "difference": 0.023161645494773786,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "horizontal",
+      "t": 0.5,
+      "rmse": 2.859169125861179,
+      "positionError": 0.21349213051020813,
+      "guard": {
+        "difference": 0.023161645494773786,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "horizontal",
+      "t": 0.75,
+      "rmse": 2.181558150391978,
+      "positionError": 0.1136102864083217,
+      "guard": {
+        "difference": 0.023161645494773786,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "vertical",
+      "t": 0.25,
+      "rmse": 2.73435218244448,
+      "positionError": 0.2035261107870092,
+      "guard": {
+        "difference": 0.01966905804150454,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "vertical",
+      "t": 0.5,
+      "rmse": 4.52282802097224,
+      "positionError": 0.26305971620879964,
+      "guard": {
+        "difference": 0.01966905804150454,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "vertical",
+      "t": 0.75,
+      "rmse": 2.331161796439826,
+      "positionError": 0.23020758919167011,
+      "guard": {
+        "difference": 0.01966905804150454,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "diagonal",
+      "t": 0.25,
+      "rmse": 3.802763923103972,
+      "positionError": 0.3262294945074679,
+      "guard": {
+        "difference": 0.036274390592813004,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "diagonal",
+      "t": 0.5,
+      "rmse": 4.622396860328524,
+      "positionError": 0.6239348510553697,
+      "guard": {
+        "difference": 0.036274390592813004,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "diagonal",
+      "t": 0.75,
+      "rmse": 4.815394714733213,
+      "positionError": 0.34893504614632775,
+      "guard": {
+        "difference": 0.036274390592813004,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "opposed",
+      "t": 0.25,
+      "rmse": 3.382245309455441,
+      "positionError": 1.3020781484822248,
+      "guard": {
+        "difference": 0.0481002517738613,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "opposed",
+      "t": 0.5,
+      "rmse": 3.7210062599793563,
+      "positionError": 1.1144720733036764,
+      "guard": {
+        "difference": 0.0481002517738613,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "opposed",
+      "t": 0.75,
+      "rmse": 2.7566591958156526,
+      "positionError": 0.44312515370149275,
+      "guard": {
+        "difference": 0.0481002517738613,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "occlusion",
+      "t": 0.25,
+      "rmse": 7.012351531528929,
+      "positionError": 1.7324005145655348,
+      "guard": {
+        "difference": 0.012147433146410315,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "occlusion",
+      "t": 0.5,
+      "rmse": 8.635299179940631,
+      "positionError": 3.1694852076880107,
+      "guard": {
+        "difference": 0.012147433146410315,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "occlusion",
+      "t": 0.75,
+      "rmse": 6.0102271056184815,
+      "positionError": 1.8734059325478585,
+      "guard": {
+        "difference": 0.012147433146410315,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "fast",
+      "t": 0.25,
+      "rmse": 7.823883720187429,
+      "positionError": 0.41227570771654365,
+      "guard": {
+        "difference": 0.04319841020065614,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "fast",
+      "t": 0.5,
+      "rmse": 8.808671104766283,
+      "positionError": 1.6714957793009633,
+      "guard": {
+        "difference": 0.04319841020065614,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "fast",
+      "t": 0.75,
+      "rmse": 6.209658869958156,
+      "positionError": 1.0749849958379922,
+      "guard": {
+        "difference": 0.04319841020065614,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "repeating",
+      "t": 0.25,
+      "rmse": 41.71925685033348,
+      "positionError": null,
+      "guard": {
+        "difference": 0.13724727244983598,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "repeating",
+      "t": 0.5,
+      "rmse": 55.53792913195112,
+      "positionError": null,
+      "guard": {
+        "difference": 0.13724727244983598,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "repeating",
+      "t": 0.75,
+      "rmse": 42.7080428089712,
+      "positionError": null,
+      "guard": {
+        "difference": 0.13724727244983598,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "animation",
+      "t": 0.25,
+      "rmse": 22.54172743849633,
+      "positionError": 0.4534491778567824,
+      "guard": {
+        "difference": 0.06776477979324025,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "animation",
+      "t": 0.5,
+      "rmse": 23.71718630477228,
+      "positionError": 0.6902771750325057,
+      "guard": {
+        "difference": 0.06776477979324025,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "animation",
+      "t": 0.75,
+      "rmse": 22.095235835233424,
+      "positionError": 1.1143913204414047,
+      "guard": {
+        "difference": 0.06776477979324025,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "border",
+      "t": 0.25,
+      "rmse": 3.8985138672658186,
+      "positionError": 0.8946474391777248,
+      "guard": {
+        "difference": 0.013143263141832609,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "border",
+      "t": 0.5,
+      "rmse": 3.519543341097125,
+      "positionError": 0.3218716371194182,
+      "guard": {
+        "difference": 0.013143263141832609,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "border",
+      "t": 0.75,
+      "rmse": 2.957333677933366,
+      "positionError": 0.3242911626994723,
+      "guard": {
+        "difference": 0.013143263141832609,
+        "originalOnly": false
+      }
+    },
+    {
+      "scene": "flash",
+      "t": 0.25,
+      "rmse": 103.73591939257213,
+      "positionError": 12.26899153498684,
+      "guard": {
+        "difference": 0.5347428854810407,
+        "originalOnly": true
+      }
+    },
+    {
+      "scene": "flash",
+      "t": 0.5,
+      "rmse": 68.89302231943054,
+      "positionError": 8.27006401763592,
+      "guard": {
+        "difference": 0.5347428854810407,
+        "originalOnly": true
+      }
+    },
+    {
+      "scene": "flash",
+      "t": 0.75,
+      "rmse": 34.64888366006745,
+      "positionError": 4.212353461154822,
+      "guard": {
+        "difference": 0.5347428854810407,
+        "originalOnly": true
+      }
+    },
+    {
+      "scene": "cut",
+      "t": 0.25,
+      "rmse": 0,
+      "positionError": 0,
+      "guard": {
+        "difference": 0.48265877727550166,
+        "originalOnly": true
+      }
+    },
+    {
+      "scene": "cut",
+      "t": 0.5,
+      "rmse": 0,
+      "positionError": 0,
+      "guard": {
+        "difference": 0.48265877727550166,
+        "originalOnly": true
+      }
+    },
+    {
+      "scene": "cut",
+      "t": 0.75,
+      "rmse": 0,
+      "positionError": 0,
+      "guard": {
+        "difference": 0.48265877727550166,
+        "originalOnly": true
+      }
+    }
+  ],
+  "passed": true
+}

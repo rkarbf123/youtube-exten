@@ -1,0 +1,206 @@
+{
+  "date": "2026-11-01",
+  "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+  "verifiedEnhancedPixels": true,
+  "browserVersion": "156.0.8078.4",
+  "title": "Me at the zoo - YouTube",
+  "video": {
+    "width": 320,
+    "height": 240,
+    "readyState": 4,
+    "paused": false,
+    "mediaKeys": false
+  },
+  "stats": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "balanced",
+    "profile": "quality",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 240
+      },
+      "processing": {
+        "width": 1440,
+        "height": 1080
+      },
+      "output": {
+        "width": 1440,
+        "height": 1080
+      },
+      "requested": {
+        "width": 1440,
+        "height": 1080
+      },
+      "display": {
+        "width": 996,
+        "height": 747
+      },
+      "css": {
+        "width": 996,
+        "height": 747
+      },
+      "screen": {
+        "width": 1440,
+        "height": 1000
+      },
+      "eligible": true,
+      "limited": false,
+      "estimatedBytes": 13056000,
+      "resolutionReason": "선택한 목표 해상도로 GPU 재구성합니다."
+    },
+    "metrics": {
+      "sourceFPS": 14.999999344023305,
+      "processedFPS": 14.943061781808352,
+      "latencyMs": 8.037665741449622,
+      "cpuSubmitMs": 0.7405196140667474,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 2,
+      "skippedFrames": 1,
+      "queueDepth": 0,
+      "failures": 0,
+      "enhancedVisiblePercent": 100
+    },
+    "presented": 240,
+    "effectiveSharpness": 40,
+    "effectiveDenoise": 20,
+    "algorithm": "FSR1 EASU · 실사",
+    "presentation": "split",
+    "fallback": false,
+    "upscalingActive": true,
+    "scaleRatio": 4.5,
+    "frameAgeMs": 17.299999997019768,
+    "temporal": {
+      "state": "off",
+      "reason": "프레임 보간을 사용하지 않습니다.",
+      "engine": "없음",
+      "requestedFPS": null,
+      "refreshHz": null,
+      "physicalFPS": null,
+      "submittedFPS": 14.920919128607265,
+      "generatedFPS": 0,
+      "generated": 0,
+      "submitted": 240,
+      "uniqueSamples": 0,
+      "sourceFrames": 0,
+      "dropped": 0,
+      "flowMs": null,
+      "interpolationMs": null,
+      "upscaleMs": null,
+      "delayMs": 0,
+      "flowSize": null,
+      "sceneCuts": 0,
+      "confidence": 0,
+      "queueDepth": 0
+    },
+    "canvasTransitions": {
+      "shows": 1,
+      "hides": 0
+    },
+    "recoveries": 0
+  },
+  "pixelEvidence": {
+    "displayed": true,
+    "method": "Compositor screenshots of paused video; comparison left side unenhanced, right side processed.",
+    "leftMeanChannelDifference": 0.2874672573023747,
+    "rightMeanChannelDifference": 1.2683913861769451,
+    "absoluteChannelDifference": 1624198,
+    "overlayRect": {
+      "x": 16,
+      "y": 68,
+      "width": 996,
+      "height": 747
+    }
+  },
+  "layoutChecks": [
+    {
+      "name": "standard",
+      "processedVisible": true,
+      "video": {
+        "x": 16,
+        "y": 68,
+        "width": 996,
+        "height": 747
+      },
+      "overlay": {
+        "x": 16,
+        "y": 68,
+        "width": 996,
+        "height": 747
+      },
+      "fullscreen": false
+    },
+    {
+      "name": "theater",
+      "processedVisible": true,
+      "video": {
+        "x": 166,
+        "y": 56,
+        "width": 1108,
+        "height": 831
+      },
+      "overlay": {
+        "x": 166,
+        "y": 56,
+        "width": 1108,
+        "height": 831
+      },
+      "fullscreen": false
+    },
+    {
+      "name": "fullscreen",
+      "processedVisible": true,
+      "video": {
+        "x": 53,
+        "y": 0,
+        "width": 1333,
+        "height": 1000
+      },
+      "overlay": {
+        "x": 53,
+        "y": 0.109375,
+        "width": 1333,
+        "height": 999.75
+      },
+      "fullscreen": true
+    },
+    {
+      "name": "seek and playback speed 1.25x",
+      "processedVisible": true,
+      "video": {
+        "x": 16,
+        "y": 68,
+        "width": 996,
+        "height": 747
+      },
+      "overlay": {
+        "x": 16,
+        "y": 68,
+        "width": 996,
+        "height": 747
+      },
+      "fullscreen": false
+    },
+    {
+      "name": "window resize",
+      "processedVisible": true,
+      "video": {
+        "x": 16,
+        "y": 68,
+        "width": 836,
+        "height": 627
+      },
+      "overlay": {
+        "x": 16,
+        "y": 68,
+        "width": 836,
+        "height": 627
+      },
+      "fullscreen": false
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "paths": { "framegen": ["./node_modules/framegen/index.d.ts"] },
+    "target": "ES2022", "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext", "moduleResolution": "Bundler", "strict": true,
+    "noEmit": true, "skipLibCheck": true, "types": ["node", "chrome", "@webgpu/types", "vite/client"],
+    "noUnusedLocals": true, "noUnusedParameters": true
+  },
+  "include": ["src", "tests", "vite.config.ts", "playwright.config.ts"]
+}

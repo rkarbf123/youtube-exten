@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-31T23:49:46.022Z",
+  "productIntegrationComplete": false,
+  "browser": "156.0.8078.4",
+  "inference": {
+    "status": "failed",
+    "productIntegrationComplete": false,
+    "cpuFallbackAllowed": false,
+    "model": {
+      "model": "Practical-RIFE 4.25.lite (1018)",
+      "license": "MIT",
+      "upstream": "https://github.com/hzwer/Practical-RIFE",
+      "checkpointUrl": "https://drive.google.com/file/d/1zlKblGuKNatulJNFf5jdB-emp9AqGK05/view",
+      "checkpointSha256": "81cdba223fe72a120130cc8552e5d2ecac824259d406f0c15323b3decf96b8b1",
+      "onnxSha256": "c9b214e7b36b3721d28994221e551240580b9916b2f49da7bdc983b9a166c8e5",
+      "onnxBytes": 24966876,
+      "parameters": 5622700,
+      "strictInferenceCheckpointLoad": true,
+      "excludedTrainingKeys": [
+        "teacher.conv0.0.0.weight",
+        "teacher.conv0.0.0.bias",
+        "teacher.conv0.1.0.weight",
+        "teacher.conv0.1.0.bias",
+        "teacher.convblock.0.beta",
+        "teacher.convblock.0.conv.weight",
+        "teacher.convblock.0.conv.bias",
+        "teacher.convblock.1.beta",
+        "teacher.convblock.1.conv.weight",
+        "teacher.convblock.1.conv.bias",
+        "teacher.convblock.2.beta",
+        "teacher.convblock.2.conv.weight",
+        "teacher.convblock.2.conv.bias",
+        "teacher.convblock.3.beta",
+        "teacher.convblock.3.conv.weight",
+        "teacher.convblock.3.conv.bias",
+        "teacher.convblock.4.beta",
+        "teacher.convblock.4.conv.weight",
+        "teacher.convblock.4.conv.bias",
+        "teacher.convblock.5.beta",
+        "teacher.convblock.5.conv.weight",
+        "teacher.convblock.5.conv.bias",
+        "teacher.convblock.6.beta",
+        "teacher.convblock.6.conv.weight",
+        "teacher.convblock.6.conv.bias",
+        "teacher.convblock.7.beta",
+        "teacher.convblock.7.conv.weight",
+        "teacher.convblock.7.conv.bias",
+        "teacher.lastconv.0.weight",
+        "teacher.lastconv.0.bias",
+        "caltime.0.weight",
+        "caltime.0.bias",
+        "caltime.2.weight",
+        "caltime.2.bias",
+        "caltime.4.weight",
+        "caltime.4.bias",
+        "caltime.6.weight",
+        "caltime.6.bias",
+        "caltime.8.weight",
+        "caltime.8.bias"
+      ],
+      "torch": "2.8.0+cpu",
+      "onnx": "1.19.1",
+      "ortCpuReference": "1.23.2",
+      "shape": [
+        1,
+        6,
+        128,
+        128
+      ],
+      "timestepShape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "channelOrder": "BGR",
+      "scaleList": [
+        32,
+        16,
+        8,
+        4,
+        1
+      ],
+      "opset": 17,
+      "operators": [
+        "Add",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "ConvTranspose",
+        "DepthToSpace",
+        "Div",
+        "Expand",
+        "GridSample",
+        "LeakyRelu",
+        "Mul",
+        "Resize",
+        "Sigmoid",
+        "Slice",
+        "Sub",
+        "Tile",
+        "Transpose"
+      ],
+      "conversionSeconds": 1.4489743000012822,
+      "comparison": [
+        {
+          "timestep": 0.25,
+          "maxAbs": 0.000007808208465576172,
+          "mae": 1.1156316759297624e-8,
+          "rmse": 1.5093625904682995e-7
+        },
+        {
+          "timestep": 0.5,
+          "maxAbs": 0.000006556510925292969,
+          "mae": 9.172102188870213e-9,
+          "rmse": 9.193291816700366e-8
+        },
+        {
+          "timestep": 0.75,
+          "maxAbs": 0.0000064373016357421875,
+          "mae": 9.847856752287498e-9,
+          "rmse": 1.0103323688781529e-7
+        }
+      ],
+      "browserWebGpuVerified": false,
+      "productIntegrationComplete": false
+    },
+    "loadMs": 1563.1999999955297,
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "lovelace"
+    },
+    "rows": [
+      {
+        "timestep": 0.25,
+        "location": "cpu",
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "completionMs": 458.5,
+        "maxAbs": 0.8640101402997971,
+        "mae": 0.002950413970362812,
+        "rmse": 0.04410211563898771,
+        "hash": "67ebaba038b34801c426728d6ca5d5fe6a012894972925faaaacb6774a95c2a7",
+        "passed": false
+      },
+      {
+        "timestep": 0.5,
+        "location": "cpu",
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "completionMs": 8.899999998509884,
+        "maxAbs": 0.4909695088863373,
+        "mae": 0.0010411551267376733,
+        "rmse": 0.014467083985683618,
+        "hash": "5cb70812ba528b0e7f09e1051a7713d98af33f14fa0ae3c6175cb8076dce826c",
+        "passed": false
+      },
+      {
+        "timestep": 0.75,
+        "location": "cpu",
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "completionMs": 8.299999997019768,
+        "maxAbs": 0.4626677334308624,
+        "mae": 0.001041760909477792,
+        "rmse": 0.01604403768123383,
+        "hash": "2884f3dee585a67e4d042fd7d2b1eb1ea673176add69fec1a5e251f72d668d98",
+        "passed": false
+      }
+    ],
+    "gpuErrors": [],
+    "distinctOutputs": 3,
+    "released": true
+  },
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "warning",
+      "text": "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127"
+    }
+  ],
+  "errors": []
+}

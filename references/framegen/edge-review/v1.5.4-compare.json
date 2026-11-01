@@ -1,0 +1,357 @@
+﻿{
+    "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/compare/v1.5.3...v1.5.4",
+    "html_url":  "https://github.com/MONZikWasTaken/Framegen/compare/v1.5.3...v1.5.4",
+    "permalink_url":  "https://github.com/MONZikWasTaken/Framegen/compare/MONZikWasTaken:4cc26b8...MONZikWasTaken:fc167eb",
+    "diff_url":  "https://github.com/MONZikWasTaken/Framegen/compare/v1.5.3...v1.5.4.diff",
+    "patch_url":  "https://github.com/MONZikWasTaken/Framegen/compare/v1.5.3...v1.5.4.patch",
+    "base_commit":  {
+                        "sha":  "4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                        "node_id":  "C_kwDOTK5prtoAKDRjYzI2YjgwZWEwOTZiZTBhYjNlZmQ5NDBhZTkxMjQzMDY4ZDYwZWQ",
+                        "commit":  {
+                                       "author":  {
+                                                      "name":  "Monzik Allen",
+                                                      "email":  "monzikxd@gmail.com",
+                                                      "date":  "2026-10-01T04:27:00Z"
+                                                  },
+                                       "committer":  {
+                                                         "name":  "Monzik Allen",
+                                                         "email":  "monzikxd@gmail.com",
+                                                         "date":  "2026-10-01T04:27:00Z"
+                                                     },
+                                       "message":  "Release v1.5.3 with static HUD protection and fullscreen Auto recovery.\n\nStatic UI keeps a 4px halo, Auto no longer idles the GPU because of upscale or a paused sample, and entering or leaving fullscreen no longer pins playback at the source rate.",
+                                       "tree":  {
+                                                    "sha":  "c3996b1230ddd61acee0a7a453f2b4e561ead542",
+                                                    "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/c3996b1230ddd61acee0a7a453f2b4e561ead542"
+                                                },
+                                       "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                       "comment_count":  0,
+                                       "verification":  {
+                                                            "verified":  false,
+                                                            "reason":  "unsigned",
+                                                            "signature":  null,
+                                                            "payload":  null,
+                                                            "verified_at":  null
+                                                        }
+                                   },
+                        "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                        "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                        "comments_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed/comments",
+                        "author":  {
+                                       "login":  "MONZikWasTaken",
+                                       "id":  207424525,
+                                       "node_id":  "U_kgDODF0MDQ",
+                                       "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                       "gravatar_id":  "",
+                                       "url":  "https://api.github.com/users/MONZikWasTaken",
+                                       "html_url":  "https://github.com/MONZikWasTaken",
+                                       "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                       "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                       "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                       "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                       "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                       "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                       "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                       "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                       "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                       "type":  "User",
+                                       "user_view_type":  "public",
+                                       "site_admin":  false
+                                   },
+                        "committer":  {
+                                          "login":  "MONZikWasTaken",
+                                          "id":  207424525,
+                                          "node_id":  "U_kgDODF0MDQ",
+                                          "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                          "gravatar_id":  "",
+                                          "url":  "https://api.github.com/users/MONZikWasTaken",
+                                          "html_url":  "https://github.com/MONZikWasTaken",
+                                          "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                          "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                          "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                          "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                          "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                          "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                          "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                          "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                          "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                          "type":  "User",
+                                          "user_view_type":  "public",
+                                          "site_admin":  false
+                                      },
+                        "parents":  [
+                                        {
+                                            "sha":  "f97112e38d579523252159eac7c9b7d17445107a",
+                                            "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/f97112e38d579523252159eac7c9b7d17445107a",
+                                            "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/f97112e38d579523252159eac7c9b7d17445107a"
+                                        }
+                                    ]
+                    },
+    "merge_base_commit":  {
+                              "sha":  "4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                              "node_id":  "C_kwDOTK5prtoAKDRjYzI2YjgwZWEwOTZiZTBhYjNlZmQ5NDBhZTkxMjQzMDY4ZDYwZWQ",
+                              "commit":  {
+                                             "author":  {
+                                                            "name":  "Monzik Allen",
+                                                            "email":  "monzikxd@gmail.com",
+                                                            "date":  "2026-10-01T04:27:00Z"
+                                                        },
+                                             "committer":  {
+                                                               "name":  "Monzik Allen",
+                                                               "email":  "monzikxd@gmail.com",
+                                                               "date":  "2026-10-01T04:27:00Z"
+                                                           },
+                                             "message":  "Release v1.5.3 with static HUD protection and fullscreen Auto recovery.\n\nStatic UI keeps a 4px halo, Auto no longer idles the GPU because of upscale or a paused sample, and entering or leaving fullscreen no longer pins playback at the source rate.",
+                                             "tree":  {
+                                                          "sha":  "c3996b1230ddd61acee0a7a453f2b4e561ead542",
+                                                          "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/c3996b1230ddd61acee0a7a453f2b4e561ead542"
+                                                      },
+                                             "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                             "comment_count":  0,
+                                             "verification":  {
+                                                                  "verified":  false,
+                                                                  "reason":  "unsigned",
+                                                                  "signature":  null,
+                                                                  "payload":  null,
+                                                                  "verified_at":  null
+                                                              }
+                                         },
+                              "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                              "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                              "comments_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed/comments",
+                              "author":  {
+                                             "login":  "MONZikWasTaken",
+                                             "id":  207424525,
+                                             "node_id":  "U_kgDODF0MDQ",
+                                             "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                             "gravatar_id":  "",
+                                             "url":  "https://api.github.com/users/MONZikWasTaken",
+                                             "html_url":  "https://github.com/MONZikWasTaken",
+                                             "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                             "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                             "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                             "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                             "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                             "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                             "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                             "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                             "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                             "type":  "User",
+                                             "user_view_type":  "public",
+                                             "site_admin":  false
+                                         },
+                              "committer":  {
+                                                "login":  "MONZikWasTaken",
+                                                "id":  207424525,
+                                                "node_id":  "U_kgDODF0MDQ",
+                                                "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                                "gravatar_id":  "",
+                                                "url":  "https://api.github.com/users/MONZikWasTaken",
+                                                "html_url":  "https://github.com/MONZikWasTaken",
+                                                "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                                "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                                "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                                "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                                "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                                "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                                "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                                "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                                "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                                "type":  "User",
+                                                "user_view_type":  "public",
+                                                "site_admin":  false
+                                            },
+                              "parents":  [
+                                              {
+                                                  "sha":  "f97112e38d579523252159eac7c9b7d17445107a",
+                                                  "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/f97112e38d579523252159eac7c9b7d17445107a",
+                                                  "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/f97112e38d579523252159eac7c9b7d17445107a"
+                                              }
+                                          ]
+                          },
+    "status":  "ahead",
+    "ahead_by":  1,
+    "behind_by":  0,
+    "total_commits":  1,
+    "commits":  [
+                    {
+                        "sha":  "fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                        "node_id":  "C_kwDOTK5prtoAKGZjMTY3ZWIwZWJjMTVmMzNhZDVjMzM4Y2ExNGM5Y2JmOTM0ZmVkOTY",
+                        "commit":  {
+                                       "author":  {
+                                                      "name":  "Monzik Allen",
+                                                      "email":  "monzikxd@gmail.com",
+                                                      "date":  "2026-10-23T02:21:15Z"
+                                                  },
+                                       "committer":  {
+                                                         "name":  "Monzik Allen",
+                                                         "email":  "monzikxd@gmail.com",
+                                                         "date":  "2026-10-23T02:21:15Z"
+                                                     },
+                                       "message":  "Release v1.5.4: fix static-guard pan ghosting and scene-cut recovery\n\nfix(runtime): gate the static guard by motion. The 1.5.0 wHalo term engaged\nthe guard near flat-colour regions regardless of motion, blending panning\ncontent toward the unwarped frame average and doubling/ghosting moving line\nart (anime pans). wStatic is now scaled by (1 - smoothstep(0.5, 1.0, motion)),\nso static text stays protected at motion~0 while moving content is left to the\ninterpolation. Mirrored into web/rt/rt.js.\n\nfix(extension): recover smoothly from hard scene cuts. Bridge the just-captured\nframe\u0027s presentation slot across a confirmed rate-plan transition (it was\ndropped with the in-flight pair decision), and pad the presentation delay by a\nfast-attack/slow-decay lateness tail so delivery bursts are pre-buffered instead\nof becoming a ~0.5s drop burst.\n\nfeat(extension): add a Flow upsample mode (edge/gate/bilinear) for the texture\nflow-upsample path; default edge keeps current behaviour.\n\nCo-Authored-By: Claude Opus 4.8 \u003cnoreply@anthropic.com\u003e",
+                                       "tree":  {
+                                                    "sha":  "a736d359514ae0359e8014e5226aa1b41b9e8325",
+                                                    "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a736d359514ae0359e8014e5226aa1b41b9e8325"
+                                                },
+                                       "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                                       "comment_count":  0,
+                                       "verification":  {
+                                                            "verified":  false,
+                                                            "reason":  "unsigned",
+                                                            "signature":  null,
+                                                            "payload":  null,
+                                                            "verified_at":  null
+                                                        }
+                                   },
+                        "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                        "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                        "comments_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/comments",
+                        "author":  {
+                                       "login":  "MONZikWasTaken",
+                                       "id":  207424525,
+                                       "node_id":  "U_kgDODF0MDQ",
+                                       "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                       "gravatar_id":  "",
+                                       "url":  "https://api.github.com/users/MONZikWasTaken",
+                                       "html_url":  "https://github.com/MONZikWasTaken",
+                                       "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                       "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                       "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                       "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                       "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                       "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                       "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                       "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                       "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                       "type":  "User",
+                                       "user_view_type":  "public",
+                                       "site_admin":  false
+                                   },
+                        "committer":  {
+                                          "login":  "MONZikWasTaken",
+                                          "id":  207424525,
+                                          "node_id":  "U_kgDODF0MDQ",
+                                          "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                          "gravatar_id":  "",
+                                          "url":  "https://api.github.com/users/MONZikWasTaken",
+                                          "html_url":  "https://github.com/MONZikWasTaken",
+                                          "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                          "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                          "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                          "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                          "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                          "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                          "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                          "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                          "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                          "type":  "User",
+                                          "user_view_type":  "public",
+                                          "site_admin":  false
+                                      },
+                        "parents":  [
+                                        {
+                                            "sha":  "4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                            "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                            "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/4cc26b80ea096be0ab3efd940ae91243068d60ed"
+                                        }
+                                    ]
+                    }
+                ],
+    "files":  [
+                  {
+                      "sha":  "aaa32de1e212597c890799ae4b7ce99d46bed9c4",
+                      "filename":  "extension/content.js",
+                      "status":  "modified",
+                      "additions":  29,
+                      "deletions":  13,
+                      "changes":  42,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Fcontent.js",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Fcontent.js",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Fcontent.js?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -38,13 +38,15 @@\n   const MODELS = { v6: \u0027rt_tfact2\u0027, v7s: \u0027rt_v7s\u0027 };\n   const FPS_LIMIT_STEPS = Profiles.FPS_LIMIT_PRESETS;\n   const cfg = { factor: \u0027auto\u0027, targetFps: 120, fpsLimit: null, anime: true, debug: false, res: 480, hoverReveal: true, compare: false,\n-    fg: true, sr: false, hdr: false, sharpness: 0, showFps: true, showWatermark: true, showWarnings: true, subtitleOverlay: true, guard: true, fillDisplay: false, model: \u0027v7s\u0027 };\n+    fg: true, sr: false, hdr: false, sharpness: 0, showFps: true, showWatermark: true, showWarnings: true, subtitleOverlay: true, guard: true, fillDisplay: false, model: \u0027v7s\u0027,\n+    flowUpsample: \u0027edge\u0027 };\n   function sanitizeCfg() {\n     const legacyTarget = cfg.factor === \u0027fps60\u0027 ? 60 : cfg.factor === \u0027fps120\u0027 ? 120 : null;\n     cfg.factor = Cadence.sanitizeOutputRate(cfg.factor);\n     cfg.targetFps = Cadence.sanitizeTargetFps(legacyTarget ?? cfg.targetFps, 120);\n     cfg.fpsLimit = canonicalFpsLimit(cfg.fpsLimit);\n     if (!MODELS[cfg.model]) cfg.model = \u0027v7s\u0027;\n+    if (![\u0027edge\u0027, \u0027gate\u0027, \u0027bilinear\u0027].includes(cfg.flowUpsample)) cfg.flowUpsample = \u0027edge\u0027;\n     if (!SIZES[cfg.res]) cfg.res = 480;\n     if (![0, 1, 2, 3].includes(cfg.sharpness)) cfg.sharpness = 0;\n     cfg.anime = !!cfg.anime; cfg.debug = !!cfg.debug;\n@@ -93,7 +95,7 @@\n       const previousCompare = cfg.compare;\n       for (const k in ch) {\n         if (!(k in cfg)) continue;\n-        if ((k === \u0027res\u0027 || k === \u0027model\u0027 || k === \u0027guard\u0027) \u0026\u0026 cfg[k] !== ch[k].newValue) {\n+        if ((k === \u0027res\u0027 || k === \u0027model\u0027 || k === \u0027guard\u0027 || k === \u0027flowUpsample\u0027) \u0026\u0026 cfg[k] !== ch[k].newValue) {\n           runtimeChanged = true;\n         }\n         cfg[k] = ch[k].newValue;\n@@ -537,7 +539,7 @@\n     syncPanelProfileSelection();\n   }\n \n-  let rt = null, rtRes = 0, rtModel = \u0027\u0027, rtGuard = null, rtGeneration = 0;\n+  let rt = null, rtRes = 0, rtModel = \u0027\u0027, rtGuard = null, rtFlow = \u0027edge\u0027, rtGeneration = 0;\n   let device = null, recoveringDevice = false, deviceRecoveryEpoch = 0;\n   let deviceRecoveryVideo = null, videoEl = null;\n   let overlay = null, overlayCtx = null, blitPipe = null, blitSampler = null;\n@@ -578,6 +580,7 @@\n   let plainAutoProbeNextAt = 0, plainAutoProbeAttempts = 0;\n   let delayMs = DELAY_MS, dropWin = [], switching = false, preloadFailT = -1e9;\n   let schedT = 0, rafFloor = 100, nextUiUpdateAt = 0, motionAvg = 0, lateAvg = 0;\n+  let lateTailMs = 0, lateTailT = 0; // fast-attack slow-decay lateness max - sees delivery bursts the mean never does\n \n   function syncHudVisibility() {\n     if (!hud) return;\n@@ -592,6 +595,10 @@\n   let outputRatePlanSnapshot = null;\n   let outputRatePlanCandidate = null;\n   let outputRatePlanCandidateSamples = 0;\n+  // A confirmed rate-plan transition discards the in-flight pair decision, and\n+  // in cadence mode the just-captured frame only gets its presentation slot\n+  // from that decision - the capture side bridges it with an arrival-time slot.\n+  let outputRatePlanResetBridge = false;\n   const OUTPUT_RATE_TRANSITION_SAMPLES = 16;\n   let gpuProbeActive = false, gpuProbeStartedAt = 0, gpuProbeKey = \u0027\u0027;\n   let lastVr = null, lastVrT = 0; // video rect cached by pump\u0027s UI tick - onFrame reuses it\n@@ -1081,6 +1088,9 @@\n     }\n     // Already scheduled textures remain valid under the old cadence epoch.\n     // Preserve and drain them; only future planning switches to the new clock.\n+    // The pairSeq bump still drops the in-flight pair decision, so ask the\n+    // capture side to give the just-captured frame an arrival-time slot.\n+    outputRatePlanResetBridge = true;\n     resetOutputCadence(false);\n     outputRatePlanIdentity = nextIdentity;\n     outputRatePlanSnapshot = { ...plan };\n@@ -1495,8 +1505,8 @@\n   // ---------- device / runtime ----------\n   // memoized: the hover-preload and the FC click may race - only one build runs\n   let rtBuilding = null;\n-  function runtimeMatches(res = cfg.res, model = cfg.model, guard = cfg.guard) {\n-    return !!(device \u0026\u0026 rt \u0026\u0026 rtRes === res \u0026\u0026 rtModel === model \u0026\u0026 rtGuard === guard);\n+  function runtimeMatches(res = cfg.res, model = cfg.model, guard = cfg.guard, flow = cfg.flowUpsample) {\n+    return !!(device \u0026\u0026 rt \u0026\u0026 rtRes === res \u0026\u0026 rtModel === model \u0026\u0026 rtGuard === guard \u0026\u0026 rtFlow === flow);\n   }\n   async function ensureRuntime() {\n     await settingsReady;\n@@ -1505,7 +1515,7 @@\n     while (!runtimeMatches()) {\n       while (rtBuilding) await rtBuilding;\n       if (runtimeMatches()) return;\n-      const request = Object.freeze({ res: cfg.res, model: cfg.model, guard: cfg.guard });\n+      const request = Object.freeze({ res: cfg.res, model: cfg.model, guard: cfg.guard, flowUpsample: cfg.flowUpsample });\n       rtBuilding = buildRuntime(request);\n       try { await rtBuilding; } finally { rtBuilding = null; }\n     }\n@@ -1552,6 +1562,7 @@\n     rtRes = 0;\n     rtModel = \u0027\u0027;\n     rtGuard = null;\n+    rtFlow = \u0027edge\u0027;\n     sr = null;\n     srProcessedFrames = 0;\n     blitPipe = null;\n@@ -1710,7 +1721,7 @@\n     tuneTimer = setTimeout(tick, 4000);\n   }\n   let rtC1 = 0, rtC2 = 0;\n-  async function buildRuntime({ res: buildRes, model: buildModel, guard: buildGuard }) {\n+  async function buildRuntime({ res: buildRes, model: buildModel, guard: buildGuard, flowUpsample: buildFlow = \u0027edge\u0027 }) {\n     if (!device) {\n       const GPU_HELP = \u0027WebGPU is off. Enable \"Use graphics acceleration\" in Chrome settings (chrome://settings/system), restart Chrome, and update your GPU driver. Very old GPUs are not supported.\u0027;\n       if (!navigator.gpu) throw new Error(GPU_HELP);\n@@ -1727,7 +1738,7 @@\n         .catch(error =\u003e log(\u0027device loss handler\u0027, error));\n       classifyAdapter(adapter);\n     }\n-    if (runtimeMatches(buildRes, buildModel, buildGuard)) return;\n+    if (runtimeMatches(buildRes, buildModel, buildGuard, buildFlow)) return;\n     if (rt \u0026\u0026 rt.destroy) { // free the old runtime\u0027s VRAM now, not at GC time\n       try { rt.destroy(); } catch {}\n       rt = null;\n@@ -1758,8 +1769,8 @@\n     rtC2 = man[\u0027block0.conv0.1.0.weight\u0027].shape[0];\n     const convTune = await loadConvTune(buildRes, runtimeModel);\n     rt = await rtMod.createRT(device, { w: mw, h: mh, textureInput: true, textureOutput: true,\n-      staticGuard: buildGuard, weightsBin: bin, weightsManifest: man, convTune });\n-    rtRes = buildRes; rtModel = runtimeModel; rtGuard = buildGuard;\n+      staticGuard: buildGuard, weightsBin: bin, weightsManifest: man, convTune, flowUpsample: buildFlow });\n+    rtRes = buildRes; rtModel = runtimeModel; rtGuard = buildGuard; rtFlow = buildFlow;\n     rtGeneration++;\n     resetPrepCostTracking();\n     if (!convTune) scheduleConvTune(rtMod,\n@@ -3219,6 +3230,10 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n       const late = now - queue[due].at;\n       if (now \u003e= fullscreenSettleUntil) {\n         lateAvg = late \u003e lateAvg ? lateAvg * 0.7 + late * 0.3 : lateAvg * 0.985 + late * 0.015;\n+        // Delivery bursts live in the tail (p99 ~4ms, spikes past 100ms): attack\n+        // instantly, decay over ~700ms, so the delay target can pre-buffer them.\n+        lateTailMs = Math.max(late, lateTailMs * Math.exp((lateTailT - now) / 700));\n+        lateTailT = now;\n       }\n       present(queue[due].tex, queue[due].mid);\n       recordBenchPresentationBatch(due, now);\n@@ -3449,7 +3464,7 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n       // presentation delay must cover the batch compute time (own + the previous\n       // batch draining), or high factors drop their early mids as already-stale.\n       // The source pool grows only when the buffered history actually needs it.\n-      const burstPad = Math.min(60, Math.max(0, (lateAvg - 4) * 2));\n+      const burstPad = Math.min(60, Math.max(0, (lateAvg - 4) * 2, (lateTailMs - 8) * 2));\n       const floorMs = (msAvg \u0026\u0026 msAvg \u003c 6 \u0026\u0026 lateAvg \u003c 3 \u0026\u0026 effN \u003c= 3) ? 42 : 60;\n       const playbackRate = Math.max(0.01, Math.abs(Number(videoEl.playbackRate) || 1));\n       const wallPairMs = decodedIntervalMs / playbackRate;\n@@ -3517,7 +3532,8 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n         while (cmpRing.length \u003e compareDepth) cmpRing.shift();\n       }\n       const cadenceMode = cadenceConfigured \u0026\u0026 ratePlan.interpolationAllowed;\n-      if (!cadenceMode) schedulePresentation(tex, srcAt, false);\n+      if (!cadenceMode || outputRatePlanResetBridge) schedulePresentation(tex, srcAt, false);\n+      outputRatePlanResetBridge = false;\n       const prev = lastTex;\n       if (!cfg.fg) { // frame generation off: passthrough (SR-only if enabled)\n         effN = 1;\n@@ -4562,7 +4578,7 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n   // frame gets the message; the RUNNING frame answers instantly, a frame that merely\n   // has a video answers after 120ms, video-less frames after 250ms - first response\n   // wins, so the most relevant frame speaks for the tab.\n-  const VERSION = \u00271.5.3\u0027;\n+  const VERSION = \u00271.5.4\u0027;\n   try {\n     chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) =\u003e {\n       if (msg \u0026\u0026 msg.type === \u0027fcStatus\u0027) {"
+                  },
+                  {
+                      "sha":  "ce0059b889f074de6ae71b17d69f46ccee18eb32",
+                      "filename":  "extension/manifest.json",
+                      "status":  "modified",
+                      "additions":  1,
+                      "deletions":  1,
+                      "changes":  2,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Fmanifest.json",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Fmanifest.json",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Fmanifest.json?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -1,7 +1,7 @@\n {\n   \"manifest_version\": 3,\n   \"name\": \"Framegen - Frame Interpolation\",\n-  \"version\": \"1.5.3\",\n+  \"version\": \"1.5.4\",\n   \"action\": {\n     \"default_title\": \"Framegen\",\n     \"default_popup\": \"popup.html\","
+                  },
+                  {
+                      "sha":  "5c8ee83c409aab667d5cd083268db64d0a76ba53",
+                      "filename":  "extension/options.html",
+                      "status":  "modified",
+                      "additions":  13,
+                      "deletions":  1,
+                      "changes":  14,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Foptions.html",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Foptions.html",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Foptions.html?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -14,7 +14,7 @@\n       \u003cspan class=\"brand-dot\" aria-hidden=\"true\"\u003e\u003c/span\u003e\n       \u003cstrong\u003eFramegen\u003c/strong\u003e\n       \u003ch1\u003eAdvanced settings\u003c/h1\u003e\n-      \u003cspan class=\"version\"\u003ev1.5.3\u003c/span\u003e\n+      \u003cspan class=\"version\"\u003ev1.5.4\u003c/span\u003e\n     \u003c/div\u003e\n     \u003cdiv class=\"header-actions\"\u003e\n       \u003cdiv id=\"runtimeStatus\" class=\"runtime-status\" role=\"status\" aria-live=\"polite\"\u003eLoading settings…\u003c/div\u003e\n@@ -127,6 +127,18 @@ \u003ch2 id=\"interpolationHeading\"\u003eFrame generation\u003c/h2\u003e\n               \u003coption value=\"v6\"\u003ev6 · legacy\u003c/option\u003e\n             \u003c/select\u003e\n           \u003c/div\u003e\n+\n+          \u003cdiv class=\"setting-row\"\u003e\n+            \u003cdiv class=\"setting-copy\"\u003e\n+              \u003clabel for=\"flowUpsample\"\u003eFlow upsample\u003c/label\u003e\n+              \u003cp id=\"flowUpsampleHint\"\u003eHow the motion field is upscaled above model resolution. Edge is sharpest; Bilinear removes edge-guided contour tabs; Gate keeps edge guidance but falls back to bilinear on thin lines.\u003c/p\u003e\n+            \u003c/div\u003e\n+            \u003cselect id=\"flowUpsample\" name=\"flowUpsample\" aria-describedby=\"flowUpsampleHint\"\u003e\n+              \u003coption value=\"edge\"\u003eEdge-guided · default\u003c/option\u003e\n+              \u003coption value=\"gate\"\u003eGated · thin-line safe\u003c/option\u003e\n+              \u003coption value=\"bilinear\"\u003eBilinear · no edge guidance\u003c/option\u003e\n+            \u003c/select\u003e\n+          \u003c/div\u003e\n         \u003c/section\u003e\n \n         \u003csection class=\"settings-section\" aria-labelledby=\"processingHeading\"\u003e"
+                  },
+                  {
+                      "sha":  "ca29ec8b661b0ba4a38443006ce763a03203f9fb",
+                      "filename":  "extension/options.js",
+                      "status":  "modified",
+                      "additions":  2,
+                      "deletions":  0,
+                      "changes":  2,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Foptions.js",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Foptions.js",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Foptions.js?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -139,6 +139,7 @@\n       fpsLimit: fpsLimitFromSlider(),\n       res: Number($(\u0027res\u0027).value),\n       model: $(\u0027model\u0027).value,\n+      flowUpsample: $(\u0027flowUpsample\u0027).value,\n       sharpness: Number($(\u0027sharpness\u0027).value),\n     };\n     for (const key of BOOLEAN_FIELDS) candidate[key] = $(key).checked;\n@@ -154,6 +155,7 @@\n     updateFpsLimitPresentation();\n     $(\u0027res\u0027).value = String(clean.res);\n     $(\u0027model\u0027).value = clean.model;\n+    $(\u0027flowUpsample\u0027).value = clean.flowUpsample;\n     $(\u0027sharpness\u0027).value = String(clean.sharpness);\n     for (const key of BOOLEAN_FIELDS) $(key).checked = clean[key];\n     updateRateControlVisibility(clean.factor);"
+                  },
+                  {
+                      "sha":  "dbb30b7361e91e755a05c612ca59c2bd697be7fb",
+                      "filename":  "extension/profile-store.js",
+                      "status":  "modified",
+                      "additions":  4,
+                      "deletions":  0,
+                      "changes":  4,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Fprofile-store.js",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Fprofile-store.js",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Fprofile-store.js?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -9,10 +9,12 @@\n   const SETTINGS_KEYS = Object.freeze([\n     \u0027factor\u0027, \u0027targetFps\u0027, \u0027fpsLimit\u0027, \u0027anime\u0027, \u0027debug\u0027, \u0027res\u0027, \u0027hoverReveal\u0027, \u0027compare\u0027,\n     \u0027fg\u0027, \u0027sr\u0027, \u0027hdr\u0027, \u0027sharpness\u0027, \u0027showFps\u0027, \u0027showWatermark\u0027, \u0027showWarnings\u0027, \u0027subtitleOverlay\u0027, \u0027guard\u0027, \u0027fillDisplay\u0027, \u0027model\u0027,\n+    \u0027flowUpsample\u0027,\n   ]);\n   const OUTPUT_RATES = Object.freeze([\u0027auto\u0027, \u0027hz\u0027, \u0027target\u0027, 2, 3, 4, 5, 6]);\n   const RESOLUTIONS = Object.freeze([288, 360, 480, 720, 1080]);\n   const MODELS = Object.freeze([\u0027v6\u0027, \u0027v7s\u0027]);\n+  const FLOW_UPSAMPLE_MODES = Object.freeze([\u0027edge\u0027, \u0027gate\u0027, \u0027bilinear\u0027]);\n   const TARGET_FPS_MIN = 2;\n   const TARGET_FPS_MAX = 1000;\n   const FPS_LIMIT_PRESETS = Object.freeze([\n@@ -40,6 +42,7 @@\n     guard: true,\n     fillDisplay: false,\n     model: \u0027v7s\u0027,\n+    flowUpsample: \u0027edge\u0027,\n   });\n   const LEGACY_CURRENT_PROFILE = Object.freeze({\n     id: \u0027current-settings\u0027,\n@@ -137,6 +140,7 @@\n       guard: booleanValue(source.guard, DEFAULT_SETTINGS.guard),\n       fillDisplay: booleanValue(source.fillDisplay, DEFAULT_SETTINGS.fillDisplay),\n       model: MODELS.includes(source.model) ? source.model : DEFAULT_SETTINGS.model,\n+      flowUpsample: FLOW_UPSAMPLE_MODES.includes(source.flowUpsample) ? source.flowUpsample : DEFAULT_SETTINGS.flowUpsample,\n     };\n   }\n "
+                  },
+                  {
+                      "sha":  "e23665392bf0e306c426551ffa723626e96d9882",
+                      "filename":  "extension/rt/rt.js",
+                      "status":  "modified",
+                      "additions":  32,
+                      "deletions":  11,
+                      "changes":  43,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Frt%2Frt.js",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/extension%2Frt%2Frt.js",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Frt%2Frt.js?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -831,7 +831,7 @@ fn rup(c: i32, sx: f32, sy: f32) -\u003e f32 {\n   let uncertain = smoothstep(0.02, 0.03, d);\n   let wLocal = colorStatic * (1.0 - uncertain * smoothstep(0.5, 1.0, motion));\n   let wHalo = 1.0 - smoothstep(0.02, 0.03, dMin);\n-  let wStatic = max(wLocal, wHalo);\n+  let wStatic = max(wLocal, wHalo) * (1.0 - smoothstep(0.5, 1.0, motion));\n   if (wStatic \u003e 0.001) {\n     let t = clamp(guardT[0], 0.0, 1.0);\n     let stat = vec3\u003cf32\u003e(\n@@ -920,7 +920,20 @@ fn main(@builtin(global_invocation_id) gid: vec3\u003cu32\u003e) {\n // (copy then warp) - sharper mids for less bandwidth. Filter precision is the\n // sampler\u0027s (~8-bit subtexel) - same +-1 LSB class as the rgba8 store above.\n function wgslFlowOutTexDirect(W, H, staticGuard = false, withRes = false, WGX = 16, WGY = 8,\n-                              experimentalMaskSharpen = null) {\n+                              experimentalMaskSharpen = null, flowUpsample = \u0027edge\u0027) {\n+  // flow upsample mode (texture path, only runs when output res \u003e model res):\n+  //   \u0027edge\u0027     - joint bilateral edge-guided upsample (current default)\n+  //   \u0027gate\u0027     - edge-guided, but fall back to bilinear where no low-res grid\n+  //                colour matches the output guide (kills thin-line contour tabs)\n+  //   \u0027bilinear\u0027 - plain hw bilinear flow, no edge guidance at all\n+  const edgeGuided = flowUpsample !== \u0027bilinear\u0027;\n+  const edgeGate = flowUpsample === \u0027gate\u0027;\n+  // confidence floor: exp(-48*dc^2) \u003c EDGE_GATE_CONF  \u003c=\u003e  colour L2 dist \u003e ~0.18.\n+  // On a thin high-contrast line no coarse grid sample is that close -\u003e bilinear.\n+  const EDGE_GATE_CONF = 0.20;\n+  const EDGE_GATE_SNIPPET = edgeGate ? /* wgsl */`\n+  let bestQ = max(max(q00q, q10q), max(q01q, q11q));\n+  if (bestQ \u003c ${EDGE_GATE_CONF}) { return bilinearFlow; }` : \u0027\u0027;\n   // v2: tmp8 lives in two rgba16float textures (flow 4ch + mask) written by the\n   // deconv - ONE hw bilinear sample replaces the 4-tap software up() per plane\n   // (20 buffer reads -\u003e 2 samples), and the refine residual is a texture too.\n@@ -950,7 +963,7 @@ function wgslFlowOutTexDirect(W, H, staticGuard = false, withRes = false, WGX =\n   let uncertain = smoothstep(0.02, 0.03, d);\n   let wLocal = colorStatic * (1.0 - uncertain * smoothstep(0.5, 1.0, motion));\n   let wHalo = 1.0 - smoothstep(0.02, 0.03, dMin);\n-  let wStatic = max(wLocal, wHalo);\n+  let wStatic = max(wLocal, wHalo) * (1.0 - smoothstep(0.5, 1.0, motion));\n   if (wStatic \u003e 0.001) {\n     let t = clamp(guardT[0], 0.0, 1.0);\n     let stat = mix(warpT(tex0, srcPos.x, srcPos.y), warpT(tex1, srcPos.x, srcPos.y), t);\n@@ -1012,10 +1025,14 @@ fn edgeUpsample(uv: vec2\u003cf32\u003e, guide: vec3\u003cf32\u003e, bilinearFlow: vec4\u003cf32\u003e) -\u003e vec\n     + textureSampleLevel(tex1, samp, (vec2\u003cf32\u003e(p01) + 0.5) / fdim, 0.0).rgb) * 0.5;\n   let c11 = (textureSampleLevel(tex0, samp, (vec2\u003cf32\u003e(p11) + 0.5) / fdim, 0.0).rgb\n     + textureSampleLevel(tex1, samp, (vec2\u003cf32\u003e(p11) + 0.5) / fdim, 0.0).rgb) * 0.5;\n-  let w00 = s00 * exp(-48.0 * dot(c00 - guide, c00 - guide));\n-  let w10 = s10 * exp(-48.0 * dot(c10 - guide, c10 - guide));\n-  let w01 = s01 * exp(-48.0 * dot(c01 - guide, c01 - guide));\n-  let w11 = s11 * exp(-48.0 * dot(c11 - guide, c11 - guide));\n+  let q00q = exp(-48.0 * dot(c00 - guide, c00 - guide));\n+  let q10q = exp(-48.0 * dot(c10 - guide, c10 - guide));\n+  let q01q = exp(-48.0 * dot(c01 - guide, c01 - guide));\n+  let q11q = exp(-48.0 * dot(c11 - guide, c11 - guide));\n+  let w00 = s00 * q00q;\n+  let w10 = s10 * q10q;\n+  let w01 = s01 * q01q;\n+  let w11 = s11 * q11q;${EDGE_GATE_SNIPPET}\n   let ws = w00 + w10 + w01 + w11;\n   if (!(ws \u003e= 1e-6)) {\n     return bilinearFlow;\n@@ -1036,11 +1053,11 @@ fn main(@builtin(global_invocation_id) gid: vec3\u003cu32\u003e) {\n   let scale = vec4\u003cf32\u003e(srcDim.x / ${W}.0, srcDim.y / ${H}.0,\n                          srcDim.x / ${W}.0, srcDim.y / ${H}.0);\n   var flow = textureSampleLevel(t8f, samp, uv8, 0.0);\n-  if (outDim.x \u003e ${W}.0 || outDim.y \u003e ${H}.0) {\n+${edgeGuided ? /* wgsl */`  if (outDim.x \u003e ${W}.0 || outDim.y \u003e ${H}.0) {\n     let guide = (textureSampleLevel(tex0, samp, uv8, 0.0).rgb\n       + textureSampleLevel(tex1, samp, uv8, 0.0).rgb) * 0.5;\n     flow = edgeUpsample(uv8, guide, flow);\n-  }\n+  }` : \u0027\u0027}\n   let fl = flow * 8.0 * scale;\n ${COMPOSITE}\n ${RES_ADD}\n@@ -1421,8 +1438,12 @@ export async function createRT(device, { w, h, weightsBin, weightsManifest, conv\n                                           staticGuard = false,\n                                           sparseRefine = true, refineThr = 0.02,\n                                           debugOutputs = false,\n-                                          experimentalMaskSharpen = null }) {\n+                                          experimentalMaskSharpen = null,\n+                                          flowUpsample = \u0027edge\u0027 }) {\n   if (w % 16 || h % 16) throw new Error(`rt: dims must be /16 (got ${w}x${h})`);\n+  if (![\u0027edge\u0027, \u0027gate\u0027, \u0027bilinear\u0027].includes(flowUpsample)) {\n+    throw new Error(`rt: flowUpsample must be \u0027edge\u0027 | \u0027gate\u0027 | \u0027bilinear\u0027 (got ${flowUpsample})`);\n+  }\n   const QW = w / 4, QH = h / 4, W8 = w / 8, H8 = h / 8, W16 = w / 16, H16 = h / 16;\n   const useF16 = device.features.has(\u0027shader-f16\u0027);\n   // channel widths come from the weights themselves (supports slim students)\n@@ -1618,7 +1639,7 @@ export async function createRT(device, { w, h, weightsBin, weightsManifest, conv\n       : wgslConv(C2, C2, W16, H16, W16, H16, 1, true, false)),\n     pipeAsync(wgslDeconv(C2, 5, W16, H16, W8, H8, useF16, direct)),\n     pipeAsync(textureOutput\n-      ? (direct ? wgslFlowOutTexDirect(w, h, staticGuard, refi, 16, 8, experimentalMaskSharpen) : wgslFlowOutTex(w, h, staticGuard, refi))\n+      ? (direct ? wgslFlowOutTexDirect(w, h, staticGuard, refi, 16, 8, experimentalMaskSharpen, flowUpsample) : wgslFlowOutTex(w, h, staticGuard, refi))\n       : wgslFlowOut(w, h)),\n     sdiff ? pipeAsync(wgslDiff(w, h)) : null,\n     // tfact cb6 with the FiLM affine fused into its tile load (f16 path only;"
+                  },
+                  {
+                      "sha":  "518ae98f3cae9649ae4a589f6f85b6905ed2b8ed",
+                      "filename":  "tools/profile_store.test.mjs",
+                      "status":  "modified",
+                      "additions":  4,
+                      "deletions":  3,
+                      "changes":  7,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/tools%2Fprofile_store.test.mjs",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/tools%2Fprofile_store.test.mjs",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/tools%2Fprofile_store.test.mjs?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -34,6 +34,7 @@ const customSettings = Object.freeze({\n   guard: false,\n   fillDisplay: false,\n   model: \u0027v6\u0027,\n+  flowUpsample: \u0027gate\u0027,\n });\n \n function v1Profile(overrides = {}) {\n@@ -514,9 +515,9 @@ test(\u0027options controller exposes virtual Current first and keeps preview, save,\n });\n \n test(\u0027extension exposes the full-page configurator without replacing popup status and help\u0027, () =\u003e {\n-  assert.equal(manifest.version, \u00271.5.3\u0027);\n-  assert.match(contentJs, /const VERSION = \u00271\\.5\\.3\u0027/);\n-  assert.match(optionsHtml, /\u003cspan class=\"version\"\u003ev1\\.5\\.3\u003c\\/span\u003e/);\n+  assert.equal(manifest.version, \u00271.5.4\u0027);\n+  assert.match(contentJs, /const VERSION = \u00271\\.5\\.4\u0027/);\n+  assert.match(optionsHtml, /\u003cspan class=\"version\"\u003ev1\\.5\\.4\u003c\\/span\u003e/);\n   assert.deepEqual(manifest.options_ui, { page: \u0027options.html\u0027, open_in_tab: true });\n   assert.deepEqual(manifest.content_scripts[0].js, [\u0027cadence.js\u0027, \u0027profile-store.js\u0027, \u0027content.js\u0027]);\n   assert.deepEqual(manifest.background, { service_worker: \u0027background.js\u0027 });"
+                  },
+                  {
+                      "sha":  "e23665392bf0e306c426551ffa723626e96d9882",
+                      "filename":  "web/rt/rt.js",
+                      "status":  "modified",
+                      "additions":  32,
+                      "deletions":  11,
+                      "changes":  43,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/web%2Frt%2Frt.js",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/web%2Frt%2Frt.js",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/web%2Frt%2Frt.js?ref=fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                      "patch":  "@@ -831,7 +831,7 @@ fn rup(c: i32, sx: f32, sy: f32) -\u003e f32 {\n   let uncertain = smoothstep(0.02, 0.03, d);\n   let wLocal = colorStatic * (1.0 - uncertain * smoothstep(0.5, 1.0, motion));\n   let wHalo = 1.0 - smoothstep(0.02, 0.03, dMin);\n-  let wStatic = max(wLocal, wHalo);\n+  let wStatic = max(wLocal, wHalo) * (1.0 - smoothstep(0.5, 1.0, motion));\n   if (wStatic \u003e 0.001) {\n     let t = clamp(guardT[0], 0.0, 1.0);\n     let stat = vec3\u003cf32\u003e(\n@@ -920,7 +920,20 @@ fn main(@builtin(global_invocation_id) gid: vec3\u003cu32\u003e) {\n // (copy then warp) - sharper mids for less bandwidth. Filter precision is the\n // sampler\u0027s (~8-bit subtexel) - same +-1 LSB class as the rgba8 store above.\n function wgslFlowOutTexDirect(W, H, staticGuard = false, withRes = false, WGX = 16, WGY = 8,\n-                              experimentalMaskSharpen = null) {\n+                              experimentalMaskSharpen = null, flowUpsample = \u0027edge\u0027) {\n+  // flow upsample mode (texture path, only runs when output res \u003e model res):\n+  //   \u0027edge\u0027     - joint bilateral edge-guided upsample (current default)\n+  //   \u0027gate\u0027     - edge-guided, but fall back to bilinear where no low-res grid\n+  //                colour matches the output guide (kills thin-line contour tabs)\n+  //   \u0027bilinear\u0027 - plain hw bilinear flow, no edge guidance at all\n+  const edgeGuided = flowUpsample !== \u0027bilinear\u0027;\n+  const edgeGate = flowUpsample === \u0027gate\u0027;\n+  // confidence floor: exp(-48*dc^2) \u003c EDGE_GATE_CONF  \u003c=\u003e  colour L2 dist \u003e ~0.18.\n+  // On a thin high-contrast line no coarse grid sample is that close -\u003e bilinear.\n+  const EDGE_GATE_CONF = 0.20;\n+  const EDGE_GATE_SNIPPET = edgeGate ? /* wgsl */`\n+  let bestQ = max(max(q00q, q10q), max(q01q, q11q));\n+  if (bestQ \u003c ${EDGE_GATE_CONF}) { return bilinearFlow; }` : \u0027\u0027;\n   // v2: tmp8 lives in two rgba16float textures (flow 4ch + mask) written by the\n   // deconv - ONE hw bilinear sample replaces the 4-tap software up() per plane\n   // (20 buffer reads -\u003e 2 samples), and the refine residual is a texture too.\n@@ -950,7 +963,7 @@ function wgslFlowOutTexDirect(W, H, staticGuard = false, withRes = false, WGX =\n   let uncertain = smoothstep(0.02, 0.03, d);\n   let wLocal = colorStatic * (1.0 - uncertain * smoothstep(0.5, 1.0, motion));\n   let wHalo = 1.0 - smoothstep(0.02, 0.03, dMin);\n-  let wStatic = max(wLocal, wHalo);\n+  let wStatic = max(wLocal, wHalo) * (1.0 - smoothstep(0.5, 1.0, motion));\n   if (wStatic \u003e 0.001) {\n     let t = clamp(guardT[0], 0.0, 1.0);\n     let stat = mix(warpT(tex0, srcPos.x, srcPos.y), warpT(tex1, srcPos.x, srcPos.y), t);\n@@ -1012,10 +1025,14 @@ fn edgeUpsample(uv: vec2\u003cf32\u003e, guide: vec3\u003cf32\u003e, bilinearFlow: vec4\u003cf32\u003e) -\u003e vec\n     + textureSampleLevel(tex1, samp, (vec2\u003cf32\u003e(p01) + 0.5) / fdim, 0.0).rgb) * 0.5;\n   let c11 = (textureSampleLevel(tex0, samp, (vec2\u003cf32\u003e(p11) + 0.5) / fdim, 0.0).rgb\n     + textureSampleLevel(tex1, samp, (vec2\u003cf32\u003e(p11) + 0.5) / fdim, 0.0).rgb) * 0.5;\n-  let w00 = s00 * exp(-48.0 * dot(c00 - guide, c00 - guide));\n-  let w10 = s10 * exp(-48.0 * dot(c10 - guide, c10 - guide));\n-  let w01 = s01 * exp(-48.0 * dot(c01 - guide, c01 - guide));\n-  let w11 = s11 * exp(-48.0 * dot(c11 - guide, c11 - guide));\n+  let q00q = exp(-48.0 * dot(c00 - guide, c00 - guide));\n+  let q10q = exp(-48.0 * dot(c10 - guide, c10 - guide));\n+  let q01q = exp(-48.0 * dot(c01 - guide, c01 - guide));\n+  let q11q = exp(-48.0 * dot(c11 - guide, c11 - guide));\n+  let w00 = s00 * q00q;\n+  let w10 = s10 * q10q;\n+  let w01 = s01 * q01q;\n+  let w11 = s11 * q11q;${EDGE_GATE_SNIPPET}\n   let ws = w00 + w10 + w01 + w11;\n   if (!(ws \u003e= 1e-6)) {\n     return bilinearFlow;\n@@ -1036,11 +1053,11 @@ fn main(@builtin(global_invocation_id) gid: vec3\u003cu32\u003e) {\n   let scale = vec4\u003cf32\u003e(srcDim.x / ${W}.0, srcDim.y / ${H}.0,\n                          srcDim.x / ${W}.0, srcDim.y / ${H}.0);\n   var flow = textureSampleLevel(t8f, samp, uv8, 0.0);\n-  if (outDim.x \u003e ${W}.0 || outDim.y \u003e ${H}.0) {\n+${edgeGuided ? /* wgsl */`  if (outDim.x \u003e ${W}.0 || outDim.y \u003e ${H}.0) {\n     let guide = (textureSampleLevel(tex0, samp, uv8, 0.0).rgb\n       + textureSampleLevel(tex1, samp, uv8, 0.0).rgb) * 0.5;\n     flow = edgeUpsample(uv8, guide, flow);\n-  }\n+  }` : \u0027\u0027}\n   let fl = flow * 8.0 * scale;\n ${COMPOSITE}\n ${RES_ADD}\n@@ -1421,8 +1438,12 @@ export async function createRT(device, { w, h, weightsBin, weightsManifest, conv\n                                           staticGuard = false,\n                                           sparseRefine = true, refineThr = 0.02,\n                                           debugOutputs = false,\n-                                          experimentalMaskSharpen = null }) {\n+                                          experimentalMaskSharpen = null,\n+                                          flowUpsample = \u0027edge\u0027 }) {\n   if (w % 16 || h % 16) throw new Error(`rt: dims must be /16 (got ${w}x${h})`);\n+  if (![\u0027edge\u0027, \u0027gate\u0027, \u0027bilinear\u0027].includes(flowUpsample)) {\n+    throw new Error(`rt: flowUpsample must be \u0027edge\u0027 | \u0027gate\u0027 | \u0027bilinear\u0027 (got ${flowUpsample})`);\n+  }\n   const QW = w / 4, QH = h / 4, W8 = w / 8, H8 = h / 8, W16 = w / 16, H16 = h / 16;\n   const useF16 = device.features.has(\u0027shader-f16\u0027);\n   // channel widths come from the weights themselves (supports slim students)\n@@ -1618,7 +1639,7 @@ export async function createRT(device, { w, h, weightsBin, weightsManifest, conv\n       : wgslConv(C2, C2, W16, H16, W16, H16, 1, true, false)),\n     pipeAsync(wgslDeconv(C2, 5, W16, H16, W8, H8, useF16, direct)),\n     pipeAsync(textureOutput\n-      ? (direct ? wgslFlowOutTexDirect(w, h, staticGuard, refi, 16, 8, experimentalMaskSharpen) : wgslFlowOutTex(w, h, staticGuard, refi))\n+      ? (direct ? wgslFlowOutTexDirect(w, h, staticGuard, refi, 16, 8, experimentalMaskSharpen, flowUpsample) : wgslFlowOutTex(w, h, staticGuard, refi))\n       : wgslFlowOut(w, h)),\n     sdiff ? pipeAsync(wgslDiff(w, h)) : null,\n     // tfact cb6 with the FiLM affine fused into its tile load (f16 path only;"
+                  }
+              ]
+}

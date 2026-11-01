@@ -1,0 +1,32 @@
+import {createRT} from 'framegen';
+import type {RT} from 'framegen';
+/** Validated public 1.4.0 API; development harness only until quality/performance gates pass. */
+export class FramegenSession{
+ private pairKey='';private closed=false;private serial=0;
+ private pairPTS?:{a:number;c:number;generation:number};
+ private outputGroup?:GPUBindGroup;private outputTarget?:GPUTexture;
+ private constructor(readonly device:GPUDevice,readonly runtime:RT,readonly modelHash:string,readonly width:number,readonly height:number,private raw:GPUTexture,private stats:GPUBuffer,private analyze:GPUComputePipeline,private protect:GPUComputePipeline){}
+ static async create(device:GPUDevice,width:number,height:number,base=new URL('./',location.href),diagnostic:{sparseRefine?:boolean}={}){
+  if(width%16||height%16)throw new Error('Framegen 크기는 16의 배수여야 합니다.');if(!device.features.has('shader-f16'))throw new Error('Framegen shader-f16 미지원');
+  const root=new URL('../models/framegen/',base),[bin,manifest,provenance]=await Promise.all(['rt_v7s.bin','rt_v7s.json','provenance.json'].map(async name=>{const r=await fetch(new URL(name,root));if(!r.ok)throw new Error(`Framegen 로컬 파일 오류 ${name}: ${r.status}`);return name.endsWith('.bin')?r.arrayBuffer():r.json();}));
+  const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bin as ArrayBuffer)),v=>v.toString(16).padStart(2,'0')).join('');if(hash!==provenance.binSha256)throw new Error('Framegen 가중치 해시 불일치');
+  const runtime=await createRT(device,{w:width,h:height,weightsBin:bin as ArrayBuffer,weightsManifest:manifest,textureInput:true,textureOutput:true,sparseRefine:diagnostic.sparseRefine});
+  const raw=device.createTexture({size:[width,height],format:'rgba8unorm',usage:GPUTextureUsage.TEXTURE_BINDING|GPUTextureUsage.STORAGE_BINDING}),stats=device.createBuffer({size:8,usage:GPUBufferUsage.STORAGE|GPUBufferUsage.COPY_DST|GPUBufferUsage.COPY_SRC});
+  const analyze=await device.createComputePipelineAsync({layout:'auto',compute:{entryPoint:'main',module:device.createShaderModule({code:`@group(0) @binding(0) var a:texture_2d<f32>;@group(0) @binding(1) var c:texture_2d<f32>;struct Stats{difference:atomic<u32>,count:atomic<u32>}@group(0) @binding(2) var<storage,read_write> s:Stats;@compute @workgroup_size(8,8)fn main(@builtin(global_invocation_id)i:vec3u){if(any(i.xy>=vec2u(16))){return;}let p=vec2i((vec2f(i.xy)+0.5)*vec2f(textureDimensions(a))/16.0);let d=dot(abs(textureLoad(a,p,0).rgb-textureLoad(c,p,0).rgb),vec3f(0.25,0.5,0.25));atomicAdd(&s.difference,u32(d*65535.0));atomicAdd(&s.count,1u);}`})}});
+  const protect=await device.createComputePipelineAsync({layout:'auto',compute:{entryPoint:'main',module:device.createShaderModule({code:`@group(0) @binding(0) var image:texture_2d<f32>;@group(0) @binding(1) var original:texture_2d<f32>;struct Stats{difference:u32,count:u32}@group(0) @binding(2) var<storage,read> s:Stats;@group(0) @binding(3) var output:texture_storage_2d<rgba8unorm,write>;@compute @workgroup_size(8,8)fn main(@builtin(global_invocation_id)i:vec3u){if(any(i.xy>=textureDimensions(output))){return;}let p=vec2i(i.xy);var c=textureLoad(image,p,0);if(f32(s.difference)/f32(max(s.count,1u))/65535.0>0.24){c=textureLoad(original,p,0);}textureStore(output,p,c);}`})}});
+  return new FramegenSession(device,runtime,hash,width,height,raw,stats,analyze,protect);
+ }
+ prepPair(a:GPUTexture,c:GPUTexture,ptsA:number,ptsC:number,generation:number){if(this.closed||!Number.isFinite(ptsA)||!Number.isFinite(ptsC)||ptsC<=ptsA)throw new Error('Framegen PTS 순서 오류');if([a,c].some(t=>t.width!==this.width||t.height!==this.height))throw new Error('Framegen 입력 크기 불일치');const e=this.device.createCommandEncoder();e.clearBuffer(this.stats);const p=e.beginComputePass();p.setPipeline(this.analyze);p.setBindGroup(0,this.device.createBindGroup({layout:this.analyze.getBindGroupLayout(0),entries:[{binding:0,resource:a.createView()},{binding:1,resource:c.createView()},{binding:2,resource:{buffer:this.stats}}]}));p.dispatchWorkgroups(2,2);p.end();this.device.queue.submit([e.finish()]);this.runtime.prepPair(a,c);this.outputGroup=undefined;this.sourceC=c;this.pairPTS={a:ptsA,c:ptsC,generation};this.pairKey=`${++this.serial}:${generation}:${ptsA}:${ptsC}`;return this.pairKey;}
+ private sourceC?:GPUTexture;
+ runT(t:number,output:GPUTexture,key:string){if(this.closed||!key||key!==this.pairKey)throw new Error('Framegen 프레임 쌍 세대 불일치');if(!Number.isFinite(t)||t<=0||t>=1)throw new Error('Framegen 보간 t 범위 오류');this.runtime.runT(t,this.raw);if(!this.outputGroup||this.outputTarget!==output){this.outputTarget=output;this.outputGroup=this.device.createBindGroup({layout:this.protect.getBindGroupLayout(0),entries:[{binding:0,resource:this.raw.createView()},{binding:1,resource:this.sourceC!.createView()},{binding:2,resource:{buffer:this.stats}},{binding:3,resource:output.createView()}]});}const e=this.device.createCommandEncoder(),p=e.beginComputePass();p.setPipeline(this.protect);p.setBindGroup(0,this.outputGroup);p.dispatchWorkgroups(Math.ceil(this.width/8),Math.ceil(this.height/8));p.end();this.device.queue.submit([e.finish()]);}
+ async diagnoseGuard(){const b=this.device.createBuffer({size:8,usage:GPUBufferUsage.COPY_DST|GPUBufferUsage.MAP_READ});try{const e=this.device.createCommandEncoder();e.copyBufferToBuffer(this.stats,0,b,0,8);this.device.queue.submit([e.finish()]);await b.mapAsync(GPUMapMode.READ);const a=new Uint32Array(b.getMappedRange()),difference=a[0]/Math.max(1,a[1])/65535;b.unmap();return {difference,originalOnly:difference>.24};}finally{b.destroy();}}
+ /** Optional diagnostic readback. Capture the pair BEFORE awaiting GPU work;
+  * a protected C is never labelled as an AI frame at the requested B timestamp.
+  * Normal runT remains GPU-only. This is not a real-time presentation promise. */
+ async diagnoseOutput(t:number,key:string){
+  if(this.closed||key!==this.pairKey||!this.pairPTS||!Number.isFinite(t)||t<=0||t>=1)throw new Error('Framegen 출력 진단의 쌍/시점 오류');
+  const pair={...this.pairPTS},guard=await this.diagnoseGuard(),requestedPTS=pair.a+(pair.c-pair.a)*t;
+  return {pairID:key,ptsA:pair.a,ptsC:pair.c,generation:pair.generation,t,requestedPTS,outputPTS:guard.originalOnly?pair.c:requestedPTS,generated:!guard.originalOnly,kind:guard.originalOnly?'source-C':'AI',guard};
+ }
+ destroy(){if(this.closed)return;this.closed=true;this.pairKey='';this.runtime.destroy();this.raw.destroy();this.stats.destroy();}
+}

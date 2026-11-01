@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-31",
+  "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+  "verifiedEnhancedPixels": true,
+  "browserVersion": "156.0.8078.4",
+  "title": "Me at the zoo - YouTube",
+  "video": {
+    "width": 320,
+    "height": 240,
+    "readyState": 4,
+    "paused": false,
+    "mediaKeys": false
+  },
+  "stats": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "balanced",
+    "profile": "balanced",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 240
+      },
+      "processing": {
+        "width": 320,
+        "height": 240
+      },
+      "output": {
+        "width": 1046,
+        "height": 784
+      },
+      "display": {
+        "width": 1046,
+        "height": 785
+      },
+      "css": {
+        "width": 1046,
+        "height": 784.5
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 15.000012463567248,
+      "processedFPS": 14.855796321898397,
+      "latencyMs": 6.4962184176849425,
+      "cpuSubmitMs": 0.4711070849799623,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 3,
+      "skippedFrames": 2,
+      "queueDepth": 0,
+      "failures": 0
+    },
+    "presented": 231,
+    "effectiveSharpness": 32.00000000000001,
+    "effectiveDenoise": 13.999999999999998
+  },
+  "pixelEvidence": {
+    "displayed": true,
+    "method": "Compositor screenshots of paused video; comparison left side unenhanced, right side processed.",
+    "leftMeanChannelDifference": 0.8729496405371491,
+    "rightMeanChannelDifference": 1.8785894390264233,
+    "absoluteChannelDifference": 3170929,
+    "overlayRect": {
+      "x": 16,
+      "y": 68.25,
+      "width": 1045.59375,
+      "height": 784.5
+    }
+  },
+  "layoutChecks": [
+    {
+      "name": "standard",
+      "video": {
+        "x": 16,
+        "y": 68,
+        "width": 1046,
+        "height": 785
+      },
+      "overlay": {
+        "x": 16,
+        "y": 68.25,
+        "width": 1045.59375,
+        "height": 784.5
+      },
+      "fullscreen": false
+    },
+    {
+      "name": "theater",
+      "video": {
+        "x": 166,
+        "y": 56,
+        "width": 1108,
+        "height": 831
+      },
+      "overlay": {
+        "x": 166,
+        "y": 56,
+        "width": 1108,
+        "height": 831
+      },
+      "fullscreen": false
+    },
+    {
+      "name": "fullscreen",
+      "video": {
+        "x": 53,
+        "y": 0,
+        "width": 1333,
+        "height": 1000
+      },
+      "overlay": {
+        "x": 53,
+        "y": 0.109375,
+        "width": 1333,
+        "height": 999.75
+      },
+      "fullscreen": true
+    },
+    {
+      "name": "seek and playback speed 1.25x",
+      "video": {
+        "x": 16,
+        "y": 68,
+        "width": 1046,
+        "height": 785
+      },
+      "overlay": {
+        "x": 16,
+        "y": 68.25,
+        "width": 1045.59375,
+        "height": 784.5
+      },
+      "fullscreen": false
+    },
+    {
+      "name": "window resize",
+      "video": {
+        "x": 16,
+        "y": 68,
+        "width": 912,
+        "height": 684
+      },
+      "overlay": {
+        "x": 16,
+        "y": 68,
+        "width": 912,
+        "height": 684
+      },
+      "fullscreen": false
+    }
+  ],
+  "errors": []
+}

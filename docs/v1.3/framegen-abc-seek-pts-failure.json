@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-01T06:20:25.333Z",
+  "mode": "abc",
+  "browser": "156.0.8078.4",
+  "package": "framegen@1.4.0",
+  "productIntegrationComplete": false,
+  "error": "Error: page.evaluate: Error: 잘못된 실제 A/B/C PTS\n    at Or (http://127.0.0.1:5199/assets/framegen-mzppmlD7.js:932:31770)\n    at async <anonymous>:396:30",
+  "logs": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

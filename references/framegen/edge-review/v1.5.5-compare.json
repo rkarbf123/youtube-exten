@@ -1,0 +1,309 @@
+﻿{
+    "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/compare/v1.5.4...v1.5.5",
+    "html_url":  "https://github.com/MONZikWasTaken/Framegen/compare/v1.5.4...v1.5.5",
+    "permalink_url":  "https://github.com/MONZikWasTaken/Framegen/compare/MONZikWasTaken:fc167eb...MONZikWasTaken:9641808",
+    "diff_url":  "https://github.com/MONZikWasTaken/Framegen/compare/v1.5.4...v1.5.5.diff",
+    "patch_url":  "https://github.com/MONZikWasTaken/Framegen/compare/v1.5.4...v1.5.5.patch",
+    "base_commit":  {
+                        "sha":  "fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                        "node_id":  "C_kwDOTK5prtoAKGZjMTY3ZWIwZWJjMTVmMzNhZDVjMzM4Y2ExNGM5Y2JmOTM0ZmVkOTY",
+                        "commit":  {
+                                       "author":  {
+                                                      "name":  "Monzik Allen",
+                                                      "email":  "monzikxd@gmail.com",
+                                                      "date":  "2026-10-23T02:21:15Z"
+                                                  },
+                                       "committer":  {
+                                                         "name":  "Monzik Allen",
+                                                         "email":  "monzikxd@gmail.com",
+                                                         "date":  "2026-10-23T02:21:15Z"
+                                                     },
+                                       "message":  "Release v1.5.4: fix static-guard pan ghosting and scene-cut recovery\n\nfix(runtime): gate the static guard by motion. The 1.5.0 wHalo term engaged\nthe guard near flat-colour regions regardless of motion, blending panning\ncontent toward the unwarped frame average and doubling/ghosting moving line\nart (anime pans). wStatic is now scaled by (1 - smoothstep(0.5, 1.0, motion)),\nso static text stays protected at motion~0 while moving content is left to the\ninterpolation. Mirrored into web/rt/rt.js.\n\nfix(extension): recover smoothly from hard scene cuts. Bridge the just-captured\nframe\u0027s presentation slot across a confirmed rate-plan transition (it was\ndropped with the in-flight pair decision), and pad the presentation delay by a\nfast-attack/slow-decay lateness tail so delivery bursts are pre-buffered instead\nof becoming a ~0.5s drop burst.\n\nfeat(extension): add a Flow upsample mode (edge/gate/bilinear) for the texture\nflow-upsample path; default edge keeps current behaviour.\n\nCo-Authored-By: Claude Opus 4.8 \u003cnoreply@anthropic.com\u003e",
+                                       "tree":  {
+                                                    "sha":  "a736d359514ae0359e8014e5226aa1b41b9e8325",
+                                                    "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a736d359514ae0359e8014e5226aa1b41b9e8325"
+                                                },
+                                       "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                                       "comment_count":  0,
+                                       "verification":  {
+                                                            "verified":  false,
+                                                            "reason":  "unsigned",
+                                                            "signature":  null,
+                                                            "payload":  null,
+                                                            "verified_at":  null
+                                                        }
+                                   },
+                        "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                        "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                        "comments_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/comments",
+                        "author":  {
+                                       "login":  "MONZikWasTaken",
+                                       "id":  207424525,
+                                       "node_id":  "U_kgDODF0MDQ",
+                                       "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                       "gravatar_id":  "",
+                                       "url":  "https://api.github.com/users/MONZikWasTaken",
+                                       "html_url":  "https://github.com/MONZikWasTaken",
+                                       "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                       "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                       "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                       "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                       "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                       "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                       "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                       "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                       "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                       "type":  "User",
+                                       "user_view_type":  "public",
+                                       "site_admin":  false
+                                   },
+                        "committer":  {
+                                          "login":  "MONZikWasTaken",
+                                          "id":  207424525,
+                                          "node_id":  "U_kgDODF0MDQ",
+                                          "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                          "gravatar_id":  "",
+                                          "url":  "https://api.github.com/users/MONZikWasTaken",
+                                          "html_url":  "https://github.com/MONZikWasTaken",
+                                          "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                          "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                          "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                          "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                          "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                          "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                          "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                          "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                          "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                          "type":  "User",
+                                          "user_view_type":  "public",
+                                          "site_admin":  false
+                                      },
+                        "parents":  [
+                                        {
+                                            "sha":  "4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                            "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                            "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/4cc26b80ea096be0ab3efd940ae91243068d60ed"
+                                        }
+                                    ]
+                    },
+    "merge_base_commit":  {
+                              "sha":  "fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                              "node_id":  "C_kwDOTK5prtoAKGZjMTY3ZWIwZWJjMTVmMzNhZDVjMzM4Y2ExNGM5Y2JmOTM0ZmVkOTY",
+                              "commit":  {
+                                             "author":  {
+                                                            "name":  "Monzik Allen",
+                                                            "email":  "monzikxd@gmail.com",
+                                                            "date":  "2026-10-23T02:21:15Z"
+                                                        },
+                                             "committer":  {
+                                                               "name":  "Monzik Allen",
+                                                               "email":  "monzikxd@gmail.com",
+                                                               "date":  "2026-10-23T02:21:15Z"
+                                                           },
+                                             "message":  "Release v1.5.4: fix static-guard pan ghosting and scene-cut recovery\n\nfix(runtime): gate the static guard by motion. The 1.5.0 wHalo term engaged\nthe guard near flat-colour regions regardless of motion, blending panning\ncontent toward the unwarped frame average and doubling/ghosting moving line\nart (anime pans). wStatic is now scaled by (1 - smoothstep(0.5, 1.0, motion)),\nso static text stays protected at motion~0 while moving content is left to the\ninterpolation. Mirrored into web/rt/rt.js.\n\nfix(extension): recover smoothly from hard scene cuts. Bridge the just-captured\nframe\u0027s presentation slot across a confirmed rate-plan transition (it was\ndropped with the in-flight pair decision), and pad the presentation delay by a\nfast-attack/slow-decay lateness tail so delivery bursts are pre-buffered instead\nof becoming a ~0.5s drop burst.\n\nfeat(extension): add a Flow upsample mode (edge/gate/bilinear) for the texture\nflow-upsample path; default edge keeps current behaviour.\n\nCo-Authored-By: Claude Opus 4.8 \u003cnoreply@anthropic.com\u003e",
+                                             "tree":  {
+                                                          "sha":  "a736d359514ae0359e8014e5226aa1b41b9e8325",
+                                                          "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/a736d359514ae0359e8014e5226aa1b41b9e8325"
+                                                      },
+                                             "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                                             "comment_count":  0,
+                                             "verification":  {
+                                                                  "verified":  false,
+                                                                  "reason":  "unsigned",
+                                                                  "signature":  null,
+                                                                  "payload":  null,
+                                                                  "verified_at":  null
+                                                              }
+                                         },
+                              "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                              "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                              "comments_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96/comments",
+                              "author":  {
+                                             "login":  "MONZikWasTaken",
+                                             "id":  207424525,
+                                             "node_id":  "U_kgDODF0MDQ",
+                                             "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                             "gravatar_id":  "",
+                                             "url":  "https://api.github.com/users/MONZikWasTaken",
+                                             "html_url":  "https://github.com/MONZikWasTaken",
+                                             "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                             "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                             "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                             "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                             "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                             "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                             "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                             "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                             "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                             "type":  "User",
+                                             "user_view_type":  "public",
+                                             "site_admin":  false
+                                         },
+                              "committer":  {
+                                                "login":  "MONZikWasTaken",
+                                                "id":  207424525,
+                                                "node_id":  "U_kgDODF0MDQ",
+                                                "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                                "gravatar_id":  "",
+                                                "url":  "https://api.github.com/users/MONZikWasTaken",
+                                                "html_url":  "https://github.com/MONZikWasTaken",
+                                                "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                                "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                                "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                                "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                                "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                                "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                                "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                                "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                                "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                                "type":  "User",
+                                                "user_view_type":  "public",
+                                                "site_admin":  false
+                                            },
+                              "parents":  [
+                                              {
+                                                  "sha":  "4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                                  "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/4cc26b80ea096be0ab3efd940ae91243068d60ed",
+                                                  "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/4cc26b80ea096be0ab3efd940ae91243068d60ed"
+                                              }
+                                          ]
+                          },
+    "status":  "ahead",
+    "ahead_by":  1,
+    "behind_by":  0,
+    "total_commits":  1,
+    "commits":  [
+                    {
+                        "sha":  "964180848e072163c2098b618a74ae037d5a82d2",
+                        "node_id":  "C_kwDOTK5prtoAKDk2NDE4MDg0OGUwNzIxNjNjMjA5OGI2MThhNzRhZTAzN2Q1YTgyZDI",
+                        "commit":  {
+                                       "author":  {
+                                                      "name":  "Monzik Allen",
+                                                      "email":  "monzikxd@gmail.com",
+                                                      "date":  "2026-10-23T03:01:45Z"
+                                                  },
+                                       "committer":  {
+                                                         "name":  "Monzik Allen",
+                                                         "email":  "monzikxd@gmail.com",
+                                                         "date":  "2026-10-23T03:01:45Z"
+                                                     },
+                                       "message":  "Release v1.5.5: stop source-pool reallocation on overlay jitter\n\nfix(extension): hold the source/mid texture pool size across small overlay\nchanges. The overlay backing is round(rect * DPR), so player chrome, hover\ncontrols or a scrollbar move it by a few px every tick, and\nensureFrameTextures reallocated the entire pool (presentation queue wiped,\nevery texture recreated) on any dimension change - a visible freeze that\nlooked random because it followed page layout. poolDims() stays the pure\n\"what size should the pool be\"; holdPoolDims() dead-bands it against the\nsize committed at the last real reallocation (max(16px, 2%)), so only\ngenuine resizes (fullscreen, theater) reallocate. The blit already scales\npool -\u003e overlay.\n\nCo-Authored-By: Claude Fable 5.1 \u003cnoreply@anthropic.com\u003e",
+                                       "tree":  {
+                                                    "sha":  "53fcaa2d0bea4d79981f5150937afabe706540d7",
+                                                    "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/trees/53fcaa2d0bea4d79981f5150937afabe706540d7"
+                                                },
+                                       "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/git/commits/964180848e072163c2098b618a74ae037d5a82d2",
+                                       "comment_count":  0,
+                                       "verification":  {
+                                                            "verified":  false,
+                                                            "reason":  "unsigned",
+                                                            "signature":  null,
+                                                            "payload":  null,
+                                                            "verified_at":  null
+                                                        }
+                                   },
+                        "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/964180848e072163c2098b618a74ae037d5a82d2",
+                        "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/964180848e072163c2098b618a74ae037d5a82d2",
+                        "comments_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/964180848e072163c2098b618a74ae037d5a82d2/comments",
+                        "author":  {
+                                       "login":  "MONZikWasTaken",
+                                       "id":  207424525,
+                                       "node_id":  "U_kgDODF0MDQ",
+                                       "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                       "gravatar_id":  "",
+                                       "url":  "https://api.github.com/users/MONZikWasTaken",
+                                       "html_url":  "https://github.com/MONZikWasTaken",
+                                       "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                       "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                       "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                       "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                       "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                       "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                       "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                       "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                       "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                       "type":  "User",
+                                       "user_view_type":  "public",
+                                       "site_admin":  false
+                                   },
+                        "committer":  {
+                                          "login":  "MONZikWasTaken",
+                                          "id":  207424525,
+                                          "node_id":  "U_kgDODF0MDQ",
+                                          "avatar_url":  "https://avatars.githubusercontent.com/u/207424525?v=4",
+                                          "gravatar_id":  "",
+                                          "url":  "https://api.github.com/users/MONZikWasTaken",
+                                          "html_url":  "https://github.com/MONZikWasTaken",
+                                          "followers_url":  "https://api.github.com/users/MONZikWasTaken/followers",
+                                          "following_url":  "https://api.github.com/users/MONZikWasTaken/following{/other_user}",
+                                          "gists_url":  "https://api.github.com/users/MONZikWasTaken/gists{/gist_id}",
+                                          "starred_url":  "https://api.github.com/users/MONZikWasTaken/starred{/owner}{/repo}",
+                                          "subscriptions_url":  "https://api.github.com/users/MONZikWasTaken/subscriptions",
+                                          "organizations_url":  "https://api.github.com/users/MONZikWasTaken/orgs",
+                                          "repos_url":  "https://api.github.com/users/MONZikWasTaken/repos",
+                                          "events_url":  "https://api.github.com/users/MONZikWasTaken/events{/privacy}",
+                                          "received_events_url":  "https://api.github.com/users/MONZikWasTaken/received_events",
+                                          "type":  "User",
+                                          "user_view_type":  "public",
+                                          "site_admin":  false
+                                      },
+                        "parents":  [
+                                        {
+                                            "sha":  "fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                                            "url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/commits/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96",
+                                            "html_url":  "https://github.com/MONZikWasTaken/Framegen/commit/fc167eb0ebc15f33ad5c338ca14c9cbf934fed96"
+                                        }
+                                    ]
+                    }
+                ],
+    "files":  [
+                  {
+                      "sha":  "1d1e7224fbea199f0dea5a3dc9b6391e8d9ff3bb",
+                      "filename":  "extension/content.js",
+                      "status":  "modified",
+                      "additions":  21,
+                      "deletions":  4,
+                      "changes":  25,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/964180848e072163c2098b618a74ae037d5a82d2/extension%2Fcontent.js",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/964180848e072163c2098b618a74ae037d5a82d2/extension%2Fcontent.js",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Fcontent.js?ref=964180848e072163c2098b618a74ae037d5a82d2",
+                      "patch":  "@@ -547,6 +547,7 @@\n   let presentationTextureVersions = new WeakMap();\n   const blitBg = new Map();\n   let frameTex = [], frameIdx = 0, texW = 0, texH = 0, lastTex = null;\n+  let stablePoolDims = null; // pool size committed at the last realloc; poolDims() dead-bands against it\n   let lastPresentedSourceTex = null, lastPresentedTex = null;\n   let midTexs = [], midIdx = 0;\n   let dedupPipe = null, dedupBg = new Map(), dedupStats = null, dedupSampler = null;\n@@ -1572,6 +1573,7 @@\n     frameIdx = 0;\n     texW = 0;\n     texH = 0;\n+    stablePoolDims = null;\n     midTexs = [];\n     midIdx = 0;\n     dedupPipe = null;\n@@ -1822,7 +1824,7 @@\n       frameTex.push(device.createTexture({ label: \u0027fcfr\u0027 + poolGen + \u0027_\u0027 + i, size: [w, h], format: \u0027rgba8unorm\u0027,\n         usage: GPUTextureUsage.TEXTURE_BINDING | GPUTextureUsage.COPY_DST | GPUTextureUsage.RENDER_ATTACHMENT }));\n     }\n-    texW = w; texH = h; dedupBg.clear(); blitBg.clear(); lastTex = null;\n+    texW = w; texH = h; stablePoolDims = [w, h]; dedupBg.clear(); blitBg.clear(); lastTex = null;\n     ensureMidTextures(w, h);\n   }\n \n@@ -1888,6 +1890,20 @@\n     if (overlay?.width \u0026\u0026 overlay?.height) return [overlay.width, overlay.height];\n     return [sw, sh];\n   }\n+  // Dead-band the pool size against the last committed one. The overlay backing\n+  // is round(rect * DPR), so player chrome, hover controls or a scrollbar nudge\n+  // it by a few px every tick, and ensureFrameTextures reallocates the entire\n+  // source pool (queue wiped, every texture recreated) on ANY dimension change -\n+  // a visible freeze. Hold the pool while the change is small; the blit scales\n+  // pool -\u003e overlay regardless. A real resize (fullscreen, theater) exceeds the\n+  // band and reallocates as before.\n+  function holdPoolDims(dims) {\n+    if (!stablePoolDims) return dims;\n+    const tolW = Math.max(16, Math.round(dims[0] * 0.02));\n+    const tolH = Math.max(16, Math.round(dims[1] * 0.02));\n+    return (Math.abs(stablePoolDims[0] - dims[0]) \u003c= tolW\n+        \u0026\u0026 Math.abs(stablePoolDims[1] - dims[1]) \u003c= tolH) ? stablePoolDims : dims;\n+  }\n   // copyExternalImageToTexture copies 1:1. Whenever the source and presentation\n   // backing differ, capture the whole source then downscale once into the pool.\n   let capTex = null, downPipe = null, capBgs = new WeakMap();\n@@ -3460,7 +3476,7 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n       schedT = (!schedT || Math.abs(arrival - expected) \u003e 80)\n         ? arrival : expected + 0.08 * (arrival - expected);\n       if (!videoEl.videoWidth || !videoEl.videoHeight) return;\n-      const [vw, vh] = poolDims();\n+      const [vw, vh] = holdPoolDims(poolDims());\n       // presentation delay must cover the batch compute time (own + the previous\n       // batch draining), or high factors drop their early mids as already-stale.\n       // The source pool grows only when the buffered history actually needs it.\n@@ -3983,7 +3999,7 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n       \u0026\u0026 overlayFitSupported \u0026\u0026 videoEl.controls ? \u0027auto\u0027 : \u0027none\u0027;\n     // seed the canvas with the current video frame so the reveal is seamless -\n     // no black flash while the first interpolated frames are still in flight\n-    const [vw, vh] = needsCanvasPresentation() \u0026\u0026 videoEl.videoWidth \u0026\u0026 videoEl.videoHeight ? poolDims() : [0, 0];\n+    const [vw, vh] = needsCanvasPresentation() \u0026\u0026 videoEl.videoWidth \u0026\u0026 videoEl.videoHeight ? holdPoolDims(poolDims()) : [0, 0];\n     if (vw \u0026\u0026 vh) {\n       ensureFrameTextures(vw, vh);\n       const seed = frameTex[frameIdx];\n@@ -4016,6 +4032,7 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n     lastPumpT = 0;\n     refreshEstimate.stableSamples = 0;\n     lastVr = null; // the cached rect belongs to the previous video element\n+    stablePoolDims = null; // and so does the committed pool size\n     dropped = 0; dups = 0; cuts = 0;\n     if (startEpoch !== playbackLoopEpoch || videoEl !== v) return;\n     running = true;\n@@ -4578,7 +4595,7 @@ fn sampleColor(uv: vec2\u003cf32\u003e) -\u003e vec3\u003cf32\u003e {\n   // frame gets the message; the RUNNING frame answers instantly, a frame that merely\n   // has a video answers after 120ms, video-less frames after 250ms - first response\n   // wins, so the most relevant frame speaks for the tab.\n-  const VERSION = \u00271.5.4\u0027;\n+  const VERSION = \u00271.5.5\u0027;\n   try {\n     chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) =\u003e {\n       if (msg \u0026\u0026 msg.type === \u0027fcStatus\u0027) {"
+                  },
+                  {
+                      "sha":  "5277e0cc1b470dda7105d5364be1d3a5fc0b64fd",
+                      "filename":  "extension/manifest.json",
+                      "status":  "modified",
+                      "additions":  1,
+                      "deletions":  1,
+                      "changes":  2,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/964180848e072163c2098b618a74ae037d5a82d2/extension%2Fmanifest.json",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/964180848e072163c2098b618a74ae037d5a82d2/extension%2Fmanifest.json",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Fmanifest.json?ref=964180848e072163c2098b618a74ae037d5a82d2",
+                      "patch":  "@@ -1,7 +1,7 @@\n {\n   \"manifest_version\": 3,\n   \"name\": \"Framegen - Frame Interpolation\",\n-  \"version\": \"1.5.4\",\n+  \"version\": \"1.5.5\",\n   \"action\": {\n     \"default_title\": \"Framegen\",\n     \"default_popup\": \"popup.html\","
+                  },
+                  {
+                      "sha":  "e943b34f8655c16853e8e6f219772204f701f6b4",
+                      "filename":  "extension/options.html",
+                      "status":  "modified",
+                      "additions":  1,
+                      "deletions":  1,
+                      "changes":  2,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/964180848e072163c2098b618a74ae037d5a82d2/extension%2Foptions.html",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/964180848e072163c2098b618a74ae037d5a82d2/extension%2Foptions.html",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/extension%2Foptions.html?ref=964180848e072163c2098b618a74ae037d5a82d2",
+                      "patch":  "@@ -14,7 +14,7 @@\n       \u003cspan class=\"brand-dot\" aria-hidden=\"true\"\u003e\u003c/span\u003e\n       \u003cstrong\u003eFramegen\u003c/strong\u003e\n       \u003ch1\u003eAdvanced settings\u003c/h1\u003e\n-      \u003cspan class=\"version\"\u003ev1.5.4\u003c/span\u003e\n+      \u003cspan class=\"version\"\u003ev1.5.5\u003c/span\u003e\n     \u003c/div\u003e\n     \u003cdiv class=\"header-actions\"\u003e\n       \u003cdiv id=\"runtimeStatus\" class=\"runtime-status\" role=\"status\" aria-live=\"polite\"\u003eLoading settings…\u003c/div\u003e"
+                  },
+                  {
+                      "sha":  "4264043501c1eda966dade64279a714d709650be",
+                      "filename":  "tools/profile_store.test.mjs",
+                      "status":  "modified",
+                      "additions":  3,
+                      "deletions":  3,
+                      "changes":  6,
+                      "blob_url":  "https://github.com/MONZikWasTaken/Framegen/blob/964180848e072163c2098b618a74ae037d5a82d2/tools%2Fprofile_store.test.mjs",
+                      "raw_url":  "https://github.com/MONZikWasTaken/Framegen/raw/964180848e072163c2098b618a74ae037d5a82d2/tools%2Fprofile_store.test.mjs",
+                      "contents_url":  "https://api.github.com/repos/MONZikWasTaken/Framegen/contents/tools%2Fprofile_store.test.mjs?ref=964180848e072163c2098b618a74ae037d5a82d2",
+                      "patch":  "@@ -515,9 +515,9 @@ test(\u0027options controller exposes virtual Current first and keeps preview, save,\n });\n \n test(\u0027extension exposes the full-page configurator without replacing popup status and help\u0027, () =\u003e {\n-  assert.equal(manifest.version, \u00271.5.4\u0027);\n-  assert.match(contentJs, /const VERSION = \u00271\\.5\\.4\u0027/);\n-  assert.match(optionsHtml, /\u003cspan class=\"version\"\u003ev1\\.5\\.4\u003c\\/span\u003e/);\n+  assert.equal(manifest.version, \u00271.5.5\u0027);\n+  assert.match(contentJs, /const VERSION = \u00271\\.5\\.5\u0027/);\n+  assert.match(optionsHtml, /\u003cspan class=\"version\"\u003ev1\\.5\\.5\u003c\\/span\u003e/);\n   assert.deepEqual(manifest.options_ui, { page: \u0027options.html\u0027, open_in_tab: true });\n   assert.deepEqual(manifest.content_scripts[0].js, [\u0027cadence.js\u0027, \u0027profile-store.js\u0027, \u0027content.js\u0027]);\n   assert.deepEqual(manifest.background, { service_worker: \u0027background.js\u0027 });"
+                  }
+              ]
+}

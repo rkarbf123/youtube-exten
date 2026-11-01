@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-31T23:50:30.669Z",
+  "productIntegrationComplete": false,
+  "browser": "156.0.8078.4",
+  "error": "Error: page.evaluate: Error: no available backend found. ERR: [webgpu] TypeError: q(...).webgpuInit is not a function\n    at va (http://127.0.0.1:5198/assets/rife-CPCmOHH9.js:1:1875)\n    at async $a.create (http://127.0.0.1:5198/assets/rife-CPCmOHH9.js:1:19715)\n    at async Cn.create (http://127.0.0.1:5198/assets/rife-CPCmOHH9.js:8:73329)\n    at async co (http://127.0.0.1:5198/assets/rife-CPCmOHH9.js:8:75480)\n    at async <anonymous>:396:30",
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "\u001b[0;93m2026-11-01 08:50:31.820300 [W:onnxruntime:Default, cpuid_info.cc:91 LogEarlyWarning] Unknown CPU vendor. cpuinfo_vendor value: 0\u001b[m"
+    }
+  ],
+  "errors": []
+}

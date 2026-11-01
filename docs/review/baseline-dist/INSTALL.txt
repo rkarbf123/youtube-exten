@@ -1,0 +1,21 @@
+CLARITY — GPU VIDEO UPSCALING
+
+Chrome: open chrome://extensions
+Edge: open edge://extensions
+
+Enable Developer mode, choose Load unpacked, and select THIS directory
+(the directory containing manifest.json). Extract the ZIP first if necessary.
+
+Reload existing YouTube tabs after installing or updating. Pin Clarity from
+the Extensions menu to access controls and actual runtime diagnostics.
+
+Fast and Balanced spatial engines run locally using WebGPU or WebGL2.
+Adaptive mode is enabled by default. Anime4K, Neural and Ultra are unavailable.
+Protected or inaccessible video frames use original-video fallback.
+
+For the offline GPU lab, find this extension's ID on the Extensions page and
+open chrome-extension://EXTENSION_ID/harness/index.html . Click Play packaged
+sample. No development server is needed for the packaged lab.
+
+The source project's README contains the architecture, full build/test
+commands, limitations, security notes, and detailed troubleshooting.

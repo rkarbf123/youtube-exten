@@ -1,0 +1,1109 @@
+{
+  "url": "https://www.youtube.com/watch?v=JuosxgOtXNU&t=130s",
+  "responses": [
+    {
+      "id": 1,
+      "status": 200,
+      "type": "application/vnd.yt-ump",
+      "itag": null,
+      "mime": null,
+      "range": null,
+      "file": "response-1.bin",
+      "bytes": 1777149,
+      "magic": "2f0c0a05080010b009120310f02e3a02"
+    },
+    {
+      "id": 2,
+      "status": 200,
+      "type": "application/vnd.yt-ump",
+      "itag": null,
+      "mime": null,
+      "range": null,
+      "file": "response-2.bin",
+      "bytes": 127,
+      "magic": "2f0c0a05080010b009120310f02e3a02"
+    },
+    {
+      "id": 3,
+      "status": 403,
+      "type": "text/plain",
+      "itag": "18",
+      "mime": "video/mp4",
+      "range": null,
+      "file": "response-3.bin",
+      "error": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "id": 4,
+      "status": 403,
+      "type": "text/plain",
+      "itag": "18",
+      "mime": "video/mp4",
+      "range": null,
+      "file": "response-4.bin",
+      "error": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "id": 5,
+      "status": 403,
+      "type": "text/plain",
+      "itag": "18",
+      "mime": "video/mp4",
+      "range": null,
+      "file": "response-5.bin",
+      "error": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "id": 6,
+      "status": 403,
+      "type": "text/plain",
+      "itag": "18",
+      "mime": "video/mp4",
+      "range": null,
+      "file": "response-6.bin",
+      "error": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "id": 7,
+      "status": 403,
+      "type": "text/plain",
+      "itag": "18",
+      "mime": "video/mp4",
+      "range": null,
+      "file": "response-7.bin",
+      "error": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "id": 8,
+      "status": 403,
+      "type": "text/plain",
+      "itag": "18",
+      "mime": "video/mp4",
+      "range": null,
+      "file": "response-8.bin",
+      "error": "Error: response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "id": 9,
+      "status": 200,
+      "type": "application/vnd.yt-ump",
+      "itag": null,
+      "mime": null,
+      "range": null,
+      "file": "response-9.bin",
+      "bytes": 927111,
+      "magic": "2f0c0a05080010b009120310f02e3a02"
+    },
+    {
+      "id": 10,
+      "status": 200,
+      "type": "application/vnd.yt-ump",
+      "itag": null,
+      "mime": null,
+      "range": null,
+      "file": "response-10.bin",
+      "bytes": 129,
+      "magic": "2f0c0a05080010b009120310f02e3a02"
+    }
+  ],
+  "video": {
+    "width": 854,
+    "height": 428,
+    "duration": 176.241,
+    "quality": {},
+    "pts": [
+      {
+        "pts": 130.041666,
+        "presentedFrames": 3,
+        "now": 2421.4000000059605,
+        "processingDuration": 0.0016
+      },
+      {
+        "pts": 130.125,
+        "presentedFrames": 5,
+        "now": 2509.5999999940395,
+        "processingDuration": 0.0008
+      },
+      {
+        "pts": 130.5,
+        "presentedFrames": 14,
+        "now": 2897.2999999970198,
+        "processingDuration": 0.0007
+      },
+      {
+        "pts": 130.541666,
+        "presentedFrames": 15,
+        "now": 2985.7999999970198,
+        "processingDuration": 0.0378
+      },
+      {
+        "pts": 130.583333,
+        "presentedFrames": 16,
+        "now": 3050.2000000029802,
+        "processingDuration": 0.0795
+      },
+      {
+        "pts": 130.625,
+        "presentedFrames": 17,
+        "now": 3106.5,
+        "processingDuration": 0.1211
+      },
+      {
+        "pts": 130.666666,
+        "presentedFrames": 18,
+        "now": 3130.5,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 130.708333,
+        "presentedFrames": 19,
+        "now": 3163,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 130.75,
+        "presentedFrames": 20,
+        "now": 3219.2999999970198,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 130.791666,
+        "presentedFrames": 21,
+        "now": 3238.5,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 130.958333,
+        "presentedFrames": 23,
+        "now": 3335,
+        "processingDuration": 0.2013
+      },
+      {
+        "pts": 131,
+        "presentedFrames": 24,
+        "now": 3381.5999999940395,
+        "processingDuration": 0.0006
+      },
+      {
+        "pts": 131.041666,
+        "presentedFrames": 25,
+        "now": 3429.5,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 131.083333,
+        "presentedFrames": 26,
+        "now": 3464.9000000059605,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 131.125,
+        "presentedFrames": 27,
+        "now": 3511.4000000059605,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 131.166666,
+        "presentedFrames": 28,
+        "now": 3548.2999999970198,
+        "processingDuration": 0.0567
+      },
+      {
+        "pts": 131.208333,
+        "presentedFrames": 29,
+        "now": 3590,
+        "processingDuration": 0.0567
+      },
+      {
+        "pts": 131.25,
+        "presentedFrames": 30,
+        "now": 3631.5999999940395,
+        "processingDuration": 0.0568
+      },
+      {
+        "pts": 131.291666,
+        "presentedFrames": 31,
+        "now": 3673.2999999970198,
+        "processingDuration": 0.0626
+      },
+      {
+        "pts": 131.333333,
+        "presentedFrames": 32,
+        "now": 3715,
+        "processingDuration": 0.0008
+      },
+      {
+        "pts": 131.375,
+        "presentedFrames": 33,
+        "now": 3756.5999999940395,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 131.416666,
+        "presentedFrames": 34,
+        "now": 3798.2999999970198,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 131.458333,
+        "presentedFrames": 35,
+        "now": 3840,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 131.5,
+        "presentedFrames": 36,
+        "now": 3881.7000000029802,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 131.541666,
+        "presentedFrames": 37,
+        "now": 3923.2999999970198,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 131.583333,
+        "presentedFrames": 38,
+        "now": 3965,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 131.625,
+        "presentedFrames": 39,
+        "now": 4006.5999999940395,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 131.666666,
+        "presentedFrames": 40,
+        "now": 4048.2999999970198,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 131.708333,
+        "presentedFrames": 41,
+        "now": 4090,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 131.75,
+        "presentedFrames": 42,
+        "now": 4131.70000000298,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 131.791666,
+        "presentedFrames": 43,
+        "now": 4173.29999999702,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 131.833333,
+        "presentedFrames": 44,
+        "now": 4215,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 131.875,
+        "presentedFrames": 45,
+        "now": 4256.5999999940395,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 131.916666,
+        "presentedFrames": 46,
+        "now": 4299.5,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 131.958333,
+        "presentedFrames": 47,
+        "now": 4340,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 132,
+        "presentedFrames": 48,
+        "now": 4382.5,
+        "processingDuration": 0.0005
+      },
+      {
+        "pts": 132.041666,
+        "presentedFrames": 49,
+        "now": 4423.29999999702,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 132.083333,
+        "presentedFrames": 50,
+        "now": 4465,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 132.125,
+        "presentedFrames": 51,
+        "now": 4506.70000000298,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 132.166666,
+        "presentedFrames": 52,
+        "now": 4548.29999999702,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 132.208333,
+        "presentedFrames": 53,
+        "now": 4589.9000000059605,
+        "processingDuration": 0.0487
+      },
+      {
+        "pts": 132.25,
+        "presentedFrames": 54,
+        "now": 4631.5999999940395,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 132.291666,
+        "presentedFrames": 55,
+        "now": 4673.29999999702,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 132.333333,
+        "presentedFrames": 56,
+        "now": 4715.0999999940395,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 132.375,
+        "presentedFrames": 57,
+        "now": 4756.79999999702,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 132.416666,
+        "presentedFrames": 58,
+        "now": 4798.29999999702,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 132.458333,
+        "presentedFrames": 59,
+        "now": 4840,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 132.5,
+        "presentedFrames": 60,
+        "now": 4881.5999999940395,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 132.541666,
+        "presentedFrames": 61,
+        "now": 4923.29999999702,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 132.583333,
+        "presentedFrames": 62,
+        "now": 4965,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 132.625,
+        "presentedFrames": 63,
+        "now": 5006.70000000298,
+        "processingDuration": 0.1247
+      },
+      {
+        "pts": 132.666666,
+        "presentedFrames": 64,
+        "now": 5048.29999999702,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 132.708333,
+        "presentedFrames": 65,
+        "now": 5090,
+        "processingDuration": 0.0417
+      },
+      {
+        "pts": 132.75,
+        "presentedFrames": 66,
+        "now": 5131.70000000298,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 132.791666,
+        "presentedFrames": 67,
+        "now": 5173.29999999702,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 132.833333,
+        "presentedFrames": 68,
+        "now": 5215,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 132.875,
+        "presentedFrames": 69,
+        "now": 5256.70000000298,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 132.916666,
+        "presentedFrames": 70,
+        "now": 5298.29999999702,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 132.958333,
+        "presentedFrames": 71,
+        "now": 5340,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 133,
+        "presentedFrames": 72,
+        "now": 5377.70000000298,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 133.041666,
+        "presentedFrames": 73,
+        "now": 5423.29999999702,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 133.083333,
+        "presentedFrames": 74,
+        "now": 5458.20000000298,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 133.125,
+        "presentedFrames": 75,
+        "now": 5499.79999999702,
+        "processingDuration": 0.125
+      },
+      {
+        "pts": 133.166666,
+        "presentedFrames": 76,
+        "now": 5541.5,
+        "processingDuration": 0.0006
+      },
+      {
+        "pts": 133.208333,
+        "presentedFrames": 77,
+        "now": 5583.0999999940395,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 133.25,
+        "presentedFrames": 78,
+        "now": 5624.9000000059605,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 133.291666,
+        "presentedFrames": 79,
+        "now": 5666.5,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 133.333333,
+        "presentedFrames": 80,
+        "now": 5708.20000000298,
+        "processingDuration": 0.0002
+      },
+      {
+        "pts": 133.375,
+        "presentedFrames": 81,
+        "now": 5749.9000000059605,
+        "processingDuration": 0.0387
+      },
+      {
+        "pts": 133.416666,
+        "presentedFrames": 82,
+        "now": 5791.5,
+        "processingDuration": 0.0803
+      },
+      {
+        "pts": 133.458333,
+        "presentedFrames": 83,
+        "now": 5833.0999999940395,
+        "processingDuration": 0.122
+      },
+      {
+        "pts": 133.5,
+        "presentedFrames": 84,
+        "now": 5874.9000000059605,
+        "processingDuration": 0.0002
+      },
+      {
+        "pts": 133.541666,
+        "presentedFrames": 85,
+        "now": 5916.5999999940395,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 133.583333,
+        "presentedFrames": 86,
+        "now": 5958.20000000298,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 133.625,
+        "presentedFrames": 87,
+        "now": 5999.9000000059605,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 133.666666,
+        "presentedFrames": 88,
+        "now": 6041.5999999940395,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 133.708333,
+        "presentedFrames": 89,
+        "now": 6083.29999999702,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 133.75,
+        "presentedFrames": 90,
+        "now": 6124.79999999702,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 133.791666,
+        "presentedFrames": 91,
+        "now": 6166.5,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 133.833333,
+        "presentedFrames": 92,
+        "now": 6208.20000000298,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 133.875,
+        "presentedFrames": 93,
+        "now": 6249.9000000059605,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 133.916666,
+        "presentedFrames": 94,
+        "now": 6291.70000000298,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 133.958333,
+        "presentedFrames": 95,
+        "now": 6333.0999999940395,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 134,
+        "presentedFrames": 96,
+        "now": 6379.5999999940395,
+        "processingDuration": 0.0004
+      },
+      {
+        "pts": 134.041666,
+        "presentedFrames": 97,
+        "now": 6423.5,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 134.083333,
+        "presentedFrames": 98,
+        "now": 6465.20000000298,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 134.125,
+        "presentedFrames": 99,
+        "now": 6506.79999999702,
+        "processingDuration": 0.1247
+      },
+      {
+        "pts": 134.166666,
+        "presentedFrames": 100,
+        "now": 6548.4000000059605,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 134.208333,
+        "presentedFrames": 101,
+        "now": 6590.0999999940395,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 134.25,
+        "presentedFrames": 102,
+        "now": 6631.9000000059605,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 134.291666,
+        "presentedFrames": 103,
+        "now": 6673.5,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 134.333333,
+        "presentedFrames": 104,
+        "now": 6715.20000000298,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 134.375,
+        "presentedFrames": 105,
+        "now": 6756.9000000059605,
+        "processingDuration": 0.0438
+      },
+      {
+        "pts": 134.416666,
+        "presentedFrames": 106,
+        "now": 6798.4000000059605,
+        "processingDuration": 0.0854
+      },
+      {
+        "pts": 134.458333,
+        "presentedFrames": 107,
+        "now": 6840.20000000298,
+        "processingDuration": 0.1271
+      },
+      {
+        "pts": 134.5,
+        "presentedFrames": 108,
+        "now": 6882,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 134.541666,
+        "presentedFrames": 109,
+        "now": 6923.4000000059605,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 134.583333,
+        "presentedFrames": 110,
+        "now": 6965.5,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 134.625,
+        "presentedFrames": 111,
+        "now": 7006.9000000059605,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 134.666666,
+        "presentedFrames": 112,
+        "now": 7048.5,
+        "processingDuration": 0.0004
+      },
+      {
+        "pts": 134.708333,
+        "presentedFrames": 113,
+        "now": 7090.29999999702,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 134.75,
+        "presentedFrames": 114,
+        "now": 7131.79999999702,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 134.791666,
+        "presentedFrames": 115,
+        "now": 7173.5999999940395,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 134.833333,
+        "presentedFrames": 116,
+        "now": 7215.20000000298,
+        "processingDuration": 0.0068
+      },
+      {
+        "pts": 134.875,
+        "presentedFrames": 117,
+        "now": 7257,
+        "processingDuration": 0.0485
+      },
+      {
+        "pts": 134.916666,
+        "presentedFrames": 118,
+        "now": 7298.5999999940395,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 134.958333,
+        "presentedFrames": 119,
+        "now": 7340.29999999702,
+        "processingDuration": 0.1247
+      },
+      {
+        "pts": 135,
+        "presentedFrames": 120,
+        "now": 7382.0999999940395,
+        "processingDuration": 0.0003
+      },
+      {
+        "pts": 135.041666,
+        "presentedFrames": 121,
+        "now": 7423.5,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 135.083333,
+        "presentedFrames": 122,
+        "now": 7467.5,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 135.125,
+        "presentedFrames": 123,
+        "now": 7506.9000000059605,
+        "processingDuration": 0.125
+      },
+      {
+        "pts": 135.166666,
+        "presentedFrames": 124,
+        "now": 7548.5999999940395,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 135.208333,
+        "presentedFrames": 125,
+        "now": 7590.0999999940395,
+        "processingDuration": 0.0488
+      },
+      {
+        "pts": 135.25,
+        "presentedFrames": 126,
+        "now": 7631.70000000298,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 135.291666,
+        "presentedFrames": 127,
+        "now": 7673.5,
+        "processingDuration": 0.125
+      },
+      {
+        "pts": 135.333333,
+        "presentedFrames": 128,
+        "now": 7715.20000000298,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 135.375,
+        "presentedFrames": 129,
+        "now": 7756.79999999702,
+        "processingDuration": 0.0485
+      },
+      {
+        "pts": 135.416666,
+        "presentedFrames": 130,
+        "now": 7798.5,
+        "processingDuration": 0.0903
+      },
+      {
+        "pts": 135.458333,
+        "presentedFrames": 131,
+        "now": 7840.20000000298,
+        "processingDuration": 0.1247
+      },
+      {
+        "pts": 135.5,
+        "presentedFrames": 132,
+        "now": 7881.79999999702,
+        "processingDuration": 0.0071
+      },
+      {
+        "pts": 135.541666,
+        "presentedFrames": 133,
+        "now": 7923.5,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 135.583333,
+        "presentedFrames": 134,
+        "now": 7965.0999999940395,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 135.625,
+        "presentedFrames": 135,
+        "now": 8006.79999999702,
+        "processingDuration": 0.1248
+      },
+      {
+        "pts": 135.666666,
+        "presentedFrames": 136,
+        "now": 8048.5,
+        "processingDuration": 0.0012
+      },
+      {
+        "pts": 135.708333,
+        "presentedFrames": 137,
+        "now": 8090.20000000298,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 135.75,
+        "presentedFrames": 138,
+        "now": 8133.20000000298,
+        "processingDuration": 0.0833
+      },
+      {
+        "pts": 135.791666,
+        "presentedFrames": 139,
+        "now": 8173.5999999940395,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 135.833333,
+        "presentedFrames": 140,
+        "now": 8215.20000000298,
+        "processingDuration": 0.0001
+      },
+      {
+        "pts": 135.875,
+        "presentedFrames": 141,
+        "now": 8256.79999999702,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 135.916666,
+        "presentedFrames": 142,
+        "now": 8298.59999999404,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 135.958333,
+        "presentedFrames": 143,
+        "now": 8340.20000000298,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 136,
+        "presentedFrames": 144,
+        "now": 8381.90000000596,
+        "processingDuration": 0.0011
+      },
+      {
+        "pts": 136.041666,
+        "presentedFrames": 145,
+        "now": 8423.5,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 136.083333,
+        "presentedFrames": 146,
+        "now": 8465.20000000298,
+        "processingDuration": 0.0834
+      },
+      {
+        "pts": 136.125,
+        "presentedFrames": 147,
+        "now": 8507.40000000596,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 136.166666,
+        "presentedFrames": 148,
+        "now": 8548.59999999404,
+        "processingDuration": 0.0004
+      },
+      {
+        "pts": 136.208333,
+        "presentedFrames": 149,
+        "now": 8590.09999999404,
+        "processingDuration": 0.0416
+      },
+      {
+        "pts": 136.25,
+        "presentedFrames": 150,
+        "now": 8631.79999999702,
+        "processingDuration": 0.0832
+      },
+      {
+        "pts": 136.291666,
+        "presentedFrames": 151,
+        "now": 8673.5,
+        "processingDuration": 0.1249
+      },
+      {
+        "pts": 136.333333,
+        "presentedFrames": 152,
+        "now": 8715.29999999702,
+        "processingDuration": 0.0002
+      },
+      {
+        "pts": 136.375,
+        "presentedFrames": 153,
+        "now": 8756.79999999702,
+        "processingDuration": 0.0415
+      },
+      {
+        "pts": 136.416666,
+        "presentedFrames": 154,
+        "now": 8798.59999999404,
+        "processingDuration": 0.0831
+      },
+      {
+        "pts": 136.458333,
+        "presentedFrames": 155,
+        "now": 8840.20000000298,
+        "processingDuration": 0.1249
+      }
+    ],
+    "mediaKeys": false
+  },
+  "mse": {
+    "streams": [
+      {
+        "id": 0,
+        "mime": "audio/webm; codecs=\"opus\""
+      },
+      {
+        "id": 1,
+        "mime": "video/mp4; codecs=\"av01.0.04M.08\""
+      }
+    ],
+    "parts": [
+      {
+        "id": 1,
+        "sequence": 0,
+        "file": "mse-1-0.bin",
+        "bytes": 700,
+        "magic": "0000001c6674797064617368"
+      },
+      {
+        "id": 1,
+        "sequence": 1,
+        "file": "mse-1-1.bin",
+        "bytes": 281954,
+        "magic": "0000059c6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 2,
+        "file": "mse-1-2.bin",
+        "bytes": 230310,
+        "magic": "000002ec6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 3,
+        "file": "mse-1-3.bin",
+        "bytes": 202149,
+        "magic": "0000042c6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 4,
+        "file": "mse-1-4.bin",
+        "bytes": 166415,
+        "magic": "0000034c6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 5,
+        "file": "mse-1-5.bin",
+        "bytes": 241921,
+        "magic": "0000033c6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 6,
+        "file": "mse-1-6.bin",
+        "bytes": 137214,
+        "magic": "0000030c6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 7,
+        "file": "mse-1-7.bin",
+        "bytes": 17050,
+        "magic": "0000059c6d6f6f6600000010"
+      },
+      {
+        "id": 1,
+        "sequence": 8,
+        "file": "mse-1-8.bin",
+        "bytes": 55120,
+        "magic": "2a221df7df836c79d41ad1d7"
+      },
+      {
+        "id": 1,
+        "sequence": 9,
+        "file": "mse-1-9.bin",
+        "bytes": 80850,
+        "magic": "cf9fcb0123433eb591e7ec28"
+      },
+      {
+        "id": 1,
+        "sequence": 10,
+        "file": "mse-1-10.bin",
+        "bytes": 79625,
+        "magic": "581365394339f9915c088415"
+      },
+      {
+        "id": 1,
+        "sequence": 11,
+        "file": "mse-1-11.bin",
+        "bytes": 23275,
+        "magic": "f6e45652f3b23508deb1ebdc"
+      },
+      {
+        "id": 1,
+        "sequence": 12,
+        "file": "mse-1-12.bin",
+        "bytes": 17150,
+        "magic": "0ae3be2ad78d04e178f7b619"
+      },
+      {
+        "id": 1,
+        "sequence": 13,
+        "file": "mse-1-13.bin",
+        "bytes": 8575,
+        "magic": "d13a23f74f8ff255bca98bf8"
+      },
+      {
+        "id": 1,
+        "sequence": 14,
+        "file": "mse-1-14.bin",
+        "bytes": 95539,
+        "magic": "eff98d292df798c3463d4410"
+      },
+      {
+        "id": 1,
+        "sequence": 15,
+        "file": "mse-1-15.bin",
+        "bytes": 48974,
+        "magic": "6ab2ed559910bfbb2adca74e"
+      },
+      {
+        "id": 1,
+        "sequence": 16,
+        "file": "mse-1-16.bin",
+        "bytes": 134850,
+        "magic": "0000059c6d6f6f6600000010"
+      }
+    ]
+  }
+}

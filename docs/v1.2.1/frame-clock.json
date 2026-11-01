@@ -1,0 +1,372 @@
+[
+  {
+    "variant": "baseline",
+    "frames": [
+      {
+        "now": 3191.2,
+        "media": 3,
+        "defaultTimestamp": 3,
+        "current": 3.0457,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 88,
+        "last": 135
+      },
+      {
+        "now": 3225.9,
+        "media": 3.042,
+        "defaultTimestamp": 3.042,
+        "current": 3.0469,
+        "expectedMinusNow": 7,
+        "presentationMinusNow": 0.1999999999998181,
+        "first": 83,
+        "last": 130
+      },
+      {
+        "now": 3274.4,
+        "media": 3.083,
+        "defaultTimestamp": 3.083,
+        "current": 3.0946,
+        "expectedMinusNow": 0.09999999999990905,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 78,
+        "last": 125
+      },
+      {
+        "now": 3316.2,
+        "media": 3.125,
+        "defaultTimestamp": 3.125,
+        "current": 3.1363,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 73,
+        "last": 120
+      },
+      {
+        "now": 3357.9,
+        "media": 3.167,
+        "defaultTimestamp": 3.167,
+        "current": 3.1784,
+        "expectedMinusNow": -0.09999999999990905,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 68,
+        "last": 115
+      },
+      {
+        "now": 3399.4,
+        "media": 3.208,
+        "defaultTimestamp": 3.208,
+        "current": 3.2203,
+        "expectedMinusNow": 0.09999999999990905,
+        "presentationMinusNow": -6.700000000000273,
+        "first": 63,
+        "last": 110
+      },
+      {
+        "now": 3441.1,
+        "media": 3.25,
+        "defaultTimestamp": 3.25,
+        "current": 3.2619,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 58,
+        "last": 105
+      },
+      {
+        "now": 3482.9,
+        "media": 3.292,
+        "defaultTimestamp": 3.292,
+        "current": 3.3033,
+        "expectedMinusNow": -0.09999999999990905,
+        "presentationMinusNow": -7,
+        "first": 53,
+        "last": 100
+      },
+      {
+        "now": 3524.6,
+        "media": 3.333,
+        "defaultTimestamp": 3.333,
+        "current": 3.345,
+        "expectedMinusNow": 0.20000000000027285,
+        "presentationMinusNow": -6.599999999999909,
+        "first": 48,
+        "last": 95
+      },
+      {
+        "now": 3566.2,
+        "media": 3.375,
+        "defaultTimestamp": 3.375,
+        "current": 3.3873,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 43,
+        "last": 90
+      },
+      {
+        "now": 3607.9,
+        "media": 3.417,
+        "defaultTimestamp": 3.417,
+        "current": 3.4282,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.900000000000091,
+        "first": 39,
+        "last": 86
+      },
+      {
+        "now": 3649.5,
+        "media": 3.458,
+        "defaultTimestamp": 3.458,
+        "current": 3.4698,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.900000000000091,
+        "first": 44,
+        "last": 91
+      },
+      {
+        "now": 3691.2,
+        "media": 3.5,
+        "defaultTimestamp": 3.5,
+        "current": 3.5122,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.899999999999636,
+        "first": 49,
+        "last": 96
+      },
+      {
+        "now": 3732.8,
+        "media": 3.542,
+        "defaultTimestamp": 3.542,
+        "current": 3.5533,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 54,
+        "last": 101
+      },
+      {
+        "now": 3774.5,
+        "media": 3.583,
+        "defaultTimestamp": 3.583,
+        "current": 3.5952,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.900000000000091,
+        "first": 59,
+        "last": 106
+      },
+      {
+        "now": 3816.2,
+        "media": 3.625,
+        "defaultTimestamp": 3.625,
+        "current": 3.6373,
+        "expectedMinusNow": 0.1000000000003638,
+        "presentationMinusNow": -6.699999999999818,
+        "first": 64,
+        "last": 111
+      },
+      {
+        "now": 3858,
+        "media": 3.667,
+        "defaultTimestamp": 3.667,
+        "current": 3.6794,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 69,
+        "last": 116
+      },
+      {
+        "now": 3899.4,
+        "media": 3.708,
+        "defaultTimestamp": 3.708,
+        "current": 3.7205,
+        "expectedMinusNow": 0.1999999999998181,
+        "presentationMinusNow": -6.700000000000273,
+        "first": 74,
+        "last": 121
+      }
+    ]
+  },
+  {
+    "variant": "sync",
+    "frames": [
+      {
+        "now": 3137.4,
+        "media": 2.958,
+        "defaultTimestamp": 2.958,
+        "current": 3.0401,
+        "expectedMinusNow": 7,
+        "presentationMinusNow": 0.1999999999998181,
+        "first": 93,
+        "last": 140
+      },
+      {
+        "now": 3179.1,
+        "media": 3,
+        "defaultTimestamp": 3,
+        "current": 3.0454,
+        "expectedMinusNow": 6.900000000000091,
+        "presentationMinusNow": 0.09999999999990905,
+        "first": 88,
+        "last": 135
+      },
+      {
+        "now": 3227.8,
+        "media": 3.042,
+        "defaultTimestamp": 3.042,
+        "current": 3.0943,
+        "expectedMinusNow": -0.1000000000003638,
+        "presentationMinusNow": -6.900000000000091,
+        "first": 83,
+        "last": 130
+      },
+      {
+        "now": 3269.4,
+        "media": 3.083,
+        "defaultTimestamp": 3.083,
+        "current": 3.1356,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.700000000000273,
+        "first": 78,
+        "last": 125
+      },
+      {
+        "now": 3304.1,
+        "media": 3.125,
+        "defaultTimestamp": 3.125,
+        "current": 3.1701,
+        "expectedMinusNow": 7,
+        "presentationMinusNow": 0.09999999999990905,
+        "first": 73,
+        "last": 120
+      },
+      {
+        "now": 3352.7,
+        "media": 3.167,
+        "defaultTimestamp": 3.167,
+        "current": 3.2201,
+        "expectedMinusNow": 0.1000000000003638,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 68,
+        "last": 115
+      },
+      {
+        "now": 3394.4,
+        "media": 3.208,
+        "defaultTimestamp": 3.208,
+        "current": 3.2611,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 63,
+        "last": 110
+      },
+      {
+        "now": 3436,
+        "media": 3.25,
+        "defaultTimestamp": 3.25,
+        "current": 3.3022,
+        "expectedMinusNow": 0.09999999999990905,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 58,
+        "last": 105
+      },
+      {
+        "now": 3477.7,
+        "media": 3.292,
+        "defaultTimestamp": 3.292,
+        "current": 3.3438,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 53,
+        "last": 100
+      },
+      {
+        "now": 3519.3,
+        "media": 3.333,
+        "defaultTimestamp": 3.333,
+        "current": 3.3861,
+        "expectedMinusNow": 0.09999999999990905,
+        "presentationMinusNow": -6.700000000000273,
+        "first": 48,
+        "last": 95
+      },
+      {
+        "now": 3561,
+        "media": 3.375,
+        "defaultTimestamp": 3.375,
+        "current": 3.4269,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 43,
+        "last": 90
+      },
+      {
+        "now": 3595.8,
+        "media": 3.417,
+        "defaultTimestamp": 3.417,
+        "current": 3.4616,
+        "expectedMinusNow": 6.899999999999636,
+        "presentationMinusNow": 0,
+        "first": 39,
+        "last": 86
+      },
+      {
+        "now": 3644.4,
+        "media": 3.458,
+        "defaultTimestamp": 3.458,
+        "current": 3.5112,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.900000000000091,
+        "first": 44,
+        "last": 91
+      },
+      {
+        "now": 3686,
+        "media": 3.5,
+        "defaultTimestamp": 3.5,
+        "current": 3.5527,
+        "expectedMinusNow": 0.09999999999990905,
+        "presentationMinusNow": -6.800000000000182,
+        "first": 49,
+        "last": 96
+      },
+      {
+        "now": 3727.7,
+        "media": 3.542,
+        "defaultTimestamp": 3.542,
+        "current": 3.5945,
+        "expectedMinusNow": 0.1000000000003638,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 54,
+        "last": 101
+      },
+      {
+        "now": 3769.5,
+        "media": 3.583,
+        "defaultTimestamp": 3.583,
+        "current": 3.6369,
+        "expectedMinusNow": -0.09999999999990905,
+        "presentationMinusNow": -6.900000000000091,
+        "first": 59,
+        "last": 106
+      },
+      {
+        "now": 3811.1,
+        "media": 3.625,
+        "defaultTimestamp": 3.625,
+        "current": 3.6777,
+        "expectedMinusNow": 0,
+        "presentationMinusNow": -6.799999999999727,
+        "first": 64,
+        "last": 111
+      },
+      {
+        "now": 3845.8,
+        "media": 3.667,
+        "defaultTimestamp": 3.667,
+        "current": 3.7138,
+        "expectedMinusNow": 7,
+        "presentationMinusNow": 0.09999999999990905,
+        "first": 69,
+        "last": 116
+      }
+    ]
+  }
+]

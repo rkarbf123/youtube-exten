@@ -1,0 +1,13 @@
+{
+  "public/models/framegen/rt_v7s.bin": "76428e1769f742a2aaad79996f2eb57cc29388a6dc21c242386ca9110c0bb397",
+  "node_modules/framegen/rt.js": "da2d3fa8f97d8628b7d5a47c01aa1cad99095ad3d2247220d7142718ab1110c8",
+  "package.json": "2a5e3c98d9c9aed2cd9abc49cd4767eb7de98920b00dd16f90a965c52620325c",
+  "package-lock.json": "990d0985e19a06f846edc80de1be280c95856438c8bd20e461be8a2fe6764a8f",
+  "docs/v1.3/framegen/benchmark.json": "5efe8509e7c963f0e66b35711d6c9873645b88904fb8f9d36bb7413cff7b841a",
+  "docs/v1.3/framegen-fps/720p-24-48.json": "6ac79a3862f4ef748108478f9a3641abd73677b7ceadf433555283be3b32ec0c",
+  "docs/v1.3/framegen-fps/720p-30-60.json": "d9563e965f2b73d8314d65b7384d5deb4be9a0d61ad850a084715054f37dfe4e",
+  "docs/v1.3/framegen-fps/720p-60-90.json": "f9a5861517dc3154f03c08be065ee2056f189c1215cd8810dd37ea13b6626b63",
+  "docs/v1.3/framegen-fps/1080p-24-48.json": "dedde577ae6ab5f15354f1fc76eb0b23cfda8842033f5f64230ee76e9db353bc",
+  "docs/v1.3/framegen-fps/1080p-30-60.json": "79a34b991c59381ed56a4e12df29c999cdbb0e093e02e7a6c27a30cd53f9232e",
+  "docs/v1.3/framegen-fps/1080p-60-90.json": "4b61927e0eda4608eb4a952b35bdefba79cd18dc906d6e0485d7349e276a632a"
+}

@@ -1,0 +1,12 @@
+{
+  "package": "framegen",
+  "version": "1.4.0",
+  "model": "v7-small",
+  "binSha256": "76428e1769f742a2aaad79996f2eb57cc29388a6dc21c242386ca9110c0bb397",
+  "manifestSha256": "6fa80133638949109d11fec3efb0421fbbc556f9bcff2fe2239b410154d8e7e3",
+  "runtimeSha256": "da2d3fa8f97d8628b7d5a47c01aa1cad99095ad3d2247220d7142718ab1110c8",
+  "license": "Non-commercial research and personal use; unchanged redistribution with WEIGHTS_LICENSE.md",
+  "codeLicense": "MIT",
+  "source": "npm:framegen@1.4.0",
+  "bytes": 2945824
+}

@@ -1,0 +1,16 @@
+import {readFile,writeFile,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const root='docs/v1.2.1/';
+const edit=async(path,fn)=>writeFile(path,fn(await readFile(path,'utf8')));
+await edit(root+'REPORT.ko.md',s=>s.replace('같은 주입 조건에서 전환 0회·표시 100%·약 60FPS를 기록했습니다.','같은 주입 조건의 최종 15초 재실행에서 약 59.82FPS·표시 99.98%·짧은 숨김 2회를 기록했습니다. 이전의 125회 전환보다 감소했지만 이 부하에서 깜빡임이 완전히 제거되지는 않았습니다.').replace('쌍이 일시적으로 없으면','CPU 제출 기한 또는 출력 유효시간을 넘긴 경우에는 다음 rAF에서 현재 시각의 안전한 원본 끝점을 같은 Canvas로 재시도합니다. PTS 역행이나 무제한 오래된 화면 유지는 허용하지 않습니다. 새 9ms CPU 지연 재현에서도 제출이 계속되고 추가 숨김이 없는 것을 확인했습니다. [영향 회귀 8개](native-retry-regression.log).\n\n쌍이 일시적으로 없으면').replace('| `npm run test:browser` | [브라우저 36개](stability-browser-final.log) |','| `npm run test:browser` | [전체 36개 통과](stability-browser-final.log), 마지막 복구 변경 후 [관련 8개 통과](native-retry-regression.log), 새 재현 포함 총 37개 중 전체 재실행은 생략 |').replace('이미 통과한 결과는 보존했고,','마지막 원본 재시도 변경 후에는 앞선 행렬에서 실패·보류가 있었던 세 조건만 [재검증](after-stability-retry-recheck.json)했습니다. 60초 지속성 두 조건은 해당 카운터가 모두 0이므로 영향을 받지 않는 성공 기록을 보존했습니다.\n\n이미 통과한 결과는 보존했고,').replace('- 시계 불연속·진짜 오래된 화면','- 완료 통지를 15ms 늦추는 1080p60→144 진단 주입에서는 원본 FPS 보호 모드로 전환하며 최종 15초에 짧은 숨김 2회가 남았습니다. 보간 144FPS 성공이나 깜빡임 완전 제거로 보고하지 않습니다.\n- 시계 불연속·진짜 오래된 화면'));
+await writeFile(root+'REPORT-STABILITY.ko.md',await readFile(root+'REPORT.ko.md','utf8'));
+await edit(root+'OPTIMIZATION-REPORT.ko.md',s=>s.startsWith('> 과거')?s:'> 과거 첫 최적화 단계의 보존 기록입니다. 최종 안정화·원본 FPS 정책·잔여 문제는 [최종 보고서](REPORT.ko.md)를 기준으로 읽어 주세요.\n\n'+s);
+await edit(root+'PERFORMANCE.md',s=>s.startsWith('> 과거')?s:'> 과거 첫 최적화의 45조건 비교입니다. 현재 24/30FPS 정책 적용 전 기록이며 최종 결과는 [안정화 표](STABILITY-RESULTS.md)입니다.\n\n'+s);
+await writeFile(root+'FINAL-RESULTS.md','# 최종 결과 안내\n\n최신 측정은 [안정화 측정 결과](STABILITY-RESULTS.md), 원인·수정·미검증 사항은 [최종 보고서](REPORT.ko.md)에 있습니다. 과거 첫 최적화의 전체 행렬은 [역사적 비교](PERFORMANCE.md)입니다.\n');
+await edit('README.md',s=>s.replace('node scripts/benchmark-v121.mjs after matrix','node scripts/stability-v121.mjs after matrix\nnode scripts/stability-v121.mjs after long\nnode scripts/stability-v121.mjs after combinations').replace('node scripts/verify-v121-youtube.mjs','node scripts/verify-stability-youtube.mjs'));
+const hash=b=>createHash('sha256').update(b).digest('hex');
+async function files(dir){const result={};for(const d of await readdir(dir,{withFileTypes:true})){if(d.isDirectory()){for(const [p,h]of Object.entries(await files(dir+'/'+d.name)))result[d.name+'/'+p]=h;}else result[d.name]=hash(await readFile(dir+'/'+d.name));}return result;}
+const current=await files('src'),baseline=await files(root+'baseline-source'),optimized=await files(root+'optimized-source');
+await writeFile(root+'source-comparison-final.json',JSON.stringify({date:new Date().toISOString(),rows:Object.keys(current).map(path=>({path,current:current[path],baseline:baseline[path]??null,optimized:optimized[path]??null,sameAsBaseline:current[path]===baseline[path],sameAsOptimized:current[path]===optimized[path]}))},null,2));
+await writeFile(root+'stability-measured-build.json',JSON.stringify({date:new Date().toISOString(),version:'1.2.1',files:await files('dist'),source:current},null,2));
+console.log('Docs and final source/build fingerprints written.');

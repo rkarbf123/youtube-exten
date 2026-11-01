@@ -1,0 +1,1193 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yhuij\\Desktop\\youtube exten\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\yhuij\\Desktop\\youtube exten\\playwright.config.ts",
+    "rootDir": "C:/Users/yhuij/Desktop/youtube exten/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yhuij/Desktop/youtube exten/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/yhuij/Desktop/youtube exten/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser",
+        "snapshotDir": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:5173",
+          "channel": "chromium",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "launchOptions": {
+            "args": [
+              "--autoplay-policy=no-user-gesture-required"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5173 --strictPort",
+      "url": "http://127.0.0.1:5173/harness/",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "extension.spec.ts",
+      "file": "extension.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "built MV3 popup persists settings and receives production content-script stats",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:24:58.462Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da119938d3268322a91b-0549734338ed93b2e967",
+          "file": "extension.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "gpu.spec.ts",
+      "file": "gpu.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WGSL pipelines compile and deterministic GPU pixels are correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 741,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:02.784Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-b0e65b3c56cbae52b820",
+          "file": "gpu.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "WebGL2 fallback compiles and produces correct pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:03.711Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-b48d16af07e37c821490",
+          "file": "gpu.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "WebGL2 video output reaches the compositor with matching comparison frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3337,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:04.185Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-4207b010f5e0a4f1b450",
+          "file": "gpu.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "origin-clean video renders, resizes, seeks, compares, pauses and cleans up",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7359,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:07.540Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-6ba94a665cd08e2e74a8",
+          "file": "gpu.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "restricted acquisition restores the original and reports the reason",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3767,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:14.916Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-5063181c1d0107739ebf",
+          "file": "gpu.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "actual browser origin-clean restrictions leave cross-origin video playable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 915,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:18.699Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-a3098f5c2b81a6e5da72",
+          "file": "gpu.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "device loss recovers once with a fresh WebGL2 surface",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6211,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:19.631Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-7d2b1543efdfe7cdddba",
+          "file": "gpu.spec.ts",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "missing GPU backends preserve original playback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3494,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:25.859Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-2843d856972a9b2b6fc7",
+          "file": "gpu.spec.ts",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "textures are reused, resized, and released on shutdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2057,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:29.375Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-21a783427bbc519df4aa",
+          "file": "gpu.spec.ts",
+          "line": 81,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "quality.spec.ts",
+      "file": "quality.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "webgpu: EASU scalar reference and sharper reconstruction without sharpening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1231,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:31.475Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-b1e7689cb32e390a5058",
+          "file": "quality.spec.ts",
+          "line": 3,
+          "column": 3
+        },
+        {
+          "title": "webgl2: EASU scalar reference and sharper reconstruction without sharpening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 936,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:32.727Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-8239fdc702ff6d9d0560",
+          "file": "quality.spec.ts",
+          "line": 3,
+          "column": 3
+        },
+        {
+          "title": "actual presentation state, content modes, original toggle, and freshness",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 8233,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"animation\"\u001b[39m\nReceived string:    \u001b[31m\"FSR1 EASU · 애니메이션\"\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"animation\"\u001b[39m\nReceived string:    \u001b[31m\"FSR1 EASU · 애니메이션\"\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts:15:138",
+                    "location": {
+                      "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts",
+                      "column": 138,
+                      "line": 15
+                    },
+                    "snippet": "  13 |   await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.metrics.enhancedVisiblePercent??0)).toBeGreaterThan(90);\n  14 |   await page.evaluate(()=>document.querySelector('video')!.pause());\n> 15 |   await page.selectOption('#contentMode','animation');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.algorithm)).toContain('animation');\n     |                                                                                                                                          ^\n  16 |   await page.check('#original');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presentation)).toBe('original');\n  17 |   const original=await page.evaluate(()=>window.clarityHarness.stats()!);expect(original.upscalingActive).toBe(false);expect(original.fallback).toBe(false);expect(original.status).toBe('Original Comparison');\n  18 |   await page.uncheck('#original');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.upscalingActive)).toBe(true);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts",
+                        "column": 138,
+                        "line": 15
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"animation\"\u001b[39m\nReceived string:    \u001b[31m\"FSR1 EASU · 애니메이션\"\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  13 |   await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.metrics.enhancedVisiblePercent??0)).toBeGreaterThan(90);\n  14 |   await page.evaluate(()=>document.querySelector('video')!.pause());\n> 15 |   await page.selectOption('#contentMode','animation');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.algorithm)).toContain('animation');\n     |                                                                                                                                          ^\n  16 |   await page.check('#original');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presentation)).toBe('original');\n  17 |   const original=await page.evaluate(()=>window.clarityHarness.stats()!);expect(original.upscalingActive).toBe(false);expect(original.fallback).toBe(false);expect(original.status).toBe('Original Comparison');\n  18 |   await page.uncheck('#original');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.upscalingActive)).toBe(true);\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts:15:138"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:33.693Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results\\quality-actual-presentatio-a4b23-iginal-toggle-and-freshness\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts",
+                    "column": 138,
+                    "line": 15
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-f0090d7407b447ba9d32",
+          "file": "quality.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "a positioned video cannot cover the processed canvas or comparison divider",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "timedOut",
+                  "duration": 45039,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts",
+                        "column": 113,
+                        "line": 27
+                      },
+                      "message": "Error: locator.evaluate: Test timeout of 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('slider', { name: 'Original and enhanced comparison divider' })\u001b[22m\n\n\n  25 |   await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);\n  26 |   expect(await page.locator('.clarity-gpu-overlay').evaluate(c=>Number(getComputedStyle(c).zIndex))).toBeGreaterThan(10);\n> 27 |   const divider=page.getByRole('slider',{name:'원본과 보정 영상 비교 경계'});expect(await divider.evaluate(h=>Number(getComputedStyle(h.parentElement!).zIndex))).toBeGreaterThan(11);\n     |                                                                                                                 ^\n  28 | });\n  29 | test('a paused frame survives slow fullscreen/resize preparation without a playback deadline',async({page})=>{\n  30 |   await page.goto('/harness/');await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\quality.spec.ts:27:113"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:25:42.466Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results\\quality-a-positioned-video-997ae-anvas-or-comparison-divider\\error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-184f41cbb85e16e4cea6",
+          "file": "quality.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "a paused frame survives slow fullscreen/resize preparation without a playback deadline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1462,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:28.208Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-8d57a83a0907e04192d6",
+          "file": "quality.spec.ts",
+          "line": 29,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v12.spec.ts",
+      "file": "v12.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "GPU motion estimation generates correctly located intermediate frames and skips a cut",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 631,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\"pair\":{\"a\":0,\"b\":0.041666666666666664,\"ready\":true,\"sceneCut\":false,\"dynamic\":true,\"confidence\":0.26661771063808143,\"flowMs\":4.800000000745058,\"flowSize\":{\"width\":128,\"height\":72}},\"results\":[{\"phase\":0,\"centroid\":40,\"expected\":40,\"signature\":\"bdf1b5d2:411ae78d\"},{\"phase\":0.25,\"centroid\":41.77847348908374,\"expected\":42,\"signature\":\"f964fa3e:9d09155e\"},{\"phase\":0.5,\"centroid\":43.87404960811001,\"expected\":44,\"signature\":\"e38c1ba5:fc4797dc\"},{\"phase\":0.75,\"centroid\":45.854879446224366,\"expected\":46,\"signature\":\"89630982:5e3317e1\"},{\"phase\":1,\"centroid\":48,\"expected\":48,\"signature\":\"9e109ada:7cbf02d9\"}],\"sceneCut\":true,\"cutPixel\":[255,255,255]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:29.883Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-e124bf53f646dadd3b9b",
+          "file": "v12.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "webgpu actual color pixels and identity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 521,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:30.528Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-2edf0eccba6bd2409a4d",
+          "file": "v12.spec.ts",
+          "line": 6,
+          "column": 51
+        },
+        {
+          "title": "webgl2 actual color pixels and identity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 657,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:31.065Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-4cc2b72d3bc8632a726c",
+          "file": "v12.spec.ts",
+          "line": 6,
+          "column": 51
+        },
+        {
+          "title": "explicit 720p through 4K are real GPU texture sizes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 656,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[{\"source\":{\"width\":853,\"height\":480},\"target\":\"720p\",\"actual\":{\"width\":1280,\"height\":720},\"pixel\":[64,128,192,255],\"estimatedBytes\":10648320},{\"source\":{\"width\":1280,\"height\":720},\"target\":\"1080p\",\"actual\":{\"width\":1920,\"height\":1080},\"pixel\":[64,128,192,255],\"estimatedBytes\":23961600},{\"source\":{\"width\":1920,\"height\":1080},\"target\":\"1440p\",\"actual\":{\"width\":2560,\"height\":1440},\"pixel\":[64,128,192,255],\"estimatedBytes\":46080000},{\"source\":{\"width\":2560,\"height\":1440},\"target\":\"2160p\",\"actual\":{\"width\":3840,\"height\":2160},\"pixel\":[64,128,192,255],\"estimatedBytes\":95846400}]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:31.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-8fd8b2490b3ded9c2dc7",
+          "file": "v12.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "nine GPU phase grids have distinct full-frame pixels at intermediate positions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 970,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:32.416Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-58bed1a83ac1c3fc47cd",
+          "file": "v12.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "neutral v1.2 retains v1.1 reconstruction pixels with recorded completion timings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1033,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\"method\":\"same current host, frozen v1.1 shaders vs v1.2 shaders; interpolation off; neutral color; 640x360→1920x1080; 10 warmup, 40 measurements; wall completion including CPU/queue/GPU\",\"rows\":[{\"version\":\"1.1\",\"times\":[2.099999997764826,1.699999999254942,1.7000000029802322,5.399999998509884,2.300000000745058,2.099999997764826,1.9000000022351742,1.699999999254942,1.699999999254942,4.900000002235174,2,2.199999999254942,1.5999999977648258,1.7000000029802322,1.8999999985098839,1.8999999985098839,1.300000000745058,1.199999999254942,1.5,1.6000000014901161,1.699999999254942,1.1000000014901161,1.0999999977648258,1.5,1.7000000029802322,1.699999999254942,1.0999999977648258,1.2000000029802322,1.199999999254942,1.699999999254942,1.8999999985098839,1.6000000014901161,1.699999999254942,5.600000001490116,1.800000000745058,4.299999997019768,4.100000001490116,1.8999999985098839,1.6000000014901161,1.6000000014901161],\"median\":1.699999999254942,\"p95\":5.399999998509884},{\"version\":\"1.2\",\"times\":[2.899999998509884,2.199999999254942,2.5,2.2000000029802322,1.8999999985098839,2.100000001490116,2.099999997764826,1.699999999254942,1.6000000014901161,1.699999999254942,1.9000000022351742,1.699999999254942,1.5,1.800000000745058,4.599999997764826,1.699999999254942,2.100000001490116,1.800000000745058,1.699999999254942,1.699999999254942,1.699999999254942,1.7000000029802322,1.5999999977648258,5.600000001490116,2,1.699999999254942,1.800000000745058,1.699999999254942,1.6000000014901161,1.699999999254942,1.8999999985098839,1.6000000014901161,2,2,1.800000000745058,1.6000000014901161,1.5999999977648258,2.100000001490116,1.800000000745058,1.5],\"median\":1.800000000745058,\"p95\":4.599999997764826}],\"changedChannels\":0}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:33.402Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-c20ee1c590a0fe7ffc86",
+          "file": "v12.spec.ts",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "all eight spatial, motion and color pipeline combinations retain actual GPU results",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 868,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:34.453Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-a46b0f48d3c816f1bb88",
+          "file": "v12.spec.ts",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "WebGL2 declines motion while retaining spatial and color processing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 806,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:35.339Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-85a463ece3a7b64a49ca",
+          "file": "v12.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "motion shader failure keeps source playback, spatial and color processing alive",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5433,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"error\"\u001b[39m\nReceived: \u001b[31m\"unsupported\"\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"error\"\u001b[39m\nReceived: \u001b[31m\"unsupported\"\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts:18:561",
+                    "location": {
+                      "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                      "column": 561,
+                      "line": 18
+                    },
+                    "snippet": "  16 | test('all eight spatial, motion and color pipeline combinations retain actual GPU results',async({page})=>{await page.goto('/harness/');const rows=await page.evaluate(()=>window.clarityHarness.runPipelineCombinations());for(const r of rows){expect(r.size.height).toBe(r.upscale?16:8);expect(r.pixel).toEqual(r.color?[124,124,124,255]:[64,128,192,255]);}await mkdir('docs/v1.2',{recursive:true});await writeFile('docs/v1.2/pipeline-combinations.json',JSON.stringify(rows,null,2));});\n  17 | test('WebGL2 declines motion while retaining spatial and color processing',async({page})=>{await page.goto('/harness/');await page.selectOption('#backend','webgl2');await page.evaluate(()=>window.clarityHarness.settings({targetFPS:'120',saturation:0}));await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);const s=await page.evaluate(()=>window.clarityHarness.stats()!);expect(s.temporal?.state).toBe('unsupported');expect(s.temporal?.generated).toBe(0);expect(s.metrics.failures).toBe(0);});\n> 18 | test('motion shader failure keeps source playback, spatial and color processing alive',async({page})=>{await page.goto('/harness/');await page.evaluate(()=>{const original=GPUDevice.prototype.createShaderModule;GPUDevice.prototype.createShaderModule=function(d){return original.call(this,d.code.includes('MotionParams')?{...d,code:'invalid wgsl'}:d);};window.clarityHarness.settings({targetFPS:'75',targetResolution:'720p',saturation:0});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.state)).toBe('error');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);expect(await page.locator('video').evaluate(v=>(v as HTMLVideoElement).paused)).toBe(false);await expect(page.locator('.clarity-gpu-overlay')).toBeVisible();});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^\n  19 | test('disabling motion destroys its textures and preserves the three spatial textures',async({page})=>{\n  20 |   await page.goto('/harness/');await page.evaluate(()=>{const active=new Set<GPUTexture>(),create=GPUDevice.prototype.createTexture,destroy=GPUTexture.prototype.destroy;GPUDevice.prototype.createTexture=function(d){const t=create.call(this,d);active.add(t);return t;};GPUTexture.prototype.destroy=function(){active.delete(this);destroy.call(this);};(window as unknown as {textureCount:()=>number}).textureCount=()=>active.size;window.clarityHarness.settings({targetFPS:'100',targetResolution:'720p'});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.generated??0)).toBeGreaterThan(0);expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(9);await page.evaluate(()=>window.clarityHarness.settings({targetFPS:'original'}));await expect.poll(()=>page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(3);await page.evaluate(()=>window.clarityHarness.destroy());expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(0);\n  21 | });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                        "column": 561,
+                        "line": 18
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"error\"\u001b[39m\nReceived: \u001b[31m\"unsupported\"\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  16 | test('all eight spatial, motion and color pipeline combinations retain actual GPU results',async({page})=>{await page.goto('/harness/');const rows=await page.evaluate(()=>window.clarityHarness.runPipelineCombinations());for(const r of rows){expect(r.size.height).toBe(r.upscale?16:8);expect(r.pixel).toEqual(r.color?[124,124,124,255]:[64,128,192,255]);}await mkdir('docs/v1.2',{recursive:true});await writeFile('docs/v1.2/pipeline-combinations.json',JSON.stringify(rows,null,2));});\n  17 | test('WebGL2 declines motion while retaining spatial and color processing',async({page})=>{await page.goto('/harness/');await page.selectOption('#backend','webgl2');await page.evaluate(()=>window.clarityHarness.settings({targetFPS:'120',saturation:0}));await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);const s=await page.evaluate(()=>window.clarityHarness.stats()!);expect(s.temporal?.state).toBe('unsupported');expect(s.temporal?.generated).toBe(0);expect(s.metrics.failures).toBe(0);});\n> 18 | test('motion shader failure keeps source playback, spatial and color processing alive',async({page})=>{await page.goto('/harness/');await page.evaluate(()=>{const original=GPUDevice.prototype.createShaderModule;GPUDevice.prototype.createShaderModule=function(d){return original.call(this,d.code.includes('MotionParams')?{...d,code:'invalid wgsl'}:d);};window.clarityHarness.settings({targetFPS:'75',targetResolution:'720p',saturation:0});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.state)).toBe('error');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);expect(await page.locator('video').evaluate(v=>(v as HTMLVideoElement).paused)).toBe(false);await expect(page.locator('.clarity-gpu-overlay')).toBeVisible();});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^\n  19 | test('disabling motion destroys its textures and preserves the three spatial textures',async({page})=>{\n  20 |   await page.goto('/harness/');await page.evaluate(()=>{const active=new Set<GPUTexture>(),create=GPUDevice.prototype.createTexture,destroy=GPUTexture.prototype.destroy;GPUDevice.prototype.createTexture=function(d){const t=create.call(this,d);active.add(t);return t;};GPUTexture.prototype.destroy=function(){active.delete(this);destroy.call(this);};(window as unknown as {textureCount:()=>number}).textureCount=()=>active.size;window.clarityHarness.settings({targetFPS:'100',targetResolution:'720p'});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.generated??0)).toBeGreaterThan(0);expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(9);await page.evaluate(()=>window.clarityHarness.settings({targetFPS:'original'}));await expect.poll(()=>page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(3);await page.evaluate(()=>window.clarityHarness.destroy());expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(0);\n  21 | });\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts:18:561"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:36.162Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results\\v12-motion-shader-failure--a8b4a--and-color-processing-alive\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                    "column": 561,
+                    "line": 18
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-2cfa48e603328f05308d",
+          "file": "v12.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "disabling motion destroys its textures and preserves the three spatial textures",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5490,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts:20:631",
+                    "location": {
+                      "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                      "column": 631,
+                      "line": 20
+                    },
+                    "snippet": "  18 | test('motion shader failure keeps source playback, spatial and color processing alive',async({page})=>{await page.goto('/harness/');await page.evaluate(()=>{const original=GPUDevice.prototype.createShaderModule;GPUDevice.prototype.createShaderModule=function(d){return original.call(this,d.code.includes('MotionParams')?{...d,code:'invalid wgsl'}:d);};window.clarityHarness.settings({targetFPS:'75',targetResolution:'720p',saturation:0});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.state)).toBe('error');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);expect(await page.locator('video').evaluate(v=>(v as HTMLVideoElement).paused)).toBe(false);await expect(page.locator('.clarity-gpu-overlay')).toBeVisible();});\n  19 | test('disabling motion destroys its textures and preserves the three spatial textures',async({page})=>{\n> 20 |   await page.goto('/harness/');await page.evaluate(()=>{const active=new Set<GPUTexture>(),create=GPUDevice.prototype.createTexture,destroy=GPUTexture.prototype.destroy;GPUDevice.prototype.createTexture=function(d){const t=create.call(this,d);active.add(t);return t;};GPUTexture.prototype.destroy=function(){active.delete(this);destroy.call(this);};(window as unknown as {textureCount:()=>number}).textureCount=()=>active.size;window.clarityHarness.settings({targetFPS:'100',targetResolution:'720p'});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.generated??0)).toBeGreaterThan(0);expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(9);await page.evaluate(()=>window.clarityHarness.settings({targetFPS:'original'}));await expect.poll(()=>page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(3);await page.evaluate(()=>window.clarityHarness.destroy());expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(0);\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^\n  21 | });\n  22 | test('nine real decoded-video scheduler combinations distinguish generated submissions from refresh limits',async({page})=>{\n  23 |   test.setTimeout(150000);await page.goto('/harness/');const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));const matrix=[];"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                        "column": 631,
+                        "line": 20
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n\n  18 | test('motion shader failure keeps source playback, spatial and color processing alive',async({page})=>{await page.goto('/harness/');await page.evaluate(()=>{const original=GPUDevice.prototype.createShaderModule;GPUDevice.prototype.createShaderModule=function(d){return original.call(this,d.code.includes('MotionParams')?{...d,code:'invalid wgsl'}:d);};window.clarityHarness.settings({targetFPS:'75',targetResolution:'720p',saturation:0});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.state)).toBe('error');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.presented??0)).toBeGreaterThan(3);expect(await page.locator('video').evaluate(v=>(v as HTMLVideoElement).paused)).toBe(false);await expect(page.locator('.clarity-gpu-overlay')).toBeVisible();});\n  19 | test('disabling motion destroys its textures and preserves the three spatial textures',async({page})=>{\n> 20 |   await page.goto('/harness/');await page.evaluate(()=>{const active=new Set<GPUTexture>(),create=GPUDevice.prototype.createTexture,destroy=GPUTexture.prototype.destroy;GPUDevice.prototype.createTexture=function(d){const t=create.call(this,d);active.add(t);return t;};GPUTexture.prototype.destroy=function(){active.delete(this);destroy.call(this);};(window as unknown as {textureCount:()=>number}).textureCount=()=>active.size;window.clarityHarness.settings({targetFPS:'100',targetResolution:'720p'});});await page.click('#packaged');await expect.poll(()=>page.evaluate(()=>window.clarityHarness.stats()?.temporal?.generated??0)).toBeGreaterThan(0);expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(9);await page.evaluate(()=>window.clarityHarness.settings({targetFPS:'original'}));await expect.poll(()=>page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(3);await page.evaluate(()=>window.clarityHarness.destroy());expect(await page.evaluate(()=>(window as unknown as {textureCount:()=>number}).textureCount())).toBe(0);\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^\n  21 | });\n  22 | test('nine real decoded-video scheduler combinations distinguish generated submissions from refresh limits',async({page})=>{\n  23 |   test.setTimeout(150000);await page.goto('/harness/');const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));const matrix=[];\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts:20:631"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:42.177Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results\\v12-disabling-motion-destr-9d6c1--the-three-spatial-textures\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                    "column": 631,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-e4ccd9f185c8f1dc3f31",
+          "file": "v12.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "nine real decoded-video scheduler combinations distinguish generated submissions from refresh limits",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 9202,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts:29:53",
+                    "location": {
+                      "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                      "column": 53,
+                      "line": 29
+                    },
+                    "snippet": "  27 |     const stats=await page.evaluate(()=>window.clarityHarness.stats()!);matrix.push({source,target,stats});console.log(JSON.stringify({source,target,stats}));\n  28 |     expect(stats.temporal!.requestedFPS).toBe(Number(target));expect(stats.temporal!.physicalFPS).toBeNull();expect(stats.temporal!.submitted).toBeGreaterThan(0);expect(stats.metrics.failures).toBe(0);\n> 29 |     if(source<60){expect(stats.temporal!.generated).toBeGreaterThan(0);expect(stats.temporal!.uniqueSamples).toBeGreaterThan(0);expect(stats.temporal!.delayMs).toBeLessThanOrEqual(45);}\n     |                                                     ^\n  30 |   }\n  31 |   await mkdir('docs/v1.2',{recursive:true});await writeFile('docs/v1.2/scheduler-matrix.json',JSON.stringify({date:new Date().toISOString(),matrix,errors},null,2));expect(errors).toEqual([]);\n  32 |   await page.evaluate(()=>document.querySelector('video')!.pause());await page.waitForTimeout(200);const n=await page.evaluate(()=>window.clarityHarness.stats()!.temporal!.submitted);await page.waitForTimeout(200);expect(await page.evaluate(()=>window.clarityHarness.stats()!.temporal!.submitted)).toBe(n);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                        "column": 53,
+                        "line": 29
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n  27 |     const stats=await page.evaluate(()=>window.clarityHarness.stats()!);matrix.push({source,target,stats});console.log(JSON.stringify({source,target,stats}));\n  28 |     expect(stats.temporal!.requestedFPS).toBe(Number(target));expect(stats.temporal!.physicalFPS).toBeNull();expect(stats.temporal!.submitted).toBeGreaterThan(0);expect(stats.metrics.failures).toBe(0);\n> 29 |     if(source<60){expect(stats.temporal!.generated).toBeGreaterThan(0);expect(stats.temporal!.uniqueSamples).toBeGreaterThan(0);expect(stats.temporal!.delayMs).toBeLessThanOrEqual(45);}\n     |                                                     ^\n  30 |   }\n  31 |   await mkdir('docs/v1.2',{recursive:true});await writeFile('docs/v1.2/scheduler-matrix.json',JSON.stringify({date:new Date().toISOString(),matrix,errors},null,2));expect(errors).toEqual([]);\n  32 |   await page.evaluate(()=>document.querySelector('video')!.pause());await page.waitForTimeout(200);const n=await page.evaluate(()=>window.clarityHarness.stats()!.temporal!.submitted);await page.waitForTimeout(200);expect(await page.evaluate(()=>window.clarityHarness.stats()!.temporal!.submitted)).toBe(n);\n    at C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts:29:53"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "{\"source\":24,\"target\":\"75\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":24.48980199615855,\"processedFPS\":26.473955352003827,\"latencyMs\":2.2516830337764313,\"cpuSubmitMs\":0.25602724450414766,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":4,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":74.46500000022351},\"presented\":73,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":32.19999999925494,\"temporal\":{\"state\":\"limited\",\"reason\":\"한 프레임의 대기가 45ms를 초과하여 보간 대신 원본 FPS 보정을 유지합니다.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":75,\"refreshHz\":142.85714285714286,\"physicalFPS\":null,\"submittedFPS\":24.672708962739176,\"generatedFPS\":15.275248222803679,\"generated\":35,\"submitted\":73,\"uniqueSamples\":29,\"sourceFrames\":76,\"dropped\":25,\"flowMs\":4,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":25.988705248648934,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0,\"queueDepth\":0,\"totalMs\":2.100000001490116}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":24,\"target\":\"100\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":24.48979061139512,\"processedFPS\":23.53276759607963,\"latencyMs\":6.123579055913966,\"cpuSubmitMs\":0.1911859889131431,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":0,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":99.3050000000745},\"presented\":75,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":47.80000000074506,\"temporal\":{\"state\":\"error\",\"reason\":\"보간 출력 오류로 공간·색상 보정만 유지합니다: Error: 서로 다른 두 원본 프레임을 기다리고 있습니다.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":100,\"refreshHz\":142.85714285714286,\"physicalFPS\":null,\"submittedFPS\":23.556535685654346,\"generatedFPS\":0,\"generated\":0,\"submitted\":75,\"uniqueSamples\":0,\"sourceFrames\":80,\"dropped\":1,\"flowMs\":4.800000000745058,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":0,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.19132410692335733,\"queueDepth\":0}}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:26:48.333Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results\\v12-nine-real-decoded-vide-8386c-issions-from-refresh-limits\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser\\v12.spec.ts",
+                    "column": 53,
+                    "line": 29
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-ebbd190e1e2e61d3c4e8",
+          "file": "v12.spec.ts",
+          "line": 22,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T16:24:57.023Z",
+    "duration": 121149.643,
+    "expected": 21,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "tag": "improved",
+  "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+  "date": "2026-10-31T14:23:16.760Z",
+  "browser": "156.0.8078.4",
+  "verifiedEnhancedPixels": true,
+  "playback": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "balanced",
+    "profile": "balanced",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 240
+      },
+      "processing": {
+        "width": 1046,
+        "height": 784
+      },
+      "output": {
+        "width": 1046,
+        "height": 784
+      },
+      "display": {
+        "width": 1046,
+        "height": 785
+      },
+      "screen": {
+        "width": 1440,
+        "height": 1000
+      },
+      "css": {
+        "width": 1046,
+        "height": 784.5
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 15.004263107926,
+      "processedFPS": 14.84287030401727,
+      "latencyMs": 3.8540002392731214,
+      "cpuSubmitMs": 0.8112640846952405,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 5,
+      "skippedFrames": 2,
+      "queueDepth": 0,
+      "failures": 0,
+      "enhancedVisiblePercent": 98.03499999996275
+    },
+    "presented": 44,
+    "effectiveSharpness": 40,
+    "effectiveDenoise": 20,
+    "algorithm": "FSR1 EASU hybrid · natural",
+    "presentation": "split",
+    "fallback": false,
+    "upscalingActive": true,
+    "scaleRatio": 3.2666666666666666,
+    "frameAgeMs": 35.19999999925494
+  },
+  "coverage": {
+    "sampleMs": 5019.60000000149,
+    "enhancedVisiblePercent": 100
+  },
+  "afterPlayback": {
+    "status": "Active",
+    "reason": "WebGPU processed frames are being presented.",
+    "backend": "WebGPU",
+    "engine": "balanced",
+    "profile": "balanced",
+    "dimensions": {
+      "source": {
+        "width": 320,
+        "height": 240
+      },
+      "processing": {
+        "width": 1046,
+        "height": 784
+      },
+      "output": {
+        "width": 1046,
+        "height": 784
+      },
+      "display": {
+        "width": 1046,
+        "height": 785
+      },
+      "screen": {
+        "width": 1440,
+        "height": 1000
+      },
+      "css": {
+        "width": 1046,
+        "height": 784.5
+      },
+      "limited": false
+    },
+    "metrics": {
+      "sourceFPS": 15.000012485182005,
+      "processedFPS": 14.608835826899517,
+      "latencyMs": 3.47934283462269,
+      "cpuSubmitMs": 0.5184465020167777,
+      "gpuMs": null,
+      "latenessMs": 0,
+      "missedDeadlines": 5,
+      "skippedFrames": 2,
+      "queueDepth": 0,
+      "failures": 0,
+      "enhancedVisiblePercent": 100
+    },
+    "presented": 119,
+    "effectiveSharpness": 40,
+    "effectiveDenoise": 20,
+    "algorithm": "FSR1 EASU hybrid · natural",
+    "presentation": "split",
+    "fallback": false,
+    "upscalingActive": true,
+    "scaleRatio": 3.2666666666666666,
+    "frameAgeMs": 61.5
+  },
+  "compositor": {
+    "left": 0.775067063768667,
+    "right": 2.3170824404998105,
+    "total": 3508297
+  },
+  "settingsChanges": [
+    {
+      "name": "no-sharpen",
+      "differenceFromNoSharpen": {
+        "left": 0,
+        "right": 0,
+        "total": 0
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.824038918531147,
+          "cpuSubmitMs": 0.5202534578515642,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.6
+        },
+        "presented": 122,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "FSR1 EASU hybrid · natural",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": true,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 672.4000000022352
+      }
+    },
+    {
+      "name": "sharpen",
+      "differenceFromNoSharpen": {
+        "left": 0.3265996733061558,
+        "right": 0.381041065933,
+        "total": 803205
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.835433080527957,
+          "cpuSubmitMs": 0.48721543928558825,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.3449999999255
+        },
+        "presented": 123,
+        "effectiveSharpness": 70,
+        "effectiveDenoise": 0,
+        "algorithm": "FSR1 EASU hybrid · natural",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": true,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 693.3000000007451
+      }
+    },
+    {
+      "name": "denoise",
+      "differenceFromNoSharpen": {
+        "left": 1.3333773384308838,
+        "right": 1.3158408507711437,
+        "total": 3007229
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.875118118672281,
+          "cpuSubmitMs": 0.47413312372802613,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.48499999977648
+        },
+        "presented": 124,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 80,
+        "algorithm": "FSR1 EASU hybrid · natural",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": true,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 661.6999999992549
+      }
+    },
+    {
+      "name": "natural",
+      "differenceFromNoSharpen": {
+        "left": 0,
+        "right": 0,
+        "total": 0
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.833850401094956,
+          "cpuSubmitMs": 0.46301315550409833,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.50499999970198
+        },
+        "presented": 125,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "FSR1 EASU hybrid · natural",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": true,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 681.5
+      }
+    },
+    {
+      "name": "animation",
+      "differenceFromNoSharpen": {
+        "left": 0.6892527230354364,
+        "right": 0.7411452959798241,
+        "total": 1623632
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.8737728411542305,
+          "cpuSubmitMs": 0.48356118240200097,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.50499999988824
+        },
+        "presented": 126,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "FSR1 EASU hybrid · animation",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": true,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 693.6000000014901
+      }
+    },
+    {
+      "name": "fast",
+      "differenceFromNoSharpen": {
+        "left": 1.2823076625196264,
+        "right": 1.4501194853751664,
+        "total": 3101478
+      },
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.90770691464582,
+          "cpuSubmitMs": 0.4860270050417008,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.48500000014901
+        },
+        "presented": 127,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "Fast edge-directed",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": true,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 701.1999999992549
+      }
+    },
+    {
+      "name": "original",
+      "differenceFromNoSharpen": {
+        "left": 1.2632736976251329,
+        "right": 1.4342539438991915,
+        "total": 3061859
+      },
+      "stats": {
+        "status": "Original Comparison",
+        "reason": "Showing the unenhanced acquired frame for comparison.",
+        "backend": "WebGPU",
+        "engine": "balanced",
+        "profile": "balanced",
+        "dimensions": {
+          "source": {
+            "width": 320,
+            "height": 240
+          },
+          "processing": {
+            "width": 1046,
+            "height": 784
+          },
+          "output": {
+            "width": 1046,
+            "height": 784
+          },
+          "display": {
+            "width": 1046,
+            "height": 785
+          },
+          "screen": {
+            "width": 1440,
+            "height": 1000
+          },
+          "css": {
+            "width": 1046,
+            "height": 784.5
+          },
+          "limited": false
+        },
+        "metrics": {
+          "sourceFPS": 14.999999362395874,
+          "processedFPS": 0,
+          "latencyMs": 4.876550877337188,
+          "cpuSubmitMs": 0.4581229543972044,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 5,
+          "skippedFrames": 2,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 66.56500000022352
+        },
+        "presented": 127,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "FSR1 EASU hybrid · natural",
+        "presentation": "original",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 3.2666666666666666,
+        "frameAgeMs": 663.5999999977648
+      }
+    }
+  ],
+  "errors": [],
+  "video": {
+    "width": 320,
+    "height": 240,
+    "time": 11.567062,
+    "paused": true,
+    "mediaKeys": false
+  }
+}

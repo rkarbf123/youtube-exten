@@ -1,0 +1,18 @@
+{
+  "src/ai/FramegenSession.ts": "46b7c17743e3f299e3d39efca550388de9574ad5cfe37602ed2ad5378de50fb9",
+  "src/gpu/WebGPUEngine.ts": "5a7fa9839592e07002c5974577eff35bae2ddb6af8a9f398fe0617e0abecfb00",
+  "src/harness/framegenValidation.ts": "1bb6f1800a0b0c3df111137a5ab24468c272197fe7ac8f51bbb683240bf83bb2",
+  "src/content/FrameScheduler.ts": "d4caae7ee2c595dfe85cda149582a3e7c30a3bebd0890d437d0dbdaaabbf96a7",
+  "src/temporal/InterpolationSession.ts": "5d36f4a3f3706b1588cfe0d21b0872f45de0a9fbb93eaf06a014b6a16651d042",
+  "node_modules/framegen/rt.js": "da2d3fa8f97d8628b7d5a47c01aa1cad99095ad3d2247220d7142718ab1110c8",
+  "public/models/framegen/rt_v7s.bin": "76428e1769f742a2aaad79996f2eb57cc29388a6dc21c242386ca9110c0bb397",
+  "package.json": "2a5e3c98d9c9aed2cd9abc49cd4767eb7de98920b00dd16f90a965c52620325c",
+  "package-lock.json": "990d0985e19a06f846edc80de1be280c95856438c8bd20e461be8a2fe6764a8f",
+  "docs/v1.3/edge-flicker/youtube-framegen.json": "80d76d43dac33ccd598f71f2bdbfa23dd52e95c8e0270a250edc2d3a5e6ef0b5",
+  "docs/v1.3/framegen-fps/720p-24-48.json": "6ac79a3862f4ef748108478f9a3641abd73677b7ceadf433555283be3b32ec0c",
+  "docs/v1.3/framegen-fps/720p-30-60.json": "d9563e965f2b73d8314d65b7384d5deb4be9a0d61ad850a084715054f37dfe4e",
+  "docs/v1.3/framegen-fps/720p-60-90.json": "f9a5861517dc3154f03c08be065ee2056f189c1215cd8810dd37ea13b6626b63",
+  "docs/v1.3/framegen-fps/1080p-24-48.json": "dedde577ae6ab5f15354f1fc76eb0b23cfda8842033f5f64230ee76e9db353bc",
+  "docs/v1.3/framegen-fps/1080p-30-60.json": "79a34b991c59381ed56a4e12df29c999cdbb0e093e02e7a6c27a30cd53f9232e",
+  "docs/v1.3/framegen-fps/1080p-60-90.json": "4b61927e0eda4608eb4a952b35bdefba79cd18dc906d6e0485d7349e276a632a"
+}

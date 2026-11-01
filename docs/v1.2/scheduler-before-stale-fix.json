@@ -1,0 +1,852 @@
+{
+  "date": "2026-10-31T16:32:11.645Z",
+  "matrix": [
+    {
+      "source": 24,
+      "target": "75",
+      "stats": {
+        "status": "Original Video Fallback",
+        "reason": "Processed output is stale; showing original playback.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 24.17540582612838,
+          "processedFPS": 25.290844714240688,
+          "latencyMs": 5.170156715786311,
+          "cpuSubmitMs": 0.4536855401908208,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 3,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 83.96999999992549
+        },
+        "presented": 60,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "fallback",
+        "fallback": true,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": null,
+        "temporal": {
+          "state": "limited",
+          "reason": "동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 75,
+          "refreshHz": 144.9275362318726,
+          "physicalFPS": null,
+          "submittedFPS": 26.091586794462195,
+          "generatedFPS": 12.906121990898809,
+          "generated": 25,
+          "submitted": 60,
+          "uniqueSamples": 28,
+          "sourceFrames": 59,
+          "dropped": 24,
+          "flowMs": 5.5,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 25.299999999999876,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.1929048727143257,
+          "queueDepth": 0,
+          "totalMs": 5.299999997019768
+        }
+      }
+    },
+    {
+      "source": 24,
+      "target": "100",
+      "stats": {
+        "status": "Original Video Fallback",
+        "reason": "Processed output is stale; showing original playback.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 24.214266224856175,
+          "processedFPS": 27.46061569589503,
+          "latencyMs": 5.253478603612649,
+          "cpuSubmitMs": 0.2553265331239924,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 1,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 84.27500000018627
+        },
+        "presented": 87,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "fallback",
+        "fallback": true,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": null,
+        "temporal": {
+          "state": "limited",
+          "reason": "동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 100,
+          "refreshHz": 144.92753623185348,
+          "physicalFPS": null,
+          "submittedFPS": 27.12477396020685,
+          "generatedFPS": 14.064697608996143,
+          "generated": 42,
+          "submitted": 87,
+          "uniqueSamples": 33,
+          "sourceFrames": 77,
+          "dropped": 38,
+          "flowMs": 8.400000002235174,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 26.699999999999946,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.20542256894110864,
+          "queueDepth": 0,
+          "totalMs": 3.699999999254942
+        }
+      }
+    },
+    {
+      "source": 24,
+      "target": "120",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 24.214290259303024,
+          "processedFPS": 28.750089844015367,
+          "latencyMs": 6.369728459800738,
+          "cpuSubmitMs": 0.17678773359619082,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 6,
+          "skippedFrames": 0,
+          "queueDepth": 1,
+          "failures": 0,
+          "enhancedVisiblePercent": 84.36999999973924
+        },
+        "presented": 90,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 11.400000002235174,
+        "temporal": {
+          "state": "limited",
+          "reason": "처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 120,
+          "refreshHz": 142.85714285714286,
+          "physicalFPS": null,
+          "submittedFPS": 32.64363198072736,
+          "generatedFPS": 17.075130574534313,
+          "generated": 44,
+          "submitted": 93,
+          "uniqueSamples": 40,
+          "sourceFrames": 76,
+          "dropped": 29,
+          "flowMs": 5.199999999254942,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 41.641866776173316,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.1929048727143257,
+          "queueDepth": 1,
+          "totalMs": 6
+        }
+      }
+    },
+    {
+      "source": 30,
+      "target": "75",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 30.898194442514818,
+          "processedFPS": 45.82229541051295,
+          "latencyMs": 1.0966053623194616,
+          "cpuSubmitMs": 0.12036081296385151,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 2,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 91.94000000040978
+        },
+        "presented": 143,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 13,
+        "temporal": {
+          "state": "limited",
+          "reason": "처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 75,
+          "refreshHz": 144.92753623185348,
+          "physicalFPS": null,
+          "submittedFPS": 45.74703398344242,
+          "generatedFPS": 36.29387670445991,
+          "generated": 105,
+          "submitted": 145,
+          "uniqueSamples": 77,
+          "sourceFrames": 100,
+          "dropped": 40,
+          "flowMs": 3.5,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 26.830508310738075,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.19229167726320967,
+          "queueDepth": 0,
+          "totalMs": 0.7999999970197678
+        }
+      }
+    },
+    {
+      "source": 30,
+      "target": "100",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 30.898194374520585,
+          "processedFPS": 48.12181282779819,
+          "latencyMs": 3.6783560606124825,
+          "cpuSubmitMs": 0.10631125758148698,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 3,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 88.560000000149
+        },
+        "presented": 165,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 9.799999997019768,
+        "temporal": {
+          "state": "limited",
+          "reason": "처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 100,
+          "refreshHz": 144.92753623185348,
+          "physicalFPS": null,
+          "submittedFPS": 48.04564336124688,
+          "generatedFPS": 38.05950147413562,
+          "generated": 121,
+          "submitted": 166,
+          "uniqueSamples": 79,
+          "sourceFrames": 99,
+          "dropped": 58,
+          "flowMs": 3.800000000745058,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 28.699999999999946,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.19229167726320967,
+          "queueDepth": 0,
+          "totalMs": 4.199999999254942
+        }
+      }
+    },
+    {
+      "source": 30,
+      "target": "120",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 30.898194442514818,
+          "processedFPS": 55.881931508931466,
+          "latencyMs": 4.139094725431359,
+          "cpuSubmitMs": 0.12788170326163067,
+          "gpuMs": null,
+          "latenessMs": 0.10000000000218279,
+          "missedDeadlines": 6,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 87.1949999999255
+        },
+        "presented": 178,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 17,
+        "temporal": {
+          "state": "limited",
+          "reason": "동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 120,
+          "refreshHz": 144.92753623185348,
+          "physicalFPS": null,
+          "submittedFPS": 54.92474254026934,
+          "generatedFPS": 40.78784951436782,
+          "generated": 129,
+          "submitted": 180,
+          "uniqueSamples": 87,
+          "sourceFrames": 100,
+          "dropped": 81,
+          "flowMs": 4.299999997019768,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 31.299999999999883,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.19229167726320967,
+          "queueDepth": 0,
+          "totalMs": 3.400000002235174
+        }
+      }
+    },
+    {
+      "source": 60,
+      "target": "75",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 56.0916604281188,
+          "processedFPS": 34.614552534720445,
+          "latencyMs": 5.392390113766819,
+          "cpuSubmitMs": 0.5001485383275599,
+          "gpuMs": null,
+          "latenessMs": 1.7999999999992724,
+          "missedDeadlines": 6,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 83.34999999981375
+        },
+        "presented": 125,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 50.80000000074506,
+        "temporal": {
+          "state": "limited",
+          "reason": "동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 75,
+          "refreshHz": 142.85714285714286,
+          "physicalFPS": null,
+          "submittedFPS": 36.77581863979849,
+          "generatedFPS": 21.662468513853906,
+          "generated": 74,
+          "submitted": 127,
+          "uniqueSamples": 60,
+          "sourceFrames": 197,
+          "dropped": 102,
+          "flowMs": 4.799999997019768,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 12.732697282161087,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.20103642137788968,
+          "queueDepth": 0,
+          "totalMs": 4.5
+        }
+      }
+    },
+    {
+      "source": 60,
+      "target": "100",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 56.09210706609267,
+          "processedFPS": 50.475915777301985,
+          "latencyMs": 3.3594439961321423,
+          "cpuSubmitMs": 0.6133256611965994,
+          "gpuMs": null,
+          "latenessMs": 0,
+          "missedDeadlines": 2,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 97.45999999996275
+        },
+        "presented": 155,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 6.199999999254942,
+        "temporal": {
+          "state": "limited",
+          "reason": "처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 100,
+          "refreshHz": 142.85714285714286,
+          "physicalFPS": null,
+          "submittedFPS": 49.56691533568471,
+          "generatedFPS": 34.5466379612348,
+          "generated": 92,
+          "submitted": 156,
+          "uniqueSamples": 95,
+          "sourceFrames": 196,
+          "dropped": 143,
+          "flowMs": 5.099999997764826,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": -0.49999999999994493,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.20103642137788968,
+          "queueDepth": 0,
+          "totalMs": 1.699999999254942
+        }
+      }
+    },
+    {
+      "source": 60,
+      "target": "120",
+      "stats": {
+        "status": "Active",
+        "reason": "WebGPU processed frames are being presented.",
+        "backend": "WebGPU",
+        "engine": "fast",
+        "profile": "eco",
+        "dimensions": {
+          "source": {
+            "width": 256,
+            "height": 144
+          },
+          "processing": {
+            "width": 256,
+            "height": 144
+          },
+          "output": {
+            "width": 256,
+            "height": 144
+          },
+          "requested": {
+            "width": 256,
+            "height": 144
+          },
+          "display": {
+            "width": 855,
+            "height": 481
+          },
+          "css": {
+            "width": 855.4444444444445,
+            "height": 481.1875
+          },
+          "screen": {
+            "width": 1280,
+            "height": 900
+          },
+          "eligible": false,
+          "limited": false,
+          "estimatedBytes": 5079040,
+          "resolutionReason": "원본 해상도: 업스케일링을 생략합니다."
+        },
+        "metrics": {
+          "sourceFPS": 55.12257607906676,
+          "processedFPS": 60.62793215445687,
+          "latencyMs": 2.2834970271299158,
+          "cpuSubmitMs": 0.1011312673882746,
+          "gpuMs": null,
+          "latenessMs": 0.09999999999854481,
+          "missedDeadlines": 1,
+          "skippedFrames": 0,
+          "queueDepth": 0,
+          "failures": 0,
+          "enhancedVisiblePercent": 99.7
+        },
+        "presented": 197,
+        "effectiveSharpness": 0,
+        "effectiveDenoise": 0,
+        "algorithm": "원본 해상도 · 노이즈/색상 보정",
+        "presentation": "enhanced",
+        "fallback": false,
+        "upscalingActive": false,
+        "scaleRatio": 1,
+        "frameAgeMs": 6.5,
+        "temporal": {
+          "state": "limited",
+          "reason": "처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.",
+          "engine": "WebGPU 양방향 블록 움직임 추정",
+          "requestedFPS": 120,
+          "refreshHz": 142.85714285714286,
+          "physicalFPS": null,
+          "submittedFPS": 60.55449904916681,
+          "generatedFPS": 40.316484402620645,
+          "generated": 126,
+          "submitted": 197,
+          "uniqueSamples": 117,
+          "sourceFrames": 195,
+          "dropped": 155,
+          "flowMs": 4.199999999254942,
+          "interpolationMs": null,
+          "upscaleMs": null,
+          "delayMs": 5.1000000000001044,
+          "flowSize": {
+            "width": 256,
+            "height": 144
+          },
+          "sceneCuts": 0,
+          "confidence": 0.19326547307206496,
+          "queueDepth": 0,
+          "totalMs": 0.8000000007450581
+        }
+      }
+    }
+  ],
+  "errors": []
+}

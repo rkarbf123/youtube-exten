@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-01T06:33:47.174Z",
+  "productIntegrationComplete": false,
+  "browser": "156.0.8078.4",
+  "inference": {
+    "status": "passed",
+    "productIntegrationComplete": false,
+    "cpuFallbackAllowed": false,
+    "model": {
+      "model": "Practical-RIFE 4.25.lite (1018)",
+      "license": "MIT",
+      "upstream": "https://github.com/hzwer/Practical-RIFE",
+      "checkpointUrl": "https://drive.google.com/file/d/1zlKblGuKNatulJNFf5jdB-emp9AqGK05/view",
+      "checkpointSha256": "81cdba223fe72a120130cc8552e5d2ecac824259d406f0c15323b3decf96b8b1",
+      "onnxSha256": "c9b214e7b36b3721d28994221e551240580b9916b2f49da7bdc983b9a166c8e5",
+      "onnxBytes": 24966876,
+      "parameters": 5622700,
+      "strictInferenceCheckpointLoad": true,
+      "excludedTrainingKeys": [
+        "teacher.conv0.0.0.weight",
+        "teacher.conv0.0.0.bias",
+        "teacher.conv0.1.0.weight",
+        "teacher.conv0.1.0.bias",
+        "teacher.convblock.0.beta",
+        "teacher.convblock.0.conv.weight",
+        "teacher.convblock.0.conv.bias",
+        "teacher.convblock.1.beta",
+        "teacher.convblock.1.conv.weight",
+        "teacher.convblock.1.conv.bias",
+        "teacher.convblock.2.beta",
+        "teacher.convblock.2.conv.weight",
+        "teacher.convblock.2.conv.bias",
+        "teacher.convblock.3.beta",
+        "teacher.convblock.3.conv.weight",
+        "teacher.convblock.3.conv.bias",
+        "teacher.convblock.4.beta",
+        "teacher.convblock.4.conv.weight",
+        "teacher.convblock.4.conv.bias",
+        "teacher.convblock.5.beta",
+        "teacher.convblock.5.conv.weight",
+        "teacher.convblock.5.conv.bias",
+        "teacher.convblock.6.beta",
+        "teacher.convblock.6.conv.weight",
+        "teacher.convblock.6.conv.bias",
+        "teacher.convblock.7.beta",
+        "teacher.convblock.7.conv.weight",
+        "teacher.convblock.7.conv.bias",
+        "teacher.lastconv.0.weight",
+        "teacher.lastconv.0.bias",
+        "caltime.0.weight",
+        "caltime.0.bias",
+        "caltime.2.weight",
+        "caltime.2.bias",
+        "caltime.4.weight",
+        "caltime.4.bias",
+        "caltime.6.weight",
+        "caltime.6.bias",
+        "caltime.8.weight",
+        "caltime.8.bias"
+      ],
+      "torch": "2.8.0+cpu",
+      "onnx": "1.19.1",
+      "ortCpuReference": "1.23.2",
+      "shape": [
+        1,
+        6,
+        128,
+        128
+      ],
+      "timestepShape": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "channelOrder": "BGR",
+      "scaleList": [
+        32,
+        16,
+        8,
+        4,
+        1
+      ],
+      "opset": 17,
+      "operators": [
+        "Add",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "ConvTranspose",
+        "DepthToSpace",
+        "Div",
+        "Expand",
+        "GridSample",
+        "LeakyRelu",
+        "Mul",
+        "Resize",
+        "Sigmoid",
+        "Slice",
+        "Sub",
+        "Tile",
+        "Transpose"
+      ],
+      "conversionSeconds": 1.4489743000012822,
+      "comparison": [
+        {
+          "timestep": 0.25,
+          "maxAbs": 0.000007808208465576172,
+          "mae": 1.1156316759297624e-8,
+          "rmse": 1.5093625904682995e-7
+        },
+        {
+          "timestep": 0.5,
+          "maxAbs": 0.000006556510925292969,
+          "mae": 9.172102188870213e-9,
+          "rmse": 9.193291816700366e-8
+        },
+        {
+          "timestep": 0.75,
+          "maxAbs": 0.0000064373016357421875,
+          "mae": 9.847856752287498e-9,
+          "rmse": 1.0103323688781529e-7
+        }
+      ],
+      "browserWebGpuVerified": false,
+      "productIntegrationComplete": false
+    },
+    "loadMs": 1300.7000000029802,
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "lovelace"
+    },
+    "rows": [
+      {
+        "timestep": 0.25,
+        "location": "gpu-buffer",
+        "locationAfterDiagnosticReadback": "cpu",
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "completionMs": 772.3999999910593,
+        "maxAbs": 0.00001823902130126953,
+        "mae": 1.4898129544841746e-8,
+        "rmse": 2.5175527752664405e-7,
+        "hash": "b32bd366bd1cb3dbee7b2327cba36394dd102c10a926c6c8879573a298d304d2",
+        "passed": true
+      },
+      {
+        "timestep": 0.5,
+        "location": "gpu-buffer",
+        "locationAfterDiagnosticReadback": "cpu",
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "completionMs": 19.200000002980232,
+        "maxAbs": 0.000006496906280517578,
+        "mae": 1.055377651937306e-8,
+        "rmse": 1.1072499672589315e-7,
+        "hash": "3b89b707fe57a3d872b0bac9c66d87b83d510a36edb2ea6c2569e29c04b852af",
+        "passed": true
+      },
+      {
+        "timestep": 0.75,
+        "location": "gpu-buffer",
+        "locationAfterDiagnosticReadback": "cpu",
+        "shape": [
+          1,
+          3,
+          128,
+          128
+        ],
+        "completionMs": 13.100000008940697,
+        "maxAbs": 0.000006496906280517578,
+        "mae": 9.947295135740811e-9,
+        "rmse": 1.1642217557725605e-7,
+        "hash": "4bada1a29f21f74211c0d7d2918c3e13833f55b666de5e3eaf64199faefa3aa1",
+        "passed": true
+      }
+    ],
+    "gpuErrors": [],
+    "distinctOutputs": 3,
+    "released": true
+  },
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "errors": []
+}

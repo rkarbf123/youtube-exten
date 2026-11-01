@@ -1,0 +1,122 @@
+[
+  {
+    "name": "stability-matrix",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "matrix"
+    ],
+    "start": "2026-10-31T21:43:30.244Z",
+    "elapsedMs": 149766,
+    "exit": 0
+  },
+  {
+    "name": "stability-combinations",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "combinations"
+    ],
+    "start": "2026-10-31T21:46:00.011Z",
+    "elapsedMs": 82102,
+    "exit": 0
+  },
+  {
+    "name": "stability-long",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "long"
+    ],
+    "start": "2026-10-31T21:47:22.114Z",
+    "elapsedMs": 127792,
+    "exit": 0
+  },
+  {
+    "name": "stability-fast",
+    "args": [
+      "scripts/stability-v121.mjs",
+      "after",
+      "fast"
+    ],
+    "start": "2026-10-31T21:49:29.906Z",
+    "elapsedMs": 14534,
+    "exit": 0
+  },
+  {
+    "name": "artifacts-final",
+    "args": [
+      "scripts/artifacts-v121.mjs"
+    ],
+    "start": "2026-10-31T21:49:44.441Z",
+    "elapsedMs": 2441,
+    "exit": 0
+  },
+  {
+    "name": "stream-capture",
+    "args": [
+      "scripts/capture-v121.mjs"
+    ],
+    "start": "2026-10-31T21:49:46.883Z",
+    "elapsedMs": 1921,
+    "exit": 0
+  },
+  {
+    "name": "ablation",
+    "args": [
+      "scripts/ablation-v121.mjs"
+    ],
+    "start": "2026-10-31T21:49:48.805Z",
+    "elapsedMs": 127933,
+    "exit": 0
+  },
+  {
+    "name": "baseline-retry",
+    "args": [
+      "scripts/benchmark-v121.mjs",
+      "baseline",
+      "retry"
+    ],
+    "start": "2026-10-31T21:51:56.738Z",
+    "elapsedMs": 28011,
+    "exit": 0
+  },
+  {
+    "name": "initial-performance-summary",
+    "args": [
+      "scripts/summarize-v121.mjs"
+    ],
+    "start": "2026-10-31T21:52:24.749Z",
+    "elapsedMs": 106,
+    "exit": 0
+  },
+  {
+    "name": "browser-validation",
+    "args": [
+      "scripts/verify-browsers.mjs",
+      "docs/v1.2.1"
+    ],
+    "start": "2026-10-31T21:52:24.856Z",
+    "elapsedMs": 4407,
+    "exit": 0
+  },
+  {
+    "name": "youtube-v121",
+    "args": [
+      "scripts/verify-v121-youtube.mjs"
+    ],
+    "start": "2026-10-31T21:52:29.264Z",
+    "elapsedMs": 59562,
+    "exit": 0
+  },
+  {
+    "name": "youtube-validation",
+    "args": [
+      "scripts/verify-youtube.mjs",
+      "docs/v1.2.1"
+    ],
+    "start": "2026-10-31T21:53:28.827Z",
+    "elapsedMs": 27258,
+    "exit": 0
+  }
+]

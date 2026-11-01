@@ -1,0 +1,352 @@
+[
+  {
+    "file": "adaptive/AdaptiveController.ts",
+    "before": "50f02a8e7e0ae922225187dba48989e5b9222eee745b73562f41dd919c2ba889",
+    "after": "50f02a8e7e0ae922225187dba48989e5b9222eee745b73562f41dd919c2ba889",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "adaptive/PerformanceMonitor.ts",
+    "before": "ea88f38d7cb7b7ed5bed772116a98441e4d896b4c018d4ac18955d2b3372fef9",
+    "after": "56ff47e7987730a22103ad055562911a7df62da91c7a7b01b4301a5c01f45cc8",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "adaptive/PresentationHistory.ts",
+    "before": "537a1d964bbf3ae1bb6b90d2b8e1ac8bee89ba0de7ab703804103b93d33cfcc2",
+    "after": "537a1d964bbf3ae1bb6b90d2b8e1ac8bee89ba0de7ab703804103b93d33cfcc2",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "adaptive/Resolution.ts",
+    "before": "fc23fd0b835ee492bc76952794bd09c7321ab3bc5714760228cd3c85d5999a1b",
+    "after": "7b8e85c634c0742e3ac560e1d03b30a8ebf8d0f5d08207e9e135442fbdb7cc6d",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "adaptive/TemporalAdaptiveController.ts",
+    "before": "bcaf09cf5740e48512fc31db7fee482c9cc4383436bda061f94e688b530665dc",
+    "after": "bcaf09cf5740e48512fc31db7fee482c9cc4383436bda061f94e688b530665dc",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "background/index.ts",
+    "before": "20b49a7413841b97eae6e75579e35f6a3333f80c4de6e28cd7fa93765e9c291a",
+    "after": "20b49a7413841b97eae6e75579e35f6a3333f80c4de6e28cd7fa93765e9c291a",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "content/FrameScheduler.ts",
+    "before": "148cef4287a1a4e54f4a96da2a355de2ccba6c4beff37100eff81b4259b45294",
+    "after": "148cef4287a1a4e54f4a96da2a355de2ccba6c4beff37100eff81b4259b45294",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "content/index.ts",
+    "before": "dcf2eb32053be8738a54f76029818fb240049b82373d08c90352dade90b69c85",
+    "after": "3ab8823f0ff1bab44f996547ac3247aa4e33b1e246d976468c66238f0ede7aed",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "content/VideoDetector.ts",
+    "before": "eddff0aa2429f5f014952b2f18ebe26e2a232df7479b718d1a70c0f1bd93c8ec",
+    "after": "eddff0aa2429f5f014952b2f18ebe26e2a232df7479b718d1a70c0f1bd93c8ec",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "content/VideoOverlay.ts",
+    "before": "9a2bc4d5f61ce3c17562e247c897492598ede6974095c43061905a2712f16813",
+    "after": "9a2bc4d5f61ce3c17562e247c897492598ede6974095c43061905a2712f16813",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "content/VideoProcessor.ts",
+    "before": "55112e35219917466efb1c4f2f1b9fcaa87b2d596c6268adc3ffb2b99f1d48cd",
+    "after": "778a2382f1009674afecd3b52bf6929e2e1393d4ee2d41d028826d2b1f8aedc7",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "content/YouTubeObserver.ts",
+    "before": "96780b48d85689d29db49a1cd63aa4136700770b864f7449fb2d49383acf6884",
+    "after": "96780b48d85689d29db49a1cd63aa4136700770b864f7449fb2d49383acf6884",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "gpu/createEngine.ts",
+    "before": "de7890f65f3795963075f1f07f553f5a17aef9a922c4f992935e86f434b595dc",
+    "after": "de7890f65f3795963075f1f07f553f5a17aef9a922c4f992935e86f434b595dc",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "gpu/FrameSignature.ts",
+    "before": "24f316644a6ae0c5689dfb37f5877246064384f130a8feb5ef24b43a5f484d55",
+    "after": "97b64c060fd8c71d55c26df241bb98ab2066c623805a803a756f611283c1ce11",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "gpu/GpuTimer.ts",
+    "before": null,
+    "after": "fa5d0b39ffd13094d45f6e04d2895af46cf9f3646eca509a9eeba3e6f49a2a7a",
+    "unchanged": false,
+    "added": true
+  },
+  {
+    "file": "gpu/MotionEstimator.ts",
+    "before": "f9b50f6519ef94aeba3a1e7adf21e28093291761ad99a869b9a6bb49fb376021",
+    "after": "f2896ee876a5eabf5f20ff5aecae0404864e90feced79663411b91308a7992d6",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "gpu/ProcessingStage.ts",
+    "before": "7a8b318335d693e8772ac2fb97e70853d91d3369567a290f2cec48f23c9c0ed2",
+    "after": "7a8b318335d693e8772ac2fb97e70853d91d3369567a290f2cec48f23c9c0ed2",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "gpu/WebGLEngine.ts",
+    "before": "a0aa192aff74e8354119fc5ec0021753b4bb40af4904fa85d81c16dce312d401",
+    "after": "a0aa192aff74e8354119fc5ec0021753b4bb40af4904fa85d81c16dce312d401",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "gpu/WebGPUEngine.ts",
+    "before": "c30a4c50ca98824ba0133205338bb7976993d3708bb2ed855737c6f119a22c82",
+    "after": "afbfdcc25dd18e9cbbfa4840eb45f9be6209b85c0824fde0d04576bc809cb2fb",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "harness/computeBench.ts",
+    "before": null,
+    "after": "521bf08d0af413fe070dc052aa1c9a0c4e958d21f82131b3d11f8402437e2c29",
+    "unchanged": false,
+    "added": true
+  },
+  {
+    "file": "harness/easuReference.ts",
+    "before": "ab4cb7acf53d719a005fbb99c9cc9edfdb73fb1ff0fe7d0d6c0dc451736daa7b",
+    "after": "ab4cb7acf53d719a005fbb99c9cc9edfdb73fb1ff0fe7d0d6c0dc451736daa7b",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "harness/main.ts",
+    "before": "5584e3e5f4d61715d33a75bb65e6a2b6e14535985a67c326c882eab910309c51",
+    "after": "dc5dba9d96b4b3abb69e36bded70b8a01868ba501f871b1f8bc0435970fd3865",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "harness/perf.ts",
+    "before": null,
+    "after": "b6f995caf20c09bf4feef18c36a3792fe0f0f42847ec9d8110d6c589bb029a7b",
+    "unchanged": false,
+    "added": true
+  },
+  {
+    "file": "harness/pixelChecks.ts",
+    "before": "3215b365d00fa3060d28d7054c08be0d5f2617c18ba9249c650a1ea695c418a4",
+    "after": "3215b365d00fa3060d28d7054c08be0d5f2617c18ba9249c650a1ea695c418a4",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "harness/qualityReview.ts",
+    "before": "a97d06bb47451946b4d9a096aa78037e84fa739d28c88cd675494d37f97f400b",
+    "after": "a97d06bb47451946b4d9a096aa78037e84fa739d28c88cd675494d37f97f400b",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "harness/styles.css",
+    "before": "772b46d320bdd6e5611832e4f58333a093d8a274842dac134671b77201bcb288",
+    "after": "772b46d320bdd6e5611832e4f58333a093d8a274842dac134671b77201bcb288",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "harness/v12Checks.ts",
+    "before": "a35ab388b04f10a6ffd215ca0661b0e88e3b3c87c2aa4eae30687beac64a89d7",
+    "after": "a35ab388b04f10a6ffd215ca0661b0e88e3b3c87c2aa4eae30687beac64a89d7",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "popup/index.html",
+    "before": "3560cd302d6a50325ba85dadd66cdd81b79037a8c88fd42d28b76408bfbdfe3b",
+    "after": "faced77966e942d5b181ec967e938cc7cc89fe47bb1604bdbcbbf69ec9fcecf6",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "popup/main.ts",
+    "before": "7a4752f330cde899bade4f4d06aeb6816720aaf85c42032b1fce8704dca1687a",
+    "after": "449f508b3f881c2b2a8c0a1f0d4ae8a822cbe4c182baed0d4b1ed983ee24f717",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "popup/styles.css",
+    "before": "5edfedb9fce1173299e7005169c799016889bfc89a5b54d291ff2f78ca67053a",
+    "after": "5edfedb9fce1173299e7005169c799016889bfc89a5b54d291ff2f78ca67053a",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "settings/SettingsManager.ts",
+    "before": "5ca9195793c649990c4afb260d10792eba5f3a32cc005c092b4a6df263a3b134",
+    "after": "5ca9195793c649990c4afb260d10792eba5f3a32cc005c092b4a6df263a3b134",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/color.glsl",
+    "before": "4500230521c6f05e707ebac769f63e64eecd1739d9a32264be436139362641d8",
+    "after": "4500230521c6f05e707ebac769f63e64eecd1739d9a32264be436139362641d8",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/color.wgsl",
+    "before": "697af4821db0518cc2722343402ce98c2234c688bcc8cbc78edbceae4aa92b6e",
+    "after": "697af4821db0518cc2722343402ce98c2234c688bcc8cbc78edbceae4aa92b6e",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/common.wgsl",
+    "before": "1255b48ff51b58979f1c6394c13b8a2a56b6dc2921958ab821e4c9765047cd68",
+    "after": "1255b48ff51b58979f1c6394c13b8a2a56b6dc2921958ab821e4c9765047cd68",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/composite.wgsl",
+    "before": "9da7bb4c19b2a5ac80cb865d6a2b7a82aabf8dd846c6612de3ea7e8e183beb93",
+    "after": "9da7bb4c19b2a5ac80cb865d6a2b7a82aabf8dd846c6612de3ea7e8e183beb93",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/denoise.wgsl",
+    "before": "fc02d72664d83d8ed3aa0395f22847d121111155504f1c259a2ae9997ab475fe",
+    "after": "fc02d72664d83d8ed3aa0395f22847d121111155504f1c259a2ae9997ab475fe",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/easu.glsl",
+    "before": "a38fbcebefae2e307b1eee28b944623b1601e27571987bb59f4df88503a35907",
+    "after": "a38fbcebefae2e307b1eee28b944623b1601e27571987bb59f4df88503a35907",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/motion-common.wgsl",
+    "before": "a072b6a71d375c853ac79c1c17119356943abf96c28d811258200cff2977e7f7",
+    "after": "a072b6a71d375c853ac79c1c17119356943abf96c28d811258200cff2977e7f7",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/motion-downsample.wgsl",
+    "before": "5b6f66cdd85508507ede1eee0c9aa0a11ef98ac16aae048a6bc8ea27b26d36c8",
+    "after": "5b6f66cdd85508507ede1eee0c9aa0a11ef98ac16aae048a6bc8ea27b26d36c8",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/motion-flow.wgsl",
+    "before": "bc3306b2d4da39a7ff88b1834d40a005de4789036c31ddc030f993f83067647d",
+    "after": "c4b5d8874c374264d292fb4a057c2564d571c717b548dc9d7c8fa9c683272f21",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "shaders/motion-warp.wgsl",
+    "before": "0c2c203079974097c8929336ce992bfc0cd5bc4784cf18b800dc916ce68ca2f6",
+    "after": "f56bdb67296864e8a76974256f30d502a9d63ce5d96491cc9200b97d1fcaf786",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "shaders/signature.wgsl",
+    "before": "649a9a8cfdb75f82bd922f74afc8d132ed2a40bdee6e3ee68df321cf0beabd0d",
+    "after": "649a9a8cfdb75f82bd922f74afc8d132ed2a40bdee6e3ee68df321cf0beabd0d",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/upscale.wgsl",
+    "before": "e4892d611a5378fcbfa84d66da720a6aca73d6004a42cca1c573885878de425f",
+    "after": "e4892d611a5378fcbfa84d66da720a6aca73d6004a42cca1c573885878de425f",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shaders/webgl.ts",
+    "before": "eb8373360330c9cfca2b32a5897e0d52b35907927c118540be1c984562b93388",
+    "after": "eb8373360330c9cfca2b32a5897e0d52b35907927c118540be1c984562b93388",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shared/localize.ts",
+    "before": "3c416055ab80867f16ac7c3991f2837dec71ebbfbc36418d70f107ae56b53ddb",
+    "after": "3c416055ab80867f16ac7c3991f2837dec71ebbfbc36418d70f107ae56b53ddb",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "shared/types.ts",
+    "before": "f5600a096732822a89c6a282fedab192a53c4ff78359678087f8037b5c1760e5",
+    "after": "82e170b9fecd3101f1808f2ae89ab65fac63180af3639d360ca7e7118b10247f",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "temporal/InterpolationSession.ts",
+    "before": "bce13abd1d1b781d85531a1a128fb76dccf3fc9f232e49848911b0b9fe27bb3e",
+    "after": "7e01aa2b1e28e3d74773c99559f507016a998ce93227c30c9bf6d815dd10918b",
+    "unchanged": false,
+    "added": false
+  },
+  {
+    "file": "temporal/PresentationClock.ts",
+    "before": null,
+    "after": "ac438094caadd7e44321e9e1a3e6950fee58ec45376b7b8dbb59ba89a29138f2",
+    "unchanged": false,
+    "added": true
+  },
+  {
+    "file": "temporal/TemporalClock.ts",
+    "before": "4a471fe69ac1495292ae44254e77fdc38affcfe80fbb801c55e107c3477c465b",
+    "after": "4a471fe69ac1495292ae44254e77fdc38affcfe80fbb801c55e107c3477c465b",
+    "unchanged": true,
+    "added": false
+  },
+  {
+    "file": "temporal/TemporalProfiler.ts",
+    "before": null,
+    "after": "ccaadc8708300a8dd962aedab6ae1046158a7bf682f0bb8a350b81d4c6a676b4",
+    "unchanged": false,
+    "added": true
+  }
+]

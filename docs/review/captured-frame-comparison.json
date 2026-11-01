@@ -1,0 +1,15 @@
+{
+  "backend": "WebGPU",
+  "source": {
+    "width": 320,
+    "height": 240
+  },
+  "output": {
+    "width": 960,
+    "height": 720
+  },
+  "sharpness": 0,
+  "denoise": 20,
+  "baselineToNaturalMAE": 0.7690909529320987,
+  "naturalToAnimationMAE": 0.7601186342592593
+}

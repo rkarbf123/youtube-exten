@@ -1,0 +1,146 @@
+[
+  {
+    "which": "previous",
+    "alpha": 0.25,
+    "expected": 42,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 0.041666666666666664,
+        "id": 2
+      },
+      {
+        "a": 0.041666666666666664,
+        "b": 0.08333333333333333,
+        "id": 3
+      }
+    ],
+    "output": {
+      "width": 128,
+      "height": 72
+    },
+    "measured": 42.183108515029794,
+    "errorPixels": 0.18310851502979375,
+    "file": "stream-previous-0.25.png"
+  },
+  {
+    "which": "previous",
+    "alpha": 0.5,
+    "expected": 44,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 0.041666666666666664,
+        "id": 2
+      },
+      {
+        "a": 0.041666666666666664,
+        "b": 0.08333333333333333,
+        "id": 3
+      }
+    ],
+    "output": {
+      "width": 128,
+      "height": 72
+    },
+    "measured": 43.92619924036388,
+    "errorPixels": 0.07380075963612143,
+    "file": "stream-previous-0.50.png"
+  },
+  {
+    "which": "previous",
+    "alpha": 0.75,
+    "expected": 46,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 0.041666666666666664,
+        "id": 2
+      },
+      {
+        "a": 0.041666666666666664,
+        "b": 0.08333333333333333,
+        "id": 3
+      }
+    ],
+    "output": {
+      "width": 128,
+      "height": 72
+    },
+    "measured": 45.86552127846397,
+    "errorPixels": 0.13447872153602702,
+    "file": "stream-previous-0.75.png"
+  },
+  {
+    "which": "latest",
+    "alpha": 0.25,
+    "expected": 50,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 0.041666666666666664,
+        "id": 2
+      },
+      {
+        "a": 0.041666666666666664,
+        "b": 0.08333333333333333,
+        "id": 3
+      }
+    ],
+    "output": {
+      "width": 128,
+      "height": 72
+    },
+    "measured": 50.183108515029794,
+    "errorPixels": 0.18310851502979375,
+    "file": "stream-latest-0.25.png"
+  },
+  {
+    "which": "latest",
+    "alpha": 0.5,
+    "expected": 52,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 0.041666666666666664,
+        "id": 2
+      },
+      {
+        "a": 0.041666666666666664,
+        "b": 0.08333333333333333,
+        "id": 3
+      }
+    ],
+    "output": {
+      "width": 128,
+      "height": 72
+    },
+    "measured": 51.92619924036388,
+    "errorPixels": 0.07380075963612143,
+    "file": "stream-latest-0.50.png"
+  },
+  {
+    "which": "latest",
+    "alpha": 0.75,
+    "expected": 54,
+    "pairs": [
+      {
+        "a": 0,
+        "b": 0.041666666666666664,
+        "id": 2
+      },
+      {
+        "a": 0.041666666666666664,
+        "b": 0.08333333333333333,
+        "id": 3
+      }
+    ],
+    "output": {
+      "width": 128,
+      "height": 72
+    },
+    "measured": 53.86552127846397,
+    "errorPixels": 0.13447872153602702,
+    "file": "stream-latest-0.75.png"
+  }
+]

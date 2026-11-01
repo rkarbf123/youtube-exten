@@ -1,0 +1,700 @@
+[
+  {
+    "channel": "chrome",
+    "version": "156.0.8078.76",
+    "webgpu": {
+      "backend": "WebGPU",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "webgl2": {
+      "backend": "WebGL2",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "motion": {
+      "pair": {
+        "id": 2,
+        "newest": 1,
+        "previous": 0,
+        "bank": 0,
+        "a": 0,
+        "b": 0.041666666666666664,
+        "ready": true,
+        "sceneCut": false,
+        "dynamic": true,
+        "confidence": 0.26661771063808143,
+        "flowMs": 4.100000001490116,
+        "flowSize": {
+          "width": 128,
+          "height": 72
+        },
+        "analysisAvailable": true,
+        "analysis": {}
+      },
+      "results": [
+        {
+          "phase": 0,
+          "centroid": 40,
+          "expected": 40,
+          "signature": "bdf1b5d2:411ae78d"
+        },
+        {
+          "phase": 0.25,
+          "centroid": 42.183108515029794,
+          "expected": 42,
+          "signature": "5d07f481:d33df122"
+        },
+        {
+          "phase": 0.5,
+          "centroid": 43.92619924036388,
+          "expected": 44,
+          "signature": "febf7c5b:1d55a267"
+        },
+        {
+          "phase": 0.75,
+          "centroid": 45.86552127846397,
+          "expected": 46,
+          "signature": "df81b7e2:5a619111"
+        },
+        {
+          "phase": 1,
+          "centroid": 48,
+          "expected": 48,
+          "signature": "9e109ada:7cbf02d9"
+        }
+      ],
+      "sceneCut": true,
+      "cutPixel": [
+        255,
+        255,
+        255
+      ]
+    },
+    "color": {
+      "backend": "webgpu",
+      "results": [
+        {
+          "control": "saturation",
+          "value": 0,
+          "rgb": [
+            124,
+            124,
+            124
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 50,
+          "rgb": [
+            100,
+            126,
+            163
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 100,
+          "rgb": [
+            64,
+            128,
+            192
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 150,
+          "rgb": [
+            0,
+            129,
+            209
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 200,
+          "rgb": [
+            0,
+            129,
+            209
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 0,
+          "rgb": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 50,
+          "rgb": [
+            44,
+            92,
+            140
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 100,
+          "rgb": [
+            64,
+            128,
+            192
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 150,
+          "rgb": [
+            75,
+            147,
+            220
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 200,
+          "rgb": [
+            82,
+            161,
+            241
+          ]
+        }
+      ]
+    },
+    "video": {
+      "status": "Active",
+      "reason": "WebGPU processed frames are being presented.",
+      "backend": "WebGPU",
+      "engine": "balanced",
+      "profile": "balanced",
+      "dimensions": {
+        "source": {
+          "width": 320,
+          "height": 180
+        },
+        "processing": {
+          "width": 1920,
+          "height": 1080
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "requested": {
+          "width": 1920,
+          "height": 1080
+        },
+        "display": {
+          "width": 855,
+          "height": 481
+        },
+        "css": {
+          "width": 855.4444444444446,
+          "height": 481.18750000000006
+        },
+        "screen": {
+          "width": 1280,
+          "height": 720
+        },
+        "eligible": true,
+        "limited": false,
+        "estimatedBytes": 17049600,
+        "resolutionReason": "선택한 목표 해상도로 GPU 재구성합니다."
+      },
+      "metrics": {
+        "sourceFPS": 27.50020317207396,
+        "processedFPS": 23.166023166023166,
+        "latencyMs": 36.67888875070237,
+        "cpuSubmitMs": 0.24136312679266553,
+        "gpuMs": null,
+        "latenessMs": 0.2999999955295607,
+        "missedDeadlines": 2,
+        "skippedFrames": 1,
+        "queueDepth": 0,
+        "failures": 0,
+        "enhancedVisiblePercent": 42.890288365008836
+      },
+      "presented": 4,
+      "effectiveSharpness": 40,
+      "effectiveDenoise": 20,
+      "algorithm": "FSR1 EASU · 실사",
+      "presentation": "split",
+      "fallback": false,
+      "upscalingActive": true,
+      "scaleRatio": 6,
+      "frameAgeMs": 15.700000002980232,
+      "temporal": {
+        "state": "off",
+        "reason": "프레임 보간을 사용하지 않습니다.",
+        "engine": "없음",
+        "requestedFPS": null,
+        "refreshHz": null,
+        "physicalFPS": null,
+        "submittedFPS": 23.166023166023166,
+        "generatedFPS": 0,
+        "generated": 0,
+        "submitted": 4,
+        "uniqueSamples": 0,
+        "sourceFrames": 0,
+        "dropped": 0,
+        "flowMs": null,
+        "interpolationMs": null,
+        "upscaleMs": null,
+        "delayMs": 0,
+        "flowSize": null,
+        "sceneCuts": 0,
+        "confidence": 0,
+        "queueDepth": 0
+      },
+      "canvasTransitions": {
+        "shows": 1,
+        "hides": 0
+      },
+      "recoveries": 0
+    }
+  },
+  {
+    "channel": "msedge",
+    "version": "156.0.4314.50",
+    "webgpu": {
+      "backend": "WebGPU",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "webgl2": {
+      "backend": "WebGL2",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "motion": {
+      "pair": {
+        "id": 2,
+        "newest": 1,
+        "previous": 0,
+        "bank": 0,
+        "a": 0,
+        "b": 0.041666666666666664,
+        "ready": true,
+        "sceneCut": false,
+        "dynamic": true,
+        "confidence": 0.26661771063808143,
+        "flowMs": 4.199999995529652,
+        "flowSize": {
+          "width": 128,
+          "height": 72
+        },
+        "analysisAvailable": true,
+        "analysis": {}
+      },
+      "results": [
+        {
+          "phase": 0,
+          "centroid": 40,
+          "expected": 40,
+          "signature": "bdf1b5d2:411ae78d"
+        },
+        {
+          "phase": 0.25,
+          "centroid": 42.183108515029794,
+          "expected": 42,
+          "signature": "5d07f481:d33df122"
+        },
+        {
+          "phase": 0.5,
+          "centroid": 43.92619924036388,
+          "expected": 44,
+          "signature": "febf7c5b:1d55a267"
+        },
+        {
+          "phase": 0.75,
+          "centroid": 45.86552127846397,
+          "expected": 46,
+          "signature": "df81b7e2:5a619111"
+        },
+        {
+          "phase": 1,
+          "centroid": 48,
+          "expected": 48,
+          "signature": "9e109ada:7cbf02d9"
+        }
+      ],
+      "sceneCut": true,
+      "cutPixel": [
+        255,
+        255,
+        255
+      ]
+    },
+    "color": {
+      "backend": "webgpu",
+      "results": [
+        {
+          "control": "saturation",
+          "value": 0,
+          "rgb": [
+            124,
+            124,
+            124
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 50,
+          "rgb": [
+            100,
+            126,
+            163
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 100,
+          "rgb": [
+            64,
+            128,
+            192
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 150,
+          "rgb": [
+            0,
+            129,
+            209
+          ]
+        },
+        {
+          "control": "saturation",
+          "value": 200,
+          "rgb": [
+            0,
+            129,
+            209
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 0,
+          "rgb": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 50,
+          "rgb": [
+            44,
+            92,
+            140
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 100,
+          "rgb": [
+            64,
+            128,
+            192
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 150,
+          "rgb": [
+            75,
+            147,
+            220
+          ]
+        },
+        {
+          "control": "brightness",
+          "value": 200,
+          "rgb": [
+            82,
+            161,
+            241
+          ]
+        }
+      ]
+    },
+    "video": {
+      "status": "Active",
+      "reason": "WebGPU processed frames are being presented.",
+      "backend": "WebGPU",
+      "engine": "balanced",
+      "profile": "balanced",
+      "dimensions": {
+        "source": {
+          "width": 320,
+          "height": 180
+        },
+        "processing": {
+          "width": 1920,
+          "height": 1080
+        },
+        "output": {
+          "width": 1920,
+          "height": 1080
+        },
+        "requested": {
+          "width": 1920,
+          "height": 1080
+        },
+        "display": {
+          "width": 855,
+          "height": 481
+        },
+        "css": {
+          "width": 855.4444444444446,
+          "height": 481.18750000000006
+        },
+        "screen": {
+          "width": 1280,
+          "height": 720
+        },
+        "eligible": true,
+        "limited": false,
+        "estimatedBytes": 17049600,
+        "resolutionReason": "선택한 목표 해상도로 GPU 재구성합니다."
+      },
+      "metrics": {
+        "sourceFPS": 27.50020317207396,
+        "processedFPS": 27.522935779816514,
+        "latencyMs": 36.159970623796895,
+        "cpuSubmitMs": 0.30631374792130667,
+        "gpuMs": null,
+        "latenessMs": 0,
+        "missedDeadlines": 2,
+        "skippedFrames": 1,
+        "queueDepth": 0,
+        "failures": 0,
+        "enhancedVisiblePercent": 38.59773371125183
+      },
+      "presented": 4,
+      "effectiveSharpness": 40,
+      "effectiveDenoise": 20,
+      "algorithm": "FSR1 EASU · 실사",
+      "presentation": "split",
+      "fallback": false,
+      "upscalingActive": true,
+      "scaleRatio": 6,
+      "frameAgeMs": 7.800000004470348,
+      "temporal": {
+        "state": "off",
+        "reason": "프레임 보간을 사용하지 않습니다.",
+        "engine": "없음",
+        "requestedFPS": null,
+        "refreshHz": null,
+        "physicalFPS": null,
+        "submittedFPS": 27.522935779816514,
+        "generatedFPS": 0,
+        "generated": 0,
+        "submitted": 4,
+        "uniqueSamples": 0,
+        "sourceFrames": 0,
+        "dropped": 0,
+        "flowMs": null,
+        "interpolationMs": null,
+        "upscaleMs": null,
+        "delayMs": 0,
+        "flowSize": null,
+        "sceneCuts": 0,
+        "confidence": 0,
+        "queueDepth": 0
+      },
+      "canvasTransitions": {
+        "shows": 1,
+        "hides": 0
+      },
+      "recoveries": 0
+    }
+  }
+]

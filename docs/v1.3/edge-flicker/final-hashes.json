@@ -1,0 +1,18 @@
+{
+  "src/ai/FramegenSession.ts": "46b7c17743e3f299e3d39efca550388de9574ad5cfe37602ed2ad5378de50fb9",
+  "src/harness/framegenEdges.ts": "6d6b8aee20f8ead4bad725cfe4f67788ac01c927affadaa69a8730aa811033ad",
+  "src/harness/framegenValidation.ts": "1bb6f1800a0b0c3df111137a5ab24468c272197fe7ac8f51bbb683240bf83bb2",
+  "src/gpu/WebGPUEngine.ts": "5a7fa9839592e07002c5974577eff35bae2ddb6af8a9f398fe0617e0abecfb00",
+  "src/shaders/composite.wgsl": "9da7bb4c19b2a5ac80cb865d6a2b7a82aabf8dd846c6612de3ea7e8e183beb93",
+  "src/shared/types.ts": "292ea5643b7db5ab67162f4a06c2752fa8d4c49872f89c7543c770bbb5145f19",
+  "tests/browser/rife.spec.ts": "8c2159e462d86bbbf65e5968a64d713c58e52ca901d84e05423fa9a718d98dfc",
+  "scripts/framegen-edges.mjs": "ca351da9904a4858b974f0b870012383c285b589aa73faa2d3c33be7ab5c3b49",
+  "scripts/analyze-framegen-edges.py": "719df44da6b6d1dad4e33315a12ad48fa0f35eab48b01f584f185d6ed1d321bf",
+  "scripts/verify-youtube-edge.mjs": "b62b668a0b5abbd80fd8d3b0f7e517c9b82c90c49521cb371f0bb6fd53c3df1d",
+  "scripts/verify-youtube-framegen.mjs": "d1e828b7f311cf575eac4027b61ba4eb43e9262cc7479523857904c0122df922",
+  "scripts/analyze-youtube-edges.py": "f0f674529f978db7f8c03c66aab10a4c58b85de90166fec77251615bda4f68e1",
+  "scripts/report-framegen-edges.mjs": "dd12f946f31d8a8453ec54c5b4a09b2a24d381645c8f0f5313a45cd97c5e4855",
+  "scripts/framegen-fps-matrix.mjs": "c48999fbac99bce2a475bcf0ae173054825a0f80facdef54c09c5a3fa7974891",
+  "docs/v1.3/edge-flicker/edge-metrics.json": "bc92ce62ed193c2f473f710bae1263b22a72af2d30477cf079bd7ee07bf03846",
+  "docs/v1.3/edge-flicker/youtube-framegen.json": "80d76d43dac33ccd598f71f2bdbfa23dd52e95c8e0270a250edc2d3a5e6ef0b5"
+}

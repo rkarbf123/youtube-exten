@@ -1,0 +1,30 @@
+{
+  "cause": "both legacy acquisition artifacts and raw reconstruction residuals",
+  "rawPairsCompared": 96,
+  "rawOutputsExact": true,
+  "protectedPreserved": true,
+  "preserved": {
+    "src/ai/FramegenSession.ts": true,
+    "src/gpu/WebGPUEngine.ts": true,
+    "src/harness/framegenValidation.ts": false,
+    "src/content/FrameScheduler.ts": true,
+    "src/temporal/InterpolationSession.ts": true,
+    "node_modules/framegen/rt.js": true,
+    "public/models/framegen/rt_v7s.bin": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "docs/v1.3/edge-flicker/youtube-framegen.json": true,
+    "docs/v1.3/framegen-fps/720p-24-48.json": true,
+    "docs/v1.3/framegen-fps/720p-30-60.json": true,
+    "docs/v1.3/framegen-fps/720p-60-90.json": true,
+    "docs/v1.3/framegen-fps/1080p-24-48.json": true,
+    "docs/v1.3/framegen-fps/1080p-30-60.json": true,
+    "docs/v1.3/framegen-fps/1080p-60-90.json": true
+  },
+  "tests": {
+    "build": true,
+    "unit": true,
+    "browser": false
+  },
+  "qualityImprovementClaimed": false
+}

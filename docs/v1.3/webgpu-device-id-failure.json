@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-31T23:49:03.930Z",
+  "productIntegrationComplete": false,
+  "browser": "156.0.8078.4",
+  "error": "Error: page.evaluate: Error: Can't bind input[0] for session=35162752. ERROR_CODE: 1, ERROR_MESSAGE: There's no data transfer registered for copying tensors from Device:[DeviceType:1 MemoryType:0 VendorId:0 DeviceId:0 Alignment:0] to Device:[DeviceType:1 MemoryType:0 VendorId:0 DeviceId:1 Alignment:0]\n    at j (http://127.0.0.1:5198/assets/rife-dRWhpXNw.js:5:31048)\n    at On (http://127.0.0.1:5198/assets/rife-dRWhpXNw.js:6:28608)\n    at async ys.run (http://127.0.0.1:5198/assets/rife-dRWhpXNw.js:6:37532)\n    at async Fi.run (http://127.0.0.1:5198/assets/rife-dRWhpXNw.js:1:19619)\n    at async Rn.infer (http://127.0.0.1:5198/assets/rife-dRWhpXNw.js:6:41677)\n    at async xs (http://127.0.0.1:5198/assets/rife-dRWhpXNw.js:8:644)\n    at async <anonymous>:396:30",
+  "logs": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "errors": []
+}

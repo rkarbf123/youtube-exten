@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-31T22:19:15.469Z",
+  "browser": "156.0.8078.4",
+  "warmupSeconds": 3,
+  "observationSeconds": 10,
+  "cases": [
+    {
+      "name": "24fps",
+      "id": "YE7VzlLtp-4",
+      "quality": {
+        "requested": "480p",
+        "available": [
+          "안정적인 볼륨",
+          "음성 품질 개선",
+          "특수효과",
+          "자막영어",
+          "취침 타이머사용 안함",
+          "재생 속도보통",
+          "화질자동 (480p)",
+          "1080p HD초해상도",
+          "720p",
+          "480p",
+          "360p",
+          "240p",
+          "144p",
+          "자동"
+        ],
+        "selected": "480p"
+      },
+      "expected": 24,
+      "diagnostic": false,
+      "url": "https://www.youtube.com/watch?v=YE7VzlLtp-4&t=100s",
+      "errors": [],
+      "error": "Error: YouTube test tab not found",
+      "native": {
+        "time": 101.43263,
+        "paused": false,
+        "ended": false,
+        "width": 854,
+        "height": 480,
+        "readyState": 4,
+        "error": null,
+        "playerError": "",
+        "total": 43,
+        "dropped": 2,
+        "keys": false
+      }
+    },
+    {
+      "name": "24fps",
+      "id": "YE7VzlLtp-4",
+      "quality": {
+        "requested": "480p",
+        "available": [
+          "안정적인 볼륨",
+          "음성 품질 개선",
+          "특수효과",
+          "자막영어",
+          "취침 타이머사용 안함",
+          "재생 속도보통",
+          "화질자동 (480p)",
+          "1080p HD초해상도",
+          "720p",
+          "480p",
+          "360p",
+          "240p",
+          "144p",
+          "자동"
+        ],
+        "selected": "480p"
+      },
+      "expected": 24,
+      "diagnostic": true,
+      "url": "https://www.youtube.com/watch?v=YE7VzlLtp-4&t=100s",
+      "errors": [],
+      "error": "Error: YouTube test tab not found",
+      "native": {
+        "time": 102.330986,
+        "paused": false,
+        "ended": false,
+        "width": 854,
+        "height": 480,
+        "readyState": 4,
+        "error": null,
+        "playerError": "",
+        "total": 65,
+        "dropped": 0,
+        "keys": false
+      }
+    },
+    {
+      "name": "30fps",
+      "id": "aqz-KE-bpKQ",
+      "quality": {
+        "requested": "480p",
+        "available": [
+          "안정적인 볼륨",
+          "음성 품질 개선",
+          "특수효과",
+          "취침 타이머사용 안함",
+          "재생 속도보통",
+          "화질자동 (480p)",
+          "2160p60 4K",
+          "1440p60 HD",
+          "1080p60 HD",
+          "720p60",
+          "480p",
+          "360p",
+          "240p",
+          "144p",
+          "자동"
+        ],
+        "selected": "480p"
+      },
+      "expected": 30,
+      "diagnostic": false,
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ&t=100s",
+      "errors": [],
+      "error": "Error: YouTube test tab not found",
+      "native": {
+        "time": 101.692448,
+        "paused": false,
+        "ended": false,
+        "width": 854,
+        "height": 480,
+        "readyState": 4,
+        "error": null,
+        "playerError": "",
+        "total": 179,
+        "dropped": 1,
+        "keys": false
+      }
+    },
+    {
+      "name": "30fps",
+      "id": "aqz-KE-bpKQ",
+      "quality": {
+        "requested": "480p",
+        "available": [
+          "안정적인 볼륨",
+          "음성 품질 개선",
+          "특수효과",
+          "취침 타이머사용 안함",
+          "재생 속도보통",
+          "화질자동 (480p)",
+          "2160p60 4K",
+          "1440p60 HD",
+          "1080p60 HD",
+          "720p60",
+          "480p",
+          "360p",
+          "240p",
+          "144p",
+          "자동"
+        ],
+        "selected": "480p"
+      },
+      "expected": 30,
+      "diagnostic": true,
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ&t=100s",
+      "errors": [],
+      "error": "Error: YouTube test tab not found",
+      "native": {
+        "time": 101.170621,
+        "paused": false,
+        "ended": false,
+        "width": 854,
+        "height": 480,
+        "readyState": 4,
+        "error": null,
+        "playerError": "",
+        "total": 164,
+        "dropped": 0,
+        "keys": false
+      }
+    },
+    {
+      "name": "60fps + upscale + color",
+      "id": "aqz-KE-bpKQ",
+      "quality": {
+        "requested": "720p",
+        "available": [
+          "안정적인 볼륨",
+          "음성 품질 개선",
+          "특수효과",
+          "취침 타이머사용 안함",
+          "재생 속도보통",
+          "화질자동 (480p)",
+          "2160p60 4K",
+          "1440p60 HD",
+          "1080p60 HD",
+          "720p60",
+          "480p",
+          "360p",
+          "240p",
+          "144p",
+          "자동"
+        ],
+        "selected": "720p60"
+      },
+      "expected": 60,
+      "brightness": 125,
+      "saturation": 150,
+      "diagnostic": false,
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ&t=100s",
+      "errors": [],
+      "error": "Error: YouTube test tab not found",
+      "native": {
+        "time": 101.05925,
+        "paused": false,
+        "ended": false,
+        "width": 1280,
+        "height": 720,
+        "readyState": 4,
+        "error": null,
+        "playerError": "",
+        "total": 318,
+        "dropped": 0,
+        "keys": false
+      }
+    },
+    {
+      "name": "60fps + upscale + color",
+      "id": "aqz-KE-bpKQ",
+      "quality": {
+        "requested": "720p",
+        "available": [
+          "안정적인 볼륨",
+          "음성 품질 개선",
+          "특수효과",
+          "취침 타이머사용 안함",
+          "재생 속도보통",
+          "화질자동 (720p60)",
+          "2160p60 4K",
+          "1440p60 HD",
+          "1080p60 HD",
+          "720p60",
+          "480p",
+          "360p",
+          "240p",
+          "144p",
+          "자동"
+        ],
+        "selected": "720p60"
+      },
+      "expected": 60,
+      "brightness": 125,
+      "saturation": 150,
+      "diagnostic": true,
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ&t=100s",
+      "errors": [],
+      "error": "Error: YouTube test tab not found",
+      "native": {
+        "time": 101.373942,
+        "paused": false,
+        "ended": false,
+        "width": 1280,
+        "height": 720,
+        "readyState": 4,
+        "error": null,
+        "playerError": "",
+        "total": 17,
+        "dropped": 0,
+        "keys": false
+      }
+    }
+  ],
+  "controls": []
+}

@@ -1,0 +1,150 @@
+﻿import {PresentationClock,OutputPacer,selectTemporalPair,selectNativeEndpoint} from './PresentationClock';
+import {temporalPerf} from './TemporalProfiler';
+import {sourcePolicy} from './SourcePolicy';
+import {emptyTemporal,type TemporalStats,type Settings,type RenderTiming} from '../shared/types';
+import {WebGPUEngine} from '../gpu/WebGPUEngine';
+import type {MotionPair} from '../gpu/MotionEstimator';
+import type {FrameTicket} from '../content/FrameScheduler';
+import {RefreshClock,SourceCadence,type TemporalPlan,MAX_VISUAL_DELAY_MS,nativeClockLimit,totalMediaLimit} from './TemporalClock';
+import {TemporalAdaptiveController} from '../adaptive/TemporalAdaptiveController';
+export interface TemporalOutput{plan:TemporalPlan;intervalMs:number;pair:MotionPair;current:()=>boolean}
+interface Hooks{
+  settings:()=>Settings;observe:(m:VideoFrameCallbackMetadata,now:number)=>void;
+  spatial:(ticket:FrameTicket)=>Promise<void>;output:(job:TemporalOutput)=>Promise<RenderTiming|null>;
+  hide:(reason:string)=>void;fatal:(error:unknown)=>void;
+}
+export class InterpolationSession{
+  readonly budget=new TemporalAdaptiveController();private clock=new RefreshClock();private stats:TemporalStats=emptyTemporal();
+  private lastRaf=0;private lastRvfc=0;private busyStarted=0;private callback=0;private raf=0;private running=false;private busy=false;private revision=0;private pending:{frame:VideoFrame;meta:VideoFrameCallbackMetadata}|null=null;private still=false;
+  private pair?:MotionPair;private lastKey='';private lastSource=-1;private previousSource:number|null=null;private sourcePeriod=0;private disabled=false;private estimatedMs=3;
+  private submissions:number[]=[];private generated:number[]=[];private signatures:{time:number;hash:string}[]=[];private sceneKey='';
+  private began=performance.now();private poorSince=0;private recoveryUntil=0;
+  private resetPending=false;
+  private submittedAt=0;private outputIntervalMs=1000/60;private lastWasGenerated=false;private lastMediaTime=-Infinity;private catchupUntil=0;private nativeRetry=false;
+  private cadence=new SourceCadence();private presentation=new PresentationClock();private pacer=new OutputPacer();
+  private policy(){const period=this.cadence.period,nativeFPS=period&&this.cadence.samples>=8?1000/(period*this.video.playbackRate):null;return {...sourcePolicy(nativeFPS,Number(this.hooks.settings().targetFPS)),nativeFPS};}
+  protectPresentation(contentTime:number):boolean{
+    const now=performance.now(),period=this.cadence.period??this.sourcePeriod;
+    if(!this.running||this.disabled||this.video.paused||now<this.recoveryUntil||period<=0||this.engine.pendingGPU<2||this.engine.pendingAge(now)<Math.min(period,this.outputIntervalMs*1.5))return false;
+    const hold=period+this.outputIntervalMs+1000/(this.clock.hz??60)+1;
+    if(now-this.submittedAt>hold||(this.video.currentTime-contentTime)*1000/this.video.playbackRate>totalMediaLimit(period))return false;
+    this.recoveryUntil=now+10000;this.poorSince=0;this.revision++;this.pair=undefined;this.lastKey='';this.lastWasGenerated=false;this.resetMotion();
+    this.stats.effectiveFPS=null;this.stats.recoveries=(this.stats.recoveries??0)+1;this.limited('GPU 제출 지연이 반복되어 10초간 같은 Canvas에서 원본 FPS의 공간·색상 보정을 유지합니다.');temporalPerf.count('protection.nativeRecovery');return true;
+  }
+  expired(mediaTime:number):boolean{const now=performance.now(),period=this.cadence.period??this.sourcePeriod,refresh=1000/(this.clock.hz??60),hold=this.outputIntervalMs+(this.lastWasGenerated&&now>this.catchupUntil?0:Math.min(MAX_VISUAL_DELAY_MS,period||MAX_VISUAL_DELAY_MS))+refresh+1;return this.lastWasGenerated&&!this.presentation.ready||now-this.submittedAt>hold||this.presentation.ready&&(this.presentation.mediaAt(now)-mediaTime)*1000/this.video.playbackRate>MAX_VISUAL_DELAY_MS+hold||(this.video.currentTime-mediaTime)*1000/this.video.playbackRate>totalMediaLimit(period)+refresh+1;}
+  private resetMotion():void{if(this.busy)this.resetPending=true;else{this.engine.resetTemporal();this.resetPending=false;}}
+  private finished():void{temporalPerf.elapsed('serialBusyMs',this.busyStarted);this.busy=false;this.stats.queueDepth=0;if(this.resetPending)this.resetMotion();void this.drain();}
+  constructor(private video:HTMLVideoElement,private engine:WebGPUEngine,private hooks:Hooks){this.stats.state='warming';this.stats.reason='연속된 원본 프레임 두 개와 화면 갱신 주기를 확인하고 있습니다.';this.stats.engine='WebGPU 양방향 블록 움직임 추정';}
+  start():void{if(this.running)return;this.engine.onStreamAvailable=()=>this.drain();this.running=true;this.requestSource();if(!this.video.paused&&!document.hidden)this.requestOutput();else this.requestStill();}
+  private requestSource():void{
+    if(!this.running)return;
+    this.callback=this.video.requestVideoFrameCallback((now,meta)=>{
+      if(this.lastRvfc)temporalPerf.sample('rvfcIntervalMs',now-this.lastRvfc);this.lastRvfc=now;temporalPerf.count('rvfcCallbacks');this.callback=0;this.requestSource();if(document.hidden||this.video.seeking||this.video.paused||meta.mediaTime===this.lastSource)return;
+      if(this.presentation.observe(meta.mediaTime,meta.expectedDisplayTime,this.video.playbackRate)){this.invalidate();this.presentation.observe(meta.mediaTime,meta.expectedDisplayTime,this.video.playbackRate);}
+      this.lastSource=meta.mediaTime;this.stats.sourceFrames++;this.hooks.observe(meta,now);
+      if(this.previousSource!==null&&meta.mediaTime>this.previousSource)this.sourcePeriod=(meta.mediaTime-this.previousSource)*1000/this.video.playbackRate;this.previousSource=meta.mediaTime;
+      this.cadence.add(this.sourcePeriod);
+      if(this.hooks.settings().adaptive&&this.sourcePeriod>0&&now-this.began>5000&&now>this.recoveryUntil){
+        this.trim(now);const rate=this.submissions.length<2?0:(this.submissions.length-1)*1000/Math.max(1,now-this.submissions[0]);
+        if(rate<900/(this.cadence.period??this.sourcePeriod)){if(!this.poorSince)this.poorSince=now;if(now-this.poorSince>3000){this.recoveryUntil=now+10000;this.poorSince=0;this.pair=undefined;this.resetMotion();this.limited('보간 출력이 원본 FPS보다 느려 10초간 원본 FPS의 공간·색상 보정으로 복구합니다.');}}else this.poorSince=0;
+      }
+      try{
+        if(this.video.mediaKeys)throw new DOMException('보호된 영상은 프레임에 접근할 수 없습니다.','SecurityError');
+        const acquired=temporalPerf.mark();const frame=new VideoFrame(this.video,{timestamp:Math.round(meta.mediaTime*1e6)});
+        temporalPerf.elapsed('videoFrameAcquireCpuMs',acquired);if(this.pending){temporalPerf.count('discard.sourceReplaced');this.pending.frame.close();this.stats.dropped++;}this.pending={frame,meta};this.drain();
+      }catch(error){this.hooks.fatal(error);}
+    });
+  }
+  private limited(reason:string):void{this.stats.state='limited';this.stats.reason=reason;}
+  private async drain():Promise<void>{
+    if(!this.running||this.busy)return;
+    if(!this.engine.canCapture({width:this.video.videoWidth,height:this.video.videoHeight},this.budget.config))return;
+    if(this.still){this.still=false;this.busy=true;this.busyStarted=temporalPerf.mark();const revision=this.revision;try{await this.hooks.spatial({metadata:null,current:()=>this.running&&revision===this.revision});}catch(e){this.hooks.fatal(e);}finally{this.finished();}return;}
+    if(!this.pending)return;const input=this.pending;this.pending=null;this.busy=true;this.busyStarted=temporalPerf.mark();this.stats.queueDepth=1;const revision=this.revision;
+    try{
+      const refresh=this.clock.hz??60,period=this.cadence.period??this.sourcePeriod,policy=this.policy();const noBenefit=period>0&&1000/period>=refresh*.98;
+      if(this.disabled||performance.now()<this.recoveryUntil||(this.hooks.settings().original||this.hooks.settings().comparison)||period>MAX_VISUAL_DELAY_MS||noBenefit||policy.effective===null||this.video.paused){
+        this.stats.effectiveFPS=null;
+        if(!this.disabled&&performance.now()>=this.recoveryUntil)this.limited((this.hooks.settings().original||this.hooks.settings().comparison)?'동일 원본 프레임 비교를 위해 보간을 생략합니다.':period>MAX_VISUAL_DELAY_MS?'한 프레임의 대기가 45ms를 초과하여 보간 대신 원본 FPS 보정을 유지합니다.':noBenefit?'브라우저 갱신률이 원본 FPS 이하이므로 불필요한 보간을 생략합니다.':policy.effective===null?policy.reason:'일시정지 상태입니다.');
+        await this.hooks.spatial({metadata:null,sourceDriven:true,sourceFrame:input.frame,sourceTime:input.meta.mediaTime,current:()=>this.running&&revision===this.revision&&!this.video.seeking&&!document.hidden&&(this.video.currentTime-input.meta.mediaTime)*1000/this.video.playbackRate<=100});return;
+      }
+      let timeout=0;
+      const expiry=new Promise<never>((_resolve,reject)=>{timeout=window.setTimeout(()=>reject(new Error('움직임 추정 GPU 응답 시간 초과')),1500);});
+      let pair:MotionPair;
+      try{pair=await Promise.race([this.engine.enqueueFrame(input.frame,{width:input.frame.displayWidth,height:input.frame.displayHeight},input.meta.mediaTime,this.budget.config),expiry]);}finally{clearTimeout(timeout);}
+      if(!this.running||revision!==this.revision)return;this.pair={...pair};this.stats.flowMs=pair.flowMs;this.stats.flowSize=pair.flowSize;this.stats.confidence=pair.confidence;
+      void pair.analysis?.then(analysis=>{if(!this.running||revision!==this.revision)return;if(analysis.sceneCut&&this.sceneKey!==String(pair.id)){this.sceneKey=String(pair.id);this.stats.sceneCuts++;temporalPerf.count('sceneCuts');}if(this.pair?.b===pair.b){Object.assign(this.pair,analysis,{flowMs:pair.flowMs});this.stats.flowMs=pair.flowMs;this.stats.confidence=analysis.confidence;}});
+      if(pair.sceneCut&&this.sceneKey!==String(pair.b)){temporalPerf.count('sceneCuts');this.stats.sceneCuts++;this.sceneKey=String(pair.b);}
+      if(!pair.ready){this.lastWasGenerated=false;await this.hooks.spatial({metadata:null,sourceDriven:true,sourceFrame:input.frame,sourceTime:input.meta.mediaTime,current:()=>this.running&&revision===this.revision&&!this.video.seeking&&!document.hidden&&(this.video.currentTime-input.meta.mediaTime)*1000/this.video.playbackRate<=100});}
+    }catch(error){
+      if(!this.running)return;
+      if(error instanceof Error&&error.message.includes('응답 시간 초과')){this.hooks.fatal(error);return;}
+      temporalPerf.count('discard.gpuError');if(error instanceof DOMException&&error.name==='SecurityError'){this.hooks.fatal(error);return;}
+      this.disabled=true;this.stats.state='error';this.stats.reason='프레임 보간에 실패하여 공간·색상 보정만 유지합니다: '+String(error);this.engine.releaseTemporal();this.pair=undefined;
+      this.hooks.hide(this.stats.reason);
+    }finally{input.frame.close();this.finished();}
+  }
+  private requestOutput():void{if(!this.running||this.disabled||this.video.paused||document.hidden)return;this.raf=requestAnimationFrame(time=>{this.raf=0;this.tick(time);this.requestOutput();});}
+  private tick(time:number):void{
+    if(this.lastRaf)temporalPerf.sample('rafIntervalMs',time-this.lastRaf);this.lastRaf=time;temporalPerf.count('rafCallbacks');this.clock.tick(time);this.stats.refreshHz=this.clock.hz;void this.drain();const settings=this.hooks.settings();const requested=Number(settings.targetFPS),policy=this.policy();this.stats.requestedFPS=requested;this.stats.nativeFPS=policy.nativeFPS;this.stats.policyReason=policy.reason;
+    if(settings.original||settings.comparison||this.disabled||performance.now()<this.recoveryUntil||!this.presentation.ready||!this.pair?.ready||this.video.seeking||this.video.paused||document.hidden)return;
+    if(policy.effective===null)return;
+    const refresh=this.clock.hz??60,vsync=this.budget.frequency===1&&Math.abs(policy.effective-refresh)<=refresh*.02;
+    const fps=(vsync?policy.effective:Math.min(policy.effective,refresh))*this.budget.frequency;this.stats.effectiveFPS=fps;const interval=1000/fps;
+    this.outputIntervalMs=interval;
+    const retry=this.nativeRetry;if(!retry&&!vsync&&!this.pacer.due(time,fps))return;
+    temporalPerf.count('outputAttempts');if(this.busy||this.pending){temporalPerf.count('discard.queueBusy');this.stats.dropped++;return;}
+    if(!this.engine.canStream){temporalPerf.count('discard.gpuBackpressure');this.budget.sample(interval*2,interval,true,performance.now(),settings.adaptive);return;}
+    const native=this.presentation.mediaAt(retry?performance.now():time),period=this.cadence.period??this.sourcePeriod;let selected=selectTemporalPair(this.engine.temporalPairs(),native,period,this.video.playbackRate),nativeFallback=retry;
+    const latest=selectNativeEndpoint(this.engine.temporalPairs(),native,-Infinity,this.video.playbackRate);
+    if(retry){temporalPerf.count('nativeRetryAttempts');selected=selectNativeEndpoint(this.engine.temporalPairs(),native,this.lastMediaTime,this.video.playbackRate);}
+    else if(latest&&(latest.pair.sceneCut||!latest.pair.dynamic))selected=latest;
+    if(selected&&selected.plan.mediaTime<this.lastMediaTime-.000001){temporalPerf.count('defer.timelineCatchup');this.catchupUntil=performance.now()+Math.min(MAX_VISUAL_DELAY_MS,period);return;}
+    if(!selected){temporalPerf.count('discard.planUnavailable');this.catchupUntil=performance.now()+Math.min(MAX_VISUAL_DELAY_MS,period);selected=selectNativeEndpoint(this.engine.temporalPairs(),native,this.lastMediaTime,this.video.playbackRate);if(!selected){this.limited('현재 표시 시각에 맞는 유효 원본 프레임을 기다립니다.');return;}nativeFallback=true;}
+    const {pair,plan}=selected;temporalPerf.sample('timeline.nativeOffsetMs',(this.video.currentTime-this.presentation.mediaAt(performance.now()))*1000/this.video.playbackRate);
+    temporalPerf.sample('timeline.currentMinusPairBMs',(this.video.currentTime-pair.b)*1000/this.video.playbackRate);
+    const key=plan.mediaTime.toFixed(6);if(key===this.lastKey){temporalPerf.count('duplicateEndpoint');return;}
+    this.lastKey=key;const revision=this.revision;this.busy=true;this.busyStarted=temporalPerf.mark();this.stats.queueDepth=1;
+    const deadline=(nativeFallback?performance.now():time)+Math.max(4,1000/(this.clock.hz??60));let rejected=false;const current=()=>{const begin=temporalPerf.mark(),now=performance.now();const skew=(this.presentation.mediaAt(now)-plan.mediaTime)*1000/this.video.playbackRate;const nativeOffset=(this.video.currentTime-this.presentation.mediaAt(now))*1000/this.video.playbackRate;const reason=!this.running||revision!==this.revision?'invalidated':this.video.seeking?'seek':document.hidden?'hidden':now>deadline?'submitDeadline':nativeOffset>nativeClockLimit(period)||nativeOffset< -period?'clockDiscontinuity':(this.video.currentTime-plan.mediaTime)*1000/this.video.playbackRate>totalMediaLimit(period)?'totalMediaSkew':skew< -2?'tooEarly':skew>MAX_VISUAL_DELAY_MS?'tooLate':null;const valid=reason===null;if(reason&&!rejected){rejected=true;if(reason==='submitDeadline')this.stats.deadlineMisses=(this.stats.deadlineMisses??0)+1;temporalPerf.count('discard.'+reason);}temporalPerf.elapsed('validityCpuMs',begin);return valid;};
+    void this.hooks.output({plan,pair,intervalMs:interval,current}).then(timing=>{
+      const sampleBudget=(latency:number)=>{if(this.running&&revision===this.revision)this.budget.sample(latency+pair.flowMs*Math.min(1,(1000/Math.max(1,this.sourcePeriod))/fps),interval,!timing,performance.now(),settings.adaptive);};
+      if(timing?.completion)void timing.completion.then(latency=>sampleBudget(latency+timing.cpuSubmitMs));else sampleBudget(timing?.latencyMs??this.estimatedMs*1.5);
+      if(!timing||!this.running||revision!==this.revision){if(this.running&&revision===this.revision){if(this.lastKey===key)this.lastKey='';this.nativeRetry=true;this.catchupUntil=performance.now()+Math.min(MAX_VISUAL_DELAY_MS,period);}return;}
+      if(nativeFallback){temporalPerf.count('nativeCanvasFallback');this.stats.nativeFallbacks=(this.stats.nativeFallbacks??0)+1;}
+      this.estimatedMs=this.estimatedMs*.8+timing.latencyMs*.2;
+      if(timing.completion)void timing.completion.then(latency=>{if(this.running&&revision===this.revision)this.stats.totalMs=latency+timing.cpuSubmitMs;});else this.stats.totalMs=timing.latencyMs;this.stats.interpolationMs=null;this.stats.upscaleMs=null;this.stats.delayMs=(this.video.currentTime-plan.mediaTime)*1000/this.video.playbackRate;this.stats.additionalDelayMs=(this.presentation.mediaAt(performance.now())-plan.mediaTime)*1000/this.video.playbackRate;this.stats.nativeOffsetMs=this.stats.delayMs-this.stats.additionalDelayMs;temporalPerf.sample('timeline.totalMediaSkewMs',this.stats.delayMs);temporalPerf.sample('timeline.additionalDelayMs',(this.presentation.mediaAt(performance.now())-plan.mediaTime)*1000/this.video.playbackRate);
+      if(policy.effective!==requested)this.limited(policy.reason);
+      else if(nativeFallback)this.limited('중간 프레임 대신 최신 유효 원본을 같은 Canvas 경로로 출력합니다.');
+      else if(pair.sceneCut||!pair.dynamic)this.limited(pair.sceneCut?'장면 전환에서는 최신 원본을 같은 Canvas 경로로 출력합니다.':'정지 화면 또는 미세한 압축 차이에서는 최신 원본을 같은 Canvas 경로로 출력합니다.');
+      else if((this.clock.hz??60)<requested*.98)this.limited('목표 '+requested+'FPS보다 브라우저 갱신률이 낮습니다. 실제 제출률을 확인하세요.');
+      else{this.stats.state='active';this.stats.reason='시간이 다른 두 원본 프레임의 움직임 추정·워핑 결과를 제출합니다.';}
+    }).catch(error=>{if(this.running){this.disabled=true;this.stats.state='error';this.stats.reason='보간 출력 오류로 공간·색상 보정만 유지합니다: '+String(error);this.engine.releaseTemporal();this.pair=undefined;this.hooks.hide(this.stats.reason);}})
+    .finally(()=>this.finished());
+  }
+  submittedFrame(generated:boolean,pair?:MotionPair,mediaTime?:number,planTime?:number):void{
+    const now=performance.now();if(this.submittedAt)temporalPerf.sample('submittedIntervalMs',now-this.submittedAt);this.submittedAt=now;this.lastWasGenerated=generated;temporalPerf.count('submitted');this.submissions.push(now);this.stats.submitted++;
+    const tracked=planTime??mediaTime;if(tracked!==undefined)this.lastMediaTime=tracked;this.catchupUntil=0;this.nativeRetry=false;
+    if(mediaTime!==undefined){this.stats.delayMs=(this.video.currentTime-mediaTime)*1000/this.video.playbackRate;this.stats.additionalDelayMs=this.presentation.ready?(this.presentation.mediaAt(now)-mediaTime)*1000/this.video.playbackRate:0;this.stats.nativeOffsetMs=this.stats.delayMs-this.stats.additionalDelayMs;temporalPerf.sample('timeline.totalMediaSkewMs',this.stats.delayMs);temporalPerf.sample('timeline.additionalDelayMs',this.stats.additionalDelayMs);}
+    const classify=(dynamic:boolean,cut:boolean)=>{if(!this.running)return;if(pair&&cut)temporalPerf.count('skip.sceneCut');if(pair&&!dynamic)temporalPerf.count('skip.static');if(generated&&dynamic&&!cut){temporalPerf.count('generatedSubmitted');this.generated.push(now);this.stats.generated++;}else temporalPerf.count('nativeSubmitted');};
+    if(generated&&pair?.analysisAvailable===false)temporalPerf.count('unclassifiedGenerated');else if(pair?.analysis)void pair.analysis.then(a=>classify(a.dynamic,a.sceneCut));else classify(pair?.dynamic??false,pair?.sceneCut??false);
+    if(this.engine.lastSignature)this.signatures.push({time:now,hash:this.engine.lastSignature});this.trim(now);
+  }
+  private trim(now:number):void{while(this.submissions.length&&now-this.submissions[0]>=2000)this.submissions.shift();while(this.generated.length&&now-this.generated[0]>=2000)this.generated.shift();while(this.signatures.length&&now-this.signatures[0].time>=2000)this.signatures.shift();}
+  snapshot():TemporalStats{const now=performance.now();this.trim(now);const fps=(events:number[])=>events.length<2?0:(events.length-1)*1000/Math.max(1,now-events[0]);const submittedFPS=fps(this.submissions);const slow=this.stats.state==='active'&&this.submissions.length>20&&submittedFPS<Math.min(this.stats.effectiveFPS??Number(this.hooks.settings().targetFPS),this.clock.hz??60)*.85;return {...this.stats,...(this.video.paused||document.hidden?{state:'limited' as const,reason:'일시정지 또는 숨김 상태에서는 보간 출력을 대기합니다.',effectiveFPS:null}:slow?{state:'limited' as const,reason:'처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.'}:{}),totalDelayLimitMs:totalMediaLimit(this.cadence.period??this.sourcePeriod),quality:{...this.budget.config,frequency:this.budget.frequency,allowSpatial:this.budget.allowSpatial},signatureSampled:temporalPerf.enabled&&temporalPerf.signatures,submittedFPS,generatedFPS:fps(this.generated),uniqueSamples:new Set(this.signatures.map(x=>x.hash)).size,requestedFPS:Number(this.hooks.settings().targetFPS),physicalFPS:null};}
+  invalidate():void{temporalPerf.count('bufferResets');this.lastMediaTime=-Infinity;this.catchupUntil=0;this.nativeRetry=false;this.stats.state='warming';this.stats.effectiveFPS=null;this.stats.nativeFPS=null;this.revision++;this.pending?.frame.close();this.pending=null;this.pair=undefined;this.previousSource=null;this.lastSource=-1;this.resetMotion();this.lastKey='';this.pacer.reset();this.presentation.reset();this.cadence.reset();}
+  invalidateOutput():void{this.revision++;this.lastKey='';}
+  requestStill():void{this.still=true;void this.drain();}
+  playbackChanged():void{this.invalidate();this.still=false;if(this.raf)cancelAnimationFrame(this.raf);this.raf=0;this.clock.reset();if(this.video.paused)this.requestStill();else this.requestOutput();}
+  visibilityChanged():void{this.playbackChanged();}
+  destroy():void{if(!this.running)return;this.running=false;this.revision++;this.pending?.frame.close();this.pending=null;if(this.callback)this.video.cancelVideoFrameCallback(this.callback);if(this.raf)cancelAnimationFrame(this.raf);this.callback=this.raf=0;this.engine.onStreamAvailable=undefined;}
+}
+
+
+
+
+
+
+
+
+
+

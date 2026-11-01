@@ -1,0 +1,1072 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\yhuij\\Desktop\\youtube exten\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\yhuij\\Desktop\\youtube exten\\playwright.config.ts",
+    "rootDir": "C:/Users/yhuij/Desktop/youtube exten/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/yhuij/Desktop/youtube exten/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/yhuij/Desktop/youtube exten/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\yhuij\\Desktop\\youtube exten\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser",
+        "snapshotDir": "C:\\Users\\yhuij\\Desktop\\youtube exten\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:5173",
+          "channel": "chromium",
+          "headless": true,
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "launchOptions": {
+            "args": [
+              "--autoplay-policy=no-user-gesture-required"
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --port 5173 --strictPort",
+      "url": "http://127.0.0.1:5173/harness/",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "extension.spec.ts",
+      "file": "extension.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "built MV3 popup persists settings and receives production content-script stats",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4185,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:33.587Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da119938d3268322a91b-0549734338ed93b2e967",
+          "file": "extension.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "gpu.spec.ts",
+      "file": "gpu.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "WGSL pipelines compile and deterministic GPU pixels are correct",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 766,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:37.809Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-b0e65b3c56cbae52b820",
+          "file": "gpu.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "WebGL2 fallback compiles and produces correct pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 451,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:38.750Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-b48d16af07e37c821490",
+          "file": "gpu.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "WebGL2 video output reaches the compositor with matching comparison frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2246,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:39.213Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-4207b010f5e0a4f1b450",
+          "file": "gpu.spec.ts",
+          "line": 13,
+          "column": 1
+        },
+        {
+          "title": "origin-clean video renders, resizes, seeks, compares, pauses and cleans up",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6222,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:41.470Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-6ba94a665cd08e2e74a8",
+          "file": "gpu.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "restricted acquisition restores the original and reports the reason",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3643,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:47.699Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-5063181c1d0107739ebf",
+          "file": "gpu.spec.ts",
+          "line": 40,
+          "column": 1
+        },
+        {
+          "title": "actual browser origin-clean restrictions leave cross-origin video playable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 773,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:51.349Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-a3098f5c2b81a6e5da72",
+          "file": "gpu.spec.ts",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "device loss recovers once with a fresh WebGL2 surface",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5568,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:52.131Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-7d2b1543efdfe7cdddba",
+          "file": "gpu.spec.ts",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "missing GPU backends preserve original playback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3428,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:39:57.708Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-2843d856972a9b2b6fc7",
+          "file": "gpu.spec.ts",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "textures are reused, resized, and released on shutdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1486,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:01.149Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbbee95188b974ea8952-21a783427bbc519df4aa",
+          "file": "gpu.spec.ts",
+          "line": 81,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "quality.spec.ts",
+      "file": "quality.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "webgpu: EASU scalar reference and sharper reconstruction without sharpening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1012,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:02.657Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-b1e7689cb32e390a5058",
+          "file": "quality.spec.ts",
+          "line": 3,
+          "column": 3
+        },
+        {
+          "title": "webgl2: EASU scalar reference and sharper reconstruction without sharpening",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 763,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:03.680Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-8239fdc702ff6d9d0560",
+          "file": "quality.spec.ts",
+          "line": 3,
+          "column": 3
+        },
+        {
+          "title": "actual presentation state, content modes, original toggle, and freshness",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3411,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:04.453Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-f0090d7407b447ba9d32",
+          "file": "quality.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "a positioned video cannot cover the processed canvas or comparison divider",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 758,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:07.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-184f41cbb85e16e4cea6",
+          "file": "quality.spec.ts",
+          "line": 23,
+          "column": 1
+        },
+        {
+          "title": "a paused frame survives slow fullscreen/resize preparation without a playback deadline",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:08.644Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f46baca133b10bf87db1-8d57a83a0907e04192d6",
+          "file": "quality.spec.ts",
+          "line": 29,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "v12.spec.ts",
+      "file": "v12.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "GPU motion estimation generates correctly located intermediate frames and skips a cut",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 619,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\"pair\":{\"a\":0,\"b\":0.041666666666666664,\"ready\":true,\"sceneCut\":false,\"dynamic\":true,\"confidence\":0.26661771063808143,\"flowMs\":3.899999998509884,\"flowSize\":{\"width\":128,\"height\":72}},\"results\":[{\"phase\":0,\"centroid\":40,\"expected\":40,\"signature\":\"bdf1b5d2:411ae78d\"},{\"phase\":0.25,\"centroid\":41.77847348908374,\"expected\":42,\"signature\":\"f964fa3e:9d09155e\"},{\"phase\":0.5,\"centroid\":43.87404960811001,\"expected\":44,\"signature\":\"e38c1ba5:fc4797dc\"},{\"phase\":0.75,\"centroid\":45.854879446224366,\"expected\":46,\"signature\":\"89630982:5e3317e1\"},{\"phase\":1,\"centroid\":48,\"expected\":48,\"signature\":\"9e109ada:7cbf02d9\"}],\"sceneCut\":true,\"cutPixel\":[255,255,255]}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:09.983Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-e124bf53f646dadd3b9b",
+          "file": "v12.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "webgpu actual color pixels and identity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 460,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:10.614Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-2edf0eccba6bd2409a4d",
+          "file": "v12.spec.ts",
+          "line": 6,
+          "column": 51
+        },
+        {
+          "title": "webgl2 actual color pixels and identity",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 269,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:11.087Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-4cc2b72d3bc8632a726c",
+          "file": "v12.spec.ts",
+          "line": 6,
+          "column": 51
+        },
+        {
+          "title": "explicit 720p through 4K are real GPU texture sizes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 465,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "[{\"source\":{\"width\":853,\"height\":480},\"target\":\"720p\",\"actual\":{\"width\":1280,\"height\":720},\"pixel\":[64,128,192,255],\"estimatedBytes\":10648320},{\"source\":{\"width\":1280,\"height\":720},\"target\":\"1080p\",\"actual\":{\"width\":1920,\"height\":1080},\"pixel\":[64,128,192,255],\"estimatedBytes\":23961600},{\"source\":{\"width\":1920,\"height\":1080},\"target\":\"1440p\",\"actual\":{\"width\":2560,\"height\":1440},\"pixel\":[64,128,192,255],\"estimatedBytes\":46080000},{\"source\":{\"width\":2560,\"height\":1440},\"target\":\"2160p\",\"actual\":{\"width\":3840,\"height\":2160},\"pixel\":[64,128,192,255],\"estimatedBytes\":95846400}]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:11.363Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-8fd8b2490b3ded9c2dc7",
+          "file": "v12.spec.ts",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "nine GPU phase grids have distinct full-frame pixels at intermediate positions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 688,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:11.838Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-58bed1a83ac1c3fc47cd",
+          "file": "v12.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "neutral v1.2 retains v1.1 reconstruction pixels with recorded completion timings",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 807,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\"method\":\"same current host, frozen v1.1 shaders vs v1.2 shaders; interpolation off; neutral color; 640x360→1920x1080; 10 warmup, 40 measurements; wall completion including CPU/queue/GPU\",\"rows\":[{\"version\":\"1.1\",\"times\":[1.4000000022351742,3.800000000745058,1.199999999254942,1.0999999977648258,1.4000000022351742,1.3999999985098839,4,1.699999999254942,4.300000000745058,1.199999999254942,1.300000000745058,1.300000000745058,3.100000001490116,1.0999999977648258,1.300000000745058,1.3999999985098839,1.1000000014901161,1.199999999254942,1.1000000014901161,1.0999999977648258,3.900000002235174,1.199999999254942,1.199999999254942,1.199999999254942,3.900000002235174,1.300000000745058,1.199999999254942,4.5,1.3999999985098839,1.1000000014901161,4,1.5,1.199999999254942,4.300000000745058,1.5999999977648258,1.7000000029802322,4.699999999254942,1.699999999254942,4.5,2.100000001490116],\"median\":1.3999999985098839,\"p95\":4.5},{\"version\":\"1.2\",\"times\":[3.399999998509884,1.300000000745058,1.3999999985098839,1.1000000014901161,3.300000000745058,3.599999997764826,1.7000000029802322,1.0999999977648258,1.4000000022351742,1.2999999970197678,1.2000000029802322,1.0999999977648258,1.1000000014901161,1.0999999977648258,1.300000000745058,1.300000000745058,1.199999999254942,1.1000000014901161,1.199999999254942,1.1000000014901161,1.2999999970197678,1.1000000014901161,3.800000000745058,1.300000000745058,3.7999999970197678,1.300000000745058,1.1000000014901161,1.3999999985098839,5.300000000745058,1.3999999985098839,1.300000000745058,1.1000000014901161,1.300000000745058,1,1.2999999970197678,1.4000000022351742,1.300000000745058,1.0999999977648258,1.199999999254942,1.1000000014901161],\"median\":1.300000000745058,\"p95\":3.800000000745058}],\"changedChannels\":0}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:12.534Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-c20ee1c590a0fe7ffc86",
+          "file": "v12.spec.ts",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "all eight spatial, motion and color pipeline combinations retain actual GPU results",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 648,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:13.350Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-a46b0f48d3c816f1bb88",
+          "file": "v12.spec.ts",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "WebGL2 declines motion while retaining spatial and color processing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 719,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:14.007Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-85a463ece3a7b64a49ca",
+          "file": "v12.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "motion shader failure keeps source playback, spatial and color processing alive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 754,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:14.746Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-2cfa48e603328f05308d",
+          "file": "v12.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "disabling motion destroys its textures and preserves the three spatial textures",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:15.509Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-e4ccd9f185c8f1dc3f31",
+          "file": "v12.spec.ts",
+          "line": 19,
+          "column": 1
+        },
+        {
+          "title": "nine real decoded-video scheduler combinations distinguish generated submissions from refresh limits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 150000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 37947,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\"source\":24,\"target\":\"75\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":24.23660695697161,\"processedFPS\":27.092542421260912,\"latencyMs\":2.429768793815362,\"cpuSubmitMs\":0.14781766287038622,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":5,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":83.6199999999255},\"presented\":78,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":72.5,\"temporal\":{\"state\":\"limited\",\"reason\":\"동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":75,\"refreshHz\":144.9275362318726,\"physicalFPS\":null,\"submittedFPS\":27.176648213387015,\"generatedFPS\":14.792899408290062,\"generated\":40,\"submitted\":80,\"uniqueSamples\":34,\"sourceFrames\":78,\"dropped\":42,\"flowMs\":4.699999999254942,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":44.00000000000004,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.19374099293846375,\"queueDepth\":0,\"totalMs\":1.6000000014901161}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":24,\"target\":\"100\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":24.236598887085442,\"processedFPS\":29.428653459676948,\"latencyMs\":4.0851782501262806,\"cpuSubmitMs\":0.12220687942628504,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":3,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":88.65499999988825},\"presented\":101,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":75.69999999925494,\"temporal\":{\"state\":\"limited\",\"reason\":\"동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":100,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":31.408308004052685,\"generatedFPS\":19.189648555270086,\"generated\":59,\"submitted\":104,\"uniqueSamples\":42,\"sourceFrames\":80,\"dropped\":72,\"flowMs\":3.900000002235174,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":36.23324065902867,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.19374099293846375,\"queueDepth\":0,\"totalMs\":1}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":24,\"target\":\"120\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":24.236598887085442,\"processedFPS\":29.5367768892414,\"latencyMs\":5.9589414996448165,\"cpuSubmitMs\":0.11933425116855825,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":3,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":88.10999999977648},\"presented\":109,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":65.39999999850988,\"temporal\":{\"state\":\"limited\",\"reason\":\"동기화 가능한 프레임 구간을 벗어나 보간 출력을 건너뜁니다.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":120,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":32.490608183559644,\"generatedFPS\":18.682345183816604,\"generated\":63,\"submitted\":112,\"uniqueSamples\":44,\"sourceFrames\":80,\"dropped\":94,\"flowMs\":5,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":42.59999999999997,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.19374099293846375,\"queueDepth\":0,\"totalMs\":2.300000000745058}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":30,\"target\":\"75\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":29.789779967091203,\"processedFPS\":63.585053940163874,\"latencyMs\":2.905790022540166,\"cpuSubmitMs\":0.15284984701606788,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":0,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":90.8199999999255},\"presented\":192,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":13.799999997019768,\"temporal\":{\"state\":\"limited\",\"reason\":\"처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":75,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":61.68158147534856,\"generatedFPS\":52.07543354066313,\"generated\":149,\"submitted\":192,\"uniqueSamples\":122,\"sourceFrames\":102,\"dropped\":36,\"flowMs\":4.799999997019768,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":33.00236149869495,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.20102640764476998,\"queueDepth\":0,\"totalMs\":4.699999999254942}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":30,\"target\":\"100\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":29.789779976224093,\"processedFPS\":75.02143469554746,\"latencyMs\":3.31301870266852,\"cpuSubmitMs\":0.08399544850324282,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":0,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":90.38499999940396},\"presented\":194,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":15,\"temporal\":{\"state\":\"limited\",\"reason\":\"처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":100,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":66.43338911701989,\"generatedFPS\":57.812262285040205,\"generated\":148,\"submitted\":194,\"uniqueSamples\":131,\"sourceFrames\":101,\"dropped\":76,\"flowMs\":3.899999998509884,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":32.93926387877622,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.20102640764476998,\"queueDepth\":0,\"totalMs\":4.800000000745058}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":30,\"target\":\"120\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":29.789779976224093,\"processedFPS\":88.41923657551408,\"latencyMs\":2.0875002616362006,\"cpuSubmitMs\":0.07825806771910995,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":1,\"skippedFrames\":0,\"queueDepth\":1,\"failures\":0,\"enhancedVisiblePercent\":92.06499999947846},\"presented\":243,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":7.299999997019768,\"temporal\":{\"state\":\"limited\",\"reason\":\"처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":120,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":78.39368804372769,\"generatedFPS\":67.77260772812588,\"generated\":189,\"submitted\":244,\"uniqueSamples\":152,\"sourceFrames\":101,\"dropped\":96,\"flowMs\":4.800000000745058,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":30.35772899851019,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.20102640764476998,\"queueDepth\":1,\"totalMs\":0.7999999970197678}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":60,\"target\":\"75\",\"stats\":{\"status\":\"Original Video Fallback\",\"reason\":\"처리 화면이 오래되어 새 결과가 도착할 때까지 원본 재생을 표시합니다.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":60.16642576458075,\"processedFPS\":46.43188799204885,\"latencyMs\":1.8774048559004115,\"cpuSubmitMs\":0.1306646191201184,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":0,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":90.9},\"presented\":157,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"fallback\",\"fallback\":true,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":null,\"temporal\":{\"state\":\"limited\",\"reason\":\"처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":75,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":47.71711286356477,\"generatedFPS\":26.118840725319664,\"generated\":80,\"submitted\":157,\"uniqueSamples\":93,\"sourceFrames\":204,\"dropped\":93,\"flowMs\":4.399999998509884,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":18.000000000000014,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.20423602104049574,\"queueDepth\":1,\"totalMs\":2}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":60,\"target\":\"100\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":59.14868276946778,\"processedFPS\":51.51688609038583,\"latencyMs\":2.5961611523405335,\"cpuSubmitMs\":0.175022742420713,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":0,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":99.3300000000745},\"presented\":172,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":13,\"temporal\":{\"state\":\"limited\",\"reason\":\"처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":100,\"refreshHz\":142.85714285714286,\"physicalFPS\":null,\"submittedFPS\":50.45663252438326,\"generatedFPS\":27.700831024951924,\"generated\":89,\"submitted\":172,\"uniqueSamples\":98,\"sourceFrames\":201,\"dropped\":150,\"flowMs\":4.800000000745058,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":17.50000000000007,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.20423602104049574,\"queueDepth\":0,\"totalMs\":3.5}}}\n"
+                    },
+                    {
+                      "text": "{\"source\":60,\"target\":\"120\",\"stats\":{\"status\":\"Active\",\"reason\":\"WebGPU processed frames are being presented.\",\"backend\":\"WebGPU\",\"engine\":\"fast\",\"profile\":\"eco\",\"dimensions\":{\"source\":{\"width\":256,\"height\":144},\"processing\":{\"width\":256,\"height\":144},\"output\":{\"width\":256,\"height\":144},\"requested\":{\"width\":256,\"height\":144},\"display\":{\"width\":855,\"height\":481},\"css\":{\"width\":855.4444444444445,\"height\":481.1875},\"screen\":{\"width\":1280,\"height\":900},\"eligible\":false,\"limited\":false,\"estimatedBytes\":5079040,\"resolutionReason\":\"원본 해상도: 업스케일링을 생략합니다.\"},\"metrics\":{\"sourceFPS\":59.14868276946785,\"processedFPS\":68.29128028190112,\"latencyMs\":2.961414972765714,\"cpuSubmitMs\":0.07334400143924164,\"gpuMs\":null,\"latenessMs\":0,\"missedDeadlines\":0,\"skippedFrames\":0,\"queueDepth\":0,\"failures\":0,\"enhancedVisiblePercent\":98.69499999992549},\"presented\":229,\"effectiveSharpness\":0,\"effectiveDenoise\":0,\"algorithm\":\"원본 해상도 · 노이즈/색상 보정\",\"presentation\":\"enhanced\",\"fallback\":false,\"upscalingActive\":false,\"scaleRatio\":1,\"frameAgeMs\":13,\"temporal\":{\"state\":\"limited\",\"reason\":\"처리 비용·출력 타이밍 때문에 목표 FPS에 미치지 못했습니다. 실제 제출 FPS를 확인하세요.\",\"engine\":\"WebGPU 양방향 블록 움직임 추정\",\"requestedFPS\":120,\"refreshHz\":144.92753623185348,\"physicalFPS\":null,\"submittedFPS\":68.5720006006818,\"generatedFPS\":45.54782521651127,\"generated\":145,\"submitted\":229,\"uniqueSamples\":135,\"sourceFrames\":202,\"dropped\":155,\"flowMs\":3.800000000745058,\"interpolationMs\":null,\"upscaleMs\":null,\"delayMs\":13.500000000000068,\"flowSize\":{\"width\":256,\"height\":144},\"sceneCuts\":0,\"confidence\":0.20423602104049574,\"queueDepth\":0,\"totalMs\":3.600000001490116}}}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T16:40:16.868Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0fa5838f31c6583ee6d8-ebbd190e1e2e61d3c4e8",
+          "file": "v12.spec.ts",
+          "line": 22,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T16:39:32.194Z",
+    "duration": 83017.634,
+    "expected": 26,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

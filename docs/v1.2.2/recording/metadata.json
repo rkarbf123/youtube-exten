@@ -1,0 +1,61 @@
+{
+  "file": "C:\\Users\\yhuij\\Videos\\2026-11-01 08-18-06.mp4",
+  "bytes": 76215940,
+  "width": 1920,
+  "height": 1080,
+  "duration": 25.783333,
+  "frames": [
+    {
+      "time": 0,
+      "file": "frame-0.00.png"
+    },
+    {
+      "time": 2,
+      "file": "frame-2.00.png"
+    },
+    {
+      "time": 4,
+      "file": "frame-4.00.png"
+    },
+    {
+      "time": 6,
+      "file": "frame-6.00.png"
+    },
+    {
+      "time": 8,
+      "file": "frame-8.00.png"
+    },
+    {
+      "time": 10,
+      "file": "frame-10.00.png"
+    },
+    {
+      "time": 12,
+      "file": "frame-12.00.png"
+    },
+    {
+      "time": 14,
+      "file": "frame-14.00.png"
+    },
+    {
+      "time": 16,
+      "file": "frame-16.00.png"
+    },
+    {
+      "time": 18,
+      "file": "frame-18.00.png"
+    },
+    {
+      "time": 20,
+      "file": "frame-20.00.png"
+    },
+    {
+      "time": 22,
+      "file": "frame-22.00.png"
+    },
+    {
+      "time": 24,
+      "file": "frame-24.00.png"
+    }
+  ]
+}

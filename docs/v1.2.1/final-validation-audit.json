@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-31T22:44:26.309Z",
+  "missingLinks": [],
+  "sourceChangesAfterMeasuredBuild": [],
+  "syntheticRows": 29,
+  "syntheticFailures": [],
+  "youtubeCases": 6,
+  "youtubePlaybackOrFormatFailures": 0,
+  "buildPassed": true,
+  "unitTests": 84,
+  "fullBrowserTestsBeforeLastRecoveryChange": 36,
+  "affectedBrowserTestsAfterLastChange": 8,
+  "fullFinal37Run": false,
+  "windowsAdapterFollowup": {
+    "date": "2026-10-31T23:13:08.538Z",
+    "buildPassed": true,
+    "gpuPixelAndNoWarningTestPassed": true,
+    "performanceRerun": false
+  }
+}

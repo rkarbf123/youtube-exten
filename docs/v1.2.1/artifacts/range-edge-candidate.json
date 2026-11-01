@@ -1,0 +1,300 @@
+[
+  {
+    "variant": "previous",
+    "rows": [
+      {
+        "pattern": "object",
+        "alpha": 0.25,
+        "mae": 1.566333912037037,
+        "rmse": 16.56117001997611,
+        "boundaryResidual": 5.621863799283154,
+        "confidence": 0.1478987055263091,
+        "image": "object-0.25-previous.png",
+        "reference": "object-0.25-reference.png",
+        "sourceA": "object-0.25-sourceA.png",
+        "sourceB": "object-0.25-sourceB.png"
+      },
+      {
+        "pattern": "object",
+        "alpha": 0.5,
+        "mae": 1.6560420283564814,
+        "rmse": 17.16079970494703,
+        "boundaryResidual": 3.847072879330944,
+        "confidence": 0.1478987055263091,
+        "image": "object-0.5-previous.png",
+        "reference": "object-0.5-reference.png",
+        "sourceA": "object-0.5-sourceA.png",
+        "sourceB": "object-0.5-sourceB.png"
+      },
+      {
+        "pattern": "object",
+        "alpha": 0.75,
+        "mae": 1.626880787037037,
+        "rmse": 17.33145053125563,
+        "boundaryResidual": 2.2859169653524494,
+        "confidence": 0.1478987055263091,
+        "image": "object-0.75-previous.png",
+        "reference": "object-0.75-reference.png",
+        "sourceA": "object-0.75-sourceA.png",
+        "sourceB": "object-0.75-sourceB.png"
+      },
+      {
+        "pattern": "pan",
+        "alpha": 0.25,
+        "mae": 12.650074146412036,
+        "rmse": 16.920083221372504,
+        "boundaryResidual": 20.287634408602152,
+        "confidence": 0.678763044344413,
+        "image": "pan-0.25-previous.png",
+        "reference": "pan-0.25-reference.png",
+        "sourceA": "pan-0.25-sourceA.png",
+        "sourceB": "pan-0.25-sourceB.png"
+      },
+      {
+        "pattern": "pan",
+        "alpha": 0.5,
+        "mae": 21.481571903935187,
+        "rmse": 22.10343277528151,
+        "boundaryResidual": 38.00224014336918,
+        "confidence": 0.678763044344413,
+        "image": "pan-0.5-previous.png",
+        "reference": "pan-0.5-reference.png",
+        "sourceA": "pan-0.5-sourceA.png",
+        "sourceB": "pan-0.5-sourceB.png"
+      },
+      {
+        "pattern": "pan",
+        "alpha": 0.75,
+        "mae": 11.614339192708334,
+        "rmse": 16.10386149676717,
+        "boundaryResidual": 20.12313321385902,
+        "confidence": 0.678763044344413,
+        "image": "pan-0.75-previous.png",
+        "reference": "pan-0.75-reference.png",
+        "sourceA": "pan-0.75-sourceA.png",
+        "sourceB": "pan-0.75-sourceB.png"
+      },
+      {
+        "pattern": "occlusion",
+        "alpha": 0.25,
+        "mae": 1.9891493055555556,
+        "rmse": 12.950635776435414,
+        "boundaryResidual": 6.7340203106332135,
+        "confidence": 0.6576425446962183,
+        "image": "occlusion-0.25-previous.png",
+        "reference": "occlusion-0.25-reference.png",
+        "sourceA": "occlusion-0.25-sourceA.png",
+        "sourceB": "occlusion-0.25-sourceB.png"
+      },
+      {
+        "pattern": "occlusion",
+        "alpha": 0.5,
+        "mae": 2.738398799189815,
+        "rmse": 14.901922136013225,
+        "boundaryResidual": 7.249925328554361,
+        "confidence": 0.6576425446962183,
+        "image": "occlusion-0.5-previous.png",
+        "reference": "occlusion-0.5-reference.png",
+        "sourceA": "occlusion-0.5-sourceA.png",
+        "sourceB": "occlusion-0.5-sourceB.png"
+      },
+      {
+        "pattern": "occlusion",
+        "alpha": 0.75,
+        "mae": 2.3401963975694446,
+        "rmse": 15.503451711601464,
+        "boundaryResidual": 4.532930107526882,
+        "confidence": 0.6576425446962183,
+        "image": "occlusion-0.75-previous.png",
+        "reference": "occlusion-0.75-reference.png",
+        "sourceA": "occlusion-0.75-sourceA.png",
+        "sourceB": "occlusion-0.75-sourceB.png"
+      },
+      {
+        "pattern": "opposed",
+        "alpha": 0.25,
+        "mae": 1.9300311053240742,
+        "rmse": 17.129384597690656,
+        "boundaryResidual": 6.048835125448028,
+        "confidence": 0.22809228317353747,
+        "image": "opposed-0.25-previous.png",
+        "reference": "opposed-0.25-reference.png",
+        "sourceA": "opposed-0.25-sourceA.png",
+        "sourceB": "opposed-0.25-sourceB.png"
+      },
+      {
+        "pattern": "opposed",
+        "alpha": 0.5,
+        "mae": 1.9436939380787037,
+        "rmse": 17.45859514645572,
+        "boundaryResidual": 3.9079301075268815,
+        "confidence": 0.22809228317353747,
+        "image": "opposed-0.5-previous.png",
+        "reference": "opposed-0.5-reference.png",
+        "sourceA": "opposed-0.5-sourceA.png",
+        "sourceB": "opposed-0.5-sourceB.png"
+      },
+      {
+        "pattern": "opposed",
+        "alpha": 0.75,
+        "mae": 1.8001482928240742,
+        "rmse": 17.464899487840473,
+        "boundaryResidual": 2.361857825567503,
+        "confidence": 0.22809228317353747,
+        "image": "opposed-0.75-previous.png",
+        "reference": "opposed-0.75-reference.png",
+        "sourceA": "opposed-0.75-sourceA.png",
+        "sourceB": "opposed-0.75-sourceB.png"
+      }
+    ]
+  },
+  {
+    "variant": "after",
+    "rows": [
+      {
+        "pattern": "object",
+        "alpha": 0.25,
+        "mae": 0.6940013744212963,
+        "rmse": 10.443682415084862,
+        "boundaryResidual": 1.418458781362007,
+        "confidence": 0.17694430668938566,
+        "image": "object-0.25-after.png",
+        "reference": "object-0.25-reference.png",
+        "sourceA": "object-0.25-sourceA.png",
+        "sourceB": "object-0.25-sourceB.png"
+      },
+      {
+        "pattern": "object",
+        "alpha": 0.5,
+        "mae": 0.5815067997685185,
+        "rmse": 9.138253985776759,
+        "boundaryResidual": 0.1394115890083632,
+        "confidence": 0.17694430668938566,
+        "image": "object-0.5-after.png",
+        "reference": "object-0.5-reference.png",
+        "sourceA": "object-0.5-sourceA.png",
+        "sourceB": "object-0.5-sourceB.png"
+      },
+      {
+        "pattern": "object",
+        "alpha": 0.75,
+        "mae": 0.3942238136574074,
+        "rmse": 7.109811876076219,
+        "boundaryResidual": 0.2732974910394265,
+        "confidence": 0.17694430668938566,
+        "image": "object-0.75-after.png",
+        "reference": "object-0.75-reference.png",
+        "sourceA": "object-0.75-sourceA.png",
+        "sourceB": "object-0.75-sourceB.png"
+      },
+      {
+        "pattern": "pan",
+        "alpha": 0.25,
+        "mae": 12.648401331018519,
+        "rmse": 16.89893011334429,
+        "boundaryResidual": 20.054958183990443,
+        "confidence": 0.678763044344413,
+        "image": "pan-0.25-after.png",
+        "reference": "pan-0.25-reference.png",
+        "sourceA": "pan-0.25-sourceA.png",
+        "sourceB": "pan-0.25-sourceB.png"
+      },
+      {
+        "pattern": "pan",
+        "alpha": 0.5,
+        "mae": 21.466154875578702,
+        "rmse": 22.100011513516673,
+        "boundaryResidual": 37.94003882915173,
+        "confidence": 0.678763044344413,
+        "image": "pan-0.5-after.png",
+        "reference": "pan-0.5-reference.png",
+        "sourceA": "pan-0.5-sourceA.png",
+        "sourceB": "pan-0.5-sourceB.png"
+      },
+      {
+        "pattern": "pan",
+        "alpha": 0.75,
+        "mae": 11.729817708333334,
+        "rmse": 16.166099512173616,
+        "boundaryResidual": 19.881048387096776,
+        "confidence": 0.678763044344413,
+        "image": "pan-0.75-after.png",
+        "reference": "pan-0.75-reference.png",
+        "sourceA": "pan-0.75-sourceA.png",
+        "sourceB": "pan-0.75-sourceB.png"
+      },
+      {
+        "pattern": "occlusion",
+        "alpha": 0.25,
+        "mae": 1.6158763744212963,
+        "rmse": 10.466543351599073,
+        "boundaryResidual": 4.330122461170848,
+        "confidence": 0.6836886619109382,
+        "image": "occlusion-0.25-after.png",
+        "reference": "occlusion-0.25-reference.png",
+        "sourceA": "occlusion-0.25-sourceA.png",
+        "sourceB": "occlusion-0.25-sourceB.png"
+      },
+      {
+        "pattern": "occlusion",
+        "alpha": 0.5,
+        "mae": 1.75634765625,
+        "rmse": 8.550082659471562,
+        "boundaryResidual": 3.751717443249701,
+        "confidence": 0.6836886619109382,
+        "image": "occlusion-0.5-after.png",
+        "reference": "occlusion-0.5-reference.png",
+        "sourceA": "occlusion-0.5-sourceA.png",
+        "sourceB": "occlusion-0.5-sourceB.png"
+      },
+      {
+        "pattern": "occlusion",
+        "alpha": 0.75,
+        "mae": 1.3742766203703705,
+        "rmse": 7.855896830875588,
+        "boundaryResidual": 2.9829749103942653,
+        "confidence": 0.6836886619109382,
+        "image": "occlusion-0.75-after.png",
+        "reference": "occlusion-0.75-reference.png",
+        "sourceA": "occlusion-0.75-sourceA.png",
+        "sourceB": "occlusion-0.75-sourceB.png"
+      },
+      {
+        "pattern": "opposed",
+        "alpha": 0.25,
+        "mae": 0.9367042824074074,
+        "rmse": 11.111737992298538,
+        "boundaryResidual": 1.6889934289127837,
+        "confidence": 0.257137884336614,
+        "image": "opposed-0.25-after.png",
+        "reference": "opposed-0.25-reference.png",
+        "sourceA": "opposed-0.25-sourceA.png",
+        "sourceB": "opposed-0.25-sourceB.png"
+      },
+      {
+        "pattern": "opposed",
+        "alpha": 0.5,
+        "mae": 0.8431260850694444,
+        "rmse": 9.61537376746628,
+        "boundaryResidual": 0.21975806451612903,
+        "confidence": 0.257137884336614,
+        "image": "opposed-0.5-after.png",
+        "reference": "opposed-0.5-reference.png",
+        "sourceA": "opposed-0.5-sourceA.png",
+        "sourceB": "opposed-0.5-sourceB.png"
+      },
+      {
+        "pattern": "opposed",
+        "alpha": 0.75,
+        "mae": 0.6033980758101852,
+        "rmse": 7.648977909775666,
+        "boundaryResidual": 0.2857676224611708,
+        "confidence": 0.257137884336614,
+        "image": "opposed-0.75-after.png",
+        "reference": "opposed-0.75-reference.png",
+        "sourceA": "opposed-0.75-sourceA.png",
+        "sourceB": "opposed-0.75-sourceB.png"
+      }
+    ]
+  }
+]

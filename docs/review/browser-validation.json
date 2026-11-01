@@ -1,0 +1,322 @@
+[
+  {
+    "channel": "chrome",
+    "version": "156.0.8078.76",
+    "webgpu": {
+      "backend": "WebGPU",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "webgl2": {
+      "backend": "WebGL2",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "video": {
+      "status": "Active",
+      "reason": "WebGPU processed frames are being presented.",
+      "backend": "WebGPU",
+      "engine": "balanced",
+      "profile": "balanced",
+      "dimensions": {
+        "source": {
+          "width": 320,
+          "height": 180
+        },
+        "processing": {
+          "width": 855,
+          "height": 480
+        },
+        "output": {
+          "width": 855,
+          "height": 480
+        },
+        "display": {
+          "width": 855,
+          "height": 481
+        },
+        "screen": {
+          "width": 1280,
+          "height": 720
+        },
+        "css": {
+          "width": 855.4444444444446,
+          "height": 481.18750000000006
+        },
+        "limited": false
+      },
+      "metrics": {
+        "sourceFPS": 27.062247567019373,
+        "processedFPS": 26.31578947368421,
+        "latencyMs": 46.43680625087357,
+        "cpuSubmitMs": 0.35191374861148655,
+        "gpuMs": null,
+        "latenessMs": 0,
+        "missedDeadlines": 2,
+        "skippedFrames": 1,
+        "queueDepth": 0,
+        "failures": 0,
+        "enhancedVisiblePercent": 42.723180795798406
+      },
+      "presented": 4,
+      "effectiveSharpness": 40,
+      "effectiveDenoise": 20,
+      "algorithm": "FSR1 EASU hybrid · natural",
+      "presentation": "split",
+      "fallback": false,
+      "upscalingActive": true,
+      "scaleRatio": 2.6666666666666665,
+      "frameAgeMs": 8.700000002980232
+    }
+  },
+  {
+    "channel": "msedge",
+    "version": "156.0.4314.50",
+    "webgpu": {
+      "backend": "WebGPU",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "webgl2": {
+      "backend": "WebGL2",
+      "checks": [
+        {
+          "name": "fast: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "balanced: constant field / color / alpha",
+          "passed": true,
+          "detail": "Maximum channel error 0/255"
+        },
+        {
+          "name": "Balanced: linear-ramp reconstruction",
+          "passed": true,
+          "detail": "Maximum interior error 0.50/255"
+        },
+        {
+          "name": "Video orientation preserved",
+          "passed": true,
+          "detail": "Top 0, bottom 255"
+        },
+        {
+          "name": "Sharpening changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 5580"
+        },
+        {
+          "name": "Denoising changes processed pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 8112"
+        },
+        {
+          "name": "Fast and Balanced are distinct",
+          "passed": true,
+          "detail": "Absolute channel difference 10842"
+        },
+        {
+          "name": "Comparison uses unenhanced pixels",
+          "passed": true,
+          "detail": "Absolute channel difference 10554"
+        },
+        {
+          "name": "Step edge remains bounded (anti-ringing)",
+          "passed": true,
+          "detail": "Range 50…200; source 50…200"
+        }
+      ]
+    },
+    "video": {
+      "status": "Active",
+      "reason": "WebGPU processed frames are being presented.",
+      "backend": "WebGPU",
+      "engine": "balanced",
+      "profile": "balanced",
+      "dimensions": {
+        "source": {
+          "width": 320,
+          "height": 180
+        },
+        "processing": {
+          "width": 855,
+          "height": 480
+        },
+        "output": {
+          "width": 855,
+          "height": 480
+        },
+        "display": {
+          "width": 855,
+          "height": 481
+        },
+        "screen": {
+          "width": 1280,
+          "height": 720
+        },
+        "css": {
+          "width": 855.4444444444446,
+          "height": 481.18750000000006
+        },
+        "limited": false
+      },
+      "metrics": {
+        "sourceFPS": 26.88552364158637,
+        "processedFPS": 24.896265560165975,
+        "latencyMs": 55.03239990613826,
+        "cpuSubmitMs": 0.32432115714184706,
+        "gpuMs": null,
+        "latenessMs": 0,
+        "missedDeadlines": 4,
+        "skippedFrames": 2,
+        "queueDepth": 0,
+        "failures": 0,
+        "enhancedVisiblePercent": 35.78008915260323
+      },
+      "presented": 4,
+      "effectiveSharpness": 40,
+      "effectiveDenoise": 20,
+      "algorithm": "FSR1 EASU hybrid · natural",
+      "presentation": "split",
+      "fallback": false,
+      "upscalingActive": true,
+      "scaleRatio": 2.6666666666666665,
+      "frameAgeMs": 8.699999999254942
+    }
+  }
+]
